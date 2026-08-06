@@ -77,7 +77,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 BIORXIV_DETAILS = "https://api.biorxiv.org/details/biorxiv/{interval}/{cursor}"
 REQUEST_TIMEOUT = 20
@@ -321,7 +321,10 @@ def main():
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "institutions": {k: institutions[k] for k in used_institution_keys},
+        "institutions": {
+            k: {"name": institutions[k]["name"], "lat": institutions[k]["lat"], "lon": institutions[k]["lon"]}
+            for k in used_institution_keys
+        },
         "stories": stories,
     }
 
