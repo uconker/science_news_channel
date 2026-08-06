@@ -79,7 +79,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
 
-BIORXIV_DETAILS = "https://api.biorxiv.org/details/biorxiv/{days}d/{cursor}"
+BIORXIV_DETAILS = "https://api.biorxiv.org/details/biorxiv/{interval}/{cursor}"
 REQUEST_TIMEOUT = 20
 REQUEST_DELAY = 0.4  # be polite between requests, even though bioRxiv has no stated rate limit
 
@@ -103,11 +103,24 @@ def http_get_text(url):
 
 def fetch_recent_papers(days, pool_size):
     """Page through the bioRxiv /details endpoint for the last `days` days,
-    gathering a broad candidate pool (before any collaboration-scale ranking)."""
+    gathering a broad candidate pool (before any collaboration-scale ranking).
+
+    Uses an explicit YYYY-MM-DD/YYYY-MM-DD date range rather than bioRxiv's
+    documented "Nd" (most recent N days) shorthand -- the shorthand is in
+    their docs, but in practice returned an empty collection with no error
+    on a real run, while every real-world example of this API (bioRxiv's own
+    worked example, third-party R/Python wrappers, blog posts) uses explicit
+    date ranges instead. Explicit dates are the well-trodden, verified path.
+    """
+    today = datetime.now(timezone.utc).date()
+    start = today - timedelta(days=days)
+    interval = f"{start.isoformat()}/{today.isoformat()}"
+
     papers = []
     cursor = 0
+    first_page = True
     while len(papers) < pool_size:
-        url = BIORXIV_DETAILS.format(days=days, cursor=cursor)
+        url = BIORXIV_DETAILS.format(interval=interval, cursor=cursor)
         try:
             data = http_get_json(url)
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
@@ -116,8 +129,15 @@ def fetch_recent_papers(days, pool_size):
 
         batch = data.get("collection", [])
         if not batch:
+            if first_page:
+                # Surface *why* it's empty instead of silently writing zero
+                # stories -- the 'messages' field usually explains it (bad
+                # date range, no posts in range, API-side issue, etc).
+                print(f"  ! no results for {url}", file=sys.stderr)
+                print(f"    messages: {data.get('messages')}", file=sys.stderr)
             break
         papers.extend(batch)
+        first_page = False
 
         messages = data.get("messages", [{}])
         total = messages[0].get("total", len(batch)) if messages else len(batch)
@@ -308,8 +328,13 @@ def main():
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nWrote {len(stories)} stories -> {OUTPUT_PATH}")
 
+    # Always write this file, even empty -- a missing file (rather than an
+    # empty one) is what broke `git add unmatched_affiliations.txt` in CI
+    # when nothing was unmatched.
+    UNMATCHED_LOG_PATH.write_text(
+        ("\n".join(sorted(unmatched_log)) + "\n") if unmatched_log else "", encoding="utf-8"
+    )
     if unmatched_log:
-        UNMATCHED_LOG_PATH.write_text("\n".join(sorted(unmatched_log)) + "\n", encoding="utf-8")
         print(f"Logged {len(unmatched_log)} unmatched affiliation string(s) -> {UNMATCHED_LOG_PATH}")
         print("Add real entries to institutions.json for any of these you want to appear as pins.")
 
