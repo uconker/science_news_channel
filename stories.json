@@ -1,0 +1,256 @@
+{
+  "generated_at": "2026-08-06T12:20:19.277250+00:00",
+  "institutions": {
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    }
+  },
+  "stories": [
+    {
+      "id": 0,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Transposons contribute to splice-isoform diversity in the Drosophila brain",
+      "body": "The extraordinary complexity of the brain depends in part on the vast diversity of mRNA isoforms it expresses, often in a cell-type specific manner. In a recent study, we found that intronic transposable elements (TEs) are spliced into neural transcripts and diversify the splice isoform repertoire of neurons and glia (…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.01.22.701052",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "crispAIPE: Probabilistic Modelling of Prime Editing Variant Correction Efficiency",
+      "body": "Prime editing installs precise substitutions, insertions, and deletions without double-strand breaks or donor templates, but the efficiency of an individual pegRNA design is hard to predict in advance, and existing tools give only point estimates, leaving designers unable to judge which predictions to trust. We present…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2025.12.07.692852",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "PG-LLM: Benchmarking General-Purpose Language Models for Protein Variant Ranking",
+      "body": "General-purpose language models are being increasingly utilized in protein-design workflows, yet their ability to evaluate variant effects remains unclear. To answer this question, we introduce PG-LLM, a benchmark built on ProteinGym to evaluate general-purpose language models on 217 protein-variant prioritization task…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.07.27.741045",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A neural mechanism for compositional structure transfer in humans",
+      "body": "A human ability to adapt to the dynamics of novel environments relies on abstracting and generalizing from past experiences. Previous research has focused on how humans generalize from isolated sequential processes, yet we know little about mechanisms that enable adaptation to more complex dynamics, including those tha…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.1101/2024.09.20.614119",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Cognitive control networks in human and macaque",
+      "body": "A much-replicated finding in human brain imaging is a distributed \"multiple-demand\" or MD system, increasing in activity for many kinds of cognitive demand, and centrally involved in cognitive control. MD regions are proposed to encode a distributed mental model of critical task events, bound together in the roles and …",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.02.24.707621",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Hyper-Hierarchical Brain States Are Associated with Disorders of Consciousness",
+      "body": "BackgroundConsciousness is increasingly understood as an emergent property of large-scale brain dynamics that depend upon flexible interactions among distributed cortical and subcortical systems. Although disorders of consciousness (DOC) have traditionally been associated with impaired integration and reduced network c…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.07.30.741772",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Nucleolar endonuclease MBLAC2 orchestrates co-transcriptional ribosomal RNA processing and global transcriptional output",
+      "body": "The metallo-{beta}-lactamase (MBL)-domain superfamily includes multiple nucleases that process distinct transcript classes. We show that human MBLAC2 acts as a ribosomal (r)RNA quality control factor, being nucleolar specific, chromatin-associated and required for co-transcriptional pre-rRNA processing. Notably MBLAC2 …",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.07.31.742021",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Developmental growth rates adapt to enable self-correction of organ morphology after injury.",
+      "body": "Proportional organ growth requires tissue-level control of cell behavior. Yet the cues that adapt growth rates, especially after organ injury, remain unclear. Here, we uncover that developing organs are robust to extensive damage, triggering injury-specific mechanisms sufficient to override genetically-encoded size def…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.07.31.741988",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Tumor-specific Kinase Motif Enrichment Analysis Identifies Personalized Therapeutic Cancer Targets",
+      "body": "Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) are an uncommon and poorly understood malignancy with low mutational burden, lacking well-defined oncogenic drivers. GEP-NET mortality frequently results from extensive hepatic metastases. Accordingly, we interrogated phosphoproteomic data from GEP-NET liver metas…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.07.31.742097",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Impact of Training Regimes and Task Similarity on Learning and Cognitive Transfer",
+      "body": "Learning depends not only on the content of what we learn, but also on how we learn and on how experiences are structured over time. To investigate how task similarity and training regime interact during learning, we trained participants on spatial and conceptual learning tasks that shared either similar or distinct un…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.1101/2025.09.22.677779",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "A minimal physical model of adhesion-dependent protrusion explains confined haptotaxis and oscillatory cell migration",
+      "body": "Haptotaxis is the directed migration of cells along gradients of substrate adhesion, and is an important guidance mechanism in biology. Recent experiments on fibronectin-patterned tracks show that cells typically migrate toward higher adhesion, then oscillate around the adhesion maximum, with substantial variability in…",
+      "inst": [
+        "weizmann"
+      ],
+      "doi": "10.64898/2026.07.30.741711",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The cerebellum supports two systems for understanding others in early childhood",
+      "body": "The cerebellum has increasingly been implicated in Theory of Mind (ToM), a hallmark of human social cognition. Yet its role in the development of social understanding remains poorly understood, despite evidence linking early cerebellar disruptions to profound social cognitive deficits. Although explicit ToM reasoning e…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.08.03.742430",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "A modular lentiviral system for multiplexed gene perturbation and functional analysis suggests interdependence of hormone receptors in breast cancer growth in vivo",
+      "body": "Precise and flexible control of gene expression is essential for dissecting gene function in complex biological systems. Although recent developments in genetic engineering and CRISPR/Cas9 technology have expanded tools for gene activation, suppression and editing, their application in physiologically relevant models r…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2025.12.07.692832",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Short-term synaptic depression in multiregional recurrent neural networks accounts for both MMN and P300-like responses and their attentional amplification",
+      "body": "The brain must continuously extract salient cues from an immense sensory stream and represent them across regions. Multiregional responses to salient stimuli, notably mismatch negativity (MMN) in sensory and P300 in frontal areas, are among the best-characterized signals in human electrophysiology, yet the mechanisms r…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.1101/2025.11.06.687057",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
+      "body": "Subcortical structures play a key role in shaping cortical computation through distributed cortico-subcortical networks, yet it remains unclear whether individual differences in subcortical anatomy are reflected in resting-state cortical oscillations. We analysed resting-state magnetoencephalography (MEG) and structura…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.07.13.738145",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "synthetic biology",
+      "title": "AAV delivered lysosome-targeting chimeras mediate sustained antibody depletion in vivo",
+      "body": "Immunoglobulins (e.g., IgGs) are critical effectors of the adaptive immune system that when overexpressed or dysregulated can result in autoimmune diseases. Thus, depletion of IgGs can be a promising therapeutic avenue. Here we developed genetically-encoded lysosome targeting chimeras (GELYTACs) that target circulating…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.07.05.736665",
+      "date": "2026-08-03"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Generative replay across hippocampal-neocortical circuits",
+      "body": "Flexible behaviour requires predictions that extend beyond direct experience, yet the neural mechanisms that support this process remain unclear. A candidate mechanism occurs during hippocampal sharp-wave ripples (SWRs), in which generative replay combines representations for discrete past events into novel activity pa…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.07.24.740539",
+      "date": "2026-08-03"
+    }
+  ]
+}
