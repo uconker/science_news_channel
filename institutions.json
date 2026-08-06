@@ -1,0 +1,26 @@
+{
+  "_comment": "Curated institution lookup. Each entry: lat/lon plus match_keys (lowercase substrings checked against raw affiliation text pulled from bioRxiv/JATS XML). Add new entries here as unmatched_affiliations.txt grows -- this table is meant to grow by hand over time rather than rely on a live geocoder.",
+
+  "mpi_eva":    { "name": "MPI Evolutionary Anthropology, Leipzig", "lat": 51.34, "lon": 12.38, "match_keys": ["max planck institute for evolutionary anthropology"] },
+  "mpi_generic":{ "name": "Max Planck Institute", "lat": 48.14, "lon": 11.58, "match_keys": ["max planck institute", "max-planck-institut"] },
+  "copenhagen": { "name": "University of Copenhagen", "lat": 55.68, "lon": 12.57, "match_keys": ["university of copenhagen", "københavns universitet"] },
+  "stanford":   { "name": "Stanford University", "lat": 37.43, "lon": -122.17, "match_keys": ["stanford university"] },
+  "eth":        { "name": "ETH Zurich", "lat": 47.38, "lon": 8.55, "match_keys": ["eth zurich", "eidgenössische technische hochschule"] },
+  "bilkent":    { "name": "Bilkent University, Ankara", "lat": 39.87, "lon": 32.75, "match_keys": ["bilkent university"] },
+  "harvard":    { "name": "Harvard University", "lat": 42.37, "lon": -71.12, "match_keys": ["harvard university", "harvard medical school", "harvard t.h. chan"] },
+  "anu":        { "name": "Australian National University, Canberra", "lat": -35.28, "lon": 149.13, "match_keys": ["australian national university"] },
+  "tokyo":      { "name": "University of Tokyo", "lat": 35.71, "lon": 139.76, "match_keys": ["university of tokyo", "the university of tokyo"] },
+  "mit":        { "name": "MIT", "lat": 42.36, "lon": -71.09, "match_keys": ["massachusetts institute of technology", " mit "] },
+  "oxford":     { "name": "University of Oxford", "lat": 51.75, "lon": -1.25, "match_keys": ["university of oxford"] },
+  "cambridge":  { "name": "University of Cambridge", "lat": 52.20, "lon": 0.12, "match_keys": ["university of cambridge"] },
+  "sanger":     { "name": "Wellcome Sanger Institute, Hinxton", "lat": 52.08, "lon": 0.19, "match_keys": ["wellcome sanger institute", "sanger institute"] },
+  "embl":       { "name": "EMBL Heidelberg", "lat": 49.42, "lon": 8.62, "match_keys": ["european molecular biology laboratory", "embl heidelberg"] },
+  "broad":      { "name": "Broad Institute, Cambridge MA", "lat": 42.36, "lon": -71.10, "match_keys": ["broad institute"] },
+  "berkeley":   { "name": "UC Berkeley", "lat": 37.87, "lon": -122.26, "match_keys": ["university of california, berkeley", "uc berkeley"] },
+  "ucl":        { "name": "University College London", "lat": 51.52, "lon": -0.13, "match_keys": ["university college london", "ucl "] },
+  "karolinska": { "name": "Karolinska Institute, Stockholm", "lat": 59.35, "lon": 18.03, "match_keys": ["karolinska institute", "karolinska institutet"] },
+  "toronto":    { "name": "University of Toronto", "lat": 43.66, "lon": -79.40, "match_keys": ["university of toronto"] },
+  "riken":      { "name": "RIKEN, Tokyo/Wako", "lat": 35.78, "lon": 139.60, "match_keys": ["riken"] },
+  "nih":        { "name": "NIH, Bethesda", "lat": 39.00, "lon": -77.10, "match_keys": ["national institutes of health", " nih "] },
+  "weizmann":   { "name": "Weizmann Institute of Science", "lat": 31.91, "lon": 34.81, "match_keys": ["weizmann institute"] }
+}
