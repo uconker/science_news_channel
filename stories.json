@@ -1,104 +1,243 @@
 {
-  "generated_at": "2026-08-06T13:20:47.252832+00:00",
+  "generated_at": "2026-08-07T07:27:20.345781+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "MUTYH activity maintains telomere stability in response to chronic telomeric 8-oxoguanine damage in cancer cells",
-      "body": "Telomeres are highly susceptible to oxidative DNA damage, particularly 8-oxoguanine (8-oxoG), which is processed by glycosylase-initiated base excision repair (BER). OGG1 removes 8-oxoG opposite C, and MUTYH removes A misinserted opposite 8-oxoG to prevent mutations. While OGG1 has an established role in telomere prote…",
+      "subject": "neuroscience",
+      "title": "Structured connectivity for structured sequential computations",
+      "body": "Cortical computations emerge from the coordinated activity of recurrent neural circuits and are often described through population dynamics and neuronal selectivity. However, how the backbone of the computations - the circuit connectivity - gives rise to these dynamics and organizes the computations, remains largely un…",
       "inst": [
-        "nih",
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.07.31.742130",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.03.742515",
+      "date": "2026-08-04"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Structural Basis of a Novel Heme Binding Bacterial One-Component Switch",
-      "body": "One-component systems (OCSs) integrate sensory and effector functions within a single protein, enabling rapid gene expression changes in response to environmental cues. Here, we characterized a novel heme binding OCS protein, FG214, from Fimbriimonas ginsengisoli, a redox-regulated helix-turn-helix transcription factor…",
+      "subject": "neuroscience",
+      "title": "Anatomy of the Visual Word Form Area in Dyslexia",
+      "body": "The Visual Word Form Area (VWFA), located in ventral occipitotemporal cortex, plays a critical role in skilled reading. Researchers have theorized that the VWFA develops in its specific anatomical location due to the convergence of major white matter tracts and proximity to functionally similar regions. This suggests t…",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.03.15.711900",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.07.31.742142",
+      "date": "2026-08-04"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Extracellular Vesicle Carryover Distorts Nanoparticle Protein Corona Profiles in Human Plasma",
-      "body": "The nanoparticle (NP) protein corona is considered the biological identity that determines NP fate, safety, targeting, and therapeutic effectiveness in biofluids. Nonetheless, standard corona isolation workflows assume the recovered protein signature originates primarily from plasma proteins adsorbed directly onto the …",
+      "subject": "neuroscience",
+      "title": "Rescue schizophrenia-related phenotypes caused by Setd1a deficiency by histone demethylase inhibitors",
+      "body": "Schizophrenia (SCZ) is a genetically complex neuropsychiatric disorder in which rare loss-of-function mutations in the histone methyltransferase SETD1A confer substantial risk. Although SETD1A haploinsufficiency had been linked to morphological, synaptic and behavioral abnormalities in the prefrontal cortex, whether an…",
       "inst": [
-        "karolinska"
+        "harvard"
       ],
-      "doi": "10.64898/2026.02.19.706828",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.03.742543",
+      "date": "2026-08-04"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "MLL4/KMT2D mutations increase immune activity and predict therapyefficacy in colorectal cancer",
-      "body": "BackgroundThe KMT2D histone 3-lysine 4 methyltransferase (also known as MLL4) is a critical chromatin regulator, which is frequently inactivated by gene mutations in various types of cancer including colorectal cancer (CRC). Several lines of evidence suggest a strong association between chromatin regulation, tumor immu…",
+      "subject": "biochemistry",
+      "title": "An architectural switch in the evolution of the γ-tubulin ring complex",
+      "body": "Canonical microtubules contain 13-protofilaments and are templated by the {gamma}-tubulin ring complex ({gamma}-TuRC). However, some eukaryotes assemble non-canonical microtubules, like the 11-protofilament structures found in Caenorhabditis elegans. How {gamma}-TuRCs adapt to template alternative microtubule geometrie…",
       "inst": [
-        "mpi_generic"
+        "eth"
       ],
-      "doi": "10.64898/2026.07.31.742076",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.03.742184",
+      "date": "2026-08-04"
     },
     {
       "id": 4,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
+      "body": "De novo design of protein binders targeting extended, multi-site interaction surfaces remains difficult for current generative methods, which often produce limited structural diversity and predominantly helical topologies. Here, we advance diffusion-based binder design by guiding protein backbone generation through \"se…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.08.02.742339",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Quantifying visual pathway overlap to identify training-related microstructural change in hemianopia",
+      "body": "BackgroundVisual training can improve residual vision in hemianopia, but there is significant variability in patient outcomes which may reflect differences in neural structures preserved after injury. Diffusion MRI tractography offers a means of assessing white-matter microstructure in vivo, however substantial overlap…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.07.28.740991",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Granule microenvironment regulates the dual functions of FMR1",
+      "body": "Fragile X Messenger Ribonucleoprotein 1 (FMR1) is an evolutionarily conserved RNA binding protein with important functions in cognition and female reproduction, and its disruption is associated with neurodevelopmental and reproductive disorders including the Fragile X syndrome. FMR1 is best known for its role as a tran…",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.08.03.741171",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
+      "body": "Toll-like receptor (TLR) signaling must be activated rapidly and then terminated to support host defense without sustained inflammation. We developed a rule-based model of mouse macrophage TLR4 signaling at the molecular-interaction level using measured protein copy numbers, RNA-seq-based abundance estimates, literatur…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.08.03.742528",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Improved cross-presentation enabled by fusion-dependent mini-proteins that efficiently reach the dendritic cell cytosol",
+      "body": "Cross-presentation is the process by which dendritic cells communicate to CD8+ T-cells the detection of exogenous foreign substances known as antigens. This process primes naive CD8+ T-cells to eradicate antigen-expressing pathogens and tumors. It is well known that pathogens and tumors evade CD8+ T-cell immunity by re…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.08.01.742242",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Insights into Spontaneous Curvature in Complex Membranes from Dual-Tether Pulling Experiments",
+      "body": "Spontaneous curvature characterizes the propensity of a membrane to bend in a specific direction. It is therefore crucial in the multitude of cellular processes that involve membrane shape remodelling. Yet, experimentally quantifying the spontaneous curvature remains a significant challenge in complex biological membra…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.07.31.742037",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "A complete map of specificity encoding enables reprogramming of a protein interaction",
+      "body": "The human genome encodes the affinities and specificities of >half a million molecular interactions. Changes in specificity drive evolution, disease and therapeutic efficacy, but how specificity is encoded and reprogrammed is not well understood. Here we present a complete map of the encoding of specificity in a protei…",
+      "inst": [
+        "sanger"
+      ],
+      "doi": "10.1101/2024.04.25.591103",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Disruption of interareal control during propofol anesthesia",
+      "body": "Anesthetic-induced unconsciousness may arise partly from a change in how brain areas can manipulate each other's activity. To quantify this change, we use control-theoretic tools that can precisely characterize how easily subsystems in complex networks can control each other. These tools rely on the Jacobian of the dyn…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.07.28.741350",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Distinct neurogenic progenitor cell populations balance cell type production in the embryonic mouse retina",
+      "body": "Mammalian vision depends on the reliable production of over 100 neural cell types from multipotent retinal progenitor cells. How so many cell types are generated in the correct proportions throughout the retina remains incompletely understood. Focusing on the early embryonic period in mice, we found that retinal neurog…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.03.738451",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "End-of-outbreak determination under seasonal transmission",
+      "body": "At the apparent end of an infectious disease outbreak, policymakers must decide when to relax interventions, balancing epidemiological safety and economic efficiency. Here, we extend a renewal equation framework for estimating the risk of additional cases to scenarios with seasonal transmission, such as Aedes-borne vir…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.03.742445",
+      "date": "2026-08-04"
+    },
+    {
+      "id": 14,
       "cat": "science",
       "subject": "genomics",
       "title": "Transposons contribute to splice-isoform diversity in the Drosophila brain",
@@ -107,211 +246,43 @@
         "oxford"
       ],
       "doi": "10.64898/2026.01.22.701052",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "crispAIPE: Probabilistic Modelling of Prime Editing Variant Correction Efficiency",
-      "body": "Prime editing installs precise substitutions, insertions, and deletions without double-strand breaks or donor templates, but the efficiency of an individual pegRNA design is hard to predict in advance, and existing tools give only point estimates, leaving designers unable to judge which predictions to trust. We present…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2025.12.07.692852",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "PG-LLM: Benchmarking General-Purpose Language Models for Protein Variant Ranking",
-      "body": "General-purpose language models are being increasingly utilized in protein-design workflows, yet their ability to evaluate variant effects remains unclear. To answer this question, we introduce PG-LLM, a benchmark built on ProteinGym to evaluate general-purpose language models on 217 protein-variant prioritization task…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.07.27.741045",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "plant biology",
-      "title": "Glycosylceramide assembly and function in a model bryophyte",
-      "body": "Research ConductedTo elucidate the functions of glycosylceramides, we generated and characterized mutants deficient in multiple steps contributing to their assembly in the model moss Physcomitrium patens. We mutagenized SPHINGOLIPID {Delta}8-DESATURASE, whose products are preferentially incorporated into glycosylcerami…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.07.31.742004",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "A neural mechanism for compositional structure transfer in humans",
-      "body": "A human ability to adapt to the dynamics of novel environments relies on abstracting and generalizing from past experiences. Previous research has focused on how humans generalize from isolated sequential processes, yet we know little about mechanisms that enable adaptation to more complex dynamics, including those tha…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.1101/2024.09.20.614119",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Cognitive control networks in human and macaque",
-      "body": "A much-replicated finding in human brain imaging is a distributed \"multiple-demand\" or MD system, increasing in activity for many kinds of cognitive demand, and centrally involved in cognitive control. MD regions are proposed to encode a distributed mental model of critical task events, bound together in the roles and …",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.02.24.707621",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Hyper-Hierarchical Brain States Are Associated with Disorders of Consciousness",
-      "body": "BackgroundConsciousness is increasingly understood as an emergent property of large-scale brain dynamics that depend upon flexible interactions among distributed cortical and subcortical systems. Although disorders of consciousness (DOC) have traditionally been associated with impaired integration and reduced network c…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.07.30.741772",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Nucleolar endonuclease MBLAC2 orchestrates co-transcriptional ribosomal RNA processing and global transcriptional output",
-      "body": "The metallo-{beta}-lactamase (MBL)-domain superfamily includes multiple nucleases that process distinct transcript classes. We show that human MBLAC2 acts as a ribosomal (r)RNA quality control factor, being nucleolar specific, chromatin-associated and required for co-transcriptional pre-rRNA processing. Notably MBLAC2 …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.07.31.742021",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Developmental growth rates adapt to enable self-correction of organ morphology after injury.",
-      "body": "Proportional organ growth requires tissue-level control of cell behavior. Yet the cues that adapt growth rates, especially after organ injury, remain unclear. Here, we uncover that developing organs are robust to extensive damage, triggering injury-specific mechanisms sufficient to override genetically-encoded size def…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.07.31.741988",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Tumor-specific Kinase Motif Enrichment Analysis Identifies Personalized Therapeutic Cancer Targets",
-      "body": "Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) are an uncommon and poorly understood malignancy with low mutational burden, lacking well-defined oncogenic drivers. GEP-NET mortality frequently results from extensive hepatic metastases. Accordingly, we interrogated phosphoproteomic data from GEP-NET liver metas…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.07.31.742097",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Impact of Training Regimes and Task Similarity on Learning and Cognitive Transfer",
-      "body": "Learning depends not only on the content of what we learn, but also on how we learn and on how experiences are structured over time. To investigate how task similarity and training regime interact during learning, we trained participants on spatial and conceptual learning tasks that shared either similar or distinct un…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.1101/2025.09.22.677779",
-      "date": "2026-08-03"
+      "date": "2026-08-04"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "A minimal physical model of adhesion-dependent protrusion explains confined haptotaxis and oscillatory cell migration",
-      "body": "Haptotaxis is the directed migration of cells along gradients of substrate adhesion, and is an important guidance mechanism in biology. Recent experiments on fibronectin-patterned tracks show that cells typically migrate toward higher adhesion, then oscillate around the adhesion maximum, with substantial variability in…",
+      "subject": "bioengineering",
+      "title": "A Modular Synthetic Hydrogel with Cell-scale Micropores Modulates Osteocyte-like Morphogenesis and Osteogenic Differentiation In Vitro",
+      "body": "One crucial step during early osteogenesis is the embedding of osteoblasts within a collagen-rich extracellular matrix (osteoid), where they subsequently differentiate into a functional network of osteocytes. However, reconstructing 3D osteocyte networks in vitro remains a major challenge. We recently developed a synth…",
       "inst": [
-        "weizmann"
+        "eth"
       ],
-      "doi": "10.64898/2026.07.30.741711",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.04.742693",
+      "date": "2026-08-04"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The cerebellum supports two systems for understanding others in early childhood",
-      "body": "The cerebellum has increasingly been implicated in Theory of Mind (ToM), a hallmark of human social cognition. Yet its role in the development of social understanding remains poorly understood, despite evidence linking early cerebellar disruptions to profound social cognitive deficits. Although explicit ToM reasoning e…",
+      "subject": "bioengineering",
+      "title": "De novo design of small-molecule-induced conformational change",
+      "body": "Many biological proteins function by changing shape upon small-molecule binding. Here, we present a general strategy for designing de novo proteins that undergo small-molecule-induced conformational change. Our approach converts a preorganized small-molecule binding protein into a ligand-responsive shape-changer by add…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.03.742430",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.03.742366",
+      "date": "2026-08-04"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "A modular lentiviral system for multiplexed gene perturbation and functional analysis suggests interdependence of hormone receptors in breast cancer growth in vivo",
-      "body": "Precise and flexible control of gene expression is essential for dissecting gene function in complex biological systems. Although recent developments in genetic engineering and CRISPR/Cas9 technology have expanded tools for gene activation, suppression and editing, their application in physiologically relevant models r…",
+      "subject": "systems biology",
+      "title": "Observation-masked neural posterior estimation for heterogeneous epidemiological surveillance data",
+      "body": "Disease surveillance data are often sparse, irregularly timed and heterogeneous across observational units, creating challenges for inference in mechanistic epidemiological models. We present observation-masked neural posterior estimation (OM-NPE), a simulation-based Bayesian inference framework for such settings. The …",
       "inst": [
-        "karolinska"
+        "cambridge"
       ],
-      "doi": "10.64898/2025.12.07.692832",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Short-term synaptic depression in multiregional recurrent neural networks accounts for both MMN and P300-like responses and their attentional amplification",
-      "body": "The brain must continuously extract salient cues from an immense sensory stream and represent them across regions. Multiregional responses to salient stimuli, notably mismatch negativity (MMN) in sensory and P300 in frontal areas, are among the best-characterized signals in human electrophysiology, yet the mechanisms r…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.1101/2025.11.06.687057",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
-      "body": "Subcortical structures play a key role in shaping cortical computation through distributed cortico-subcortical networks, yet it remains unclear whether individual differences in subcortical anatomy are reflected in resting-state cortical oscillations. We analysed resting-state magnetoencephalography (MEG) and structura…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.07.13.738145",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 20,
-      "cat": "science",
-      "subject": "synthetic biology",
-      "title": "AAV delivered lysosome-targeting chimeras mediate sustained antibody depletion in vivo",
-      "body": "Immunoglobulins (e.g., IgGs) are critical effectors of the adaptive immune system that when overexpressed or dysregulated can result in autoimmune diseases. Thus, depletion of IgGs can be a promising therapeutic avenue. Here we developed genetically-encoded lysosome targeting chimeras (GELYTACs) that target circulating…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.07.05.736665",
-      "date": "2026-08-03"
-    },
-    {
-      "id": 21,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Generative replay across hippocampal-neocortical circuits",
-      "body": "Flexible behaviour requires predictions that extend beyond direct experience, yet the neural mechanisms that support this process remain unclear. A candidate mechanism occurs during hippocampal sharp-wave ripples (SWRs), in which generative replay combines representations for discrete past events into novel activity pa…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.07.24.740539",
-      "date": "2026-08-03"
+      "doi": "10.64898/2026.08.03.742452",
+      "date": "2026-08-04"
     }
   ]
 }
