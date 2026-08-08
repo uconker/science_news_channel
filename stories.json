@@ -1,30 +1,15 @@
 {
-  "generated_at": "2026-08-07T07:27:20.345781+00:00",
+  "generated_at": "2026-08-08T07:03:32.309929+00:00",
   "institutions": {
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "harvard": {
       "name": "Harvard University",
@@ -36,253 +21,200 @@
       "lat": 52.08,
       "lon": 0.19
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Structured connectivity for structured sequential computations",
-      "body": "Cortical computations emerge from the coordinated activity of recurrent neural circuits and are often described through population dynamics and neuronal selectivity. However, how the backbone of the computations - the circuit connectivity - gives rise to these dynamics and organizes the computations, remains largely un…",
+      "subject": "developmental biology",
+      "title": "Selective depletion of AMH-expressing granulosa cells in vivo impairs follicular development and fertility in female mice",
+      "body": "In mammals, ovarian follicle development is a highly coordinated process that underlies female fertility. Granulosa cells expressing anti-Mullerian hormone (AMH) are widely used as a marker of growing follicles. However, the in vivo roles of granulosa cells in follicular development and female fertility remain unclear.…",
       "inst": [
-        "mpi_generic"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.08.03.742515",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.08.04.742350",
+      "date": "2026-08-05"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Anatomy of the Visual Word Form Area in Dyslexia",
-      "body": "The Visual Word Form Area (VWFA), located in ventral occipitotemporal cortex, plays a critical role in skilled reading. Researchers have theorized that the VWFA develops in its specific anatomical location due to the convergence of major white matter tracts and proximity to functionally similar regions. This suggests t…",
+      "subject": "plant biology",
+      "title": "Rewired meristem regulation drives morphological evolution of the one-leaf developmental system in Monophyllaea glabra",
+      "body": "Plants have evolved unconventional shoot systems with a \"fuzzy\" character that blurs organ boundaries, but the developmental programs driving this morphological diversity remain a mystery. One-leaf plants of the genus Monophyllaea are a striking example of this diversity: they develop a single indeterminate cotyledon i…",
       "inst": [
-        "stanford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.07.31.742142",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.08.05.742951",
+      "date": "2026-08-05"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Rescue schizophrenia-related phenotypes caused by Setd1a deficiency by histone demethylase inhibitors",
-      "body": "Schizophrenia (SCZ) is a genetically complex neuropsychiatric disorder in which rare loss-of-function mutations in the histone methyltransferase SETD1A confer substantial risk. Although SETD1A haploinsufficiency had been linked to morphological, synaptic and behavioral abnormalities in the prefrontal cortex, whether an…",
+      "subject": "bioengineering",
+      "title": "In vitro and in silico characterization of competitive inhibition and repression of DUX4 target gene activation as a therapeutic approach for facioscapulohumeral muscular dystrophy (FSHD)",
+      "body": "Facioscapulohumeral muscular dystrophy (FSHD) is a rare neuromuscular disease caused by aberrant re-expression of the embryonic transcription factor DUX4 in skeletal muscle, which activates a toxic transcriptional program that drives progressive muscle wasting. No approved disease-modifying therapies currently exist. P…",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.03.742543",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.08.04.742607",
+      "date": "2026-08-05"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "An architectural switch in the evolution of the γ-tubulin ring complex",
-      "body": "Canonical microtubules contain 13-protofilaments and are templated by the {gamma}-tubulin ring complex ({gamma}-TuRC). However, some eukaryotes assemble non-canonical microtubules, like the 11-protofilament structures found in Caenorhabditis elegans. How {gamma}-TuRCs adapt to template alternative microtubule geometrie…",
+      "subject": "evolutionary biology",
+      "title": "Early-life Helicobacter pylori infection in mice alters endocrine signaling and accelerates adipose expansion during high-fat feeding",
+      "body": "Perturbations to early-life microbial colonization can shape immune and metabolic development, predisposing a host to obesity. We hypothesized that neonatal infection with the ancient human symbiont Helicobacter pylori exacerbates diet-induced metabolic responses and is accompanied by alterations in endocrine and infla…",
       "inst": [
-        "eth"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.08.03.742184",
-      "date": "2026-08-04"
+      "doi": "10.1101/2025.04.27.650497",
+      "date": "2026-08-05"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
-      "body": "De novo design of protein binders targeting extended, multi-site interaction surfaces remains difficult for current generative methods, which often produce limited structural diversity and predominantly helical topologies. Here, we advance diffusion-based binder design by guiding protein backbone generation through \"se…",
+      "subject": "neuroscience",
+      "title": "Heterogeneous Instructive Signals Enable Ensemble Learning in Cerebellar Cortex",
+      "body": "The Marr--Albus framework describes learning in Purkinje cells (PCs) through supervised plasticity associated with complex spikes. However, complex spikes occur with low probability in individual PCs following sensorimotor events, and PCs are organized into \"microzones\" with shared complex spike tuning and outputs. We …",
       "inst": [
-        "mit"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.02.742339",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.05.06.723116",
+      "date": "2026-08-05"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Quantifying visual pathway overlap to identify training-related microstructural change in hemianopia",
-      "body": "BackgroundVisual training can improve residual vision in hemianopia, but there is significant variability in patient outcomes which may reflect differences in neural structures preserved after injury. Diffusion MRI tractography offers a means of assessing white-matter microstructure in vivo, however substantial overlap…",
+      "subject": "genomics",
+      "title": "Short-term, Long-term, and Genetic Determinants of Human Plasma Proteome Variability",
+      "body": "Plasma proteomics is increasingly used for biomarker discovery and predictive modeling, yet diurnal protein trajectories remain insufficiently characterized. In our review of recent proteomic biomarker studies, 43% of the identified biomarkers had previously been reported to display 24-h rhythmicity. We demonstrate tha…",
       "inst": [
-        "ucl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.28.740991",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.30.741635",
+      "date": "2026-08-05"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Granule microenvironment regulates the dual functions of FMR1",
-      "body": "Fragile X Messenger Ribonucleoprotein 1 (FMR1) is an evolutionarily conserved RNA binding protein with important functions in cognition and female reproduction, and its disruption is associated with neurodevelopmental and reproductive disorders including the Fragile X syndrome. FMR1 is best known for its role as a tran…",
+      "subject": "immunology",
+      "title": "Spatial remodeling of the thymic stroma with age disrupts niches for T cell selection and tolerance",
+      "body": "Age-associated thymic involution is a major driver of immunosenescence, yet the cellular and spatial mechanisms coordinating age-related thymic remodeling remain incompletely understood. Combining single-cell transcriptomics, chromatin accessibility profiling, and spatial transcriptomics, we generated a spatially resol…",
       "inst": [
-        "embl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.03.741171",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.29.741472",
+      "date": "2026-08-05"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
-      "body": "Toll-like receptor (TLR) signaling must be activated rapidly and then terminated to support host defense without sustained inflammation. We developed a rule-based model of mouse macrophage TLR4 signaling at the molecular-interaction level using measured protein copy numbers, RNA-seq-based abundance estimates, literatur…",
+      "subject": "developmental biology",
+      "title": "A stress-responsive morphogenetic program of the uterine epithelium safeguards the establishment of early pregnancy",
+      "body": "Successful embryo implantation requires coordinated interactions among the endometrial epithelium, stroma, and the embryo, yet the underlying mechanisms have not been fully understood. Using three-dimensional histological reconstruction combined with single-cell and spatial transcriptomics, we identify a previously unr…",
       "inst": [
-        "nih"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.08.03.742528",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.01.29.702684",
+      "date": "2026-08-05"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Improved cross-presentation enabled by fusion-dependent mini-proteins that efficiently reach the dendritic cell cytosol",
-      "body": "Cross-presentation is the process by which dendritic cells communicate to CD8+ T-cells the detection of exogenous foreign substances known as antigens. This process primes naive CD8+ T-cells to eradicate antigen-expressing pathogens and tumors. It is well known that pathogens and tumors evade CD8+ T-cell immunity by re…",
+      "subject": "neuroscience",
+      "title": "No overlap in neurophysiological predictors of moment-to-moment fluctuations of behavioural variability and subjective attentional state",
+      "body": "Behaviour fluctuates from moment to moment - often attributed to changes in subjective attentional states (e.g., mind wandering). Yet, it remains unclear how closely behavioural variability and subjective attentional state are related, and whether they share biological mechanisms. Using [~]2 hours of Metronome Response…",
       "inst": [
-        "berkeley"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.01.742242",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.30.741808",
+      "date": "2026-08-05"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Insights into Spontaneous Curvature in Complex Membranes from Dual-Tether Pulling Experiments",
-      "body": "Spontaneous curvature characterizes the propensity of a membrane to bend in a specific direction. It is therefore crucial in the multitude of cellular processes that involve membrane shape remodelling. Yet, experimentally quantifying the spontaneous curvature remains a significant challenge in complex biological membra…",
+      "subject": "bioinformatics",
+      "title": "Homology-Based Variant-Effect Predictors Break Down on Cytochrome P450 Pharmacogenes",
+      "body": "Cytochrome P450 (CYP) enzymes metabolize roughly three-quarters of clinically used drugs; genetic variation in these enzymes is a leading source of interindividual differences in drug response. Predicting a variants functional effect is therefore critical, yet the consequences of most CYP variants remain unknown. Many …",
       "inst": [
-        "copenhagen"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.31.742037",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.30.741616",
+      "date": "2026-08-05"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "A complete map of specificity encoding enables reprogramming of a protein interaction",
-      "body": "The human genome encodes the affinities and specificities of >half a million molecular interactions. Changes in specificity drive evolution, disease and therapeutic efficacy, but how specificity is encoded and reprogrammed is not well understood. Here we present a complete map of the encoding of specificity in a protei…",
+      "subject": "bioinformatics",
+      "title": "Evaluating the impact of a sample-matched reference genome on single-cell transcriptomic inferences in Plasmodium falciparum",
+      "body": "BackgroundPlasmodium falciparum field isolates exhibit genomic variation, including copy number variation and sequence divergence. In contrast, the P. falciparum 3D7 reference genome (Pf3D7) was derived from a long-term laboratory-adapted strain and does not fully reflect the genomic variation among field isolates. The…",
       "inst": [
         "sanger"
       ],
-      "doi": "10.1101/2024.04.25.591103",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.30.740912",
+      "date": "2026-08-05"
     },
     {
       "id": 11,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Disruption of interareal control during propofol anesthesia",
-      "body": "Anesthetic-induced unconsciousness may arise partly from a change in how brain areas can manipulate each other's activity. To quantify this change, we use control-theoretic tools that can precisely characterize how easily subsystems in complex networks can control each other. These tools rely on the Jacobian of the dyn…",
+      "title": "Reciprocal feedback inhibition and divergent intrinsic firing properties between behaviorally defined classes of neurons in the mouse ventromedial hypothalamus",
+      "body": "The capacity to orchestrate appropriate defensive behaviors in response to threatening stimuli is essential for the survival of organisms. Flight, freezing, appeasement, and attack, for example, are common defensive responses evoked depending upon the nature of the threat, the immediate context, and past experiences. M…",
       "inst": [
-        "mit"
+        "embl"
       ],
-      "doi": "10.64898/2026.07.28.741350",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.07.30.741940",
+      "date": "2026-08-05"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Distinct neurogenic progenitor cell populations balance cell type production in the embryonic mouse retina",
-      "body": "Mammalian vision depends on the reliable production of over 100 neural cell types from multipotent retinal progenitor cells. How so many cell types are generated in the correct proportions throughout the retina remains incompletely understood. Focusing on the early embryonic period in mice, we found that retinal neurog…",
+      "subject": "neuroscience",
+      "title": "Comparative analysis of microglia-targeted AAVs reveals capsid choice drives efficiency in vitro but has limited impact in vivo",
+      "body": "Microglia play key roles in brain development, homeostasis, and neurodegeneration. Although multiple strategies for viral gene delivery to microglia have been reported, they have not been directly compared. Here, we developed microglia-targeting AAV capsids and benchmarked them against existing approaches. The novel ca…",
       "inst": [
-        "harvard"
+        "broad"
       ],
-      "doi": "10.64898/2026.08.03.738451",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.08.05.739854",
+      "date": "2026-08-05"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "ecology",
-      "title": "End-of-outbreak determination under seasonal transmission",
-      "body": "At the apparent end of an infectious disease outbreak, policymakers must decide when to relax interventions, balancing epidemiological safety and economic efficiency. Here, we extend a renewal equation framework for estimating the risk of additional cases to scenarios with seasonal transmission, such as Aedes-borne vir…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.03.742445",
-      "date": "2026-08-04"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Transposons contribute to splice-isoform diversity in the Drosophila brain",
-      "body": "The extraordinary complexity of the brain depends in part on the vast diversity of mRNA isoforms it expresses, often in a cell-type specific manner. In a recent study, we found that intronic transposable elements (TEs) are spliced into neural transcripts and diversify the splice isoform repertoire of neurons and glia (…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.01.22.701052",
-      "date": "2026-08-04"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "A Modular Synthetic Hydrogel with Cell-scale Micropores Modulates Osteocyte-like Morphogenesis and Osteogenic Differentiation In Vitro",
-      "body": "One crucial step during early osteogenesis is the embedding of osteoblasts within a collagen-rich extracellular matrix (osteoid), where they subsequently differentiate into a functional network of osteocytes. However, reconstructing 3D osteocyte networks in vitro remains a major challenge. We recently developed a synth…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.08.04.742693",
-      "date": "2026-08-04"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "De novo design of small-molecule-induced conformational change",
-      "body": "Many biological proteins function by changing shape upon small-molecule binding. Here, we present a general strategy for designing de novo proteins that undergo small-molecule-induced conformational change. Our approach converts a preorganized small-molecule binding protein into a ligand-responsive shape-changer by add…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.08.03.742366",
-      "date": "2026-08-04"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Observation-masked neural posterior estimation for heterogeneous epidemiological surveillance data",
-      "body": "Disease surveillance data are often sparse, irregularly timed and heterogeneous across observational units, creating challenges for inference in mechanistic epidemiological models. We present observation-masked neural posterior estimation (OM-NPE), a simulation-based Bayesian inference framework for such settings. The …",
+      "subject": "cell biology",
+      "title": "Tissue osmotic surveillance shapes susceptibility of zebrafish to wound infections",
+      "body": "Wounds represent compromised tissues that are susceptible to opportunistic infections. Tissue factors predisposing to wound infection include edema, poor vascularity, tissue hypoxia, necrosis, and wound size. However, it is unclear whether factors external to the tissue play a role. Detection of osmolarity imbalances b…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.08.03.742452",
-      "date": "2026-08-04"
+      "doi": "10.64898/2026.08.04.742764",
+      "date": "2026-08-05"
     }
   ]
 }
