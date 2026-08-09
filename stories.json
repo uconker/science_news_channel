@@ -1,220 +1,213 @@
 {
-  "generated_at": "2026-08-08T07:03:32.309929+00:00",
+  "generated_at": "2026-08-09T07:05:10.279561+00:00",
   "institutions": {
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
-    "broad": {
-      "name": "Broad Institute, Cambridge MA",
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "mit": {
+      "name": "MIT",
       "lat": 42.36,
-      "lon": -71.1
+      "lon": -71.09
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Selective depletion of AMH-expressing granulosa cells in vivo impairs follicular development and fertility in female mice",
-      "body": "In mammals, ovarian follicle development is a highly coordinated process that underlies female fertility. Granulosa cells expressing anti-Mullerian hormone (AMH) are widely used as a marker of growing follicles. However, the in vivo roles of granulosa cells in follicular development and female fertility remain unclear.…",
+      "subject": "immunology",
+      "title": "Lysosome-related organelle genes are required for mitochondrial transformations during bacterial infections in Caenorhabditis elegans.",
+      "body": "Detecting and responding to pathogenic bacteria is an essential function of eukaryotic cells. As bacteria-derived organelles, mitochondria carry lipids, proteins, and other molecules such as iron which are required for bacterial growth, and thus are subject to pathogenic bacterial attack. In fact, mitochondrial morphol…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.04.742350",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.04.742833",
+      "date": "2026-08-06"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Rewired meristem regulation drives morphological evolution of the one-leaf developmental system in Monophyllaea glabra",
-      "body": "Plants have evolved unconventional shoot systems with a \"fuzzy\" character that blurs organ boundaries, but the developmental programs driving this morphological diversity remain a mystery. One-leaf plants of the genus Monophyllaea are a striking example of this diversity: they develop a single indeterminate cotyledon i…",
+      "subject": "molecular biology",
+      "title": "Structural basis for alternative 3' splice site selection in the human spliceosome active center",
+      "body": "O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=200 SRC=\"FIGDIR/small/741260v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (97K):\norg.highwire.dtl.DTLVardef@16a4b2forg.highwire.dtl.DTLVardef@16e3c03org.highwire.dtl.DTLVardef@25f706org.highwire.dtl.DTLVardef@7cdd41_HPS_FORMAT_FIGEXP  M_FIG C_FIG Key findingsO_LICryo-EM reveals…",
       "inst": [
-        "tokyo"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.05.742951",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.05.741260",
+      "date": "2026-08-06"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "In vitro and in silico characterization of competitive inhibition and repression of DUX4 target gene activation as a therapeutic approach for facioscapulohumeral muscular dystrophy (FSHD)",
-      "body": "Facioscapulohumeral muscular dystrophy (FSHD) is a rare neuromuscular disease caused by aberrant re-expression of the embryonic transcription factor DUX4 in skeletal muscle, which activates a toxic transcriptional program that drives progressive muscle wasting. No approved disease-modifying therapies currently exist. P…",
+      "subject": "cell biology",
+      "title": "Spatiotemporal transcriptomic landscape of synovial joint repair - an in vivo murine multimodal model of osteochondral injury",
+      "body": "ObjectiveThe repair response to focal osteochondral injuries frequently fails to truly restore native osteochondral tissue, predisposing the joint to the likelihood of progressive degeneration and post-traumatic osteoarthritis. The biological mechanisms governing the earliest stages of repair in these tissues remain po…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.04.742607",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.05.742782",
+      "date": "2026-08-06"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Early-life Helicobacter pylori infection in mice alters endocrine signaling and accelerates adipose expansion during high-fat feeding",
-      "body": "Perturbations to early-life microbial colonization can shape immune and metabolic development, predisposing a host to obesity. We hypothesized that neonatal infection with the ancient human symbiont Helicobacter pylori exacerbates diet-induced metabolic responses and is accompanied by alterations in endocrine and infla…",
+      "subject": "biophysics",
+      "title": "The limits of scaling in aggregation-driven patterning of cell collectives",
+      "body": "Robust development requires maintaining correct proportions as overall size varies. What controls and limits this scaling remains poorly understood due to the complex interplay of mechanical and biochemical embryonic factors. Combining confinement of dissociated embryonic presomitic mesoderm cells with imaging and chem…",
       "inst": [
-        "copenhagen"
+        "embl"
       ],
-      "doi": "10.1101/2025.04.27.650497",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.03.27.714601",
+      "date": "2026-08-06"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Heterogeneous Instructive Signals Enable Ensemble Learning in Cerebellar Cortex",
-      "body": "The Marr--Albus framework describes learning in Purkinje cells (PCs) through supervised plasticity associated with complex spikes. However, complex spikes occur with low probability in individual PCs following sensorimotor events, and PCs are organized into \"microzones\" with shared complex spike tuning and outputs. We …",
+      "subject": "developmental biology",
+      "title": "A human developing heart atlas reveals cardiovascular cell diversity for in vitro model benchmarking",
+      "body": "The human heart and adjoining great vessels consist of multiple cell types essential for life, yet many remain uncharacterised molecularly during development. Here, we performed a high-resolution profiling of the developing heart and great vessels between 4 and 20 post-conception weeks using single-cell and spatial tra…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.05.06.723116",
-      "date": "2026-08-05"
+      "doi": "10.1101/2024.04.27.591127",
+      "date": "2026-08-06"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Short-term, Long-term, and Genetic Determinants of Human Plasma Proteome Variability",
-      "body": "Plasma proteomics is increasingly used for biomarker discovery and predictive modeling, yet diurnal protein trajectories remain insufficiently characterized. In our review of recent proteomic biomarker studies, 43% of the identified biomarkers had previously been reported to display 24-h rhythmicity. We demonstrate tha…",
+      "subject": "cancer biology",
+      "title": "Tobacco smoke-induced DNA adducts sensitize genomes to APOBEC mutagenesis and carcinogenesis through nucleotide excision repair",
+      "body": "Mutational processes are thought to act independently and additively. We challenge this view by demonstrating that DNA-adducting agents sensitize the genome to mutagenesis by APOBEC enzymes. A model tobacco carcinogen (NQO) triggers a 100-fold increase in APOBEC3B- catalyzed signature mutations and elevates oral carcin…",
       "inst": [
-        "stanford"
+        "nih"
       ],
-      "doi": "10.64898/2026.07.30.741635",
-      "date": "2026-08-05"
+      "doi": "10.1101/2025.01.18.633716",
+      "date": "2026-08-06"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Spatial remodeling of the thymic stroma with age disrupts niches for T cell selection and tolerance",
-      "body": "Age-associated thymic involution is a major driver of immunosenescence, yet the cellular and spatial mechanisms coordinating age-related thymic remodeling remain incompletely understood. Combining single-cell transcriptomics, chromatin accessibility profiling, and spatial transcriptomics, we generated a spatially resol…",
+      "subject": "neuroscience",
+      "title": "A longitudinal fNIRS hypercanning dataset of same generation and intergenerational relationship development and collaboration",
+      "body": "Social disconnection (i.e., loneliness and social isolation) poses a severe risk to health and is particularly prevalent among older adults. Qualitative and behavioural evidence suggests that intergenerational social interactions can mitigate social disconnection by offering opportunities for adults to form new social …",
       "inst": [
-        "oxford"
+        "eth"
       ],
-      "doi": "10.64898/2026.07.29.741472",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.06.26.734715",
+      "date": "2026-08-06"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "A stress-responsive morphogenetic program of the uterine epithelium safeguards the establishment of early pregnancy",
-      "body": "Successful embryo implantation requires coordinated interactions among the endometrial epithelium, stroma, and the embryo, yet the underlying mechanisms have not been fully understood. Using three-dimensional histological reconstruction combined with single-cell and spatial transcriptomics, we identify a previously unr…",
+      "subject": "molecular biology",
+      "title": "Efficient genome editing in the non-human primate brain using programmable extracellular vesicles",
+      "body": "In vivo genome editing holds transformative potential for treating genetic disease, yet the absence of safe, efficient and scalable delivery systems remains a major barrier to clinical translation. While progress has been made in ex vivo and liver-directed editing, delivery to extrahepatic tissues, particularly the cen…",
       "inst": [
-        "tokyo"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.01.29.702684",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.05.741964",
+      "date": "2026-08-06"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "No overlap in neurophysiological predictors of moment-to-moment fluctuations of behavioural variability and subjective attentional state",
-      "body": "Behaviour fluctuates from moment to moment - often attributed to changes in subjective attentional states (e.g., mind wandering). Yet, it remains unclear how closely behavioural variability and subjective attentional state are related, and whether they share biological mechanisms. Using [~]2 hours of Metronome Response…",
+      "subject": "ecology",
+      "title": "Warming and precipitation change alter flowering phenology and coflowering networks in California serpentine grasslands",
+      "body": "Coflowering, the temporal overlap in flowering among plant species, can influence plant fitness through its effects on heterospecific pollen transfer and competition for pollinators and resources. This temporal overlap is changing as plant species respond differently to climate change. However, difficulties in quantify…",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.30.741808",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.05.743098",
+      "date": "2026-08-06"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Homology-Based Variant-Effect Predictors Break Down on Cytochrome P450 Pharmacogenes",
-      "body": "Cytochrome P450 (CYP) enzymes metabolize roughly three-quarters of clinically used drugs; genetic variation in these enzymes is a leading source of interindividual differences in drug response. Predicting a variants functional effect is therefore critical, yet the consequences of most CYP variants remain unknown. Many …",
+      "subject": "genetics",
+      "title": "Cohesin promotes genomic stability by suppressing unequal sister chromatid exchange",
+      "body": "The protein complex cohesin plays critical roles in genomic stability by tethering together sister chromatids at their pericentric regions and along their arms from S phase until anaphase. Cohesin-mediated pericentric cohesion prevents aneuploidy by ensuring bipolar attachment of sister kinetochores. Arm cohesion preve…",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.07.30.741616",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.07.31.742155",
+      "date": "2026-08-06"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Evaluating the impact of a sample-matched reference genome on single-cell transcriptomic inferences in Plasmodium falciparum",
-      "body": "BackgroundPlasmodium falciparum field isolates exhibit genomic variation, including copy number variation and sequence divergence. In contrast, the P. falciparum 3D7 reference genome (Pf3D7) was derived from a long-term laboratory-adapted strain and does not fully reflect the genomic variation among field isolates. The…",
+      "subject": "immunology",
+      "title": "In form for a swarm: programmable neutrophil swarming impacts infection outcome",
+      "body": "Migrating cells often pattern the distribution of chemoattractants to support their accumulation in target tissues. Neutrophil swarming represents a prominent example in which cells engage in coordinated paracrine chemoattractant signalling for rapid clustering at sites of injury or infection. Whether neutrophil swarmi…",
       "inst": [
-        "sanger"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.07.30.740912",
-      "date": "2026-08-05"
+      "doi": "10.64898/2025.12.03.692046",
+      "date": "2026-08-06"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Reciprocal feedback inhibition and divergent intrinsic firing properties between behaviorally defined classes of neurons in the mouse ventromedial hypothalamus",
-      "body": "The capacity to orchestrate appropriate defensive behaviors in response to threatening stimuli is essential for the survival of organisms. Flight, freezing, appeasement, and attack, for example, are common defensive responses evoked depending upon the nature of the threat, the immediate context, and past experiences. M…",
+      "subject": "genomics",
+      "title": "Cohesin loading at regulatory elements shapes 3D genome folding during erythropoiesis",
+      "body": "During erythropoiesis, differentiating cells silence much of the genome while maintaining high expression of select genes. It remains unclear whether this transcriptional specialization is linked to specific changes in 3D genome organization. We generated deep Micro-C maps across human erythropoiesis and identified ery…",
       "inst": [
-        "embl"
+        "mit"
       ],
-      "doi": "10.64898/2026.07.30.741940",
-      "date": "2026-08-05"
+      "doi": "10.64898/2026.08.02.741886",
+      "date": "2026-08-06"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Comparative analysis of microglia-targeted AAVs reveals capsid choice drives efficiency in vitro but has limited impact in vivo",
-      "body": "Microglia play key roles in brain development, homeostasis, and neurodegeneration. Although multiple strategies for viral gene delivery to microglia have been reported, they have not been directly compared. Here, we developed microglia-targeting AAV capsids and benchmarked them against existing approaches. The novel ca…",
+      "subject": "genomics",
+      "title": "A systematic survey of distal element-gene regulatory interactions with Direct-Capture Targeted Perturb-seq",
+      "body": "Identifying the impact of distal regulatory elements on gene expression is a core challenge in human genetics. Large-scale CRISPR screens have not captured lower effect size element-gene interactions due to selection bias and limited statistical power. We developed a framework for highly powered CRISPR screens, consist…",
       "inst": [
-        "broad"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.05.739854",
-      "date": "2026-08-05"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Tissue osmotic surveillance shapes susceptibility of zebrafish to wound infections",
-      "body": "Wounds represent compromised tissues that are susceptible to opportunistic infections. Tissue factors predisposing to wound infection include edema, poor vascularity, tissue hypoxia, necrosis, and wound size. However, it is unclear whether factors external to the tissue play a role. Detection of osmolarity imbalances b…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.08.04.742764",
-      "date": "2026-08-05"
+      "doi": "10.1101/2025.09.16.676677",
+      "date": "2026-08-06"
     }
   ]
 }
