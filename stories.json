@@ -1,213 +1,128 @@
 {
-  "generated_at": "2026-08-09T07:05:10.279561+00:00",
+  "generated_at": "2026-08-10T07:52:02.123937+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "nih": {
       "name": "NIH, Bethesda",
       "lat": 39.0,
       "lon": -77.1
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Lysosome-related organelle genes are required for mitochondrial transformations during bacterial infections in Caenorhabditis elegans.",
-      "body": "Detecting and responding to pathogenic bacteria is an essential function of eukaryotic cells. As bacteria-derived organelles, mitochondria carry lipids, proteins, and other molecules such as iron which are required for bacterial growth, and thus are subject to pathogenic bacterial attack. In fact, mitochondrial morphol…",
+      "subject": "neuroscience",
+      "title": "Thalamic and cortical signals synergistically represent auditory prediction errors",
+      "body": "Prediction errors (PEs) are commonly described as cortical signals generated within sensory hierarchies, but whether the thalamus participates in their encoding and transmission remains unclear. We recorded Local Field Potentials (LFP) from the medial and lateral geniculate nuclei and electrocorticography (ECoG) from m…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.04.742833",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.06.743264",
+      "date": "2026-08-07"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Structural basis for alternative 3' splice site selection in the human spliceosome active center",
-      "body": "O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=200 SRC=\"FIGDIR/small/741260v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (97K):\norg.highwire.dtl.DTLVardef@16a4b2forg.highwire.dtl.DTLVardef@16e3c03org.highwire.dtl.DTLVardef@25f706org.highwire.dtl.DTLVardef@7cdd41_HPS_FORMAT_FIGEXP  M_FIG C_FIG Key findingsO_LICryo-EM reveals…",
+      "subject": "genomics",
+      "title": "Discovery and characterization of highly polymorphic ultra-short STRs for human identification via shotgun sequencing",
+      "body": "Shotgun sequencing (SGS) enables simultaneous interrogation of a broad range of loci across the human genome, even from low-template and highly degraded DNA samples. While human identification traditionally relies on short tandem repeats (STRs) due to their high polymorphism, standard forensic STRs (100-450 bp) are poo…",
       "inst": [
-        "oxford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.08.05.741260",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.03.742408",
+      "date": "2026-08-07"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Spatiotemporal transcriptomic landscape of synovial joint repair - an in vivo murine multimodal model of osteochondral injury",
-      "body": "ObjectiveThe repair response to focal osteochondral injuries frequently fails to truly restore native osteochondral tissue, predisposing the joint to the likelihood of progressive degeneration and post-traumatic osteoarthritis. The biological mechanisms governing the earliest stages of repair in these tissues remain po…",
+      "subject": "neuroscience",
+      "title": "Different representations in layer 2/3 and layer 5 excitatory neurons of the primary visual cortex",
+      "body": "The cortex contains multiple types of excitatory neuron, differentiated primarily by their layer of residence. We recorded from neuronal populations in the mouse visual cortex using 2-photon calcium imaging or Neuropixels probes, and found that excitatory neurons in layer 2/3 (L2/3) and layer 5 (L5) differed in their e…",
       "inst": [
-        "cambridge"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.05.742782",
-      "date": "2026-08-06"
+      "doi": "10.1101/2025.06.30.662366",
+      "date": "2026-08-07"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "The limits of scaling in aggregation-driven patterning of cell collectives",
-      "body": "Robust development requires maintaining correct proportions as overall size varies. What controls and limits this scaling remains poorly understood due to the complex interplay of mechanical and biochemical embryonic factors. Combining confinement of dissociated embryonic presomitic mesoderm cells with imaging and chem…",
+      "subject": "cell biology",
+      "title": "Cell organization and disturbance-mapping using image activated cell-profiling (CODIAC)",
+      "body": "Protein localization and abundance are tightly regulated to maintain cellular homeostasis, and their dysregulation is a hallmark of disease. However, methods that monitor the spatial localization changes of many proteins at once, and at scale, remain limited. Here we introduce CODIAC (Cell Organization and Disturbance-…",
       "inst": [
-        "embl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.03.27.714601",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.06.742695",
+      "date": "2026-08-07"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "A human developing heart atlas reveals cardiovascular cell diversity for in vitro model benchmarking",
-      "body": "The human heart and adjoining great vessels consist of multiple cell types essential for life, yet many remain uncharacterised molecularly during development. Here, we performed a high-resolution profiling of the developing heart and great vessels between 4 and 20 post-conception weeks using single-cell and spatial tra…",
+      "subject": "cancer biology",
+      "title": "Stability of c-Myc protein differentiates Ras oncogene addiction and MAPK pathway dependency in Ras-mutant multiple myeloma",
+      "body": "Multiple myeloma (MM) is a plasma cell malignancy that frequently harbors activating mutations in NRAS and KRAS oncogenes. Previous clinical trials targeting the Ras/MAPK oncogenic pathway with MEK inhibitors (MEKi) were met with limited efficacy, and newer generation of Ras inhibitors (RASi) have not been specifically…",
       "inst": [
-        "cambridge"
+        "nih"
       ],
-      "doi": "10.1101/2024.04.27.591127",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.06.743109",
+      "date": "2026-08-07"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Tobacco smoke-induced DNA adducts sensitize genomes to APOBEC mutagenesis and carcinogenesis through nucleotide excision repair",
-      "body": "Mutational processes are thought to act independently and additively. We challenge this view by demonstrating that DNA-adducting agents sensitize the genome to mutagenesis by APOBEC enzymes. A model tobacco carcinogen (NQO) triggers a 100-fold increase in APOBEC3B- catalyzed signature mutations and elevates oral carcin…",
+      "subject": "cell biology",
+      "title": "Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase",
+      "body": "Loss of skeletal muscle mass and strength with age drives sarcopenia, a syndrome affecting >100 million people worldwide that leads to loss of mobility, independence, and increased mortality. Mechanical overload induces hypertrophy in young muscle, but this response is markedly attenuated with age - a poorly understood…",
       "inst": [
-        "nih"
+        "stanford"
       ],
-      "doi": "10.1101/2025.01.18.633716",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.06.743387",
+      "date": "2026-08-07"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A longitudinal fNIRS hypercanning dataset of same generation and intergenerational relationship development and collaboration",
-      "body": "Social disconnection (i.e., loneliness and social isolation) poses a severe risk to health and is particularly prevalent among older adults. Qualitative and behavioural evidence suggests that intergenerational social interactions can mitigate social disconnection by offering opportunities for adults to form new social …",
+      "subject": "bioinformatics",
+      "title": "SLIM: A small linear model with STRING embeddings for single-cell genetic perturbation prediction",
+      "body": "Predicting cellular responses to genetic perturbations is central to understanding gene function and prioritizing therapeutic targets, but experimental screens cannot exhaustively cover genes, cell types, and perturbation combinations. Recent benchmarks have shown that simple baselines can match or outperform substanti…",
       "inst": [
-        "eth"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.06.26.734715",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.08.07.743481",
+      "date": "2026-08-07"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Efficient genome editing in the non-human primate brain using programmable extracellular vesicles",
-      "body": "In vivo genome editing holds transformative potential for treating genetic disease, yet the absence of safe, efficient and scalable delivery systems remains a major barrier to clinical translation. While progress has been made in ex vivo and liver-directed editing, delivery to extrahepatic tissues, particularly the cen…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.08.05.741964",
-      "date": "2026-08-06"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "Warming and precipitation change alter flowering phenology and coflowering networks in California serpentine grasslands",
-      "body": "Coflowering, the temporal overlap in flowering among plant species, can influence plant fitness through its effects on heterospecific pollen transfer and competition for pollinators and resources. This temporal overlap is changing as plant species respond differently to climate change. However, difficulties in quantify…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.08.05.743098",
-      "date": "2026-08-06"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Cohesin promotes genomic stability by suppressing unequal sister chromatid exchange",
-      "body": "The protein complex cohesin plays critical roles in genomic stability by tethering together sister chromatids at their pericentric regions and along their arms from S phase until anaphase. Cohesin-mediated pericentric cohesion prevents aneuploidy by ensuring bipolar attachment of sister kinetochores. Arm cohesion preve…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.07.31.742155",
-      "date": "2026-08-06"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "In form for a swarm: programmable neutrophil swarming impacts infection outcome",
-      "body": "Migrating cells often pattern the distribution of chemoattractants to support their accumulation in target tissues. Neutrophil swarming represents a prominent example in which cells engage in coordinated paracrine chemoattractant signalling for rapid clustering at sites of injury or infection. Whether neutrophil swarmi…",
+      "subject": "genomics",
+      "title": "Improved genomic resources for the swordtail cricket, Laupala kohalensis Otte 1994",
+      "body": "Advances in genetic tools such as next and third generation sequencing, paired with a focus on representative clades, provide insight into how processes including adaptation, admixture, and genome structure shape the evolution and maintenance of species. However, our understanding of the genomics of speciation is domin…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2025.12.03.692046",
-      "date": "2026-08-06"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Cohesin loading at regulatory elements shapes 3D genome folding during erythropoiesis",
-      "body": "During erythropoiesis, differentiating cells silence much of the genome while maintaining high expression of select genes. It remains unclear whether this transcriptional specialization is linked to specific changes in 3D genome organization. We generated deep Micro-C maps across human erythropoiesis and identified ery…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.08.02.741886",
-      "date": "2026-08-06"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "A systematic survey of distal element-gene regulatory interactions with Direct-Capture Targeted Perturb-seq",
-      "body": "Identifying the impact of distal regulatory elements on gene expression is a core challenge in human genetics. Large-scale CRISPR screens have not captured lower effect size element-gene interactions due to selection bias and limited statistical power. We developed a framework for highly powered CRISPR screens, consist…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.1101/2025.09.16.676677",
-      "date": "2026-08-06"
+      "doi": "10.64898/2026.06.02.729584",
+      "date": "2026-08-07"
     }
   ]
 }
