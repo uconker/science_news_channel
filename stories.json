@@ -1,5 +1,268 @@
 {
-  "generated_at": "2026-08-14T07:40:04.172206+00:00",
-  "institutions": {},
-  "stories": []
+  "generated_at": "2026-08-16T06:49:43.622935+00:00",
+  "institutions": {
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    }
+  },
+  "stories": [
+    {
+      "id": 0,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Heterogeneous single-cell dynamics support stable population codes for objects in the mouse anterior cingulate cortex",
+      "body": "Remembering object locations is crucial for survival, yet how the anterior cingulate cortex (ACC) encodes spatial features across repeated experiences has not been fully characterized. Using longitudinal calcium imaging in freely moving mice, we tracked excitatory ACC neurons while animals explored objects across multi…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.02.06.704307",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "A novel TRPA1 gain-of-function variant associated with painful sensory neuropathy acts through a PIP2 gating mechanism.",
+      "body": "TRPA1 (transient receptor potential ankyrin 1) is a non-selective, calcium-permeable cation channel that mediates pain by detecting environmental irritants and thermal stimuli. Although the role of TRPA1 in modulating pain perception is relatively well established, so far only a few human TRPA1 variants (N855S and A172…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.13.744390",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "LAMBDA: A Prophage Detection Benchmark for Genomic Language Models",
+      "body": "Transformer-based genomic sequence models represent an emerging frontier in computational biology. Yet, their embeddings have not yet shown the same level of predictive power as natural and protein language models, indicating a gap between current implementations and theoretical promise. Existing benchmarks for DNA lan…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.03.26.714501",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Discrete Inverse Rendering: Biological Image Analysis with Integer Programming",
+      "body": "Biological image and video analysis is full of discrete decisions: whether an object is present, which multi-hypothesis detections are real, whether two detections are tracking the same object, or whether a cell divides or not. Standard pipelines resolve these locally and in sequence, e.g through non-max suppression, p…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.07.23.740284",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "A transgenic zebrafish for spatiotemporal optogenetic activation of FGF/ERK signaling",
+      "body": "Dynamic FGF/ERK signaling plays key roles in development, regeneration, and disease. We recently developed a zebrafish-optimized optogenetic tool, bOpto-FGF, that enables reversible activation of FGF/ERK signaling in response to blue light ([~]455 nm) by fusing a zebrafish receptor tyrosine kinase domain to the blue li…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.05.12.724650",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Learning Discrete Cell and Niche Codes from Spatial Transcriptomics Using Dual Residual Vector Quantization",
+      "body": "Spatially-resolved transcriptomics (SRT) measures gene expression at single-cell resolution while preserving each cell's spatial location, enabling the joint study of cell identity and cellular niche, the recurring microenvironment that organises tissue function. Existing representation-learning methods typically captu…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.08.07.743490",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Cis-regulation and natural selection in the evolution of human DNA methylation",
+      "body": "The vast collection of human-specific traits- such as our unique morphology, cognition, behavior, and diseases- has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis-regulatory elements such as promoters and enhancers may dri…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.01.20.700710",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "plant biology",
+      "title": "The rhizosphere of Picea abies is a hotspot of terpenoid production",
+      "body": "Forest soils are an important source of volatile organic compounds (VOCs), yet little is known about how different tree species influence soil VOC emissions and the role of rhizosphere processes in mediating VOC release form roots. We analysed soil VOC emissions from the soil surface and bulk soil as well as from roots…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.12.744374",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Structural and functional basis of the non-canonical human Dicer-tRNA complex",
+      "body": "Human Dicer (hDicer) is a key enzyme in the RNA interference (RNAi) pathway that generates ~21-22 nt micro-RNA (miRNAs) and small interfering RNAs (siRNAs). We have previously shown that hDicer also generates tRNA-derived small RNAs (tsRNAs), which mediate nuclear gene silencing and regulate hundreds of disease-associa…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.12.744379",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Social and environmental cues mask circadian activity patterns in a highly social shell-dwelling cichlid fish",
+      "body": "Species exhibit variation in their circadian activity rhythms, including being active during the day (diurnal), the night (nocturnal), or the twilight periods (crepuscular). While the influence of environmental factors such as light on entraining and controlling activity patterns is well known, it is unclear how social…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.08.07.741809",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Integrated single-cell profiling of RNA and DNA interactomes reveals targetable chromatin architectures in cancer",
+      "body": "The human genome is pervasively transcribed into protein-coding and regulatory non-coding RNAs whose functions are coordinated within higher-order nuclear architectures. However, direct mapping of RNA-RNA and DNA-DNA interaction networks in complex human tissues at single-cell resolution has remained a major challenge.…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.12.744478",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "PKA can adopt structural or enzymatic roles depending on its anchoring site",
+      "body": "Protein kinase A (PKA) is a central mediator of cAMP signaling whose spatial specificity is conferred by A-kinase anchoring proteins (AKAPs). However, functions of individual anchored PKA pools are difficult to resolve as current approaches cannot isolate anchoring at defined sites. Here, we develop a SpyCatcher-SpyTag…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.08.12.743961",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "2-Hydroxyglutarate Redirects Fatty Acid Partitioning to Mitigate Lipotoxic Stress and Preserve Metabolic Fuel",
+      "body": "The role of 2-hydroxyglutarate in lipid metabolism is currently unknown. Here we show that 2HG redistributes the partitioning of fatty acids into triglyceride storage and away from membrane phospholipid synthesis, mitochondrial oxidation, and lipotoxic intermediates. In primary human cardiac and vascular cells, both en…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.12.744465",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Beyond dual hubs: Task and aging shape taxonomic and thematic semantic relationships in the human brain",
+      "body": "Semantic knowledge about concepts and their relationships is central to human cognition. Taxonomic relationships link concepts belonging to the same category (e.g. dog and bear), while thematic relationships connect concepts co-occurring in the same events (e.g. dog and leash). The dual-hub theory proposes that taxonom…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.02.19.706838",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Simultaneous stomach-brain electrophysiology reveals dynamic coupling in human sleep",
+      "body": "Sleep involves continuous communication between the brain and body, yet the dynamics of peripheral signals during human sleep remain poorly understood. Here we tested whether gastric electrophysiology exhibits infraslow structure and coordinated fluctuations with cortical rhythms indicative of sleep physiology. Simulta…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.1101/2025.11.13.686572",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Tissue spreading reorganises the extracellular matrix to establish the pre-gastrulation avian blastoderm architecture",
+      "body": "Pre-gastrulation vertebrate embryos develop a polarised blastoderm through collective cell spreading (epiboly). The formation and role of this tissue architecture are not well understood. Here, we identify extensive reorganisation of extracellular matrix (ECM) driven by the outward migration of blastoderm edge cells du…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.1101/2025.04.06.647388",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Conformational gating at histidine junctions coordinates proton translocation in respiratory complex I",
+      "body": "Respiratory complex I, a central enzyme in cellular metabolism, converts the free energy of NADH oxidation into a transmembrane proton-motive force to drive ATP synthesis, but the molecular mechanisms by which it couples redox catalysis to vectorial proton translocation remain unresolved. Here, we present high-resoluti…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.08.12.744383",
+      "date": "2026-08-13"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "FlyPredictome: A structural atlas of predicted protein-protein interactions in Drosophila",
+      "body": "Protein-protein interactions (PPIs) are fundamental to cellular function. Yet most Drosophila PPIs remain structurally uncharacterized despite the wealth of genetic and biochemical data available for this organism. Here we present FlyPredictome, a structural interactome based on 1.5 million pairwise AlphaFold-Multimer …",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.04.14.718529",
+      "date": "2026-08-13"
+    }
+  ]
 }
