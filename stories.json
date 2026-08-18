@@ -1,50 +1,40 @@
 {
-  "generated_at": "2026-08-16T06:49:43.622935+00:00",
+  "generated_at": "2026-08-18T06:53:34.786750+00:00",
   "institutions": {
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "ucl": {
       "name": "University College London",
       "lat": 51.52,
       "lon": -0.13
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     }
   },
   "stories": [
@@ -52,217 +42,133 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Heterogeneous single-cell dynamics support stable population codes for objects in the mouse anterior cingulate cortex",
-      "body": "Remembering object locations is crucial for survival, yet how the anterior cingulate cortex (ACC) encodes spatial features across repeated experiences has not been fully characterized. Using longitudinal calcium imaging in freely moving mice, we tracked excitatory ACC neurons while animals explored objects across multi…",
+      "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
+      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity1, yet these do not explain how cortical processing is coupled to prior context and memory formation. Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an on…",
       "inst": [
-        "stanford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.02.06.704307",
-      "date": "2026-08-13"
+      "doi": "10.1101/2025.11.06.686434",
+      "date": "2026-08-16"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "physiology",
-      "title": "A novel TRPA1 gain-of-function variant associated with painful sensory neuropathy acts through a PIP2 gating mechanism.",
-      "body": "TRPA1 (transient receptor potential ankyrin 1) is a non-selective, calcium-permeable cation channel that mediates pain by detecting environmental irritants and thermal stimuli. Although the role of TRPA1 in modulating pain perception is relatively well established, so far only a few human TRPA1 variants (N855S and A172…",
+      "subject": "systems biology",
+      "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
+      "body": "Toll-like receptor (TLR) signaling must be activated rapidly and then terminated to support host defense without sustained inflammation. We developed a rule-based model of mouse macrophage TLR4 signaling at the molecular-interaction level using measured protein copy numbers, RNA-seq-based abundance estimates, literatur…",
       "inst": [
-        "oxford"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.13.744390",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.03.742528",
+      "date": "2026-08-16"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "genomics",
-      "title": "LAMBDA: A Prophage Detection Benchmark for Genomic Language Models",
-      "body": "Transformer-based genomic sequence models represent an emerging frontier in computational biology. Yet, their embeddings have not yet shown the same level of predictive power as natural and protein language models, indicating a gap between current implementations and theoretical promise. Existing benchmarks for DNA lan…",
+      "subject": "neuroscience",
+      "title": "Zapit: Open Source Laser-Scanning Photostimulation For Neuroscience",
+      "body": "Optogenetic tools are indispensable for understanding the causal neural mechanisms underlying animal behavior. Opsins provide millisecond-precision control over genetically defined neural populations, but this is critically dependent on associated hardware and software for targeted light delivery. Optic-fibres are suit…",
       "inst": [
-        "nih"
+        "ucl"
       ],
-      "doi": "10.64898/2026.03.26.714501",
-      "date": "2026-08-13"
+      "doi": "10.1101/2024.02.12.579892",
+      "date": "2026-08-16"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Discrete Inverse Rendering: Biological Image Analysis with Integer Programming",
-      "body": "Biological image and video analysis is full of discrete decisions: whether an object is present, which multi-hypothesis detections are real, whether two detections are tracking the same object, or whether a cell divides or not. Standard pipelines resolve these locally and in sequence, e.g through non-max suppression, p…",
+      "subject": "neuroscience",
+      "title": "Efficient coding makes and breaks Weber's law",
+      "body": "Weber's law is a rare quantitative regularity in psychology, yet its origins remain debated. Here we provide causal evidence that it arises from the more fundamental principle of efficient coding. This principle posits that representational resources are allocated according to stimulus frequencies: distributions skewed…",
       "inst": [
-        "copenhagen"
+        "harvard"
       ],
-      "doi": "10.64898/2026.07.23.740284",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.10.744043",
+      "date": "2026-08-16"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "A transgenic zebrafish for spatiotemporal optogenetic activation of FGF/ERK signaling",
-      "body": "Dynamic FGF/ERK signaling plays key roles in development, regeneration, and disease. We recently developed a zebrafish-optimized optogenetic tool, bOpto-FGF, that enables reversible activation of FGF/ERK signaling in response to blue light ([~]455 nm) by fusing a zebrafish receptor tyrosine kinase domain to the blue li…",
+      "subject": "neuroscience",
+      "title": "Hybrid transcriptome assembly and annotation of Japanese macaque prefrontal cortex",
+      "body": "Japanese macaque (Macaca fuscata) is used in biomedical and neurobiology research, yet transcriptomic resources for the brain are limited. We present a hybrid RNA sequencing dataset and a prefrontal cortex transcriptome assembly from two healthy 6-year-old animals. Short-read Illumina ({approx}70 million paired-end rea…",
       "inst": [
-        "nih"
+        "harvard"
       ],
-      "doi": "10.64898/2026.05.12.724650",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.10.743719",
+      "date": "2026-08-16"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Learning Discrete Cell and Niche Codes from Spatial Transcriptomics Using Dual Residual Vector Quantization",
-      "body": "Spatially-resolved transcriptomics (SRT) measures gene expression at single-cell resolution while preserving each cell's spatial location, enabling the joint study of cell identity and cellular niche, the recurring microenvironment that organises tissue function. Existing representation-learning methods typically captu…",
+      "subject": "neuroscience",
+      "title": "Semaglutide-induced satiation, nausea, and food reward suppression are mediated by GLP-1 receptors in the area postrema",
+      "body": "The GLP-1-based obesity drug semaglutide lowers bodyweight primarily by increasing satiation and satiety, whilst also reducing food reward and commonly causing nausea. The brainstem dorsal vagal complex (DVC) has been identified as a key site of action for these phenotypic components of semaglutide's anorectic effect. …",
       "inst": [
-        "cambridge"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.07.743490",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.10.744052",
+      "date": "2026-08-16"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Cis-regulation and natural selection in the evolution of human DNA methylation",
-      "body": "The vast collection of human-specific traits- such as our unique morphology, cognition, behavior, and diseases- has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis-regulatory elements such as promoters and enhancers may dri…",
+      "subject": "biochemistry",
+      "title": "Location-dependent proteomics of the aorta reveal an atherosclerotic disease gradient shaped by hemodynamics",
+      "body": "Background and aims: Atherosclerotic plaques form preferentially at vascular sites exposed to disturbed blood flow, yet the protein changes underlying this site-specific plaque development remain unclear. Mouse models are widely used to study atherosclerosis but yield only limited amounts of tissue, previously restrict…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.01.20.700710",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.13.744640",
+      "date": "2026-08-15"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "The rhizosphere of Picea abies is a hotspot of terpenoid production",
-      "body": "Forest soils are an important source of volatile organic compounds (VOCs), yet little is known about how different tree species influence soil VOC emissions and the role of rhizosphere processes in mediating VOC release form roots. We analysed soil VOC emissions from the soil surface and bulk soil as well as from roots…",
+      "subject": "developmental biology",
+      "title": "Reciprocal mechanochemical feedback couples neural crest migration and neurulation",
+      "body": "Cephalic neurulation and neural crest migration are defining morphogenetic events of vertebrate head development. Although traditionally viewed as independent tissue-autonomous programs, their striking spatiotemporal overlap suggests functional coupling. Here, we show that these processes are linked by reciprocal mecha…",
       "inst": [
-        "copenhagen"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.12.744374",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.14.744800",
+      "date": "2026-08-15"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Structural and functional basis of the non-canonical human Dicer-tRNA complex",
-      "body": "Human Dicer (hDicer) is a key enzyme in the RNA interference (RNAi) pathway that generates ~21-22 nt micro-RNA (miRNAs) and small interfering RNAs (siRNAs). We have previously shown that hDicer also generates tRNA-derived small RNAs (tsRNAs), which mediate nuclear gene silencing and regulate hundreds of disease-associa…",
+      "subject": "ecology",
+      "title": "PAMalytics: a no-code application for structured validation of bioacoustic detections",
+      "body": "1. Passive acoustic monitoring (PAM) is increasingly used for ecological research, biodiversity monitoring, assessment, and reporting. Automated species classifiers make it feasible to process large audio datasets but generate numerous detections that often need validation before use in downstream analyses or formal ou…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.12.744379",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.14.744822",
+      "date": "2026-08-15"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Social and environmental cues mask circadian activity patterns in a highly social shell-dwelling cichlid fish",
-      "body": "Species exhibit variation in their circadian activity rhythms, including being active during the day (diurnal), the night (nocturnal), or the twilight periods (crepuscular). While the influence of environmental factors such as light on entraining and controlling activity patterns is well known, it is unclear how social…",
+      "subject": "neuroscience",
+      "title": "Integration of steady-state diffusion MRI with Neural Posterior Estimation (NPE) for post-mortem investigations",
+      "body": "Post-mortem diffusion MRI plays a key role in investigative pipelines to characterise tissue microstructure, with long scan times facilitating the acquisition of datasets with improved spatial/angular resolution and reduced artefacts versus in vivo. Diffusion-weighted steady-state free precession (DW-SSFP) has emerged …",
       "inst": [
-        "toronto"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.07.741809",
-      "date": "2026-08-13"
+      "doi": "10.1101/2025.07.08.663685",
+      "date": "2026-08-15"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Integrated single-cell profiling of RNA and DNA interactomes reveals targetable chromatin architectures in cancer",
-      "body": "The human genome is pervasively transcribed into protein-coding and regulatory non-coding RNAs whose functions are coordinated within higher-order nuclear architectures. However, direct mapping of RNA-RNA and DNA-DNA interaction networks in complex human tissues at single-cell resolution has remained a major challenge.…",
+      "subject": "physiology",
+      "title": "Iron export and lipid droplets shield deep-diving elephant seal cells from lipid peroxidation",
+      "body": "Elephant seals are remarkable breath-hold divers, capable of remaining submerged for up to two hours during diving bouts. These dives entail repeated, extreme hypoxia/reoxygenation events that would induce severe lipid peroxidation and tissue dysfunction in most mammals. Here, we show that primary vascular endothelial …",
       "inst": [
-        "harvard"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.08.12.744478",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "PKA can adopt structural or enzymatic roles depending on its anchoring site",
-      "body": "Protein kinase A (PKA) is a central mediator of cAMP signaling whose spatial specificity is conferred by A-kinase anchoring proteins (AKAPs). However, functions of individual anchored PKA pools are difficult to resolve as current approaches cannot isolate anchoring at defined sites. Here, we develop a SpyCatcher-SpyTag…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.08.12.743961",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "2-Hydroxyglutarate Redirects Fatty Acid Partitioning to Mitigate Lipotoxic Stress and Preserve Metabolic Fuel",
-      "body": "The role of 2-hydroxyglutarate in lipid metabolism is currently unknown. Here we show that 2HG redistributes the partitioning of fatty acids into triglyceride storage and away from membrane phospholipid synthesis, mitochondrial oxidation, and lipotoxic intermediates. In primary human cardiac and vascular cells, both en…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.08.12.744465",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Beyond dual hubs: Task and aging shape taxonomic and thematic semantic relationships in the human brain",
-      "body": "Semantic knowledge about concepts and their relationships is central to human cognition. Taxonomic relationships link concepts belonging to the same category (e.g. dog and bear), while thematic relationships connect concepts co-occurring in the same events (e.g. dog and leash). The dual-hub theory proposes that taxonom…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.02.19.706838",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Simultaneous stomach-brain electrophysiology reveals dynamic coupling in human sleep",
-      "body": "Sleep involves continuous communication between the brain and body, yet the dynamics of peripheral signals during human sleep remain poorly understood. Here we tested whether gastric electrophysiology exhibits infraslow structure and coordinated fluctuations with cortical rhythms indicative of sleep physiology. Simulta…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.1101/2025.11.13.686572",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Tissue spreading reorganises the extracellular matrix to establish the pre-gastrulation avian blastoderm architecture",
-      "body": "Pre-gastrulation vertebrate embryos develop a polarised blastoderm through collective cell spreading (epiboly). The formation and role of this tissue architecture are not well understood. Here, we identify extensive reorganisation of extracellular matrix (ECM) driven by the outward migration of blastoderm edge cells du…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.1101/2025.04.06.647388",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Conformational gating at histidine junctions coordinates proton translocation in respiratory complex I",
-      "body": "Respiratory complex I, a central enzyme in cellular metabolism, converts the free energy of NADH oxidation into a transmembrane proton-motive force to drive ATP synthesis, but the molecular mechanisms by which it couples redox catalysis to vectorial proton translocation remain unresolved. Here, we present high-resoluti…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.08.12.744383",
-      "date": "2026-08-13"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "FlyPredictome: A structural atlas of predicted protein-protein interactions in Drosophila",
-      "body": "Protein-protein interactions (PPIs) are fundamental to cellular function. Yet most Drosophila PPIs remain structurally uncharacterized despite the wealth of genetic and biochemical data available for this organism. Here we present FlyPredictome, a structural interactome based on 1.5 million pairwise AlphaFold-Multimer …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.04.14.718529",
-      "date": "2026-08-13"
+      "doi": "10.64898/2026.08.10.744012",
+      "date": "2026-08-15"
     }
   ]
 }
