@@ -1,45 +1,202 @@
 {
-  "generated_at": "2026-08-18T06:53:34.786750+00:00",
+  "generated_at": "2026-08-19T06:53:55.736911+00:00",
   "institutions": {
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Integrated Clinical and Proteomic Precision Subgrouping for Severe Dengue Endotype Signature",
+      "body": "Background: Severe dengue remains difficult to predict because patients with different clinical trajectories may present with overlapping features, and conventional severity classifications may not fully capture underlying biological heterogeneity. In this study, we applied an integrated clinical and proteomic endotypi…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2026.08.13.744720",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Open-source benchmarking of dairy and dairy-free products",
+      "body": "Dairy-free foods must reproduce diverse functions of dairy, from foam stabilization in a latte to acid-gel structure in yogurt and melt--stretch behavior in mozzarella. Public consumer benchmarks rarely compare these categories under a common protocol. Here we analyze data from the NECTAR Taste of the Industry 2026 stu…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.08.14.744929",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Aging disrupts tissue homeostasis and constrains blastema-mediated regeneration in the Cladonema medusa",
+      "body": "Regenerative capacity varies widely across animals, yet aging is often accompanied by declining tissue homeostasis and regenerative potential. In many species, regeneration of complex structures relies on epimorphic programs that form a blastema, coordinating cell proliferation and pattern reorganization after injury. …",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.01.21.700690",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Cryo-EM of a nucleotide-polymerizing ribozyme enables its predictive improvement",
+      "body": "Ribozymes capable of self-replication from nucleotides would have been central to the hypothesized RNA World. The leading laboratory models for such molecules were converted from a class I ligase by in vitro evolution but then developed without 3D structures. Here, scaffolded cryo-EM of the substrate-free tC19Z RNA pol…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.08.14.744467",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Inward and Outward Tethers Read Out the Spontaneous Curvature of Cellular Membranes",
+      "body": "Spontaneous curvature characterizes the propensity of a membrane to bend in a specific direction. It is therefore crucial in the multitude of cellular processes that involve membrane shape remodelling. Yet, experimentally quantifying the spontaneous curvature remains a significant challenge in complex biological membra…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.07.31.742037",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "A contextualised protein language model reveals the functional syntax of bacterial evolution",
+      "body": "Bacteria have evolved a vast diversity of functions and behaviours that are currently incompletely understood and poorly predicted from DNA sequence alone. To understand the syntax of bacterial evolution and discover genome-to-phenotype relationships, we curated over 1.3 million genomes spanning bacterial phylogenetic …",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.1101/2025.07.20.665723",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "plant biology",
+      "title": "SirenScan reveals the conserved presence of siren RNAs and their evolutionary diversification across angiosperms",
+      "body": "Summary Siren RNAs are exceptionally abundant reproductive small interfering RNAs (siRNAs), yet whether they represent a conserved feature of angiosperm reproduction has remained unclear because siren loci lack a standardized definition and identification strategy. We developed SirenScan, a computational framework that…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.08.14.744852",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "synthetic biology",
+      "title": "Evolverator: An engineered yeast system to drive rapid continuous in vivo evolution of proteins",
+      "body": "Continuous in vivo evolution of non-essential proteins requires an engineered link between target protein and host cell fitness, which is difficult to establish and vulnerable to escape mutations. We systematically designed and tested Saccharomyces cerevisiae gene circuits guided by quantitative mathematical models tha…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.1101/2024.09.01.610536",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "Glucose derived redox equivalents preserve PKA activity and glucagon secretion during hypoglycaemia",
+      "body": "The release of glucagon from pancreatic alpha cells is a core component of hypoglycaemic counter regulation. Several mechanisms regulate glucagon release including paracrine control by neighbouring cell types, and changes in extracellular glucose. While the inhibitory effect of glucose on glucagon secretion is well est…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.11.744097",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "EpiBinder: a multimodal framework for cell-type-specific prediction and interpretation of transcription factor binding",
+      "body": "Transcription factor (TF) occupancy in vivo depends not only on the underlying DNA sequence but also on the local epigenetic environment, which varies across cell types and strongly influences whether sequence-encoded binding potential becomes functional. Here we present EpiBinder, a multimodal deep-learning framework …",
+      "inst": [
+        "weizmann"
+      ],
+      "doi": "10.64898/2026.07.06.736502",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Selective quality control of mistargeted mitochondrial proteins at the endoplasmic reticulum",
+      "body": "In eukaryotic cells, the function of each organelle depends on its unique protein composition. Protein targeting errors threaten organelle identity and function, yet how mistargeting errors are detected and resolved remains poorly understood. Here, we show that mitochondrial import stress drives widespread rerouting of…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.10.743879",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 11,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
@@ -51,7 +208,7 @@
       "date": "2026-08-16"
     },
     {
-      "id": 1,
+      "id": 12,
       "cat": "science",
       "subject": "systems biology",
       "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
@@ -63,7 +220,7 @@
       "date": "2026-08-16"
     },
     {
-      "id": 2,
+      "id": 13,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Zapit: Open Source Laser-Scanning Photostimulation For Neuroscience",
@@ -75,7 +232,7 @@
       "date": "2026-08-16"
     },
     {
-      "id": 3,
+      "id": 14,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Efficient coding makes and breaks Weber's law",
@@ -87,7 +244,7 @@
       "date": "2026-08-16"
     },
     {
-      "id": 4,
+      "id": 15,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Hybrid transcriptome assembly and annotation of Japanese macaque prefrontal cortex",
@@ -99,7 +256,7 @@
       "date": "2026-08-16"
     },
     {
-      "id": 5,
+      "id": 16,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Semaglutide-induced satiation, nausea, and food reward suppression are mediated by GLP-1 receptors in the area postrema",
@@ -109,66 +266,6 @@
       ],
       "doi": "10.64898/2026.08.10.744052",
       "date": "2026-08-16"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Location-dependent proteomics of the aorta reveal an atherosclerotic disease gradient shaped by hemodynamics",
-      "body": "Background and aims: Atherosclerotic plaques form preferentially at vascular sites exposed to disturbed blood flow, yet the protein changes underlying this site-specific plaque development remain unclear. Mouse models are widely used to study atherosclerosis but yield only limited amounts of tissue, previously restrict…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.08.13.744640",
-      "date": "2026-08-15"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Reciprocal mechanochemical feedback couples neural crest migration and neurulation",
-      "body": "Cephalic neurulation and neural crest migration are defining morphogenetic events of vertebrate head development. Although traditionally viewed as independent tissue-autonomous programs, their striking spatiotemporal overlap suggests functional coupling. Here, we show that these processes are linked by reciprocal mecha…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.08.14.744800",
-      "date": "2026-08-15"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "PAMalytics: a no-code application for structured validation of bioacoustic detections",
-      "body": "1. Passive acoustic monitoring (PAM) is increasingly used for ecological research, biodiversity monitoring, assessment, and reporting. Automated species classifiers make it feasible to process large audio datasets but generate numerous detections that often need validation before use in downstream analyses or formal ou…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.08.14.744822",
-      "date": "2026-08-15"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Integration of steady-state diffusion MRI with Neural Posterior Estimation (NPE) for post-mortem investigations",
-      "body": "Post-mortem diffusion MRI plays a key role in investigative pipelines to characterise tissue microstructure, with long scan times facilitating the acquisition of datasets with improved spatial/angular resolution and reduced artefacts versus in vivo. Diffusion-weighted steady-state free precession (DW-SSFP) has emerged …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.1101/2025.07.08.663685",
-      "date": "2026-08-15"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Iron export and lipid droplets shield deep-diving elephant seal cells from lipid peroxidation",
-      "body": "Elephant seals are remarkable breath-hold divers, capable of remaining submerged for up to two hours during diving bouts. These dives entail repeated, extreme hypoxia/reoxygenation events that would induce severe lipid peroxidation and tissue dysfunction in most mammals. Here, we show that primary vascular endothelial …",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.08.10.744012",
-      "date": "2026-08-15"
     }
   ]
 }
