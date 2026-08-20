@@ -1,50 +1,10 @@
 {
-  "generated_at": "2026-08-19T06:53:55.736911+00:00",
+  "generated_at": "2026-08-20T06:56:18.660454+00:00",
   "institutions": {
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
     "nih": {
       "name": "NIH, Bethesda",
       "lat": 39.0,
       "lon": -77.1
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
     },
     "oxford": {
       "name": "University of Oxford",
@@ -56,10 +16,50 @@
       "lat": 52.2,
       "lon": 0.12
     },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
@@ -68,7 +68,7 @@
       "cat": "science",
       "subject": "systems biology",
       "title": "Integrated Clinical and Proteomic Precision Subgrouping for Severe Dengue Endotype Signature",
-      "body": "Background: Severe dengue remains difficult to predict because patients with different clinical trajectories may present with overlapping features, and conventional severity classifications may not fully capture underlying biological heterogeneity. In this study, we applied an integrated clinical and proteomic endotypi…",
+      "body": "BackgroundSevere dengue remains difficult to predict because patients with different clinical trajectories may present with overlapping features, and conventional severity classifications may not fully capture underlying biological heterogeneity. In this study, we applied an integrated clinical and proteomic endotyping…",
       "inst": [
         "karolinska"
       ],
@@ -80,7 +80,7 @@
       "cat": "science",
       "subject": "bioengineering",
       "title": "Open-source benchmarking of dairy and dairy-free products",
-      "body": "Dairy-free foods must reproduce diverse functions of dairy, from foam stabilization in a latte to acid-gel structure in yogurt and melt--stretch behavior in mozzarella. Public consumer benchmarks rarely compare these categories under a common protocol. Here we analyze data from the NECTAR Taste of the Industry 2026 stu…",
+      "body": "Dairy-free foods must reproduce diverse functions of dairy, from foam stabilization in a latte to acid-gel structure in yogurt and melt-stretch behavior in mozzarella. Public consumer benchmarks rarely compare these categories under a common protocol. Here we analyze data from the NECTAR Taste of the Industry 2026 stud…",
       "inst": [
         "stanford"
       ],
@@ -140,7 +140,7 @@
       "cat": "science",
       "subject": "plant biology",
       "title": "SirenScan reveals the conserved presence of siren RNAs and their evolutionary diversification across angiosperms",
-      "body": "Summary Siren RNAs are exceptionally abundant reproductive small interfering RNAs (siRNAs), yet whether they represent a conserved feature of angiosperm reproduction has remained unclear because siren loci lack a standardized definition and identification strategy. We developed SirenScan, a computational framework that…",
+      "body": "O_LISiren RNAs are exceptionally abundant reproductive small interfering RNAs (siRNAs), yet whether they represent a conserved feature of angiosperm reproduction has remained unclear because siren loci lack a standardized definition and identification strategy.\nC_LIO_LIWe developed SirenScan, a computational framework …",
       "inst": [
         "mpi_generic"
       ],
@@ -198,74 +198,98 @@
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
-      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity1, yet these do not explain how cortical processing is coupled to prior context and memory formation. Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an on…",
+      "subject": "biochemistry",
+      "title": "Repurposing UBE2W for programmable protein ubiquitylation",
+      "body": "Deciphering the ubiquitin code requires homogenous, site-specifically ubiquitylated proteins, yet access to such conjugates remains a major challenge. Existing approaches are often constrained by low yields, harsh reaction conditions, engineered recognition motifs or non-native linkage architectures. Here, we present U…",
       "inst": [
-        "tokyo"
+        "eth"
       ],
-      "doi": "10.1101/2025.11.06.686434",
-      "date": "2026-08-16"
+      "doi": "10.1101/2025.09.22.676137",
+      "date": "2026-08-17"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Quantitative Modeling of TLR Signaling Reveals Missing Negative Feedback Guiding Identification of TANK-IKKε Checkpoint",
-      "body": "Toll-like receptor (TLR) signaling must be activated rapidly and then terminated to support host defense without sustained inflammation. We developed a rule-based model of mouse macrophage TLR4 signaling at the molecular-interaction level using measured protein copy numbers, RNA-seq-based abundance estimates, literatur…",
+      "subject": "molecular biology",
+      "title": "Molecular basis of mitochondrial leucine transport by human Sideroflexin 1",
+      "body": "Leucine is a central nutrient signal and a ketogenic amino acid that fuels metabolism, yet how it is imported into mitochondria remains incompletely defined. Sideroflexins are conserved inner mitochondrial membrane proteins implicated in amino acid transport, but their mechanism and substrate specificity remain unclear…",
       "inst": [
-        "nih"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.03.742528",
-      "date": "2026-08-16"
+      "doi": "10.64898/2026.06.18.732944",
+      "date": "2026-08-17"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Zapit: Open Source Laser-Scanning Photostimulation For Neuroscience",
-      "body": "Optogenetic tools are indispensable for understanding the causal neural mechanisms underlying animal behavior. Opsins provide millisecond-precision control over genetically defined neural populations, but this is critically dependent on associated hardware and software for targeted light delivery. Optic-fibres are suit…",
+      "subject": "bioinformatics",
+      "title": "Long-Read epigenetic clocks identify improved brain aging predictions",
+      "body": "Epigenetic clocks are widely used to estimate biological aging, yet most are built from array-based data from peripheral tissues of predominantly European-ancestry individuals, limiting their generalizability. Here, we present aging clocks on DNA methylation from Oxford Nanopore long-read sequencing (LRS), leveraging o…",
       "inst": [
-        "ucl"
+        "nih"
       ],
-      "doi": "10.1101/2024.02.12.579892",
-      "date": "2026-08-16"
+      "doi": "10.1101/2025.09.30.679553",
+      "date": "2026-08-17"
     },
     {
       "id": 14,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Efficient coding makes and breaks Weber's law",
-      "body": "Weber's law is a rare quantitative regularity in psychology, yet its origins remain debated. Here we provide causal evidence that it arises from the more fundamental principle of efficient coding. This principle posits that representational resources are allocated according to stimulus frequencies: distributions skewed…",
+      "title": "Vectorial efference copy and visuomotor transformation through gap junctions",
+      "body": "Distinguishing visual input generated by active eye movements from input due to external events is a fundamental challenge for visual processing. Here, we uncover a remarkably simple solution to this problem for spontaneous gaze shifts in the fruit fly, Drosophila melanogaster. We discovered that the motor neurons inne…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.10.744043",
-      "date": "2026-08-16"
+      "doi": "10.64898/2026.08.11.744090",
+      "date": "2026-08-17"
     },
     {
       "id": 15,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Hybrid transcriptome assembly and annotation of Japanese macaque prefrontal cortex",
-      "body": "Japanese macaque (Macaca fuscata) is used in biomedical and neurobiology research, yet transcriptomic resources for the brain are limited. We present a hybrid RNA sequencing dataset and a prefrontal cortex transcriptome assembly from two healthy 6-year-old animals. Short-read Illumina ({approx}70 million paired-end rea…",
+      "title": "Nucleus reuniens is organised as parallel circuits rather than a prefrontal-hippocampal relay",
+      "body": "Interactions between the prefrontal cortex (PFC) and hippocampus (HPC) are crucial for flexible and memory guided behaviour. Because there are no direct projections from PFC to HPC, it is widely presumed that information is shared through a disynaptic projection via the nucleus reuniens (nRE), a ventral midline thalami…",
       "inst": [
-        "harvard"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.10.743719",
-      "date": "2026-08-16"
+      "doi": "10.64898/2026.08.11.744129",
+      "date": "2026-08-17"
     },
     {
       "id": 16,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Semaglutide-induced satiation, nausea, and food reward suppression are mediated by GLP-1 receptors in the area postrema",
-      "body": "The GLP-1-based obesity drug semaglutide lowers bodyweight primarily by increasing satiation and satiety, whilst also reducing food reward and commonly causing nausea. The brainstem dorsal vagal complex (DVC) has been identified as a key site of action for these phenotypic components of semaglutide's anorectic effect. …",
+      "title": "A stimulus-state geometry in somatosensory cortex reorganizes during inflammatory pain",
+      "body": "Adaptive behavior requires external input to be interpreted together with internal state and ongoing behavior. During pain, noxious somatosensory input evokes movement and arousal, and injury reshapes this relationship, yet how cortical activity organizes stimulus content with behavioral state remains unclear. In awake…",
       "inst": [
         "ucl"
       ],
-      "doi": "10.64898/2026.08.10.744052",
-      "date": "2026-08-16"
+      "doi": "10.64898/2026.08.11.744145",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Structural Definition of Neutralizing Epitopes within and around the HKU1 Receptor-binding Site Reveals Cell Context-Dependent Neutralization",
+      "body": "Endemic human coronaviruses (HCoVs), such as HCoV-HKU1, account for [~]30% of common colds each year and can cause serious upper and lower respiratory infections, yet no licensed vaccines or therapeutic antibodies target HCoVs. Despite being endemic to the human population, little is known about the antigenic landscape…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2025.10.29.685445",
+      "date": "2026-08-17"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Deep-tissue mechanosensation emerges from the interaction of external force and internal tissue state",
+      "body": "Muscle sensation is often considered in terms of proprioception, but muscle pain illustrates that other types of sensory neurons are also involved. Here, we show that trigeminal neurons innervating the masseter muscle fall into three classes: A{beta} low-threshold mechanoreceptors, A{delta} high-threshold mechanorecept…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.08.11.744238",
+      "date": "2026-08-17"
     }
   ]
 }
