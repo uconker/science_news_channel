@@ -1,65 +1,45 @@
 {
-  "generated_at": "2026-08-21T06:56:56.708176+00:00",
+  "generated_at": "2026-08-22T06:49:45.879852+00:00",
   "institutions": {
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "weizmann": {
       "name": "Weizmann Institute of Science",
       "lat": 31.91,
       "lon": 34.81
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
@@ -67,50 +47,49 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Cross-Species BAC Transgenesis Reveals Long-Range Regulation Drives Variation in Brain Oxytocin Receptor Expression and Social Behaviors",
-      "body": "Although oxytocin (OXT) exhibits a highly conserved neuroanatomical pattern among vertebrates, the distribution of OXT receptor (OXTR) in brain varies considerably across species and is associated with species-typical social behavior. To investigate the genomic basis of the phylogenetic plasticity in brain Oxtr express…",
+      "title": "Molecular logic of pheromone recognition enables rational design of insect behavior modulators",
+      "body": "Reproductive success across animal taxa relies on the unequivocal identification of volatile chemical cues used for sexual communication. These chemical signals, called pheromones, are often structurally nearly identical, sometimes differing only by the oxidation state of a functional group, yet elicit vastly different…",
       "inst": [
-        "tokyo",
-        "riken"
+        "harvard"
       ],
-      "doi": "10.1101/2022.12.01.518660",
-      "date": "2026-08-18"
+      "doi": "10.1101/2025.05.30.657074",
+      "date": "2026-08-21"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Modality-chain reasoning enables multimodal protein modelling and design",
-      "body": "Reasoning has emerged as a central capability of large language models, yet how it should be formulated for scientific foundation models remains unclear because scientific knowledge is distributed across interdependent, domain-specific representations. Here we introduce modality-chain reasoning, which organizes represe…",
+      "subject": "neuroscience",
+      "title": "Modelling Metacognition: A Joint Prediction-Confidence Model for Predictive Inference Task Data",
+      "body": "Metacognition is the ability to reflect on and evaluate our own cognitive processes. It is often altered in psychopathology. Yet, the computational mechanisms underlying these alterations remain unclear. In this work, we extend Hierarchical Gaussian Filter (HGF) models to jointly fit trial-by-trial predictions and conf…",
       "inst": [
-        "stanford"
+        "eth"
       ],
-      "doi": "10.1101/2025.07.21.665832",
-      "date": "2026-08-18"
+      "doi": "10.64898/2026.08.14.744790",
+      "date": "2026-08-21"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "SAR11 Genome Atlas: a genome and gene catalog for functional profiling of the most abundant bacterial clade in the ocean",
-      "body": "The SAR11 clade, also known as the order Candidatus Pelagibacterales, is among the most abundant bacterial lineages in the ocean and plays central roles in marine biogeochemical cycles. However, many SAR11 genes remain functionally uncharacterized, highlighting the need for a comprehensive, integrated catalog that supp…",
+      "subject": "neuroscience",
+      "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
+      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity, yet these do not explain how cortical processing is coupled to prior context and memory formation, Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an onl…",
       "inst": [
         "tokyo"
       ],
-      "doi": "10.64898/2026.08.15.744057",
-      "date": "2026-08-18"
+      "doi": "10.1101/2025.11.06.686434",
+      "date": "2026-08-21"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Stereoselective Covalent Inhibitor of the Ovarian Cancer-Driving Transcription Factor PAX8",
-      "body": "Transcription factors remain among the most challenging therapeutic targets in part because they lack well-defined ligandable binding pockets. We recently showed that aberrantly reactive cysteines in transcription factors can be directly targeted with electrophilic small molecules to induce selective transcription fact…",
+      "subject": "cell biology",
+      "title": "WITHDRAWN: Oligodendroglia as functional effectors of Multiple Sclerosis risk variants",
+      "body": "Multiple sclerosis (MS) is a neuroinflammatory disease for which a large number of non-coding single nucleotide polymorphisms (SNPs) have been associated with disease risk/susceptibility. Immune cells have been suggested as the principal functional effector cell types of these common variants. Here, we identify 76 MS-a…",
       "inst": [
-        "berkeley"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.08.15.745031",
-      "date": "2026-08-18"
+      "doi": "10.1101/2025.11.11.687640",
+      "date": "2026-08-21"
     },
     {
       "id": 4,
@@ -122,151 +101,43 @@
         "weizmann"
       ],
       "doi": "10.64898/2026.08.13.744412",
-      "date": "2026-08-18"
+      "date": "2026-08-21"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A longitudinal fNIRS hyperscanning dataset of same generation and intergenerational relationship development and collaboration",
-      "body": "Social disconnection (i.e., loneliness and social isolation) poses a severe risk to health and is particularly prevalent among older adults. Qualitative and behavioural evidence suggests that intergenerational social interactions can mitigate social disconnection by offering opportunities for adults to form new social …",
+      "subject": "physiology",
+      "title": "Glucose derived redox equivalents preserve PKA activity and glucagon secretion during hypoglycaemia",
+      "body": "The release of glucagon from pancreatic alpha cells is a core component of hypoglycaemic counter regulation. Several mechanisms regulate glucagon release including paracrine control by neighbouring cell types, and changes in extracellular glucose. While the inhibitory effect of glucose on glucagon secretion is well est…",
       "inst": [
-        "eth"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.06.26.734715",
-      "date": "2026-08-18"
+      "doi": "10.64898/2026.08.11.744097",
+      "date": "2026-08-20"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Probing intracellular physical environments by rotational and translational single-particle tracking",
-      "body": "Single-particle tracking is widely used to probe nanoscale dynamics in biological systems, yet most approaches rely exclusively on translational motion, overlooking rotational dynamics that offer complementary information about the local physical environment. Here, we present a simultaneous rotational and translational…",
+      "subject": "plant biology",
+      "title": "C4 photosynthetic pathway fluxes in transgenic rice plants",
+      "body": "Most land plants photosynthesize using the C3 pathway, in which ribulose bisphosphate carboxylase/oxygenase (Rubisco) fixes CO2 into 3-carbon acids. The C4 pathway, a biochemical CO2-concentrating mechanism that operates in the context of specialized leaf anatomy to concentrate CO2 around Rubisco, is more efficient. In…",
       "inst": [
         "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.14.744592",
-      "date": "2026-08-18"
+      "doi": "10.64898/2026.05.28.728371",
+      "date": "2026-08-20"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Integrin diversity enables dynamic adhesion control in a homeostatic epithelium",
-      "body": "Homeostatic epithelia must balance stem cell maintenance, progenitor differentiation, and clearance of damaged cells while preserving barrier integrity. We investigated how integrin- ECM adhesion is regulated in the Drosophila midgut, a homeostatic epithelium with basal stem cells. The midgut expresses two beta integri…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.08.13.744583",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Spindle scaling promotes adaptation to polyploidy",
-      "body": "How the cell division machinery adapts to increases in genome copy number (ploidy) remains an open question with implications for evolution and cancer. Using Xenopus egg extracts and species spanning 2N to 12N ploidy, we found that stepwise increases in ploidy drove spindle multipolarity, accompanied by larger spindles…",
+      "subject": "physiology",
+      "title": "Iron export and lipid droplets shield deep-diving elephant seal cells from lipid peroxidation",
+      "body": "Elephant seals are remarkable breath-hold divers, capable of remaining submerged for up to two hours during diving bouts. These dives entail repeated, extreme hypoxia/reoxygenation events that would induce severe lipid peroxidation and tissue dysfunction in most mammals. Here, we show that primary vascular endothelial …",
       "inst": [
         "berkeley"
       ],
-      "doi": "10.64898/2026.08.17.745319",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "The Friendship Paradox across animal social systems is governed by network structure and biological features",
-      "body": "A population's social structure, often represented as a social network, shapes fundamental biological processes including the spread of disease, information, and behaviour. The 'Friendship Paradox' is a network phenomenon whereby the average individual has fewer 'friends' than their 'friends' do. This effect can be qua…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.03.24.713537",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "Deep learning localizes focal biology implicated in therapeutic resistance within routine histology",
-      "body": "Precision oncology lacks scalable methods to identify the mechanisms that mediate therapeutic resistance for individual patients. Resistance often arises from focal cellular niches that are obscured by bulk profiling and costly to resolve with multi-omics. Here, we show that deep learning (DL), applied to routine histo…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.05.05.723013",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Reduced entropy of subthalamic beta bursts predicts freezing of gait in Parkinson's disease",
-      "body": "Background: Freezing of gait (FOG) in Parkinson's disease is associated with abnormal beta activity in the subthalamic nucleus (STN), but the temporal structure of burst dynamics remains poorly understood. Objectives: To determine whether temporal features of STN beta bursts distinguish pre-freeze from stable gait and …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.13.744293",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Stereoselective Covalent Inhibitor of the Ovarian Cancer-Driving Transcription Factor PAX8",
-      "body": "Transcription factors remain among the most challenging therapeutic targets in part because they lack well-defined ligandable binding pockets. We recently showed that aberrantly reactive cysteines in transcription factors can be directly targeted with electrophilic small molecules to induce selective transcription fact…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.08.15.745031",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Daily Bowel Movements are Associated with Stronger Gut-Brain Phase-Amplitude Coupling and Better Cognitive Performance",
-      "body": "Gut-brain communication has emerged as a rapidly expanding field of research, with recent electrophysiological studies revealing rhythmic gut-brain coupling between gastric activity and brain oscillations in humans. Gut motility is a key determinant of gastrointestinal function, but it remains unclear whether individua…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.08.13.744397",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Celldega: Integrated Toolkit for Visualization and Analysis of Spatial Data",
-      "body": "Spatial-transcriptomics integrates high-dimensional single-cell data with microscopy to reveal cellular states, communication, and tissue organization. Analyzing this data requires a combination of multi-modal data processing, high-dimensional data analysis, spatial analysis, and integrated visualization. However, comp…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.08.13.744672",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "pathology",
-      "title": "3D printing and deep learning enable holistic and dynamic analyses of tens of thousands of parasites infecting hundreds of genotypes",
-      "body": "Host-parasite interactions are dynamic systems, where parasites usually outnumber hosts by one or more orders of magnitude. However, our understanding is often limited by the assessment of parts of the host, at arbitrary time points, and/or aggregate parasite responses. Here we combined custom-built 3D-printed hardware…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.08.13.744426",
-      "date": "2026-08-18"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Coordinated behavioural and neural variability in hippocampal reward coding",
-      "body": "An environment can be interpreted in multiple ways, with implications for behaviour and neural representations and for revision in these when circumstances change. Using two-photon calcium imaging in mouse CA1 during navigation under structured reward-location uncertainty, we found correlations between variability in a…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.08.13.744587",
-      "date": "2026-08-18"
+      "doi": "10.64898/2026.08.10.744012",
+      "date": "2026-08-19"
     }
   ]
 }
