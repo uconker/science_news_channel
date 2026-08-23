@@ -330,6 +330,7 @@ California Institute of Technology
 California Institute of Technology, Howard Hughes Medical institute
 Caltech
 Cancer Research Center of Lille  - Universite de Lille
+Cancer Research Horizons
 Cannamatrix Inc.
 Cardiff University
 Carl Zeiss Microscopy LLC
@@ -429,6 +430,7 @@ Department of Biotechnology, University of Kashmir, Srinagar, Jammu and Kashmir 
 Department of Blood Transfusion Medicine, Nara Medical University, Kashihara, Nara, Japan.
 Department of Cancer Systems Imaging, The University of Texas MD Anderson Cancer Center, 1515 Holcombe Blvd., Houston, TX 77030, USA
 Department of Cardiology, Internal Medicine I, Justus Liebig University, 35392 Giessen, Germany
+Department of Cell Biology, Yale University School of Medicine, New Haven, CT, USA; Department of Molecular Biology and Biochemistry, Yale University, New Haven
 Department of Chemistry and Industrial Chemistry, University of Pisa, Pisa, Italy
 Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, USA and Department of Physics, University of Texas at Austin, Austin, Texas 78712,
 Department of Clinical Sciences, Faculty of Veterinary Medicine, Utrecht University, Utrecht, The Netherlands
@@ -643,6 +645,7 @@ Institute for Molecular Bioscience, The University of Queensland
 Institute for Molecular Medicine Finland, HiLIFE, University of Helsinki, Helsinki, Finland; Minerva Foundation Institute for Medical Research, Helsinki, Finlan
 Institute for Molecular Medicine Mainz, University Medical Center of the Johannes Gutenberg University Mainz, Mainz, Germany
 Institute for Ocean Engineering, Shenzhen International Graduate School, Tsinghua University
+Institute for Ophthalmic Research
 Institute for Systems Genetics and Department of Biochemistry and Molecular Pharmacology, New York University School of Medicine, New York, NY, USA
 Institute of Agrobiological Sciences, NARO
 Institute of Analytical Chemistry, University of Vienna, Vienna, Austria
@@ -695,6 +698,7 @@ Israel Oceanographic and Limnological Research
 Istituto Nazionale Genetica Molecolare
 Iwate University
 JAWAHARLAL NEHRU UNIVERSITY
+Jagiellonian University
 Japan Institute for Health Security
 Jashore University of Science and Technology
 Jawaharlal Nehru Centre for Advanced Scientific Research
@@ -705,6 +709,7 @@ Jingzhou Hospital Affiliated to Yangtze University
 Johannes Gutenberg University of Mainz
 John Innes Centre
 Johns Hopkins University
+Johns Hopkins University School of Medicine
 Jonah Ventures
 Justus Liebig University Giessen
 KAUST
@@ -748,6 +753,7 @@ Large Pelagics Research Center
 Leibniz Institute for Working Environment and Human Factors
 Leibniz Institute of Polymer Research Dresden
 Leibniz Institute on Aging, Fritz Lipmann Institute (FLI), Jena, Germany
+Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany
 Leiden University
 Leiden University Medical Center
 Leipzig University

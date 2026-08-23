@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-08-22T06:49:45.879852+00:00",
+  "generated_at": "2026-08-23T06:50:44.687052+00:00",
   "institutions": {
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
     "weizmann": {
       "name": "Weizmann Institute of Science",
       "lat": 31.91,
       "lon": 34.81
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
@@ -106,6 +106,42 @@
     {
       "id": 5,
       "cat": "science",
+      "subject": "neuroscience",
+      "title": "Population-scale subcellular proteomics reveals intracellular remodelling across the Alzheimer's disease-resilience spectrum",
+      "body": "Proteome-wide analyses of human tissue have transformed our understanding of disease, but provide limited insight into protein localisation, a functionally informative dimension of the proteome. In Alzheimer's disease, amyloid-{beta} and tau exhibit aberrant localisation, yet whether spatial reorganisation extends prot…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.20.746004",
+      "date": "2026-08-21"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Reduced entropy of subthalamic beta bursts predicts freezing of gait in Parkinsons disease",
+      "body": "BackgroundFreezing of gait (FOG) in Parkinsons disease is associated with abnormal beta activity in the subthalamic nucleus (STN), but the temporal structure of burst dynamics remains poorly understood.\n\nObjectivesTo determine whether temporal features of STN beta bursts distinguish pre-freeze from stable gait and pred…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.13.744293",
+      "date": "2026-08-21"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A longitudinal fNIRS hyperscanning dataset of same generation and intergenerational relationship development and collaboration",
+      "body": "Social disconnection (i.e., loneliness and social isolation) poses a severe risk to health and is particularly prevalent among older adults. Qualitative and behavioural evidence suggests that intergenerational social interactions can mitigate social disconnection by offering opportunities for adults to form new social …",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.06.26.734715",
+      "date": "2026-08-21"
+    },
+    {
+      "id": 8,
+      "cat": "science",
       "subject": "physiology",
       "title": "Glucose derived redox equivalents preserve PKA activity and glucagon secretion during hypoglycaemia",
       "body": "The release of glucagon from pancreatic alpha cells is a core component of hypoglycaemic counter regulation. Several mechanisms regulate glucagon release including paracrine control by neighbouring cell types, and changes in extracellular glucose. While the inhibitory effect of glucose on glucagon secretion is well est…",
@@ -116,7 +152,7 @@
       "date": "2026-08-20"
     },
     {
-      "id": 6,
+      "id": 9,
       "cat": "science",
       "subject": "plant biology",
       "title": "C4 photosynthetic pathway fluxes in transgenic rice plants",
@@ -126,18 +162,6 @@
       ],
       "doi": "10.64898/2026.05.28.728371",
       "date": "2026-08-20"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Iron export and lipid droplets shield deep-diving elephant seal cells from lipid peroxidation",
-      "body": "Elephant seals are remarkable breath-hold divers, capable of remaining submerged for up to two hours during diving bouts. These dives entail repeated, extreme hypoxia/reoxygenation events that would induce severe lipid peroxidation and tissue dysfunction in most mammals. Here, we show that primary vascular endothelial …",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.08.10.744012",
-      "date": "2026-08-19"
     }
   ]
 }
