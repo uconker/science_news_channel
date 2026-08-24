@@ -258,9 +258,11 @@ Astex Pharmaceuticals
 Auburn University
 Austalian Insitute of Marine Science
 Australian Synchrotron, Monash University
+Austrian Academy of Sciences
 BC Cancer
 BITS, Pilani, Hyderabad Campus, Telangana, India
 BRIC-Centre for DNA Fingerprinting and Diagnostics
+BRiGHT, Technical University of Denmark, Kgs. Lyngby, Denmark
 BTI/Cornell University
 Baillie Gifford Pandemic Science Hub, Centre for Inflammation Research, Institute for Regeneration and Repair, The University of Edinburgh, Edinburgh, EH16 4UU,
 Bangladesh Agricultural University
@@ -276,6 +278,7 @@ Ben-Gurion Univeristy of the Negev, Beer-Sheva, Israel
 Berlin Institute for Medical Systems Biology (MDC-BIMSB)
 Berlin Institute for Medical Systems Biology, Max Delbrueck Center for Molecular Medicine in the Helmholtz Association, Berlin, Germany
 Bernhard Nocht Institute for Tropical Medicine
+Better Dairy Ltd
 Bielefeld University, Bielefeld, Germany
 BioMed X
 Bioeconomy Science Institute
@@ -631,6 +634,7 @@ Institución Universitaria Colegio Mayor de Antioquia: Institucion Universitaria
 Institut Curie, INSERM U1331, Mines Paris, PSL University, Paris, France
 Institut Curie, PSL Research University, CNRS UMR3215, INSERM U934, F-75248 Paris Cedex 05, France
 Institut Europeen de Chimie et Biologie
+Institut Jacques Monod
 Institut Pasteur
 Institut Pasteur de Montevideo
 Institut de Biologie Integrative de la Cellule (I2BC) -CNRS
@@ -696,6 +700,7 @@ Iowa State University,
 Islamic Azad University Science and Research Branch Faculty of Veterinary Sciences
 Israel Oceanographic and Limnological Research
 Istituto Nazionale Genetica Molecolare
+Istituto Superiore di Sanita
 Iwate University
 JAWAHARLAL NEHRU UNIVERSITY
 Jagiellonian University
@@ -835,6 +840,7 @@ National University of Singapore
 National and Kapodistrian University of Athens
 Natural History Museum Vienna, Central Research Labs, Burgring 7, 1010 Vienna, Austria
 Nature Conservation Foundation
+NeuroSpin, Paris-Saclay University, CEA, Joliot Institute, NeuroSpin-UNIACT / Paris Cite University, INSERM, U1141 NeuroDiderot, IndeV team
 Neurobiology Research Unit, Copenhagen University Hospital Rigshospitalet
 Neurobiology and Genetics, University of Würzburg, Biocenter, Theodor-Boveri-Institute, Am Hubland, 97074 Würzburg, Germany
 Neurozon
@@ -974,6 +980,7 @@ Soochow University
 Sorbonne Universite, INSERM, Institut de Myologie, Centre de Recherche en Myologie
 Sorbonne University, CNRS, INSERM, Inbstitut de Biologie Paris Seine (IBPS), Center for Neuroscience at Sorbonne University (NeuroSU)
 South China Normal University
+Southern Illinois University
 St Vincent's Centre for Applied Medical Research
 St Vincent's Institute of Medical Research
 St. Francis Xavier University
@@ -1066,6 +1073,7 @@ UMR7179 MECADEV CNRS/MNHN
 UNC Chapel Hill
 UNITO
 UNIVERSITY OF DELAWARE
+UNIVERSITY OF MADRAS
 UNIVERSITY OF RHODE ISLAND
 USC
 USDA-ARS
@@ -1287,7 +1295,9 @@ University of St Andrews
 University of Stavanger, Richard Johnsensgate 4, 4021 Stavanger, Norway
 University of Stirling
 University of Strathclyde
+University of Surrey
 University of Sussex
+University of Sydney
 University of Tartu
 University of Tennessee Knoxville
 University of Texas At Dallas

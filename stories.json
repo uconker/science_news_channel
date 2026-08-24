@@ -1,45 +1,50 @@
 {
-  "generated_at": "2026-08-23T06:50:44.687052+00:00",
+  "generated_at": "2026-08-24T07:08:52.998029+00:00",
   "institutions": {
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
     },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
@@ -72,7 +77,7 @@
       "cat": "science",
       "subject": "neuroscience",
       "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
-      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity, yet these do not explain how cortical processing is coupled to prior context and memory formation, Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an onl…",
+      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity, yet these do not explain how cortical processing is coupled to prior context and memory formation. Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an onl…",
       "inst": [
         "tokyo"
       ],
@@ -142,26 +147,50 @@
     {
       "id": 8,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Glucose derived redox equivalents preserve PKA activity and glucagon secretion during hypoglycaemia",
-      "body": "The release of glucagon from pancreatic alpha cells is a core component of hypoglycaemic counter regulation. Several mechanisms regulate glucagon release including paracrine control by neighbouring cell types, and changes in extracellular glucose. While the inhibitory effect of glucose on glucagon secretion is well est…",
+      "subject": "cell biology",
+      "title": "Clathrin differentially adapts its trimerisation domain during mammalian evolution to traffic the insulin-responsive GLUT4 glucose transporter.",
+      "body": "In humans, the CHC22 isoform of clathrin regulates glucose metabolism by trafficking the GLUT4 glucose transporter for intracellular storage in skeletal muscle and release following insulin signalling. Some vertebrate lineages have lost the gene encoding CHC22 but operate the same insulin-stimulated GLUT4 expression pa…",
       "inst": [
-        "copenhagen"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.11.744097",
-      "date": "2026-08-20"
+      "doi": "10.64898/2026.08.20.745084",
+      "date": "2026-08-21"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "C4 photosynthetic pathway fluxes in transgenic rice plants",
-      "body": "Most land plants photosynthesize using the C3 pathway, in which ribulose bisphosphate carboxylase/oxygenase (Rubisco) fixes CO2 into 3-carbon acids. The C4 pathway, a biochemical CO2-concentrating mechanism that operates in the context of specialized leaf anatomy to concentrate CO2 around Rubisco, is more efficient. In…",
+      "subject": "animal behavior and cognition",
+      "title": "An inductive bias for generalization in mouse olfactory learning",
+      "body": "Animals must generalize from limited experience, yet behavioral experiments in the laboratory setting rarely assess whether or how rapidly they generalize. This contrasts with machine learning systems, where generalization is considered a fundamental test of learning, and emphasizes performance evaluation with new in-d…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.05.28.728371",
-      "date": "2026-08-20"
+      "doi": "10.64898/2026.08.17.745288",
+      "date": "2026-08-21"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "synthetic biology",
+      "title": "Synthetic genome expansion reveals a transcriptional constraint on genome size",
+      "body": "Genome size varies widely across eukaryotes, largely because of differences in non-coding DNA, but the physiological consequences of this variation remain unclear. To directly test how non-coding DNA abundance influences cellular physiology, we engineered a scalable genome-expansion system in the budding yeast S. cerev…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.06.26.734810",
+      "date": "2026-08-21"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Stereoselective Covalent Inhibitor of the Ovarian Cancer-Driving Transcription Factor PAX8",
+      "body": "Transcription factors remain among the most challenging therapeutic targets in part because they lack well-defined ligandable binding pockets. We recently showed that aberrantly reactive cysteines in transcription factors can be directly targeted with electrophilic small molecules to induce selective transcription fact…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.08.15.745031",
+      "date": "2026-08-21"
     }
   ]
 }
