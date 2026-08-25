@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-08-24T07:08:52.998029+00:00",
+  "generated_at": "2026-08-25T06:57:19.997521+00:00",
   "institutions": {
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
-    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
@@ -16,20 +11,20 @@
       "lat": 51.75,
       "lon": -1.25
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
     "stanford": {
       "name": "Stanford University",
@@ -41,10 +36,15 @@
       "lat": 51.52,
       "lon": -0.13
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     }
   },
   "stories": [
@@ -52,145 +52,181 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Molecular logic of pheromone recognition enables rational design of insect behavior modulators",
-      "body": "Reproductive success across animal taxa relies on the unequivocal identification of volatile chemical cues used for sexual communication. These chemical signals, called pheromones, are often structurally nearly identical, sometimes differing only by the oxidation state of a functional group, yet elicit vastly different…",
+      "title": "Emergence of Functional Heart-Brain Circuits in a Vertebrate",
+      "body": "The early formation of sensorimotor circuits is essential for survival. While the development and function of exteroceptive circuits and their associated motor pathways are well characterized, far less is known about the circuits that convey viscerosensory inputs to the brain and transmit visceromotor commands from the…",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.1101/2025.05.30.657074",
-      "date": "2026-08-21"
+      "doi": "10.1101/2025.09.22.677693",
+      "date": "2026-08-23"
     },
     {
       "id": 1,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Modelling Metacognition: A Joint Prediction-Confidence Model for Predictive Inference Task Data",
-      "body": "Metacognition is the ability to reflect on and evaluate our own cognitive processes. It is often altered in psychopathology. Yet, the computational mechanisms underlying these alterations remain unclear. In this work, we extend Hierarchical Gaussian Filter (HGF) models to jointly fit trial-by-trial predictions and conf…",
+      "title": "WITHDRAWN: Multisensory learning binds modality-specific neurons into a cross-modal memory engram",
+      "body": "Withdrawal StatementThe authors have withdrawn this manuscript. After conducting replication experiments and reanalysing the original data, the authors discovered that the voltage imaging results are not reproducible. Additional voltage imaging work by the authors and their collaborators has not produced robust signals…",
       "inst": [
-        "eth"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.14.744790",
-      "date": "2026-08-21"
+      "doi": "10.1101/2022.07.08.499174",
+      "date": "2026-08-22"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Rapid associative spine enlargement is required for cognitive function and stable wakefulness",
-      "body": "Awake cognition is usually attributed to arousal systems and ongoing electrical activity, yet these do not explain how cortical processing is coupled to prior context and memory formation. Associative synaptic plasticity provides a cellular mechanism for such coupling, but is viewed as memory-related rather than an onl…",
+      "title": "Coordinated behavioural and neural variability in hippocampal reward coding",
+      "body": "An environment can be interpreted in multiple ways, with implications for behaviour and neural representations and for revision in these when circumstances change. Using two-photon calcium imaging in mouse CA1 during navigation under structured reward-location uncertainty, we found correlations between variability in a…",
       "inst": [
-        "tokyo"
+        "mpi_generic"
       ],
-      "doi": "10.1101/2025.11.06.686434",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.13.744587",
+      "date": "2026-08-22"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "WITHDRAWN: Oligodendroglia as functional effectors of Multiple Sclerosis risk variants",
-      "body": "Multiple sclerosis (MS) is a neuroinflammatory disease for which a large number of non-coding single nucleotide polymorphisms (SNPs) have been associated with disease risk/susceptibility. Immune cells have been suggested as the principal functional effector cell types of these common variants. Here, we identify 76 MS-a…",
+      "subject": "neuroscience",
+      "title": "Prenatal exposure to PFAS and multimodal structural brain development across childhood",
+      "body": "BackgroundPer- and polyfluoroalkyl substances (PFAS) are ubiquitous environmental pollutants that are posited to be neurotoxic to the developing brain; however, the impact of prenatal exposure to PFAS -- particularly to newer, short-chain PFAS -- on brain development across childhood is unclear.\n\nMethodsConcentrations …",
       "inst": [
-        "karolinska"
+        "stanford"
       ],
-      "doi": "10.1101/2025.11.11.687640",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.13.744565",
+      "date": "2026-08-22"
     },
     {
       "id": 4,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "RTTN moonlights beyond the centrosome to control ribosome biogenesis and tRNA modification in human brain organoids",
-      "body": "RTTN (rotatin) is a centrosomal protein mutated in severe malformations of cortical development, yet how its dysfunction disrupts human corticogenesis has remained unclear. Here, we show that RTTN has an unrecognized function at the core of the translation machinery. Using human telencephalic and hippocampal organoids …",
+      "title": "Daily Bowel Movements are Associated with Stronger Gut-Brain Phase-Amplitude Coupling and Better Cognitive Performance",
+      "body": "Gut-brain communication has emerged as a rapidly expanding field of research, with recent electrophysiological studies revealing rhythmic gut-brain coupling between gastric activity and brain oscillations in humans. Gut motility is a key determinant of gastrointestinal function, but it remains unclear whether individua…",
       "inst": [
-        "weizmann"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.08.13.744412",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.13.744397",
+      "date": "2026-08-22"
     },
     {
       "id": 5,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Population-scale subcellular proteomics reveals intracellular remodelling across the Alzheimer's disease-resilience spectrum",
-      "body": "Proteome-wide analyses of human tissue have transformed our understanding of disease, but provide limited insight into protein localisation, a functionally informative dimension of the proteome. In Alzheimer's disease, amyloid-{beta} and tau exhibit aberrant localisation, yet whether spatial reorganisation extends prot…",
+      "title": "Activity-induced weakening of hippocampal input to prefrontal VIP interneurons reshapes inhibitory microcircuit function: implications for spatial working memory task acquisition",
+      "body": "Long-range projections from ventral hippocampus (vHPC) to medial prefrontal cortex (mPFC) support cognitive functions including spatial working memory (SWM). vHPC input targets multiple prefrontal interneuron classes, yet how hippocampal input recruits these populations in vivo, whether this recruitment is plastic, and…",
       "inst": [
-        "oxford"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.20.746004",
-      "date": "2026-08-21"
+      "doi": "10.1101/2025.07.21.665987",
+      "date": "2026-08-22"
     },
     {
       "id": 6,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Reduced entropy of subthalamic beta bursts predicts freezing of gait in Parkinsons disease",
-      "body": "BackgroundFreezing of gait (FOG) in Parkinsons disease is associated with abnormal beta activity in the subthalamic nucleus (STN), but the temporal structure of burst dynamics remains poorly understood.\n\nObjectivesTo determine whether temporal features of STN beta bursts distinguish pre-freeze from stable gait and pred…",
+      "title": "Reinforcing Nicotine Doses Activate Supramammillary VGluT2 Neurons in Mice",
+      "body": "BackgroundAlthough nicotine reinforcement is often attributed to mesolimbic dopamine neurons in the ventral tegmental area, accumulating evidence indicates that additional brain circuits contribute to its reinforcing effects.\n\nAimsThe hypothalamic supramammillary region (SuM) has been implicated as one such substrate, …",
       "inst": [
-        "oxford"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.13.744293",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.13.744511",
+      "date": "2026-08-22"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A longitudinal fNIRS hyperscanning dataset of same generation and intergenerational relationship development and collaboration",
-      "body": "Social disconnection (i.e., loneliness and social isolation) poses a severe risk to health and is particularly prevalent among older adults. Qualitative and behavioural evidence suggests that intergenerational social interactions can mitigate social disconnection by offering opportunities for adults to form new social …",
+      "subject": "developmental biology",
+      "title": "Quantifying the intricacies of biological pattern formation: A new perspective through complexity measures",
+      "body": "Nonlinear pattern-forming systems can generate spatial structure through many mechanisms, but comparing the patterns that are actually realized after the dynamics unfold remains difficult. Linear stability analysis identifies when spatial modes can grow and which length scales are favored near onset, but it does not di…",
       "inst": [
-        "eth"
+        "ucl"
       ],
-      "doi": "10.64898/2026.06.26.734715",
-      "date": "2026-08-21"
+      "doi": "10.1101/2024.11.03.621719",
+      "date": "2026-08-22"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Clathrin differentially adapts its trimerisation domain during mammalian evolution to traffic the insulin-responsive GLUT4 glucose transporter.",
-      "body": "In humans, the CHC22 isoform of clathrin regulates glucose metabolism by trafficking the GLUT4 glucose transporter for intracellular storage in skeletal muscle and release following insulin signalling. Some vertebrate lineages have lost the gene encoding CHC22 but operate the same insulin-stimulated GLUT4 expression pa…",
+      "subject": "evolutionary biology",
+      "title": "DICAROS: Diffeomorphic Ancestral Shape Reconstruction on Phylogenies",
+      "body": "Reconstructing ancestral morphologies on a phylogenetic tree is a central task in evolutionary morphometrics. Established reconstruction methods, including multivariate Brownian-motion approaches, rely on linear assumptions and do not directly model the correlations between landmarks within a shape, which can oversimpl…",
       "inst": [
-        "ucl"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.08.20.745084",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.21.746152",
+      "date": "2026-08-22"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "An inductive bias for generalization in mouse olfactory learning",
-      "body": "Animals must generalize from limited experience, yet behavioral experiments in the laboratory setting rarely assess whether or how rapidly they generalize. This contrasts with machine learning systems, where generalization is considered a fundamental test of learning, and emphasizes performance evaluation with new in-d…",
+      "subject": "neuroscience",
+      "title": "Evolution of the motor cortex microstructure and its lateralization: a comparative study of chimpanzees and humans",
+      "body": "Human hand coordination exceeds that of other species, including great apes, and is marked by pronounced right-hand dominance. This specialization parallels an expansion of its cortical representation, forming the hand-knob in the motor cortex. In humans, this region shows high myelination on quantitative MRI (qMRI), b…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.17.745288",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.20.745984",
+      "date": "2026-08-22"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Synthetic genome expansion reveals a transcriptional constraint on genome size",
-      "body": "Genome size varies widely across eukaryotes, largely because of differences in non-coding DNA, but the physiological consequences of this variation remain unclear. To directly test how non-coding DNA abundance influences cellular physiology, we engineered a scalable genome-expansion system in the budding yeast S. cerev…",
+      "subject": "evolutionary biology",
+      "title": "Genomic signatures of selection in the mound-building mouse Mus spicilegus",
+      "body": "The steppe mouse Mus spicilegus is distinguished by several unusual phenotypes: animals of this species build complex mounds from brush and dirt, and this behavior as well as the pace of development is regulated by season of birth. The genetic and evolutionary basis of species-defining traits in Mus spicilegus is unkno…",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.06.26.734810",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.21.746306",
+      "date": "2026-08-22"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Stereoselective Covalent Inhibitor of the Ovarian Cancer-Driving Transcription Factor PAX8",
-      "body": "Transcription factors remain among the most challenging therapeutic targets in part because they lack well-defined ligandable binding pockets. We recently showed that aberrantly reactive cysteines in transcription factors can be directly targeted with electrophilic small molecules to induce selective transcription fact…",
+      "subject": "evolutionary biology",
+      "title": "Genetic mapping of trait plasticity in a plant pathogenic fungus reveals genetic architecture and candidate genes for plasticity",
+      "body": "Understanding how plant pathogens respond to environmental change is needed to better manage plant diseases. Phenotypic plasticity, the ability of a single genotype to produce different phenotypes across different environments, can influence pathogen adaptation and host-pathogen dynamics. Few studies have investigated …",
       "inst": [
-        "berkeley"
+        "eth"
       ],
-      "doi": "10.64898/2026.08.15.745031",
-      "date": "2026-08-21"
+      "doi": "10.64898/2026.08.18.745209",
+      "date": "2026-08-22"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Polygenic adaptation from standing variation underlies rapid evolution under anthropogenic selection in an agricultural weed",
+      "body": "Herbicide resistance is among the clearest examples of rapid adaptation to intense anthropogenic selection. Yet, how the evolutionary origins and genetic architecture of resistance shapes its tempo and mode of evolution remain incompletely resolved. Here, we address these questions in Alopecurus myosuroides (blackgrass…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.18.745463",
+      "date": "2026-08-22"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "AI supported in silico screening of chimeric antigen receptor therapy targets",
+      "body": "Chimeric antigen receptor (CAR) cell therapy has achieved transformative clinical success through targeting of CD19 in refractory B cell malignancies, but extension of this strategy to solid tumors, other hematological malignancies, and autoimmune disease has exposed the complexity of target selection. Antigen abundanc…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.21.746142",
+      "date": "2026-08-22"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Human Gut Bacteria Convert Endogenous Steroids into Host Cortisol Shuttle Inhibitors",
+      "body": "11{beta}-hydroxysteroid dehydrogenase 2 (HSD11B2) protects the mineralocorticoid receptor from glucocorticoid overstimulation by inactivating cortisol. HSD11B2 inhibition can drive receptor overactivation and contribute to hypertension; however, endogenous inhibitors remain poorly defined. Glycyrrhetinic acid-like fact…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.21.746344",
+      "date": "2026-08-22"
     }
   ]
 }

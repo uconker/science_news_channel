@@ -244,8 +244,10 @@ Aix-Marseille University
 Aix-Marseille University, CNRS, IBDM
 Albany Medical College
 Albert Einstein College of Medicine
+Alikhanyan National Laboratory (Yerevan Physics Institute), Yerevan, Armenia
 Allen Discovery Center at Tufts University
 Allen Institute
+Allen Institute, Brain and Consciousness, Seattle
 Altos Labs Bay Area Institute of Technology, Altos Labs, Inc.
 American University
 Amgen Inc.
@@ -253,6 +255,7 @@ Amity University Noida
 Amsterdam University Medical Center, Amsterdam, The Netherlands
 Aristotle University of Thessaloniki
 Arizona State University
+Arrowhead Pharmaceuticals Inc., Madison, WI 53719, USA
 Asahi university
 Astex Pharmaceuticals
 Auburn University
@@ -279,6 +282,7 @@ Berlin Institute for Medical Systems Biology (MDC-BIMSB)
 Berlin Institute for Medical Systems Biology, Max Delbrueck Center for Molecular Medicine in the Helmholtz Association, Berlin, Germany
 Bernhard Nocht Institute for Tropical Medicine
 Better Dairy Ltd
+Bielefeld University
 Bielefeld University, Bielefeld, Germany
 BioMed X
 Bioeconomy Science Institute
@@ -299,6 +303,7 @@ Boston University Chobanian & Avedisian School of Medicine
 Boston University School of Medicine
 Bowdoin College
 Boyce Thompson Institute and Department of Chemistry and Chemical Biology, Cornell University, Ithaca, NY 14853, USA.
+Brain Imaging Centre, HUN-REN Research Centre for Natural Sciences, Budapest, Hungary
 Brandeis University
 Bren School of Environmental Science & Management, University of California, Santa Barbara
 Brigham Young University
@@ -310,6 +315,7 @@ CAS
 CEA
 CEITEC Masaryk University
 CEU Cardenal Herrera University: Universidad CEU Cardenal Herrera
+CHU de Québec - Université Laval Research Center
 CHU de Québec-Université Laval Research Centre
 CIBIO, Centro de Investigacao em Biodiversidade e Recursos Geneticos, InBIO Laboratorio Associado, Universidade do Porto, Vairao, Portugal; BIOPOLIS Program in
 CICERO Center for International Climate Research
@@ -317,6 +323,7 @@ CIMMYT
 CIRAD
 CIRAD - UMR PHIM
 CNRS
+CNRS, CRCL Lyon
 CNRS, Universite Lyon 1
 CNRS, Université de Bordeaux, UMR 5095, Institut de Biochimie et Génétique Cellulaires, Bordeaux, France
 CNRS-Sorbonne Universite
@@ -344,6 +351,7 @@ Carnegie Mellon University
 Carnegie Mellon University; Mohamed bin Zayed University of Artificial Intelligence
 Case Western Reserve University
 CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences
+Cedars Sinai Medical Center
 Cenicafe
 Center for Cancer Cell Biology, Immunology, and Infection, The Chicago Medical School, Rosalind Franklin University of Medicine and Science, North Chicago, IL,
 Center for Climate Resilience
@@ -372,8 +380,10 @@ Chalmers University of Technology
 Champalimaud Foundation
 Charles University, Faculty of Science
 Chengdu Institute of Biology, Chinese Academy of Sciences
+Chenzhu (MoMeD) Biotechnology Co., Ltd.
 China Agricultural University
 Chinese Academy of Agricultural Sciences
+Christian Albrechts University
 Chubu University
 Chungnam National University
 Cincinnati Children's Hospital Medical Center
@@ -381,6 +391,7 @@ City University of Hong Kong
 Clemson University
 Cleveland Clinic
 Cleveland Clinic Research
+Cleveland State University
 Clinical Bioinformatics, Saarland University, 66123 Saarbrücken, Germany
 Coconut Research Institute, Chinese Academy of Tropical Agricultural Sciences
 Cold Spring Harbor Laboratory
@@ -424,9 +435,11 @@ Department of Biochemistry and Molecular Biology, University of Southern Denmark
 Department of Biochemistry, University of Delhi, South Campus
 Department of Biochemistry, University of Washington, Seattle, WA, USA; Institute for Protein Design, University of Washington, Seattle, WA, USA; Howard Hughes
 Department of Biological Sciences, Smith College, Northampton MA 01063
+Department of Biological Sciences, Texas Tech University
 Department of Biology, Faculty of Life Sciences, Humboldt University, Berlin, Germany
 Department of Biomedical Engineering, University of California, Davis, CA, USA
 Department of Biomedical Sciences, University of Cagliari
+Department of Biomedicine, University of Bergen, Bergen, Norway
 Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee 247667, India
 Department of Biotechnology and Life Sciences, University of Insubria, Busto Arsizio, VA, Italy
 Department of Biotechnology, University of Kashmir, Srinagar, Jammu and Kashmir 190006, India
@@ -450,6 +463,8 @@ Department of Genetics and Developmental Biology, The Ruth and Bruce Rappaport F
 Department of Genome-Based Drug Discovery, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan
 Department of Immunology and Microbiology, Scripps Research. Department of Chemistry, Scripps Research
 Department of Immunology, Institute of Biomedical Sciences, University of Sao Paulo, Sao Paulo, Brazil
+Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and Engineering, Indiana University, Bloomington, IN 47408, USA
+Department of Laboratory Animal Science, Peking University Health Science Center, Beijing 100191, China
 Department of Life Sciences, School of Life and Health Sciences, University of Nicosia, Cyprus
 Department of Medical Microbiology and Parasitology, Kenyatta University
 Department of Medicine IV, Haematology, Oncology, Hemostaseology and Stem Cell Transplantation
@@ -475,13 +490,16 @@ Department of Pharmaceutical Biosciences and Science for Life Laboratory, Uppsal
 Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, New York, USA
 Department of Plant and Microbial Biology, College of Agriculture and Life Sciences, North Carolina State University, Raleigh, North Carolina, United States of
 Department of Psychiatry and Neuroscience, Institute of Translational Neuroscience, New York University Grossman School of Medicine, New York, NY, USA
+Department of Psychiatry and Psychotherapy, Medical University of Vienna, Austria
 Department of Psychiatry, Brain Health Institute, Rutgers University, Piscataway, NJ, USA
+Department of Psychiatry, Columbia University Irving Medical Center, New York, NY 10032, USA; Division of Systems Neuroscience, New York State Psychiatric Insti
 Department of Psychiatry, University of California San Diego, La Jolla, CA, USA
 Department of Psychology, Trent University, Peterborough, Ontario, Canada
 Department of Public Health Education, Morehouse School of Medicine, Atlanta, GA, USA
 Department of Radiology and Biomedical Imaging, University of California at San Francisco
 Department of Speech and Hearing Science, University of Illinois Urbana-Champaign, Champaign, Illinois, 61820, USA
 Department of Surgery, Faculty of Medicine, The Chinese University of Hong Kong, Prince of Wales Hospital
+Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX 75390; Harold C. Simmons Comprehensive Cancer Center, University of Texas Sou
 Department of Technical Physics, University of Eastern Finland, Kuopio, 70211, Finland
 Department of Translational Neurosciences, School of Medicine, Tulane University
 Department of Veterinary & Animal Sciences, University of Rajshahi, Rajshahi-6205, Bangladesh
@@ -515,9 +533,11 @@ Ecole Polytechnique
 Ecole Polytechnique Federale de Lausanne
 Edelweiss Connect GmbH
 Eindhoven University of Technology
+Emory National Biomedical Research Center
 Emory University
 Emory University School of Medicine
 Epilepsy Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milano, Italy
+Erasmus MC
 Eratos Therapeutics
 Faculty of Mathematics, Natural Sciences, and Engineering: Institute of Physics, University of Augsburg
 Federal University of Rio Grande do Norte
@@ -529,6 +549,7 @@ Flinders University
 Florida Department of Agriculture and Consumer Services, Division of Plant Industry (FDACS-DPI)
 Florida Museum of Natural History
 Fondazione IRCCS Istituto Nazionale dei Tumori, Milan
+Food, Microbes & Health, Quadram Institute Bioscience, Norwich Research Park, Norwich, NR4 7UQ, Norfolk, UK
 Foshan University
 Fox Chase Cancer Center
 Francis Crick Institute
@@ -539,10 +560,12 @@ Freie Universität Berlin
 French National Institute of Health and Medical Research (INSERM)
 Friedrich Schiller University Jena and Jena University Hospital, Jena, Germany
 Friedrich-Alexander-Universitaet
+Fujian Agriculture and Forestry University
 Fujian Normal University
 Functional Cell Biology group, International Centre For Genetic Engineering and Biotechnology, Trieste, Italy
 Fundacion para la Investigacion del Clima
 Gangnam Severance Hospital, Department of Surgery, Yonsei University College of Medicine
+Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, Texas A&M University, College Station, TX, USA
 GenBio AI
 Gene Center, Department of Biochemistry, Ludwig-Maximilians-University, Munich, Germany
 Genentech
@@ -561,15 +584,18 @@ Ghent University
 Gladstone Institute of Neurological Disease
 Gladstone Institutes
 Global Health Institute, School of life science, EPFL, Lausanne
+Goethe University Frankfurt
 Goethe University Frankfurt, Germany
 Goethe-Universitat Frankfurt am Main
 Gono Bishwabidyalay
+Gorgan University of Agricultural Sciences and Natural Resources
 Government College University Faisalabad, Chiniot Campus
 Graduate School of Medicine, Chiba University
 Gregor Mendel Institute of Molecular Plant Biology
 Guangxi Botanical Garden of Medicinal Plants
 Guangzhou National Laboratory
 Guilin Medical University
+HHMI/Brandeis
 HHMI/UT Southwestern Medical Center
 HPI Uni Potsdam /Paul Ehrlich Institut/Icahn School of Medicine at Mount Sinai, New York, United States
 HUN-REN Biological Research Centre Szeged
@@ -592,6 +618,7 @@ Hokkaido University
 Holon Institute of Technology
 Holon Institute of Technology (HIT)
 Hone Bio Limited
+Hong Kong Baptist University
 Hong Kong University of Science and Technology
 Hospital Moinhos de Vento
 Howard Hughes Medical Institute, Boston Children's Hospital, Boston, MA, USA; Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA
@@ -602,6 +629,7 @@ Huashan Hospital, Fudan University
 Huazhong Agriculture University
 Huazhong University of Science and Technology
 Huntsman Cancer Institute
+I2BC (CNRS, CEA, Universite Paris-Saclay)
 IFOM ETS The AIRC Institute of Molecular Oncology
 IGBMC (Institute of Genetics and Molecular and Cellular Biology)
 IGH
@@ -620,6 +648,7 @@ Illinois State University
 Imperial College
 Imperial College London
 Independent Researcher
+Indian Association for the Cultivation of Science
 Indian Institute of Science, Bangalore
 Indian Institute of Technology Bombay
 Indian Institute of Technology Gandhinagar
@@ -661,9 +690,11 @@ Institute of Crop Science, National Agricultural and Food Research Organization
 Institute of Evolutionary Biology, Faculty of Biology, University of Warsaw
 Institute of Experimental Botany of the Czech Academy of Sciences
 Institute of Experimental Medicine, Czech Academy of Sciences
+Institute of Experimental Neurology, IRCCS San Raffaele Hospital, Milan, Italy; CNR Institute of Neuroscience, Milan, Italy;
 Institute of Fruit and Tea, Hubei Academy of Agricultural Sciences; Hubei Key Laboratory of Fruit Tree Germplasm Innovation and Utilization
 Institute of Genetics and Biophysics, National Research Council, Naples, Italy.
 Institute of Genomics, University of Tartu, Tartu, Estonia
+Institute of Human Sciences, University of Tsukuba
 Institute of Life Sciences
 Institute of Liver and Biliary Sciences
 Institute of Marine and Coastal Research: Instituto de Investigaciones Marinas y Costeras
@@ -684,6 +715,7 @@ Institute of Stem Cell and Regeneration, Institute of Zoology
 Institute of Systems and Information Engineering, University of Tsukuba, Tsukuba, Ibaraki, Japan
 Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences
 Instituto Antartico Chileno
+Instituto Oswaldo Cruz
 Instituto Superior Tecnico (IST), University of Lisbon
 Instituto de Agrobiotecnologia del Litoral
 Instituto de Histologia y Embriologia de Mendoza (IHEM), Universidad Nacional de Cuyo, CONICET, Mendoza, Argentina.
@@ -691,6 +723,7 @@ Instituto de Investigacion Medica M y M Ferreyra, INIMEC-CONICET, Universidad Na
 Instituto de Investigacion Medica M y M Ferreyra, INIMEC-CONICET, Universidad Nacional de Cordoba, Cordoba, Argentina.
 Instituto de Investigacion Medica Mercedes y Martin Ferreyra INIMEC-CONICET-UNC
 Instituto de Salud Carlos III
+Integral University, Lucknow, India
 International Centre for Translational Eye Research, Skierniewicka 10a, Warsaw, Poland
 International Digital Economy Academy
 International Institute of Tropical Agriculture (IITA), Nairobi, Kenya
@@ -713,9 +746,11 @@ Jilin University
 Jingzhou Hospital Affiliated to Yangtze University
 Johannes Gutenberg University of Mainz
 John Innes Centre
+Johns Hopkins Bloomberg School of Public Health: Johns Hopkins University Bloomberg School of Public Health
 Johns Hopkins University
 Johns Hopkins University School of Medicine
 Jonah Ventures
+Juntendo University Graduate School of Medicine
 Justus Liebig University Giessen
 KAUST
 KTH - Royal Institute of Technology
@@ -727,6 +762,7 @@ Kathmandu University
 Kavli Institute for Systems Neuroscience and Centre for Algorithms in the Cortex, Norwegian University of Science and Technology, Trondheim, Norway
 Keene State College Biology Department
 Keio University Faculty of Environment and Information Studies
+Kennedy Krieger Institute
 Key Laboratory of Biomedical Information Engineering of Ministry of Education, Key Laboratory of Biology Multiomics and Diseases in Shaanxi Province Higher Educ
 Key Laboratory of Mental Health of the Ministry of Education, Guangdong-Hong Kong-Macao Greater Bay Area Center for Brain Science and Brain-Inspired Intelligenc
 Kiel University
@@ -744,6 +780,7 @@ L3S Research Center, Leibniz University Hannover
 LABGeM, Genomique Metabolique, CEA, Genoscope, Institut Francois Jacob, Universite d'Evry, Universite Paris-Saclay, CNRS, 2, rue Gaston Cremieux, 91057 Evry, Fr
 LMU Munich
 LMU-Munich
+LNS
 LSU Health Shreveport
 Laboratoire d Ecologie Alpine (LECA, UMR 5553), Universite Grenoble-Alpes (UGA), Universite Savoie Mont-Blanc (USMB), CNRS, Grenoble, France.
 Laboratoire de Recherche en Sciences Vegetales (LRSV), Universite de Toulouse, CNRS, Toulouse INP, Castanet-Tolosan, France.
@@ -751,10 +788,13 @@ Laboratorio de Biologia y Fisiologia Celular, Instituto de Histologia y Embriolo
 Laboratory Corporation of America Holdings
 Laboratory for Advanced Genome Editing Technologies, Department CIBIO, University of Trento (Italy)
 Laboratory of Food and Life Science, Faculty of Human Sciences, Waseda University
+Laboratory of Genetics, Wageningen University & Research, Wageningen, The Netherlands.
+Laboratory of Integrative Biology of Marine Models, UMR8227, CNRS-Sorbonne University, Station Biologique de Roscoff, Place Georges Teissier, 29680 Roscoff, Fra
 Laboratory of Plant Pathology, Agricultural University of Athens, 75 Iera Odos St., 11855 Athens, Greece
 Lakehead University
 Lamar University
 Large Pelagics Research Center
+Laval University
 Leibniz Institute for Working Environment and Human Factors
 Leibniz Institute of Polymer Research Dresden
 Leibniz Institute on Aging, Fritz Lipmann Institute (FLI), Jena, Germany
@@ -772,6 +812,7 @@ Louisiana State University College of Agriculture
 Loyola University Chicago
 Ludwig Maximilian University of Munich
 Ludwig-Maximilians-University Munich
+Lund Stem Cell Center, Lund University
 Lund University
 Lund University, Department of Biology, Lund Vision Group, Lund, Sweden
 Lund University, StemTherapy, Department of Experimental Medical Science
@@ -793,6 +834,7 @@ Mayo Clinic
 McGill University
 McGill University, Shriner's Hospital for Children, Montreal
 McMaster University
+McMaster University Faculty of Science
 Medical College of Georgia, Augusta University
 Medical Faculty Mannheim, Heidelberg University
 Medical University of Innsbruck
@@ -810,6 +852,7 @@ Montana State University
 Montpellier Cell Biology Research Center - CRBM, University of Montpellier, CNRS, UMR 5237, Montpellier, France
 Montreal University
 Moscow Center for Advanced Studies
+Mount Saint Vincent University
 Museum fuer Naturkunde Berlin
 Museums Victoria Research Institute
 NARO
@@ -846,9 +889,11 @@ Neurobiology and Genetics, University of Würzburg, Biocenter, Theodor-Boveri-In
 Neurozon
 New Jersey Institute of Technology
 New Mexico State University, Fish, Wildlife, and Conservation Ecology
+New Uzbekistan University
 New York Institute of Technology, College of Osteopathic Medicine
 New York University
 New York University Abu Dhabi
+New York University; Institut de Biologie de L'École Normale Supérieure
 Newcastle University
 North Carolina Central University
 North Carolina State University
@@ -877,9 +922,11 @@ Osaka Metropolitan University
 Oswaldo Cruz Foundation - Fiocruz
 Otto-von-Guericke University Magdeburg
 Palacky University
+Palacky University Olomouc
 Paris-Saclay Institute of Neuroscience, CNRS
 Paris-Saclay University, INRAE, AgroParisTech, GABI, 78350 Jouy-en-Josas, France
 Peking University
+Phenome Health
 Philipps-Universitat Marburg
 Pixelgen Technologies AB, Stockholm, Sweden
 Plant Hormone Biology Group, Swammerdam Institute for Life Sciences (SILS), University of Amsterdam, Amsterdam, The Netherlands
@@ -912,6 +959,7 @@ Real Jardin Botanico (RJB-CSIC)
 Recursion
 Regional Centre for Biotechnology
 Research Center E. Piaggio, University of Pisa
+Research Centre of the Slovenian Academy of Sciences and Arts
 Research Institute of the Centre of Expertise and Biological Diagnostic of Cameroon (CEDBCAM-RI)
 ReviR Therapeutics
 Rhelixa, Inc.
@@ -922,7 +970,9 @@ Rockefeller University
 Roswell Park Comprehensive Cancer Center
 Roswell Park Comprehensive Cancer Institute
 Rotman Research Institute, Baycrest Health Sciences, Toronto, ON, Canada
+Royal Botanic Gardens, Kew
 Ruhr University Bochum
+Ruhr-University Bochum
 Rush Alzheimer's Disease Center
 Russian Scientific and Research Institute for Medical Engineering
 Rutgers New Jersey Medical School
@@ -944,6 +994,7 @@ SandboxAQ, Palo Alto, California, United States
 Sandia National Laboratories
 Sandia National Labs
 Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA.
+Sanquin Blood Supply Foundation, Department of Research, and Amsterdam UMC, Landsteiner Laboratory, and Amsterdam Institute for Infection & Immunity, Cancer Cen
 School of Agriculture, Food, and Ecosystem Sciences, Faculty of Science, The University of Melbourne, Victoria, Australia
 School of Biological Sciences, College of Natural Sciences, Seoul National University (SNU), Seoul, 08826, Republic of Korea
 School of Biological Sciences, University of Auckland, Auckland, New Zealand
@@ -968,6 +1019,7 @@ Shanghai Jiao Tong University
 Shanghai Normal University
 Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
 Shenzhen University of Advanced Technology
+Shimane University
 Shiv Nadar Institution of Eminence
 Silesian University of Technology
 Simon Fraser University
@@ -990,12 +1042,15 @@ State Key Laboratory of Genetic Engineering, School of Life Sciences and Zhongsh
 State Key Laboratory of Genetic Evolution & Animal Models, Kunming Institute of Zoology, Chinese Academy of Sciences, Kunming, 650201, China
 State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University
 State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institutes of Advanced Technology, Chinese Academy of
+State Key Laboratory of Targeting Oncology, Guangxi Medical University, Nanning, Guangxi 530021, China
 State University of New York
 State University of New York at Binghamton
 Stellenbosch University
+Stem Cell Center, Lund University
 Stem Cells and Aging Group, Biogipuzkoa Health Research Institute, 20014, Donostia/San Sebastian, Spain
 Stem Cells and Regenerative Medicine Centre, Yenepoya Research Centre, Yenepoya (Deemed to be University)
 Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA
+Stockholm University
 Stockholm University, Department of Ecology, Environment and Plant Science / Bolin Center of Climate Research / Center for Circular and Sustainable Systems / Sc
 Stony Brook University
 Structura Biotechnology Inc.
@@ -1006,11 +1061,13 @@ Taipei Medical University
 Tata Institute of Fundamental Research
 Technical University of Munich
 Technical University of Munich, TUM School of Natural Sciences, Physics of Synthetic Biological Systems
+Technion
 Technion Israel Institute of Technology
 Tel Aviv University
 Tel aviv university
 Tencent
 Texas A and M
+Texas A and M University
 Texas A&M University
 Texas Biomedical Research Institute
 Texas Tech University Health Sciences Center
@@ -1059,6 +1116,7 @@ Tohoku University
 Tokoha University
 Tongji University
 Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle, WA, USA
+Tri-Institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS)
 Tsinghua University
 Tufts University School of Medicine
 Tulane University School of Medicine
@@ -1071,18 +1129,22 @@ UF Scripps
 UK Health Security Agency, Radiation Effects Department, Radiation Protection Science Division, Harwell Science Campus, Didcot, Oxfordshire OX11 0RQ, UK
 UMR7179 MECADEV CNRS/MNHN
 UNC Chapel Hill
+UNIFESP
 UNITO
 UNIVERSITY OF DELAWARE
 UNIVERSITY OF MADRAS
 UNIVERSITY OF RHODE ISLAND
 USC
+USDA, Agricultural Research Service
 USDA-ARS
 USDA-ARS Children's Nutrition Research Center
 UT Austin
 UT MD Anderson
 UT Southwestern Medical Center
 UTSW
+UTSouthwestern Medical Center
 UThealth Houston; Clinical Systems Biology Laboratories, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China.
+UViiVE Inc, St. Paul, MN, USA
 Uekusa Gakuen University
 UiT The Arctic University of Norway
 Ulm University
@@ -1091,6 +1153,7 @@ Ulsan National Institute of Science and Technology
 Umea Plant Science Centre (UPSC), Department of Plant Physiology, Umea University, 901 83 Umea, Sweden
 Umea Plant Science Centre (UPSC), Department of Plant Physiology, Umea University, 901 87 Umea, Sweden
 United Arab Emirates University (UAEU), Khalifa Center for Genetic Engineering and Biotechnology
+Univ Angers, Institut Agro, INRAE, IRHS, SFR QUASAV
 Univ Toulouse, CNRS, Centre de Recherches sur la Cognition Animale, Centre de Biologie Intégrative
 Univ. Bordeaux, CNRS, IMN, UMR 5293, F-33000 Bordeaux, France
 Univeristy of Jyvaskyla
@@ -1119,6 +1182,7 @@ Universitat Bern
 Universitat de Valencia
 Universite Nangui Abrogoua
 Universite Paris Cite, CNRS, Institut Jacques Monod
+Universite de Lorraine, Inria, F-54000 Nancy, France
 Universite de Montpellier
 Universite de Montreal
 Universite de Perpignan Via Domitia
@@ -1133,6 +1197,7 @@ University Hospita Wuerzburg
 University Hospital Cologne, University of Cologne, ICCB, CIO, CCCE, BIFOLD
 University Hospital Zurich, University of Zurich
 University Medical Center Goettingen
+University Medical Center Göttingen
 University Medical Center Hamburg-Eppendorf
 University at Albany, SUNY
 University of Aberdeen
@@ -1142,6 +1207,7 @@ University of Alberta
 University of Amsterdam
 University of Angers
 University of Arizona
+University of Arizona College of Medicine - Phoenix
 University of Arkansas
 University of Arkansas for Medical Sciences
 University of Augsburg
@@ -1160,6 +1226,7 @@ University of California Irvine
 University of California Los Angeles
 University of California Riverside
 University of California San Diego
+University of California San Francisco
 University of California Santa Barbara
 University of California Santa Cruz
 University of California at Davis
@@ -1182,6 +1249,7 @@ University of Colorado Boulder
 University of Colorado, Boulder
 University of Connecticut
 University of Crete & FORTH-IMBB
+University of Denver Division of Natural Sciences and Mathematics
 University of Dublin, Trinity College Dublin
 University of Edinburgh
 University of Florence
@@ -1195,6 +1263,8 @@ University of Ghana
 University of Glasgow
 University of Gothenburg
 University of Graz, Institute of Molecular Biosciences, Graz, Austria
+University of Groningen, Netherlands
+University of Groningen, the Netherlands
 University of Haifa
 University of Hamburg
 University of Hawaii
@@ -1222,6 +1292,7 @@ University of Leicester
 University of Lethbridge
 University of Liberia
 University of Liverpool
+University of Maine
 University of Manchester
 University of Maryland
 University of Maryland School of Medicine
@@ -1237,6 +1308,7 @@ University of Minnesota Twin Cities, MN, USA
 University of Minnesota, Medical School
 University of Minnesota, Twin Cities, MN, USA
 University of Missouri
+University of Missouri-Kansas City
 University of Montana
 University of Montpellier
 University of Muenster
@@ -1244,6 +1316,7 @@ University of Namur
 University of Naples Parthenope
 University of Nebraska
 University of Nebraska Medical Center
+University of Nebraska-Lincoln
 University of Nevada, Las Vegas
 University of New Hampshire
 University of New Haven
@@ -1261,6 +1334,7 @@ University of Nottingham
 University of Oklahoma
 University of Oldenburg
 University of Oregon
+University of Oslo
 University of Ostrava
 University of Ottawa
 University of Oulu
@@ -1323,6 +1397,7 @@ University of Vienna, Max Perutz Labs
 University of Virginia
 University of Warsaw
 University of Washington
+University of Washington Tacoma
 University of Washington, Paul G. Allen School of Computer Science and Engineering
 University of West London
 University of Western Austalia
@@ -1335,6 +1410,7 @@ University of Wisconsin-Stevens Point School of Biology Chemistry and Biochemist
 University of Wyoming
 University of Yamanashi
 University of York
+University of Zaragoza
 University of Zurich
 University of Zurich, Institute of Molecular Cancer Research
 University of the Basque Country EHU
@@ -1371,10 +1447,13 @@ Waters Corporation
 Wayne State University
 Weill Cornell Medical College, Cornell University
 Weill Cornell Medicine
+Weizmman institute of science
 Werner Siemens Imaging Center, University of Tuebingen
+Western University
 Westlake University
 Wildlife Biology and Conservation Programme, National Centre for Biological Sciences, TIFR Bangalore, Bangalore, 560065, Karnataka, India
 Woods Hole Oceanographic Institution
+Wuhan Botanical Garden, Chinese Academy of Sciences
 Wuhan Sports University
 Xiamen Susong Hospital, Xiamen, China
 Xinjiang Medical University
@@ -1411,6 +1490,7 @@ fCenter for Human Technologies, Italian Institute of Technology, Genoa 16152, It
 i3S-Instituto de Investigação e Inovação em Saúde
 iES Landau, Institute for Environmental Sciences, RPTU University of Kaiserslautern-Landau, Fortstrasse 7, 76829 Landau, Germany
 kerala university of fisheries and ocean studies
+sinc(i), UNL-CONICET
 the University of Vermont
 university of warwick
 †Department of Chemistry, New York University, New York, New York 10003, United States
