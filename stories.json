@@ -1,55 +1,60 @@
 {
-  "generated_at": "2026-08-26T06:58:39.812447+00:00",
+  "generated_at": "2026-08-27T17:31:53.032049+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     }
   },
   "stories": [
@@ -104,122 +109,146 @@
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Emergence of Functional Heart-Brain Circuits in a Vertebrate",
-      "body": "The early formation of sensorimotor circuits is essential for survival. While the development and function of exteroceptive circuits and their associated motor pathways are well characterized, far less is known about the circuits that convey viscerosensory inputs to the brain and transmit visceromotor commands from the…",
+      "subject": "genomics",
+      "title": "Public-Data Reanalysis Links MS4A4A to M2-like Human Myeloid States and Supports a Predicted Four-Pass Transmembrane Fold",
+      "body": "Background/Objectives: MS4A4A is associated with M2-like macrophage states, while the MS4A gene cluster modifies soluble TREM2 levels and Alzheimer's disease risk. We asked whether MS4A4A consistently marks the M2 side of human myeloid activation and whether AlphaFold supports a proposed MS4A4A-MS4A6A interaction. Meth…",
       "inst": [
-        "stanford"
+        "ucl"
       ],
-      "doi": "10.1101/2025.09.22.677693",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.19.745820",
+      "date": "2026-08-24"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Coalescent-Based Time-Stratified Statistics Reveal Population Structure Dynamics using the Ancestral Recombination Graph",
-      "body": "Many questions in population genetics require reconstructing evolutionary history through time, such as inferring how population structure has changed throughout the past. Yet, many existing approaches have only an implicit temporal component, using quantities such as allele frequency or haplotype length as rough proxi…",
+      "subject": "genomics",
+      "title": "Timing the onset of homologous recombination deficiency before breast cancer diagnosis",
+      "body": "Mutations in BRCA1 and BRCA2 genes, whether inherited or somatically acquired, cause homologous recombination deficiency (HRD) in tumor cells. The timing of HRD onset in the emerging tumor lineage is unknown. Here, we present HRDTimer, an algorithm to infer the onset of HRD-driven mutagenesis prior to cancer diagnosis.…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.11.744210",
-      "date": "2026-08-23"
+      "doi": "10.1101/2025.10.17.683157",
+      "date": "2026-08-24"
     },
     {
       "id": 6,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Deleting learning-induced dendritic spines disrupts the memory they encode",
-      "body": "Long-term memory is widely thought to depend on activity-dependent synaptic plasticity and the structural remodeling that accompanies it, yet direct causal evidence that this remodeling is required for memory storage has been lacking. A case in point is the formation of dendritic spines: new spines appear following lea…",
+      "title": "A proteomic feasibility study connecting metabolic and synaptic pathway alterations in serum and extracellular vesicles to characterize treatment-resistant depression",
+      "body": "Treatment-resistant depression (TRD) remains a major clinical challenge, yet the biological processes distinguishing TRD from non-treatment-resistant depression (nTRD) are incompletely defined. While circulating serum proteomes reflect broad systemic alterations associated with depression, extracellular vesicles (EVs) …",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.18.745461",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.19.745678",
+      "date": "2026-08-24"
     },
     {
       "id": 7,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Intracranial Validation of Magnetoencephalography Across Oscillatory Frequency and Depth",
-      "body": "Non-invasive, whole-brain neuroimaging methods such as functional magnetic resonance imaging, electroencephalography (EEG), and magnetoencephalography (MEG) are essential tools for studying the basis of human cognition in health and disease. MEG offers the opportunity to study neural activity at its intrinsic timescale…",
+      "title": "Temporally distinct reward and action prediction error signals during value learning and habit formation",
+      "body": "Effective decision making in stochastic environments requires balancing flexible, value-based learning with a stabilising influence of habitual action selection. While dopamine-mediated reward prediction errors (RPEs) are a well-established component of value learning, the mechanisms underlying habit-like behaviour rem…",
       "inst": [
-        "ucl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.18.745459",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.19.745693",
+      "date": "2026-08-24"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Multisensory integration while learning to read: A longitudinal functional and structural MRI study",
-      "body": "Literacy development involves the recognition and integration of auditory and visual signals and as such offers a unique opportunity to track the development of an eventually efficient multisensory processing network. To shed light on this topic we conducted a 12-month longitudinal 3 Tesla functional and structural MRI…",
+      "subject": "immunology",
+      "title": "A Cytokine Receptor Signaling Atlas Reveals How STAT Mosaics Fine-Tune T Cell Function",
+      "body": "The extent to which JAK/STAT cytokine signaling is functionally redundant or selective remains debated. Here we engineered a double orthogonal IL-2/IL-2R{beta}/{gamma}c ternary system enabling programmable, interference-free activation of each of the 36 mammalian cytokine receptors, and their downstream six STATs, in T…",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.24.740626",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.19.745852",
+      "date": "2026-08-24"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Protracted abstinence from heroin, but not cocaine, is associated with profound medial prefrontal cortex synaptic bioenergetic remodeling and lasting neural hypofunction",
-      "body": "Relapse following prolonged abstinence is a primary challenge in the treatment of opioid and cocaine use disorders, driven in part by enduring dysfunction of medial prefrontal cortex (mPFC) circuits that impair inhibitory control over drug-seeking. The molecular substrates underlying this dysfunction, and whether they …",
+      "subject": "cell biology",
+      "title": "Extracellular matrix context shapes morphogenesis and lactation-associated states in human milk-derived mammary organoids",
+      "body": "The mammary gland relies on reciprocal interactions between epithelial cells and their surrounding extracellular matrix (ECM) to form and maintain milk-producing tissue structures. Yet these processes remain difficult to study in human model systems. Mammary epithelial cells (MECs) can be isolated noninvasively from br…",
       "inst": [
-        "toronto"
+        "eth"
       ],
-      "doi": "10.64898/2026.08.18.743579",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.23.746503",
+      "date": "2026-08-24"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Spatially patterned cytoskeletal organization shapes astrocyte branch complexity",
-      "body": "Astrocytes, one of the most abundant cell types in the brain, extend elaborate branches that enable diverse functions, from synapse maintenance to blood-brain-barrier integrity. The cytoskeletal basis of this architecture has remained unclear, since traditional culturing methods produce minimal branching. Using immunop…",
+      "subject": "synthetic biology",
+      "title": "Synthetic transcriptional control in the malaria parasite Plasmodium falciparum",
+      "body": "Malaria is responsible for over half a million deaths each year. However, our understanding of malaria parasite biology is hampered by a lack of molecular tools, particularly at the level of transcriptional control. In light of this, we have created two orthogonal systems for inducible transcriptional repression in the…",
       "inst": [
-        "berkeley"
+        "mit"
       ],
-      "doi": "10.1101/2025.10.10.681734",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.21.744319",
+      "date": "2026-08-24"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "A cell-based degrader assessment platform facilitates discovery of functional NUDT5 PROTACs",
-      "body": "Targeted protein degradation (TPD) via PROTACs and molecular glues holds significant therapeutic promise but demands detailed mechanistic evaluation in live cells to fully understand compound behavior and optimize efficacy. Here, we present an integrated, cell-first platform that combines a modular degradation assay wi…",
+      "subject": "ecology",
+      "title": "Self-thresholding hierarchical outlier-detection for animal movement tracks",
+      "body": "1. Erroneous locations are ubiquitous in animal tracking data and notoriously difficult to remove without supervision. Whether caused by poor satellite geometry, atmospheric interference, tag malfunction, or deliberate GNSS jamming and spoofing, they propagate into estimates of movement rates, home ranges, habitat sele…",
       "inst": [
-        "karolinska"
+        "mpi_generic"
       ],
-      "doi": "10.1101/2025.06.13.659494",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.07.11.737894",
+      "date": "2026-08-24"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "sc-pcQTL: hurdle-based co-expression modeling for multi-gene QTL mapping in single-cell RNA-seq data",
-      "body": "Motivation: Single-cell expression quantitative trait locus (eQTL) studies can resolve cell-type-specific genetic effects, but conventional gene-by-gene analyses do not directly capture coordinated genetic regulation of neighboring genes. Principal-component QTL (pcQTL) mapping can summarize such multi-gene effects, bu…",
+      "subject": "ecology",
+      "title": "move2utils: a utility toolkit for the move2 ecosystem",
+      "body": "1. Studying animal movement at the population scale requires a stable, modern software substrate. Within R, the legacy move package supplied that substrate for over a decade, but its sp/rgeos backbone has been retired. The successor package move2 deliberately confined its scope to the data class and core movebank API f…",
       "inst": [
-        "mit"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.18.745314",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.07.07.736908",
+      "date": "2026-08-24"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Inferring protein ensembles directly from NOESY spectra",
-      "body": "Solution NMR spectroscopy provides atomistic measurements of proteins in a native-like biophysical state. Because these measurements are ensemble averages, it also has the potential to report on conformational diversity. However, conventional NMR structure determination typically converts experimental observables into …",
+      "subject": "neuroscience",
+      "title": "Modular Arrays for High Precision Wearable MEG",
+      "body": "Optically pumped magnetometers (OPMs) can be used for magnetoencephalography (MEG) with equivalent or improved signal to noise ratio, relative to cryogenic MEG, when sensors are placed close to the scalp. OPM-based MEG can also be used in mobile contexts if sensors are placed in lightweight, wearable arrays. Individual…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.08.19.745485",
+      "date": "2026-08-24"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Individual heartbeats track distinct prediction processes during human probabilistic learning",
+      "body": "Heart rate continuously adjusts to accommodate perception and action, and these shifts are frequently explained through predictive processes. Yet direct evidence that interbeat intervals exhibit graded scaling with prediction remains limited. Here we investigate millisecond-resolved physiological signatures of predicti…",
       "inst": [
         "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.20.745893",
-      "date": "2026-08-23"
+      "doi": "10.64898/2026.08.19.745688",
+      "date": "2026-08-24"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "RNA-dependent RNA amplification as a strategy to perform tRNA sequencing on low-input samples",
+      "body": "Transfer RNAs (tRNAs) are key molecules that deliver amino acids to the translating ribosome according to their cognate codon encoded in messenger RNA (mRNA). Due to the modified nature of tRNA nucleotides, accurate tRNA quantification can be tedious, especially when dealing with small sample inputs. Here, we took adva…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.64898/2026.08.24.746598",
+      "date": "2026-08-24"
     }
   ]
 }
