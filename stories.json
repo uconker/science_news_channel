@@ -1,20 +1,35 @@
 {
-  "generated_at": "2026-08-27T17:31:53.032049+00:00",
+  "generated_at": "2026-08-28T18:27:30.857030+00:00",
   "institutions": {
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "mit": {
       "name": "MIT",
@@ -26,35 +41,10 @@
       "lat": 48.14,
       "lon": 11.58
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
     }
   },
   "stories": [
@@ -62,124 +52,76 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Daily Bowel Movements are Associated with Stronger Gut-Brain Phase-Amplitude Coupling and Better Cognitive Performance",
-      "body": "Gut-brain communication has emerged as a rapidly expanding field of research, with recent electrophysiological studies revealing rhythmic gut-brain coupling between gastric activity and brain oscillations in humans. Gut motility is a key determinant of gastrointestinal function, but it remains unclear whether individua…",
+      "title": "Perinatal environmental enrichment affects murine neonates' brain structure before their active engagement with environment",
+      "body": "Early life experiences shape individuals. Environmental enrichment, an experimental paradigm used to study the effect of increased environmental complexity and novelty in animal models, has long been recognised for its broad effect on nervous system function and behaviour. In adult rodents, structural changes in the br…",
       "inst": [
-        "copenhagen"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.13.744397",
-      "date": "2026-08-24"
+      "doi": "10.1101/2025.02.22.639627",
+      "date": "2026-08-25"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Genetically informed distribution models refine predictions for the overwintering range of Helicoverpa armigera in North America",
-      "body": "The ecological and economic threat posed by invasive pests demands proactive mitigation. Species distribution models (SDMs) are widely used in efforts to predict where invasive species might spread after introduction, though such models face several limitations. Among these is the unrealistic assumption of niche unifor…",
+      "subject": "plant biology",
+      "title": "The RAP2.12 and RAP2.3 factors act downstream of LRR-MAL Receptor Kinases in Arabidopsis pollen-stigma interactions.",
+      "body": "Arabidopsis Leucine-Rich Repeat-Malectin Receptor Kinase (LRR-MAL RK) genes have been previously implicated in the early stages of pollen-pistil interactions to support compatible pollen. One member, Receptor Kinase in Flowers 1 (RKF1), has been associated with roles in the stigma to support pollen hydration as well as…",
       "inst": [
-        "cambridge"
+        "toronto"
       ],
-      "doi": "10.64898/2026.08.21.746245",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.24.746730",
+      "date": "2026-08-25"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Combinatorial Modulation of Wnt, STAT3, TGF-β, and Tie2 Pathways Drives Brain Endothelial Cell-Like Differentiation from hiPSCs",
-      "body": "During development, endothelial cells (ECs) migrate into the brain and acquire blood-brain barrier (BBB) properties such as tight junctions, limited transcellular transport, and high electrical resistance. Although key signaling pathways that are active in vivo have been identified, factors critical in inducing brain E…",
+      "subject": "molecular biology",
+      "title": "Acute activation of autophagy enables growth plate regeneration following radiation-induced injury.",
+      "body": "Purpose Radiation injury to growth plates commonly leads to skeletal late complications including short stature, limb length-discrepancy, and scoliosis/kyphosis in pediatric oncology patients. We aimed to understand the acute responses of direct growth plate irradiation that result in skeletal late complications. Mater…",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.08.21.746025",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.24.746001",
+      "date": "2026-08-25"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Inositol Polyphosphate-4-Phosphatase Type II promotes gemcitabine resistance in pancreatic ductal adenocarcinoma cells via lysosomal exocytosis",
-      "body": "Chemotherapy resistance is a major challenge in pancreatic ductal adenocarcinoma (PDAC). While high Inositol Polyphosphate-4-Phosphatase Type II (INPP4B) expression correlates with poor outcomes, its function in chemotherapy response is unclear. We show that INPP4B promotes gemcitabine resistance by enhancing lysosomal…",
+      "subject": "cell biology",
+      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor signaling through receptor oligomerization and activation",
+      "body": "Because ErbB receptors play distinct roles in regulating diverse cellular functions, the mechanisms governing ErbB receptor activation are likely to be more diverse than previously recognized. Phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2] positively regulates ErbB1 kinase activity, but the role of PI(4,5)P2 in regu…",
       "inst": [
-        "toronto"
+        "riken"
       ],
-      "doi": "10.64898/2026.08.21.746312",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.24.746611",
+      "date": "2026-08-25"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Public-Data Reanalysis Links MS4A4A to M2-like Human Myeloid States and Supports a Predicted Four-Pass Transmembrane Fold",
-      "body": "Background/Objectives: MS4A4A is associated with M2-like macrophage states, while the MS4A gene cluster modifies soluble TREM2 levels and Alzheimer's disease risk. We asked whether MS4A4A consistently marks the M2 side of human myeloid activation and whether AlphaFold supports a proposed MS4A4A-MS4A6A interaction. Meth…",
+      "subject": "bioengineering",
+      "title": "Open-Source Framework for Measurement of the Gradient Impulse Response Function",
+      "body": "The Gradient Impulse Response Function (GIRF) is widely used to model and correct gradient system imperfections in MRI, but scanner-specific GIRF measurement remains inaccessible to many research groups because existing approaches rely on specialised field monitoring hardware or fragmented and non-reproducible software…",
       "inst": [
-        "ucl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.19.745820",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.24.745510",
+      "date": "2026-08-25"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Timing the onset of homologous recombination deficiency before breast cancer diagnosis",
-      "body": "Mutations in BRCA1 and BRCA2 genes, whether inherited or somatically acquired, cause homologous recombination deficiency (HRD) in tumor cells. The timing of HRD onset in the emerging tumor lineage is unknown. Here, we present HRDTimer, an algorithm to infer the onset of HRD-driven mutagenesis prior to cancer diagnosis.…",
+      "subject": "cancer biology",
+      "title": "Post-hoc long-read sequencing links leukemic mutation status to single-cell transcriptomes",
+      "body": "Single-cell RNA-sequencing-based characterization of cells that belong to the neoplastic clone is a major challenge in hematologic neoplasms, where malignant and normal cells coexist. Confident molecular profiling requires simultaneous analysis of gene expression and genetic mutations in individual cells, an ability th…",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.1101/2025.10.17.683157",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.05.06.723232",
+      "date": "2026-08-25"
     },
     {
       "id": 6,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "A proteomic feasibility study connecting metabolic and synaptic pathway alterations in serum and extracellular vesicles to characterize treatment-resistant depression",
-      "body": "Treatment-resistant depression (TRD) remains a major clinical challenge, yet the biological processes distinguishing TRD from non-treatment-resistant depression (nTRD) are incompletely defined. While circulating serum proteomes reflect broad systemic alterations associated with depression, extracellular vesicles (EVs) …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.19.745678",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Temporally distinct reward and action prediction error signals during value learning and habit formation",
-      "body": "Effective decision making in stochastic environments requires balancing flexible, value-based learning with a stabilising influence of habitual action selection. While dopamine-mediated reward prediction errors (RPEs) are a well-established component of value learning, the mechanisms underlying habit-like behaviour rem…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.19.745693",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "A Cytokine Receptor Signaling Atlas Reveals How STAT Mosaics Fine-Tune T Cell Function",
-      "body": "The extent to which JAK/STAT cytokine signaling is functionally redundant or selective remains debated. Here we engineered a double orthogonal IL-2/IL-2R{beta}/{gamma}c ternary system enabling programmable, interference-free activation of each of the 36 mammalian cytokine receptors, and their downstream six STATs, in T…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.08.19.745852",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Extracellular matrix context shapes morphogenesis and lactation-associated states in human milk-derived mammary organoids",
-      "body": "The mammary gland relies on reciprocal interactions between epithelial cells and their surrounding extracellular matrix (ECM) to form and maintain milk-producing tissue structures. Yet these processes remain difficult to study in human model systems. Mammary epithelial cells (MECs) can be isolated noninvasively from br…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.08.23.746503",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 10,
       "cat": "science",
       "subject": "synthetic biology",
       "title": "Synthetic transcriptional control in the malaria parasite Plasmodium falciparum",
@@ -188,67 +130,91 @@
         "mit"
       ],
       "doi": "10.64898/2026.08.21.744319",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Combined blockade of VEGF, Angiopoietin-2, and PD1 reprograms glioblastoma endothelial cells into quasi-antigen-presenting cells",
+      "body": "Glioblastoma (GBM) remains a highly aggressive and uniformly fatal tumor, with a 5-year survival of <10%. Moreover, all randomized clinical trials with immune-checkpoint blockers have failed to date. Here we report that tumor endothelial cell (EC) dysfunction confers resistance to immunotherapy in preclinical GBM model…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2022.09.03.506476",
+      "date": "2026-08-25"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Motor Sequence Learning in Children and Adults: Age Differences in the Time Course of Brain Activation and Representational Stability",
+      "body": "Humans possess an astounding ability to acquire complex movement sequences with limited practice. Motor sequence learning engages a distributed network of brain regions that show distinct learning-related changes, often characterized by predominant involvement of the prefrontal cortex (PFC) early in learning and increa…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.05.12.724531",
+      "date": "2026-08-25"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Nuclear stress bodies enable a germline-specific transcriptional stress response in Drosophila",
+      "body": "The germline ensures the continuity of genetic information across generations, but how this immortal lineage functions under stress conditions remains incompletely understood. Here, we identify that heat shock factor (Hsf), a conserved master regulator of the stress response, drives the expression of transposable eleme…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.08.24.746661",
+      "date": "2026-08-25"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Dissecting context-dependent cancer vulnerabilities using Perturb-seq",
+      "body": "Background CRISPR-mediated viability assays in diverse cancer cell lines have informed cancer biology and precision medicine, but cell fitness is not the only cancer-relevant phenotype. Gene expression profiling provides insight into cellular stress, inflammation, and differential state, while still identifying activat…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.08.24.746802",
+      "date": "2026-08-25"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Self-thresholding hierarchical outlier-detection for animal movement tracks",
-      "body": "1. Erroneous locations are ubiquitous in animal tracking data and notoriously difficult to remove without supervision. Whether caused by poor satellite geometry, atmospheric interference, tag malfunction, or deliberate GNSS jamming and spoofing, they propagate into estimates of movement rates, home ranges, habitat sele…",
+      "subject": "neuroscience",
+      "title": "Unifying error and reward action learning: a cerebello-basal ganglia theory",
+      "body": "Learning depends on both reward- and error-based feedback, yet how the brain integrates these distinct signals to guide behaviour remains fundamentally unclear. Here, using a normative computational framework, we derive credit assignment rules for both reward-based learning (RBL) and error-based learning (EBL). In cont…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.07.11.737894",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.22.745751",
+      "date": "2026-08-25"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "ecology",
-      "title": "move2utils: a utility toolkit for the move2 ecosystem",
-      "body": "1. Studying animal movement at the population scale requires a stable, modern software substrate. Within R, the legacy move package supplied that substrate for over a decade, but its sp/rgeos backbone has been retired. The successor package move2 deliberately confined its scope to the data class and core movebank API f…",
+      "subject": "neuroscience",
+      "title": "BRAINCELL: A modelling platform for stochastic nanoscale organisation and intra- and intercellular signalling in neurons and glia",
+      "body": "Biophysical cell models have been central to understanding signal processing in brain cells and their networks, yet important limitations remain. First, the rich repertoire of nanoscale structures, such as dendritic spines and thin astrocyte processes, has been difficult to incorporate into whole-cell models because of…",
       "inst": [
-        "mpi_generic"
+        "ucl"
       ],
-      "doi": "10.64898/2026.07.07.736908",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.22.746419",
+      "date": "2026-08-25"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Modular Arrays for High Precision Wearable MEG",
-      "body": "Optically pumped magnetometers (OPMs) can be used for magnetoencephalography (MEG) with equivalent or improved signal to noise ratio, relative to cryogenic MEG, when sensors are placed close to the scalp. OPM-based MEG can also be used in mobile contexts if sensors are placed in lightweight, wearable arrays. Individual…",
+      "subject": "genomics",
+      "title": "Early life stress affects the transcription and chromatin accessibility of spermatogonial cells",
+      "body": "Adversity in early life has lasting effects on the physiology and behavior of exposed individuals and their descendants. In mice, early-life stress alters the RNA content of adult sperm, and this RNA is sufficient to transmit some of the effects to the offspring who were never exposed. However, sperm cells are not yet …",
       "inst": [
-        "ucl"
+        "eth"
       ],
-      "doi": "10.64898/2026.08.19.745485",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Individual heartbeats track distinct prediction processes during human probabilistic learning",
-      "body": "Heart rate continuously adjusts to accommodate perception and action, and these shifts are frequently explained through predictive processes. Yet direct evidence that interbeat intervals exhibit graded scaling with prediction remains limited. Here we investigate millisecond-resolved physiological signatures of predicti…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.08.19.745688",
-      "date": "2026-08-24"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "RNA-dependent RNA amplification as a strategy to perform tRNA sequencing on low-input samples",
-      "body": "Transfer RNAs (tRNAs) are key molecules that deliver amino acids to the translating ribosome according to their cognate codon encoded in messenger RNA (mRNA). Due to the modified nature of tRNA nucleotides, accurate tRNA quantification can be tedious, especially when dealing with small sample inputs. Here, we took adva…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.08.24.746598",
-      "date": "2026-08-24"
+      "doi": "10.64898/2026.08.20.745941",
+      "date": "2026-08-25"
     }
   ]
 }
