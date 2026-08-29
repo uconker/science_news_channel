@@ -1,220 +1,58 @@
 {
-  "generated_at": "2026-08-28T18:27:30.857030+00:00",
+  "generated_at": "2026-08-29T12:32:41.554155+00:00",
   "institutions": {
     "riken": {
       "name": "RIKEN, Tokyo/Wako",
       "lat": 35.78,
       "lon": 139.6
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Perinatal environmental enrichment affects murine neonates' brain structure before their active engagement with environment",
-      "body": "Early life experiences shape individuals. Environmental enrichment, an experimental paradigm used to study the effect of increased environmental complexity and novelty in animal models, has long been recognised for its broad effect on nervous system function and behaviour. In adult rodents, structural changes in the br…",
+      "subject": "bioengineering",
+      "title": "A General High-throughput Mucus Microrheology Platform for Quantitative and Scalable Mucus Phenotyping",
+      "body": "Mucus mechanics regulate barrier, clearance, and transport functions across epithelial tissues, yet quantitative rheology remains difficult to scale because available assays require large volumes, specialized equipment, or extensive manual analysis. Here, a high-throughput microrheology workflow based on Differential D…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.1101/2025.02.22.639627",
-      "date": "2026-08-25"
+      "doi": "10.1101/2025.01.09.632077",
+      "date": "2026-08-26"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "The RAP2.12 and RAP2.3 factors act downstream of LRR-MAL Receptor Kinases in Arabidopsis pollen-stigma interactions.",
-      "body": "Arabidopsis Leucine-Rich Repeat-Malectin Receptor Kinase (LRR-MAL RK) genes have been previously implicated in the early stages of pollen-pistil interactions to support compatible pollen. One member, Receptor Kinase in Flowers 1 (RKF1), has been associated with roles in the stigma to support pollen hydration as well as…",
+      "subject": "ecology",
+      "title": "The distribution of particle-associated Prochlorococcus across the global oceans",
+      "body": "The picocyanobacterium Prochlorococcus is a fundamental contributor to ocean primary productivity. While its free-living population has been extensively studied, primarily using flow cytometric analyses, the size and distribution of its particle-associated population is not well understood. Using filter fractionated sa…",
       "inst": [
-        "toronto"
+        "mit"
       ],
-      "doi": "10.64898/2026.08.24.746730",
-      "date": "2026-08-25"
+      "doi": "10.64898/2026.08.24.746807",
+      "date": "2026-08-26"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Acute activation of autophagy enables growth plate regeneration following radiation-induced injury.",
-      "body": "Purpose Radiation injury to growth plates commonly leads to skeletal late complications including short stature, limb length-discrepancy, and scoliosis/kyphosis in pediatric oncology patients. We aimed to understand the acute responses of direct growth plate irradiation that result in skeletal late complications. Mater…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.08.24.746001",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 3,
-      "cat": "science",
       "subject": "cell biology",
-      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor signaling through receptor oligomerization and activation",
+      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor oligomerization and kinase activation",
       "body": "Because ErbB receptors play distinct roles in regulating diverse cellular functions, the mechanisms governing ErbB receptor activation are likely to be more diverse than previously recognized. Phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2] positively regulates ErbB1 kinase activity, but the role of PI(4,5)P2 in regu…",
       "inst": [
         "riken"
       ],
       "doi": "10.64898/2026.08.24.746611",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 4,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "Open-Source Framework for Measurement of the Gradient Impulse Response Function",
-      "body": "The Gradient Impulse Response Function (GIRF) is widely used to model and correct gradient system imperfections in MRI, but scanner-specific GIRF measurement remains inaccessible to many research groups because existing approaches rely on specialised field monitoring hardware or fragmented and non-reproducible software…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.24.745510",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Post-hoc long-read sequencing links leukemic mutation status to single-cell transcriptomes",
-      "body": "Single-cell RNA-sequencing-based characterization of cells that belong to the neoplastic clone is a major challenge in hematologic neoplasms, where malignant and normal cells coexist. Confident molecular profiling requires simultaneous analysis of gene expression and genetic mutations in individual cells, an ability th…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.05.06.723232",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Synthetic transcriptional control in the malaria parasite Plasmodium falciparum",
-      "body": "Malaria is responsible for over half a million deaths each year. However, our understanding of malaria parasite biology is hampered by a lack of molecular tools, particularly at the level of transcriptional control. In light of this, we have created two orthogonal systems for inducible transcriptional repression in the…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.08.21.744319",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Combined blockade of VEGF, Angiopoietin-2, and PD1 reprograms glioblastoma endothelial cells into quasi-antigen-presenting cells",
-      "body": "Glioblastoma (GBM) remains a highly aggressive and uniformly fatal tumor, with a 5-year survival of <10%. Moreover, all randomized clinical trials with immune-checkpoint blockers have failed to date. Here we report that tumor endothelial cell (EC) dysfunction confers resistance to immunotherapy in preclinical GBM model…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2022.09.03.506476",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Motor Sequence Learning in Children and Adults: Age Differences in the Time Course of Brain Activation and Representational Stability",
-      "body": "Humans possess an astounding ability to acquire complex movement sequences with limited practice. Motor sequence learning engages a distributed network of brain regions that show distinct learning-related changes, often characterized by predominant involvement of the prefrontal cortex (PFC) early in learning and increa…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.05.12.724531",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Nuclear stress bodies enable a germline-specific transcriptional stress response in Drosophila",
-      "body": "The germline ensures the continuity of genetic information across generations, but how this immortal lineage functions under stress conditions remains incompletely understood. Here, we identify that heat shock factor (Hsf), a conserved master regulator of the stress response, drives the expression of transposable eleme…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.08.24.746661",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Dissecting context-dependent cancer vulnerabilities using Perturb-seq",
-      "body": "Background CRISPR-mediated viability assays in diverse cancer cell lines have informed cancer biology and precision medicine, but cell fitness is not the only cancer-relevant phenotype. Gene expression profiling provides insight into cellular stress, inflammation, and differential state, while still identifying activat…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.08.24.746802",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Unifying error and reward action learning: a cerebello-basal ganglia theory",
-      "body": "Learning depends on both reward- and error-based feedback, yet how the brain integrates these distinct signals to guide behaviour remains fundamentally unclear. Here, using a normative computational framework, we derive credit assignment rules for both reward-based learning (RBL) and error-based learning (EBL). In cont…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.08.22.745751",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "BRAINCELL: A modelling platform for stochastic nanoscale organisation and intra- and intercellular signalling in neurons and glia",
-      "body": "Biophysical cell models have been central to understanding signal processing in brain cells and their networks, yet important limitations remain. First, the rich repertoire of nanoscale structures, such as dendritic spines and thin astrocyte processes, has been difficult to incorporate into whole-cell models because of…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.08.22.746419",
-      "date": "2026-08-25"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Early life stress affects the transcription and chromatin accessibility of spermatogonial cells",
-      "body": "Adversity in early life has lasting effects on the physiology and behavior of exposed individuals and their descendants. In mice, early-life stress alters the RNA content of adult sperm, and this RNA is sufficient to transmit some of the effects to the offspring who were never exposed. However, sperm cells are not yet …",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.08.20.745941",
-      "date": "2026-08-25"
+      "date": "2026-08-26"
     }
   ]
 }
