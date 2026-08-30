@@ -1,58 +1,162 @@
 {
-  "generated_at": "2026-08-29T12:32:41.554155+00:00",
+  "generated_at": "2026-08-30T11:40:08.230920+00:00",
   "institutions": {
     "riken": {
       "name": "RIKEN, Tokyo/Wako",
       "lat": 35.78,
       "lon": 139.6
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "A General High-throughput Mucus Microrheology Platform for Quantitative and Scalable Mucus Phenotyping",
-      "body": "Mucus mechanics regulate barrier, clearance, and transport functions across epithelial tissues, yet quantitative rheology remains difficult to scale because available assays require large volumes, specialized equipment, or extensive manual analysis. Here, a high-throughput microrheology workflow based on Differential D…",
+      "subject": "ecology",
+      "title": "ELAplus: Fast and accurate analysis platform for energy landscape analysis facilitated by fine-tuning optimization algorithm.",
+      "body": "1. Large-scale community-composition datasets, especially from microbiome studies, increasingly provide opportunities to identify major community compositional types (e.g., enterotypes in human microbiomes) and potential transitions depending on environmental factors. Energy landscape analysis based on maximum entropy …",
       "inst": [
-        "harvard"
+        "riken"
       ],
-      "doi": "10.1101/2025.01.09.632077",
-      "date": "2026-08-26"
+      "doi": "10.64898/2026.08.26.747178",
+      "date": "2026-08-27"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "ecology",
-      "title": "The distribution of particle-associated Prochlorococcus across the global oceans",
-      "body": "The picocyanobacterium Prochlorococcus is a fundamental contributor to ocean primary productivity. While its free-living population has been extensively studied, primarily using flow cytometric analyses, the size and distribution of its particle-associated population is not well understood. Using filter fractionated sa…",
+      "subject": "cancer biology",
+      "title": "Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations",
+      "body": "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian tube. However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general popul…",
       "inst": [
-        "mit"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.24.746807",
-      "date": "2026-08-26"
+      "doi": "10.64898/2026.08.26.746998",
+      "date": "2026-08-27"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "cell biology",
-      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor oligomerization and kinase activation",
-      "body": "Because ErbB receptors play distinct roles in regulating diverse cellular functions, the mechanisms governing ErbB receptor activation are likely to be more diverse than previously recognized. Phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2] positively regulates ErbB1 kinase activity, but the role of PI(4,5)P2 in regu…",
+      "title": "Nuclear size is genetically controlled and influences cell fate",
+      "body": "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization. Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved. Here, we address both questions by combining i…",
       "inst": [
-        "riken"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.24.746611",
-      "date": "2026-08-26"
+      "doi": "10.64898/2026.08.26.747275",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with immune checkpoint inhibitor-induced myocarditis and concurrent type I diabetes",
+      "body": "Immune checkpoint inhibitor-induced myocarditis (ICIM) is a severe immune-related adverse event with heterogeneous clinical presentations and potential genetic susceptibility. Here, we established a human induced pluripotent stem cell (iPSC) line from an ICIM patient with an HLA-type distinct from previously reported l…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.08.26.746482",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Bird functional dispersion predicts dengue vector presence across tropical working landscapes in Costa Rica",
+      "body": "Identifying reliable indicators of dengue vector habitat is critical for proactive surveillance and spatially targeted vector control. Bird communities are sensitive to habitat quality and landscape condition, and their functional diversity may track ecological conditions that support Aedes mosquito populations. We tes…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.08.26.747376",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Loss of NKX2-1 predisposes thyroid to neoplasm development through regulation of oxidative stress",
+      "body": "Many factors including ionizing radiation and iodine deficiency are known to increase thyroid carcinogenesis risk. Our dataset analysis of The Cancer Genome Atlas (TCGA) showed that lower mRNA expression of NK2 homeobox 1 (NKX2-1) transcription factor, a master regulator of genesis, homeostasis, and function of thyroid…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.08.26.746581",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Environmental stress and phenotypic tradeoff modulate the adaptive potential of novel coding sequences for de novo gene birth",
+      "body": "Novel protein-coding genes can emerge de novo from ancestrally noncoding sequences and promote adaptation to environmental stresses. Previous work proposes that pervasive translation of lowly expressed open reading frames (ORFs) in noncoding regions creates a rich reservoir of 'proto-genes,' of which subsequent acquisi…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.08.24.746591",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Distribution of the glucagon receptor in periventricular brain barrier interfaces including motile and primary cilia in rat brain",
+      "body": "Glucagon is a key metabolic hormone regulating blood glucose and appetite, yet little is known about its actions within the brain. Here, we investigated its receptor (GCGR) localization in periventricular brain barrier interfaces in young rats using immunohistochemical and immunofluorescence approaches. GCGR was enrich…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.24.746618",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "DeepTMHMM2 enables accurate prediction of transmembrane protein topology and subcellular location",
+      "body": "Transmembrane -helical and {beta}-barrel proteins are a ubiquitous component of proteomes. Topology prediction infers how proteins are embedded in lipid bilayers, identifying membrane-spanning segments and their orientation. While recent methods achieve high performance for membrane-spanning segments, they cannot predi…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.08.24.746435",
+      "date": "2026-08-27"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Resting Galvanic Skin Response Reflects Fluctuations in Creativity Potential for Solving Creativity Tasks",
+      "body": "Creative performance fluctuates from moment to moment, suggesting that it depends partly on transient internal states present before creative thinking begins. Although such fluctuations have been identified in central neural activity, it remains unclear whether they are also reflected in autonomic physiology. We examin…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.08.23.746567",
+      "date": "2026-08-27"
     }
   ]
 }
