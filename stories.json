@@ -1,162 +1,239 @@
 {
-  "generated_at": "2026-08-30T11:40:08.230920+00:00",
+  "generated_at": "2026-08-31T13:16:29.308175+00:00",
   "institutions": {
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "ecology",
-      "title": "ELAplus: Fast and accurate analysis platform for energy landscape analysis facilitated by fine-tuning optimization algorithm.",
-      "body": "1. Large-scale community-composition datasets, especially from microbiome studies, increasingly provide opportunities to identify major community compositional types (e.g., enterotypes in human microbiomes) and potential transitions depending on environmental factors. Energy landscape analysis based on maximum entropy …",
+      "subject": "neuroscience",
+      "title": "Bringing Attention to Education: Revisiting the Neural Mechanisms of Selective Attention in Naturalistic Learning",
+      "body": "In the context of education, attention can be considered the gateway for learning, yet it remains unclear which neural mechanisms of attention identified under controlled laboratory conditions are most relevant when children engage in meaningful learning. Here, we addressed this question by experimentally manipulating …",
       "inst": [
-        "riken"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.26.747178",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.26.747092",
+      "date": "2026-08-28"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations",
-      "body": "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian tube. However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general popul…",
+      "subject": "biophysics",
+      "title": "Spatially patterned, spectral single-molecule microscopy",
+      "body": "Multicolour and spectrally resolved single-molecule microscopy can reveal molecular interactions, nanoscale environments and dynamics, but usually depends on experimentally complex detection architectures based on beam splitting, spectral dispersion or engineered point spread functions. Here we show that spatially patt…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.08.26.746998",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.04.08.715690",
+      "date": "2026-08-28"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Nuclear size is genetically controlled and influences cell fate",
-      "body": "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization. Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved. Here, we address both questions by combining i…",
+      "subject": "cancer biology",
+      "title": "Transcriptional Response to Tumor Mutational Burden Is Consistent Across Cancer Types",
+      "body": "Tumor mutational burden (TMB) shapes tumor transcriptional state, but studies typically describe this response as an average effect pooled across cancer types. Whether that average reflects a consistent response present within individual cancer types, or is an artifact of merging heterogeneous, tissue-specific response…",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.26.747275",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.27.744035",
+      "date": "2026-08-28"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Generation of an induced pluripotent stem cell line from a patient with immune checkpoint inhibitor-induced myocarditis and concurrent type I diabetes",
-      "body": "Immune checkpoint inhibitor-induced myocarditis (ICIM) is a severe immune-related adverse event with heterogeneous clinical presentations and potential genetic susceptibility. Here, we established a human induced pluripotent stem cell (iPSC) line from an ICIM patient with an HLA-type distinct from previously reported l…",
+      "subject": "plant biology",
+      "title": "Combining 3D-multispectral and hyperspectral imaging to identify environmental stress treatments imposed during plant growth",
+      "body": "Non-invasive, high-throughput phenotyping tools are needed that can identify environmental effects on plant structure and function to diagnose factors responsible for reduced growth in commercial and non-commercial settings. In this study, we explored whether the integration of 3D-multispectral (3D) and 2D-hyperspectra…",
       "inst": [
-        "stanford"
+        "anu"
       ],
-      "doi": "10.64898/2026.08.26.746482",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.28.747774",
+      "date": "2026-08-28"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Bird functional dispersion predicts dengue vector presence across tropical working landscapes in Costa Rica",
-      "body": "Identifying reliable indicators of dengue vector habitat is critical for proactive surveillance and spatially targeted vector control. Bird communities are sensitive to habitat quality and landscape condition, and their functional diversity may track ecological conditions that support Aedes mosquito populations. We tes…",
+      "subject": "microbiology",
+      "title": "Out-of-balance Growth Enables Cost-free Synthesis of the Flagellum and Other Proteins in a Single Bacterium",
+      "body": "The cost of expressing unnecessary genes on growth has been explained at the population level through balanced growth assumptions. However, due to the high degree of stochasticity in growth and gene regulation, it remains unclear how classical growth laws derived from bulk measurements manifest at the level of individu…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.26.747376",
-      "date": "2026-08-27"
+      "doi": "10.1101/2024.12.17.629032",
+      "date": "2026-08-28"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Loss of NKX2-1 predisposes thyroid to neoplasm development through regulation of oxidative stress",
-      "body": "Many factors including ionizing radiation and iodine deficiency are known to increase thyroid carcinogenesis risk. Our dataset analysis of The Cancer Genome Atlas (TCGA) showed that lower mRNA expression of NK2 homeobox 1 (NKX2-1) transcription factor, a master regulator of genesis, homeostasis, and function of thyroid…",
+      "subject": "cell biology",
+      "title": "Self-propagating organelle biogenesis on synthetic beads",
+      "body": "How cells build their many organelles remains poorly understood. Centrosomes are a striking example: structurally complex organelles built from more than one hundred different proteins. Here we show that a synthetic bead can generate centrosome-like particles (CLiPs) in early Drosophila embryos if it is programmed to r…",
       "inst": [
-        "nih"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.26.746581",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.01.09.698636",
+      "date": "2026-08-28"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Environmental stress and phenotypic tradeoff modulate the adaptive potential of novel coding sequences for de novo gene birth",
-      "body": "Novel protein-coding genes can emerge de novo from ancestrally noncoding sequences and promote adaptation to environmental stresses. Previous work proposes that pervasive translation of lowly expressed open reading frames (ORFs) in noncoding regions creates a rich reservoir of 'proto-genes,' of which subsequent acquisi…",
+      "subject": "cell biology",
+      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor oligomerization and kinase activation",
+      "body": "Because ErbB receptors play distinct roles in regulating diverse cellular functions, the mechanisms governing ErbB receptor activation are likely to be more diverse than previously recognized. Phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2] positively regulates ErbB1 kinase activity, but the role of PI(4,5)P2 in regu…",
       "inst": [
-        "eth"
+        "riken"
       ],
-      "doi": "10.64898/2026.08.24.746591",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.24.746611",
+      "date": "2026-08-28"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Distribution of the glucagon receptor in periventricular brain barrier interfaces including motile and primary cilia in rat brain",
-      "body": "Glucagon is a key metabolic hormone regulating blood glucose and appetite, yet little is known about its actions within the brain. Here, we investigated its receptor (GCGR) localization in periventricular brain barrier interfaces in young rats using immunohistochemical and immunofluorescence approaches. GCGR was enrich…",
+      "subject": "developmental biology",
+      "title": "Tissue-wide metabolic buffering confers resilience to mosaic mitochondrial dysfunction",
+      "body": "Mitochondria and oxidative phosphorylation (OxPhos) are essential for cellular homeostasis. However, the phenotypes caused by mitochondrial dysfunction often display remarkable tissue-specificity. What determines the susceptibility of individual cells to metabolic or mitochondrial defects in a complex tissue context, r…",
       "inst": [
-        "copenhagen"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.24.746618",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.27.747448",
+      "date": "2026-08-28"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "DeepTMHMM2 enables accurate prediction of transmembrane protein topology and subcellular location",
-      "body": "Transmembrane -helical and {beta}-barrel proteins are a ubiquitous component of proteomes. Topology prediction infers how proteins are embedded in lipid bilayers, identifying membrane-spanning segments and their orientation. While recent methods achieve high performance for membrane-spanning segments, they cannot predi…",
+      "subject": "ecology",
+      "title": "Life history traits predict the contribution of transient dynamics to variation in population growth",
+      "body": "The performance of any natural population in variable environments depends on contemporaneous changes in its vital rates (e.g., survival, reproduction) as well as legacies carried by its population structure. Yet whether the relative contribution of these two pathways can be predicted from life history remains unknown.…",
       "inst": [
-        "copenhagen"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.24.746435",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.28.747639",
+      "date": "2026-08-28"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Resting Galvanic Skin Response Reflects Fluctuations in Creativity Potential for Solving Creativity Tasks",
-      "body": "Creative performance fluctuates from moment to moment, suggesting that it depends partly on transient internal states present before creative thinking begins. Although such fluctuations have been identified in central neural activity, it remains unclear whether they are also reflected in autonomic physiology. We examin…",
+      "subject": "bioengineering",
+      "title": "Aiptasia larvae are phenotypically validated as a model of coral bleaching using high-throughput machine-learning image analysis",
+      "body": "The sea anemone Aiptasia is a model system for understanding cnidarian loss of symbiotic algae under heat stress (bleaching). While Aiptasia polyps have been widely used to study this process, accurate symbiosis phenotyping grapples with discordant length scales: fine spatial resolution (~100 um) is needed across a who…",
       "inst": [
-        "tokyo"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.08.23.746567",
-      "date": "2026-08-27"
+      "doi": "10.64898/2026.08.28.747729",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Multi-omic characterization of axolotl perilymph-cerebrospinal fluid reveals shifts in composition during limb regeneration",
+      "body": "The axolotl salamander can fully regenerate amputated limbs, yet the systemic consequences underlying this process remain largely understudied. Cerebrospinal fluid is an emerging signaling medium capable of communicating with both the central and peripheral nervous systems, but its composition and potential role in sal…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.27.747356",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "EASI-PASS: An accessible pipeline for linking functional imaging and mRNA profiling",
+      "body": "We developed EASI-PASS, a reliable, high-throughput method for estimating the molecular identity of functionally characterized cells by merging live imaging with subsequent fixed-tissue imaging using conventional microscopes. Our method matches the shapes and locations of thousands of densely imaged cells between large…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.21.746328",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Experimental flowering order shapes priority effects in plant-pollinator interactions",
+      "body": "Climate change is disrupting life's seasonal rhythms, altering the timing of key phenophases and reshaping how communities assemble. Beyond shifting flowering times, climate change can modify the extent of floral overlap and the sequence in which species bloom, generating novel assemblages with uncertain consequences f…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.08.28.747010",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching",
+      "body": "Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms and tissue architecture. Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.08.25.746917",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Sphingosine 1-phosphate receptor-1 signaling enhances neutrophil survival while suppressing inflammation and bacterial host defense functions",
+      "body": "Sphingosine 1-phosphate (S1P), a lipid mediator that signals through five G protein-coupled S1P receptors (S1PRs), regulates T cell trafficking, tissue residency, and inflammatory processes. In contrast to the established roles of S1P signaling in T cell trafficking, its role in neutrophil biology remains poorly unders…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.02.05.703783",
+      "date": "2026-08-28"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "A comprehensive resource for studying microRNA evolution and microRNA-mediated development and whole-body regeneration in the acoel worm Hofstenia miamia",
+      "body": "The acoel worm Hofstenia miamia (H. miamia) has recently emerged as a model organism for studying whole-body regeneration and embryonic development, providing an opportunity to probe post-transcriptional mechanisms in both processes in the same organism. Here, we establish a resource for studying H. miamia microRNA-med…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2024.12.01.626237",
+      "date": "2026-08-28"
     }
   ]
 }
