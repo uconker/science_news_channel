@@ -1,239 +1,218 @@
 {
-  "generated_at": "2026-08-31T13:16:29.308175+00:00",
+  "generated_at": "2026-09-01T11:26:52.117498+00:00",
   "institutions": {
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Bringing Attention to Education: Revisiting the Neural Mechanisms of Selective Attention in Naturalistic Learning",
-      "body": "In the context of education, attention can be considered the gateway for learning, yet it remains unclear which neural mechanisms of attention identified under controlled laboratory conditions are most relevant when children engage in meaningful learning. Here, we addressed this question by experimentally manipulating …",
+      "subject": "cell biology",
+      "title": "Nuclear size is genetically controlled and influences cell fate",
+      "body": "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization. Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved. Here, we address both questions by combining i…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.26.747092",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.26.747275",
+      "date": "2026-08-31"
     },
     {
       "id": 1,
       "cat": "science",
       "subject": "biophysics",
-      "title": "Spatially patterned, spectral single-molecule microscopy",
-      "body": "Multicolour and spectrally resolved single-molecule microscopy can reveal molecular interactions, nanoscale environments and dynamics, but usually depends on experimentally complex detection architectures based on beam splitting, spectral dispersion or engineered point spread functions. Here we show that spatially patt…",
+      "title": "MechanoMaST - a multimodal pipeline for spatially registering mechanical and transcriptomic tissue data",
+      "body": "Spatial-omics workflows enable molecular analysis within tissue spatial context. Despite the prognostic value of tissue stiffness, these approaches have not incorporated direct, mechanical measurements. This omission reflects several challenges, including sample requirements, low throughput, specialized equipment, and …",
       "inst": [
-        "cambridge"
+        "embl"
       ],
-      "doi": "10.64898/2026.04.08.715690",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.29.747727",
+      "date": "2026-08-31"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Transcriptional Response to Tumor Mutational Burden Is Consistent Across Cancer Types",
-      "body": "Tumor mutational burden (TMB) shapes tumor transcriptional state, but studies typically describe this response as an average effect pooled across cancer types. Whether that average reflects a consistent response present within individual cancer types, or is an artifact of merging heterogeneous, tissue-specific response…",
+      "subject": "biophysics",
+      "title": "Optogenetic control of actin crosslinker length reveals a mechanical basis for cortical symmetry breaking",
+      "body": "Cell shape changes during migration, division, or differentiation require the dynamic regulation of actin network mechanics. Actin crosslinkers are central to this regulation, controlling network connectivity and the transmission of contractile forces. A large diversity of crosslinkers exists, differing in length, doma…",
       "inst": [
-        "stanford"
+        "embl"
       ],
-      "doi": "10.64898/2026.08.27.744035",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.30.748082",
+      "date": "2026-08-31"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Combining 3D-multispectral and hyperspectral imaging to identify environmental stress treatments imposed during plant growth",
-      "body": "Non-invasive, high-throughput phenotyping tools are needed that can identify environmental effects on plant structure and function to diagnose factors responsible for reduced growth in commercial and non-commercial settings. In this study, we explored whether the integration of 3D-multispectral (3D) and 2D-hyperspectra…",
+      "subject": "bioinformatics",
+      "title": "Survey of the human proteostasis network: the ubiquitin-proteasome system",
+      "body": "Modification by ubiquitination governs the half-lives of thousands of proteins that are fated for elimination by either the proteasome or autophagy pathways, depending on the intricate architectures of ubiquitin modification. This system mediates quality control for individual proteins, protein complexes, and organelle…",
       "inst": [
-        "anu"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.28.747774",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.03.13.711689",
+      "date": "2026-08-30"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Out-of-balance Growth Enables Cost-free Synthesis of the Flagellum and Other Proteins in a Single Bacterium",
-      "body": "The cost of expressing unnecessary genes on growth has been explained at the population level through balanced growth assumptions. However, due to the high degree of stochasticity in growth and gene regulation, it remains unclear how classical growth laws derived from bulk measurements manifest at the level of individu…",
+      "subject": "neuroscience",
+      "title": "Structural generalization and continual learning enabled by factorized entorhinal-hippocampal memory and entorhinal-parietal action circuits",
+      "body": "Flexible behavior requires generalizable memory and learning. For example, we rapidly learn to commute in new cities by reusing our knowledge of Euclidean two-dimensional space and structures like roundabouts and subway systems without forgetting how to get to a favorite restaurant back home. Yet we lack a detailed und…",
       "inst": [
-        "harvard"
+        "mit"
       ],
-      "doi": "10.1101/2024.12.17.629032",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.25.747129",
+      "date": "2026-08-30"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Self-propagating organelle biogenesis on synthetic beads",
-      "body": "How cells build their many organelles remains poorly understood. Centrosomes are a striking example: structurally complex organelles built from more than one hundred different proteins. Here we show that a synthetic bead can generate centrosome-like particles (CLiPs) in early Drosophila embryos if it is programmed to r…",
+      "subject": "microbiology",
+      "title": "A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV",
+      "body": "Backgrounds Crimean-Congo hemorrhagic fever virus (CCHFV) is a tick-borne nairovirus that can cause severe human disease in the endemic areas, and no licensed antiviral is broadly available. Antiviral discovery is constrained by the requirement to study authentic CCHFV under biosafety level 4 (BSL-4) containment, creat…",
       "inst": [
-        "oxford"
+        "broad"
       ],
-      "doi": "10.64898/2026.01.09.698636",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.28.747751",
+      "date": "2026-08-30"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Membrane PI(4,5)P2 and ErbB2 abundance regulate ErbB receptor oligomerization and kinase activation",
-      "body": "Because ErbB receptors play distinct roles in regulating diverse cellular functions, the mechanisms governing ErbB receptor activation are likely to be more diverse than previously recognized. Phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2] positively regulates ErbB1 kinase activity, but the role of PI(4,5)P2 in regu…",
+      "subject": "microbiology",
+      "title": "Marked sex differences and frequent carriage of recognized uropathogens in the human urogenital microbiome: urine profiles from a population-level shotgun metagenomics study",
+      "body": "Background: The urinary tract was long considered sterile. The discovery of the urinary microbiome has attracted interest in its role in urinary health and disease. Population-level urinary microbiome composition remains poorly defined and previous studies relied on selected populations and low-resolution sequencing. W…",
       "inst": [
-        "riken"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.08.24.746611",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.02.25.707997",
+      "date": "2026-08-29"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Tissue-wide metabolic buffering confers resilience to mosaic mitochondrial dysfunction",
-      "body": "Mitochondria and oxidative phosphorylation (OxPhos) are essential for cellular homeostasis. However, the phenotypes caused by mitochondrial dysfunction often display remarkable tissue-specificity. What determines the susceptibility of individual cells to metabolic or mitochondrial defects in a complex tissue context, r…",
+      "subject": "genomics",
+      "title": "A comprehensive atlas of somatic mutation rates and mutational signatures in normal human cells",
+      "body": "Over the course of a lifetime, somatic mutations accrue in normal human cells, causing variation in cell phenotype and engendering somatic evolution with outcomes ranging from the adaptive immune system to cancer. To inform understanding of somatic evolution in the human body we report the mutation rates and mutational…",
       "inst": [
-        "cambridge"
+        "sanger"
       ],
-      "doi": "10.64898/2026.08.27.747448",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.28.747772",
+      "date": "2026-08-29"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Life history traits predict the contribution of transient dynamics to variation in population growth",
-      "body": "The performance of any natural population in variable environments depends on contemporaneous changes in its vital rates (e.g., survival, reproduction) as well as legacies carried by its population structure. Yet whether the relative contribution of these two pathways can be predicted from life history remains unknown.…",
+      "subject": "bioinformatics",
+      "title": "HANSEN: An Integrated Structural and Functional Proteome Resource for Structure-Guided Drug Discovery in Mycobacterium leprae",
+      "body": "Leprosy remains a leading infectious cause of preventable disability, yet its causative agent, Mycobacterium leprae (M. leprae), is structurally under-characterised. Only ten Protein Data Bank (PDB) entries represent seven of its 1,603 protein-coding genes. We present HANSEN, a proteome-wide structural and functional r…",
       "inst": [
-        "oxford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.08.28.747639",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.03.741541",
+      "date": "2026-08-29"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Aiptasia larvae are phenotypically validated as a model of coral bleaching using high-throughput machine-learning image analysis",
-      "body": "The sea anemone Aiptasia is a model system for understanding cnidarian loss of symbiotic algae under heat stress (bleaching). While Aiptasia polyps have been widely used to study this process, accurate symbiosis phenotyping grapples with discordant length scales: fine spatial resolution (~100 um) is needed across a who…",
+      "subject": "microbiology",
+      "title": "Ultra-High Multiplexing Enables Near-Full-Length 16S rRNA Gene Amplicon Sequencing of Over 1,200 Gut Microbiome Samples on a Single Nanopore Flow Cell",
+      "body": "Next-generation sequencing (NGS) of the prokaryotic 16S rRNA gene revolutionized gut microbiome research two decades ago. However, short read lengths remain an inherent limitation of platforms such as the widely used Illumina platforms (2 x 150-300 bp). Recent advances in Oxford Nanopore Technologies (ONT) flow cell ch…",
       "inst": [
-        "berkeley"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.08.28.747729",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.29.747698",
+      "date": "2026-08-29"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Multi-omic characterization of axolotl perilymph-cerebrospinal fluid reveals shifts in composition during limb regeneration",
-      "body": "The axolotl salamander can fully regenerate amputated limbs, yet the systemic consequences underlying this process remain largely understudied. Cerebrospinal fluid is an emerging signaling medium capable of communicating with both the central and peripheral nervous systems, but its composition and potential role in sal…",
+      "subject": "biophysics",
+      "title": "Engineering a highly active thermophilic F1-ATPase by homolog-guided exploration and machine-learning-assisted prioritization",
+      "body": "The rotary motor F1-ATPase has been extensively studied as a model molecular machine, yet rational engineering of its catalytic activity remains challenging because ATP hydrolysis is regulated by long-range intersubunit allostery and large conformational transitions. Here, we developed a homolog-guided engineering stra…",
       "inst": [
-        "harvard"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.08.27.747356",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.27.747693",
+      "date": "2026-08-29"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "EASI-PASS: An accessible pipeline for linking functional imaging and mRNA profiling",
-      "body": "We developed EASI-PASS, a reliable, high-throughput method for estimating the molecular identity of functionally characterized cells by merging live imaging with subsequent fixed-tissue imaging using conventional microscopes. Our method matches the shapes and locations of thousands of densely imaged cells between large…",
+      "subject": "microbiology",
+      "title": "A structure-guided classification framework reveals the diversity and catalytic architecture of BECR ribonuclease",
+      "body": "Microorganisms across all domains of life engage in molecular conflict, deploying toxins to inhibit competitors or respond to biological threats. Among these, ribonuclease toxins are particularly widespread and diverse. A substantial fraction is associated with the BECR fold, a compact /{beta} architecture that support…",
       "inst": [
-        "harvard"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.21.746328",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.28.747851",
+      "date": "2026-08-29"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Experimental flowering order shapes priority effects in plant-pollinator interactions",
-      "body": "Climate change is disrupting life's seasonal rhythms, altering the timing of key phenophases and reshaping how communities assemble. Beyond shifting flowering times, climate change can modify the extent of floral overlap and the sequence in which species bloom, generating novel assemblages with uncertain consequences f…",
+      "subject": "neuroscience",
+      "title": "RGC-specific reversal of lipid peroxidation drives neuroprotection and vision restoration in optic nerve ischemia by targeting GPX4",
+      "body": "Nonarteritic anterior ischemic optic neuropathy (NAION) is the leading cause of acute optic nerve related vision loss in older adults, yet no disease modifying therapy exists. Although ischemia is a defining feature of NAION, prior therapeutic efforts targeting vascular insufficiency or nonspecific oxidative stress hav…",
       "inst": [
-        "eth"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.28.747010",
-      "date": "2026-08-28"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching",
-      "body": "Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms and tissue architecture. Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.08.25.746917",
-      "date": "2026-08-28"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "Sphingosine 1-phosphate receptor-1 signaling enhances neutrophil survival while suppressing inflammation and bacterial host defense functions",
-      "body": "Sphingosine 1-phosphate (S1P), a lipid mediator that signals through five G protein-coupled S1P receptors (S1PRs), regulates T cell trafficking, tissue residency, and inflammatory processes. In contrast to the established roles of S1P signaling in T cell trafficking, its role in neutrophil biology remains poorly unders…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.02.05.703783",
-      "date": "2026-08-28"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "A comprehensive resource for studying microRNA evolution and microRNA-mediated development and whole-body regeneration in the acoel worm Hofstenia miamia",
-      "body": "The acoel worm Hofstenia miamia (H. miamia) has recently emerged as a model organism for studying whole-body regeneration and embryonic development, providing an opportunity to probe post-transcriptional mechanisms in both processes in the same organism. Here, we establish a resource for studying H. miamia microRNA-med…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2024.12.01.626237",
-      "date": "2026-08-28"
+      "doi": "10.64898/2026.08.25.747113",
+      "date": "2026-08-29"
     }
   ]
 }
