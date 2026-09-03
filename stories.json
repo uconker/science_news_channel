@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-09-02T11:00:39.043643+00:00",
+  "generated_at": "2026-09-03T10:59:12.203341+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
-    "broad": {
-      "name": "Broad Institute, Cambridge MA",
-      "lat": 42.36,
-      "lon": -71.1
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
     "eth": {
       "name": "ETH Zurich",
@@ -20,16 +25,6 @@
       "name": "EMBL Heidelberg",
       "lat": 49.42,
       "lon": 8.62
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
     }
   },
   "stories": [
@@ -84,38 +79,50 @@
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Survey of the human proteostasis network: the ubiquitin-proteasome system",
-      "body": "Modification by ubiquitination governs the half-lives of thousands of proteins that are fated for elimination by either the proteasome or autophagy pathways, depending on the intricate architectures of ubiquitin modification. This system mediates quality control for individual proteins, protein complexes, and organelle…",
+      "subject": "developmental biology",
+      "title": "Symbiont spatial organisation is dynamically regulated within cnidarian host tissues",
+      "body": "The symbiosis with photosynthetic dinoflagellate algae enables corals to build and sustain reef ecosystems. Individual coral polyps hold algal symbionts in their epithelial endoderm cells and lose them under environmental stress, leading to coral bleaching. How the host integrates symbionts into its body plan is not we…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.03.13.711689",
-      "date": "2026-08-30"
+      "doi": "10.64898/2026.08.28.743919",
+      "date": "2026-08-31"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Structural generalization and continual learning enabled by factorized entorhinal-hippocampal memory and entorhinal-parietal action circuits",
-      "body": "Flexible behavior requires generalizable memory and learning. For example, we rapidly learn to commute in new cities by reusing our knowledge of Euclidean two-dimensional space and structures like roundabouts and subway systems without forgetting how to get to a favorite restaurant back home. Yet we lack a detailed und…",
+      "subject": "biochemistry",
+      "title": "Cereblon on Steroids: Beyond the Canonical Ligand Space",
+      "body": "Cereblon (CRBN) is widely used in targeted protein degradation, but its ligand space has remained dominated by a narrow set of cyclic imide chemotypes. Here, we show that the accessible CRBN ligand space extends substantially beyond this canonical space. A high-throughput screen of > 40,000 compounds, followed by ortho…",
       "inst": [
-        "mit"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.25.747129",
-      "date": "2026-08-30"
+      "doi": "10.64898/2026.08.28.747849",
+      "date": "2026-08-31"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV",
-      "body": "Backgrounds Crimean-Congo hemorrhagic fever virus (CCHFV) is a tick-borne nairovirus that can cause severe human disease in the endemic areas, and no licensed antiviral is broadly available. Antiviral discovery is constrained by the requirement to study authentic CCHFV under biosafety level 4 (BSL-4) containment, creat…",
+      "subject": "cancer biology",
+      "title": "Targeting the FBXL12-FANCD2 Pathway Disrupts Replication Stress Tolerance in MYCN-Driven Neuroblastoma",
+      "body": "MYCN amplification drives replication stress in high-risk neuroblastoma, yet how MYCN-amplified tumour cells tolerate this stress to sustain proliferation remains poorly understood. Here we show that FBXL12, an SCF ubiquitin ligase substrate receptor that targets the Fanconi anaemia protein FANCD2 for degradation at re…",
       "inst": [
-        "broad"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.08.28.747751",
-      "date": "2026-08-30"
+      "doi": "10.64898/2026.08.29.745966",
+      "date": "2026-08-31"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "PKA-regulated carbohydrate production protects cells by altering cytoplasmic biophysical properties",
+      "body": "Proliferating cells maintain their cytoplasmic density within a narrow range but deviate when entering quiescence or experiencing stress, suggesting active regulation. The mechanisms driving these density adjustments and their impact on cellular function remain unclear. Here, we demonstrate that the conserved cAMP-acti…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.08.29.747980",
+      "date": "2026-08-31"
     }
   ]
 }
