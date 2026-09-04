@@ -1,128 +1,208 @@
 {
-  "generated_at": "2026-09-03T10:59:12.203341+00:00",
+  "generated_at": "2026-09-04T10:59:56.883814+00:00",
   "institutions": {
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Nuclear size is genetically controlled and influences cell fate",
-      "body": "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization. Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved. Here, we address both questions by combining i…",
+      "subject": "microbiology",
+      "title": "Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations",
+      "body": "Assessing whether drug combinations synergise or antagonise is difficult for several reasons: (i) measuring bacterial death rates at clinically relevant inhibitory drug concentrations is methodologically challenging, (ii) there is no unifying definition of what constitutes synergy or antagonism, and (iii) both synergy …",
       "inst": [
-        "cambridge"
+        "eth"
       ],
-      "doi": "10.64898/2026.08.26.747275",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.02.07.703730",
+      "date": "2026-09-01"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "MechanoMaST - a multimodal pipeline for spatially registering mechanical and transcriptomic tissue data",
-      "body": "Spatial-omics workflows enable molecular analysis within tissue spatial context. Despite the prognostic value of tissue stiffness, these approaches have not incorporated direct, mechanical measurements. This omission reflects several challenges, including sample requirements, low throughput, specialized equipment, and …",
+      "subject": "neuroscience",
+      "title": "CREST: A Cortical Resting-State EEG Spatial Transformer for Chronic Pain Inference",
+      "body": "Chronic pain mechanisms are complex, spanning multiple brain regions and networks. We ask whether resting brain activity carries a readout of that state. From a few minutes of resting-state electroencephalography (EEG), we generate a spectrogram to represent how each region of the cortex oscillates across frequency and…",
       "inst": [
-        "embl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.29.747727",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.08.25.747119",
+      "date": "2026-09-01"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "biophysics",
-      "title": "Optogenetic control of actin crosslinker length reveals a mechanical basis for cortical symmetry breaking",
-      "body": "Cell shape changes during migration, division, or differentiation require the dynamic regulation of actin network mechanics. Actin crosslinkers are central to this regulation, controlling network connectivity and the transmission of contractile forces. A large diversity of crosslinkers exists, differing in length, doma…",
+      "title": "Hierarchical Heterogeneities in Spatiotemporal Dynamics of the Cytoplasm",
+      "body": "The physical properties of the cytoplasm fundamentally constrain the dynamics and fidelity of cellular processes. Endogenous fluctuations carry signatures of these properties, yet how their collective dynamics across mesoscopic spatiotemporal scales relate to cytoplasmic heterogeneity and organization remains poorly un…",
       "inst": [
-        "embl"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.30.748082",
-      "date": "2026-08-31"
+      "doi": "10.1101/2025.05.08.652886",
+      "date": "2026-09-01"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "pathology",
-      "title": "Leptin: A Potential Adipokine Bridging Systemic Endotoxemia and Sex-Divergent Temporomandibular Joint Osteoarthritis Development",
-      "body": "Background: Temporomandibular joint (TMJ) osteoarthritis (OA) is a degenerative disease affecting the whole synovial joint, with a higher prevalence in women. Obesity is recognised as a risk factor for knee OA, but its association with TMJ degeneration remains controversial. Lipopolysaccharide (LPS), or endotoxin, has …",
+      "subject": "biophysics",
+      "title": "3D Printed X-ray Compatible Microfluidics for Online Characterization of Hexosomes: A Synchrotron SAXS-on-Chip Study with Molecular Dynamics Insights",
+      "body": "Online structural characterization during microfluidic lipid self-assembly is important for understanding and controlling the formation of nonlamellar liquid crystalline nanodispersions. Here, we report a 3D-printed, X-ray-compatible hydrodynamic flow-focusing microfluidic chip with variable channel dimensions, integra…",
       "inst": [
-        "eth"
+        "copenhagen"
       ],
-      "doi": "10.1101/2025.10.13.682179",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.08.31.748233",
+      "date": "2026-09-01"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Symbiont spatial organisation is dynamically regulated within cnidarian host tissues",
-      "body": "The symbiosis with photosynthetic dinoflagellate algae enables corals to build and sustain reef ecosystems. Individual coral polyps hold algal symbionts in their epithelial endoderm cells and lose them under environmental stress, leading to coral bleaching. How the host integrates symbionts into its body plan is not we…",
+      "subject": "evolutionary biology",
+      "title": "Environmental stress and phenotypic tradeoff modulate the adaptive potential of novel coding sequences for de novo gene birth",
+      "body": "Novel protein-coding genes can emerge de novo from ancestrally noncoding sequences and promote adaptation to environmental stresses. Previous work proposes that pervasive translation of lowly expressed open reading frames (ORFs) in noncoding regions creates a rich reservoir of 'proto-genes,' of which subsequent acquisi…",
       "inst": [
-        "cambridge"
+        "eth"
       ],
-      "doi": "10.64898/2026.08.28.743919",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.08.24.746591",
+      "date": "2026-09-01"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Cereblon on Steroids: Beyond the Canonical Ligand Space",
-      "body": "Cereblon (CRBN) is widely used in targeted protein degradation, but its ligand space has remained dominated by a narrow set of cyclic imide chemotypes. Here, we show that the accessible CRBN ligand space extends substantially beyond this canonical space. A high-throughput screen of > 40,000 compounds, followed by ortho…",
+      "subject": "biophysics",
+      "title": "Mapping Light-Induced Conformational Dynamics of Pigeon Cryptochrome 4 by HDX-MS: Structural Transitions from Spin Pair Formation to Activated Conformational States",
+      "body": "The navigational prowess of migratory birds is thought to arise from light-dependent radical-pair chemistry in cryptochrome 4 (CRY4), yet the slow structural transitions that couple photochemistry to signaling remain elusive. Here, we combine temperature-controlled steady-state UV-visible spectroscopy and hydrogen-deut…",
       "inst": [
-        "mpi_generic"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.08.28.747849",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.08.27.747556",
+      "date": "2026-09-01"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Targeting the FBXL12-FANCD2 Pathway Disrupts Replication Stress Tolerance in MYCN-Driven Neuroblastoma",
-      "body": "MYCN amplification drives replication stress in high-risk neuroblastoma, yet how MYCN-amplified tumour cells tolerate this stress to sustain proliferation remains poorly understood. Here we show that FBXL12, an SCF ubiquitin ligase substrate receptor that targets the Fanconi anaemia protein FANCD2 for degradation at re…",
+      "subject": "neuroscience",
+      "title": "BRAINCELL modelling platform for stochastic nanoscale organisation and dynamic extracellular signalling among neurons and glia",
+      "body": "Biophysical cell models have been central to understanding signal processing in brain cells and their networks, yet important limitations remain. First, the rich repertoire of nanoscale structures, such as dendritic spines and thin astrocyte processes, has been difficult to incorporate into whole-cell models because of…",
       "inst": [
-        "karolinska"
+        "ucl"
       ],
-      "doi": "10.64898/2026.08.29.745966",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.08.22.746419",
+      "date": "2026-09-01"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "PKA-regulated carbohydrate production protects cells by altering cytoplasmic biophysical properties",
-      "body": "Proliferating cells maintain their cytoplasmic density within a narrow range but deviate when entering quiescence or experiencing stress, suggesting active regulation. The mechanisms driving these density adjustments and their impact on cellular function remain unclear. Here, we demonstrate that the conserved cAMP-acti…",
+      "subject": "developmental biology",
+      "title": "Real-time single-molecule imaging in zebrafish embryos uncovers non-canonical translation",
+      "body": "Precise spatiotemporal control of protein synthesis is essential during embryogenesis, yet directly measuring translation kinetics in vivo remains challenging in vertebrates. In particular, it remains unclear how translation efficiency is determined for key developmental regulators, and which kinetic steps limit their …",
       "inst": [
-        "eth"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.29.747980",
-      "date": "2026-08-31"
+      "doi": "10.64898/2026.01.05.697684",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "genetics",
+      "title": "Cohesin promotes genomic stability by suppressing unequal sister chromatid exchange",
+      "body": "The protein complex cohesin plays critical roles in genomic stability by tethering together sister chromatids at their pericentric regions and along their arms from S phase until anaphase. Cohesin-mediated pericentric cohesion prevents aneuploidy by ensuring bipolar attachment of sister kinetochores. Arm cohesion preve…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.07.31.742155",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Enhanced visual perceptual learning by positive allosteric modulation of α5 subunit-containing GABA-A receptors: putative association with the prelimbic cortex",
+      "body": "Perceptual learning is a dynamic process involving the acquisition and integration of sensory information necessary for adaptive decision making. Resolving the neural basis of perceptual learning may have relevance for our understanding of schizophrenia and other neurodevelopmental disorders that implicate impaired per…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.03.25.714213",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Complementary ecomorphological patterns in brain shape and size evolution across the avian radiation",
+      "body": "Like mammals, birds have exceptionally large brains for their body sizes, which is thought to have facilitated their diversification through environmental change, and has been associated with many ecological adaptations. Although size metrics are informative and well-studied, they are limited in their ability to charac…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2025.10.14.682392",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "The first OpenBind release: An open experimental structure-affinity dataset and benchmark for structure-based AI",
+      "body": "High-quality experimental datasets that link protein-ligand structures with binding affinity data are essential for developing and evaluating structure-based machine learning methods. To help address this need, we established OpenBind as an open-science initiative to generate large-scale experimental datasets for struc…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.08.27.747600",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Genetic and epigenetic convergence at MOBP links ALS and PSP",
+      "body": "BackgroundMyelin associated oligodendrocyte basic protein (MOBP) is an abundantly expressed oligodendrocyte gene. Genetic variation at the MOBP locus has been associated with risk for multiple neurodegenerative disorders, including progressive supranuclear palsy (PSP), amyotrophic lateral sclerosis (ALS), and frontotem…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.03.25.714147",
+      "date": "2026-09-01"
     }
   ]
 }
