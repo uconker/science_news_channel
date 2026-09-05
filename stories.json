@@ -1,208 +1,249 @@
 {
-  "generated_at": "2026-09-04T10:59:56.883814+00:00",
+  "generated_at": "2026-09-05T10:21:10.179660+00:00",
   "institutions": {
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Antimicrobial Combination Effects at Sub-inhibitory Doses do not Reliably Predict Effects at Inhibitory Concentrations",
-      "body": "Assessing whether drug combinations synergise or antagonise is difficult for several reasons: (i) measuring bacterial death rates at clinically relevant inhibitory drug concentrations is methodologically challenging, (ii) there is no unifying definition of what constitutes synergy or antagonism, and (iii) both synergy …",
+      "subject": "cell biology",
+      "title": "Modelling human haematopoietic stem cell commitment ex vivo identifies IL-33 as a regulator of megakaryopoiesis",
+      "body": "Commitment events to specific blood lineages arise from single hematopoietic stem cells (HSCs) and are influenced by stress, inflammation and disease. However, the understanding of how such events are regulated in human haematopoiesis is limited by the lack of tractable in vitro models. In this study, we introduce a no…",
       "inst": [
-        "eth"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.02.07.703730",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.09.01.748535",
+      "date": "2026-09-03"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "CREST: A Cortical Resting-State EEG Spatial Transformer for Chronic Pain Inference",
-      "body": "Chronic pain mechanisms are complex, spanning multiple brain regions and networks. We ask whether resting brain activity carries a readout of that state. From a few minutes of resting-state electroencephalography (EEG), we generate a spectrogram to represent how each region of the cortex oscillates across frequency and…",
+      "subject": "genomics",
+      "title": "Histone H3K9 methylation and Heterochromatin Protein 1 do not limit DNA accessibility in living S. pombe cells",
+      "body": "Chromatin is intrinsically repressive, limiting access to DNA, implying a major regulatory role. Studies with nuclei support this model. However, we have shown previously that genomic DNA is completely accessible in living budding yeast and human cells, except for centromeric chromatin. The fission yeast, Schizosacchar…",
       "inst": [
-        "stanford"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.25.747119",
-      "date": "2026-09-01"
+      "doi": "10.64898/2025.12.12.694020",
+      "date": "2026-09-03"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Hierarchical Heterogeneities in Spatiotemporal Dynamics of the Cytoplasm",
-      "body": "The physical properties of the cytoplasm fundamentally constrain the dynamics and fidelity of cellular processes. Endogenous fluctuations carry signatures of these properties, yet how their collective dynamics across mesoscopic spatiotemporal scales relate to cytoplasmic heterogeneity and organization remains poorly un…",
+      "subject": "neuroscience",
+      "title": "SEROTONERGIC ANXIETY IS A STRESS INTENSITY-DEPENDENT STATE MEDIATED BY DOPAMINERGIC SIGNALING",
+      "body": "Despite the central role attributed to serotonin in anxiety, its involvement and therapeutic efficacy are inconsistent, raising the possibility that serotonergic recruitment depends on the stress history from which anxiety emerges. Using larval zebrafish, we combined graded glucocorticoid exposure with chemogenetic DRN…",
       "inst": [
-        "mpi_generic"
+        "copenhagen"
       ],
-      "doi": "10.1101/2025.05.08.652886",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.28.747812",
+      "date": "2026-09-03"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "3D Printed X-ray Compatible Microfluidics for Online Characterization of Hexosomes: A Synchrotron SAXS-on-Chip Study with Molecular Dynamics Insights",
-      "body": "Online structural characterization during microfluidic lipid self-assembly is important for understanding and controlling the formation of nonlamellar liquid crystalline nanodispersions. Here, we report a 3D-printed, X-ray-compatible hydrodynamic flow-focusing microfluidic chip with variable channel dimensions, integra…",
+      "subject": "neuroscience",
+      "title": "A reactivated thalamocortical plasticity window promotes learning and is reshaped by experience",
+      "body": "Adult sensory loss can reactivate critical-period-like thalamocortical plasticity, but whether this reactivation defines a temporally gated circuit state that facilitates learning and is reciprocally shaped by experience remains unknown. Here we define its in vivo trajectory and functional consequences in adult mouse b…",
       "inst": [
-        "copenhagen"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.31.748233",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.27.747577",
+      "date": "2026-09-03"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Environmental stress and phenotypic tradeoff modulate the adaptive potential of novel coding sequences for de novo gene birth",
-      "body": "Novel protein-coding genes can emerge de novo from ancestrally noncoding sequences and promote adaptation to environmental stresses. Previous work proposes that pervasive translation of lowly expressed open reading frames (ORFs) in noncoding regions creates a rich reservoir of 'proto-genes,' of which subsequent acquisi…",
+      "subject": "molecular biology",
+      "title": "Structural mechanism of nuclear membrane sealing by LEM2-ESCRT-III",
+      "body": "In open mitosis, re-establishing nucleocytoplasmic compartmentalization requires the LEM2-ESCRT machinery to coordinate spindle clearance with sealing of the remaining nuclear envelope pores. The structural basis of this topologically unique and fundamental membrane-remodeling process is poorly understood. Here, we com…",
       "inst": [
-        "eth"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.08.24.746591",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.09.01.748678",
+      "date": "2026-09-03"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Mapping Light-Induced Conformational Dynamics of Pigeon Cryptochrome 4 by HDX-MS: Structural Transitions from Spin Pair Formation to Activated Conformational States",
-      "body": "The navigational prowess of migratory birds is thought to arise from light-dependent radical-pair chemistry in cryptochrome 4 (CRY4), yet the slow structural transitions that couple photochemistry to signaling remain elusive. Here, we combine temperature-controlled steady-state UV-visible spectroscopy and hydrogen-deut…",
+      "subject": "genomics",
+      "title": "A sibling study of variation in parental mutation rates",
+      "body": "People are born with variable numbers of de novo germline mutations (DNMs), depending primarily on the ages of their parents. To explore additional causes, we developed an approach to call DNMs from nucleotide differences between siblings in genomic regions inherited identical by descent from both parents. Applying it …",
       "inst": [
-        "berkeley"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.27.747556",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.05.10.724105",
+      "date": "2026-09-02"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "BRAINCELL modelling platform for stochastic nanoscale organisation and dynamic extracellular signalling among neurons and glia",
-      "body": "Biophysical cell models have been central to understanding signal processing in brain cells and their networks, yet important limitations remain. First, the rich repertoire of nanoscale structures, such as dendritic spines and thin astrocyte processes, has been difficult to incorporate into whole-cell models because of…",
+      "subject": "pharmacology and toxicology",
+      "title": "Lipid-ASO therapeutics exhibit differential tissue targeted delivery upon systemic or local CNS administration",
+      "body": "Antisense oligonucleotides (ASOs) are a powerful therapeutic modality, but their full potential is hindered by pharmacokinetic properties that affect tissue and cellular delivery. Lipid conjugation is increasingly used to modulate ASO's biodistribution and promote extrahepatic activity, yet lipid dependent effects on i…",
       "inst": [
-        "ucl"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.08.22.746419",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.28.747711",
+      "date": "2026-09-02"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Real-time single-molecule imaging in zebrafish embryos uncovers non-canonical translation",
-      "body": "Precise spatiotemporal control of protein synthesis is essential during embryogenesis, yet directly measuring translation kinetics in vivo remains challenging in vertebrates. In particular, it remains unclear how translation efficiency is determined for key developmental regulators, and which kinetic steps limit their …",
+      "subject": "physiology",
+      "title": "Personalized phosphoproteomics establish mTORC1 as a regulator of exercise-induced insulin sensitization in human skeletal muscle",
+      "body": "Exercise enhances skeletal muscle insulin sensitivity, but the signaling mechanisms responsible are poorly understood. Understanding them may open new therapeutic avenues for individuals with limited exercise capacity. Here, we used rapamycin to inhibit mTORC1 in combination with exercise and insulin stimulation in hea…",
       "inst": [
-        "mpi_generic"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.01.05.697684",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.27.747624",
+      "date": "2026-09-02"
     },
     {
       "id": 8,
       "cat": "science",
       "subject": "genetics",
-      "title": "Cohesin promotes genomic stability by suppressing unequal sister chromatid exchange",
-      "body": "The protein complex cohesin plays critical roles in genomic stability by tethering together sister chromatids at their pericentric regions and along their arms from S phase until anaphase. Cohesin-mediated pericentric cohesion prevents aneuploidy by ensuring bipolar attachment of sister kinetochores. Arm cohesion preve…",
+      "title": "A patient-derived LMX1B variant causes tissue-specific manifestations of nail-patella syndrome in mice",
+      "body": "Nail-patella syndrome (NPS) is a multisystem disorder caused by pathogenic variants in LMX1B and is characterized by dysplasia of the nails and patellae as well as extraskeletal complications such as progressive nephropathy and glaucoma. We generated a CRISPR/Cas9 knock-in mouse carrying the R252Q substitution, corresp…",
       "inst": [
-        "berkeley"
+        "riken"
       ],
-      "doi": "10.64898/2026.07.31.742155",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.28.747744",
+      "date": "2026-09-02"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Enhanced visual perceptual learning by positive allosteric modulation of α5 subunit-containing GABA-A receptors: putative association with the prelimbic cortex",
-      "body": "Perceptual learning is a dynamic process involving the acquisition and integration of sensory information necessary for adaptive decision making. Resolving the neural basis of perceptual learning may have relevance for our understanding of schizophrenia and other neurodevelopmental disorders that implicate impaired per…",
+      "subject": "plant biology",
+      "title": "Arabidopsis Acyl-CoA Binding Protein 4, ACBP4, functions in developmentally programmed endoreduplication",
+      "body": "Powdery mildew fungi induce localized endoreduplication, a variant of the cell cycle in which DNA is replicated but cells do not divide, in leaf mesophyll cells underlying the fungal feeding structure. Induced endoreduplication occurs concurrent with powdery mildew (PM) spore production and is associated with enhanced …",
       "inst": [
-        "cambridge"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.03.25.714213",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.31.748435",
+      "date": "2026-09-02"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Complementary ecomorphological patterns in brain shape and size evolution across the avian radiation",
-      "body": "Like mammals, birds have exceptionally large brains for their body sizes, which is thought to have facilitated their diversification through environmental change, and has been associated with many ecological adaptations. Although size metrics are informative and well-studied, they are limited in their ability to charac…",
+      "subject": "neuroscience",
+      "title": "Principles of coarse-scale functional organization in occipitotemporal cortex",
+      "body": "Occipitotemporal cortex is known to process visually perceived objects, yet identifying general principles underlying its coarse-scale functional organization remains challenging for two reasons. First, previous work leaves open whether proposed organizational dimensions, such as animacy or real-world size, are useful …",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.1101/2025.10.14.682392",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.02.18.706551",
+      "date": "2026-09-02"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "The first OpenBind release: An open experimental structure-affinity dataset and benchmark for structure-based AI",
-      "body": "High-quality experimental datasets that link protein-ligand structures with binding affinity data are essential for developing and evaluating structure-based machine learning methods. To help address this need, we established OpenBind as an open-science initiative to generate large-scale experimental datasets for struc…",
+      "subject": "molecular biology",
+      "title": "Half-match recombination drives bridge RNA-guided excision and off-target insertion",
+      "body": "IS110-family bridge recombinases are a recently identified class of compact, RNA-guided editors in which a bridge RNA (bRNA) directs the recombination of a donor DNA into a target site. In the current model, the bRNA engages fully complementary donor and target sequences within a single synaptic complex to drive double…",
       "inst": [
-        "oxford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.08.27.747600",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.08.31.748434",
+      "date": "2026-09-02"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Genetic and epigenetic convergence at MOBP links ALS and PSP",
-      "body": "BackgroundMyelin associated oligodendrocyte basic protein (MOBP) is an abundantly expressed oligodendrocyte gene. Genetic variation at the MOBP locus has been associated with risk for multiple neurodegenerative disorders, including progressive supranuclear palsy (PSP), amyotrophic lateral sclerosis (ALS), and frontotem…",
+      "subject": "cell biology",
+      "title": "PRISM: A Plasmid-based Reporter for Intracellular Spectral Microscopy",
+      "body": "Organelles form an interconnected network whose morphology, positioning and interactions reflect cellular state. However, reproducibly quantifying these organelle phenotypes across large cell populations and diverse cell types remains a significant challenge. Here we present PRISM (Plasmid-based Reporter for Intracellu…",
       "inst": [
-        "ucl"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.03.25.714147",
-      "date": "2026-09-01"
+      "doi": "10.64898/2026.09.01.746207",
+      "date": "2026-09-02"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Activation and inactivation pathways of a p53-like transcription factor govern lipid homeostasis in yeast",
+      "body": "Membrane fluidity depends on unsaturated acyl chains that are generated in Saccharomyces cerevisiae by the desaturase Ole1, whose expression is primarily under the control of the transcription factor Mga2. Here, we show that the endoplasmic reticulum-anchored Mga2 precursor is ubiquitinated by the E3 ligase Rsp5 and th…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.08.31.748402",
+      "date": "2026-09-02"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Melanin Suppresses Aβ Aggregation and Toxicity",
+      "body": "The aggregation of amyloid-{beta} (A{beta}) peptides into insoluble deposits is a characteristic hallmark of Alzheimer's disease (AD) and related neurodegenerative disorders. While AD is the most common cause of dementia, there are currently no disease-modifying treatments which are both affordable and adverse-free. In…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.01.748646",
+      "date": "2026-09-02"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Controlling Molecular Transport through Nanopores by Dynamic Aperture Sizing",
+      "body": "Molecular transport through a nanopore determines the information that can be recovered from a translocation signal, yet it remains difficult to control in conventional solid-state nanopores. Rapid translocation reduces the information content and fixed nanopore geometries limit the dimensionality of the signal. Here, …",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.09.01.748496",
+      "date": "2026-09-02"
     }
   ]
 }
