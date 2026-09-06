@@ -1,15 +1,35 @@
 {
-  "generated_at": "2026-09-05T10:21:10.179660+00:00",
+  "generated_at": "2026-09-06T10:40:44.002252+00:00",
   "institutions": {
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "riken": {
       "name": "RIKEN, Tokyo/Wako",
@@ -21,35 +41,20 @@
       "lat": 39.0,
       "lon": -77.1
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
     }
   },
   "stories": [
@@ -116,134 +121,134 @@
     {
       "id": 5,
       "cat": "science",
-      "subject": "genomics",
-      "title": "A sibling study of variation in parental mutation rates",
-      "body": "People are born with variable numbers of de novo germline mutations (DNMs), depending primarily on the ages of their parents. To explore additional causes, we developed an approach to call DNMs from nucleotide differences between siblings in genomic regions inherited identical by descent from both parents. Applying it …",
+      "subject": "ecology",
+      "title": "Why are fishers retaining manta and devil ray bycatch?",
+      "body": "Increasing fishing pressure, including from small-scale fisheries, has caused declines in more than one-third of all elasmobranch species. Tackling conservation issues in small-scale fisheries requires interdisciplinary approaches due to the coastal community's interdependence on marine resources. To support inclusive …",
       "inst": [
         "oxford"
       ],
-      "doi": "10.64898/2026.05.10.724105",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.09.01.748649",
+      "date": "2026-09-03"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "pharmacology and toxicology",
-      "title": "Lipid-ASO therapeutics exhibit differential tissue targeted delivery upon systemic or local CNS administration",
-      "body": "Antisense oligonucleotides (ASOs) are a powerful therapeutic modality, but their full potential is hindered by pharmacokinetic properties that affect tissue and cellular delivery. Lipid conjugation is increasingly used to modulate ASO's biodistribution and promote extrahepatic activity, yet lipid dependent effects on i…",
+      "subject": "genomics",
+      "title": "Short-term, long-term, and genetic determinants of human plasma proteome variability",
+      "body": "Plasma proteomics is increasingly used for biomarker discovery and predictive modeling, yet diurnal protein trajectories remain insufficiently characterized. In our review of recent proteomic biomarker studies, 43% of the identified biomarkers had previously been reported to display 24-h rhythmicity. We demonstrate tha…",
       "inst": [
-        "karolinska"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.28.747711",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.07.30.741635",
+      "date": "2026-09-03"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Personalized phosphoproteomics establish mTORC1 as a regulator of exercise-induced insulin sensitization in human skeletal muscle",
-      "body": "Exercise enhances skeletal muscle insulin sensitivity, but the signaling mechanisms responsible are poorly understood. Understanding them may open new therapeutic avenues for individuals with limited exercise capacity. Here, we used rapamycin to inhibit mTORC1 in combination with exercise and insulin stimulation in hea…",
+      "subject": "genomics",
+      "title": "Mapping the Phenotypic Landscape of Beta-lactam Resistance in Streptococcus pneumoniae",
+      "body": "Beta-lactam resistance in Streptococcus pneumoniae is typically analysed one antibiotic at a time, often using resistant/susceptible classifications. This obscures the fact that minimum inhibitory concentrations (MICs) in this species are continuous, vary across beta-lactam subclasses in correlated but non-identical wa…",
       "inst": [
-        "copenhagen"
+        "sanger"
       ],
-      "doi": "10.64898/2026.08.27.747624",
-      "date": "2026-09-02"
+      "doi": "10.1101/2025.09.12.675231",
+      "date": "2026-09-03"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "genetics",
-      "title": "A patient-derived LMX1B variant causes tissue-specific manifestations of nail-patella syndrome in mice",
-      "body": "Nail-patella syndrome (NPS) is a multisystem disorder caused by pathogenic variants in LMX1B and is characterized by dysplasia of the nails and patellae as well as extraskeletal complications such as progressive nephropathy and glaucoma. We generated a CRISPR/Cas9 knock-in mouse carrying the R252Q substitution, corresp…",
+      "subject": "plant biology",
+      "title": "In-cell structural analysis reveals a distinctive chloroplast ribosome in Chlamydomonas reinhardtii",
+      "body": "Chloroplast ribosomes synthesize plastid-encoded components of photosynthetic machinery, yet their structure and organization remain poorly understood. We combined cryo-focused ion beam milling, cryo-electron tomography and subtomogram averaging to determine native chloroplast ribosomes in Chlamydomonas reinhardtii. Th…",
       "inst": [
-        "riken"
+        "oxford"
       ],
-      "doi": "10.64898/2026.08.28.747744",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.08.28.747797",
+      "date": "2026-09-03"
     },
     {
       "id": 9,
       "cat": "science",
       "subject": "plant biology",
-      "title": "Arabidopsis Acyl-CoA Binding Protein 4, ACBP4, functions in developmentally programmed endoreduplication",
-      "body": "Powdery mildew fungi induce localized endoreduplication, a variant of the cell cycle in which DNA is replicated but cells do not divide, in leaf mesophyll cells underlying the fungal feeding structure. Induced endoreduplication occurs concurrent with powdery mildew (PM) spore production and is associated with enhanced …",
+      "title": "OsPATROL1 overexpression accelerates stomatal opening to enhance photosynthetic induction and growth under fluctuating light in rice",
+      "body": "Slow stomatal opening after increases in irradiance constrains carbon gain under fluctuating light, yet stomatal kinetics remain an underexplored target for crop improvement. Here, we investigated Oryza sativa PROTON ATPASE TRANSLOCATION CONTROL 1 (OsPATROL1), which encodes a Munc13-like protein implicated in stomatal …",
       "inst": [
-        "berkeley"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.08.31.748435",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.09.01.748733",
+      "date": "2026-09-03"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Principles of coarse-scale functional organization in occipitotemporal cortex",
-      "body": "Occipitotemporal cortex is known to process visually perceived objects, yet identifying general principles underlying its coarse-scale functional organization remains challenging for two reasons. First, previous work leaves open whether proposed organizational dimensions, such as animacy or real-world size, are useful …",
+      "subject": "molecular biology",
+      "title": "Region-specific generation and retention of acetylated cohesin shape the genome-wide pattern of sister chromatid cohesion",
+      "body": "Sister chromatid cohesion depends on ESCO2-mediated acetylation of the cohesin subunit SMC3, yet how this modification is established and maintained across the genome remains poorly understood. Here, we examined the chromatin-binding dynamics of ESCO2 and its enzymatic activity using quantitative ChIP-seq of human cell…",
       "inst": [
-        "mpi_generic"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.02.18.706551",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.01.14.699591",
+      "date": "2026-09-03"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Half-match recombination drives bridge RNA-guided excision and off-target insertion",
-      "body": "IS110-family bridge recombinases are a recently identified class of compact, RNA-guided editors in which a bridge RNA (bRNA) directs the recombination of a donor DNA into a target site. In the current model, the bRNA engages fully complementary donor and target sequences within a single synaptic complex to drive double…",
+      "subject": "cancer biology",
+      "title": "Volumetric Cyclic Immunofluorescence for 3D Spatial Profiling of Tumour, Stroma, and Immune Structures in Human FFPE Tissue",
+      "body": "Mapping how parenchymal, immune, and stromal cells interact with extended structures such as blood vessels and nerves is challenging using conventional thin-section tissue imaging. Volumetric methods such as light-sheet fluorescence microscopy (LSFM) are ideal in these cases and LSFM is widely used in animal models suc…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.31.748434",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.05.17.725158",
+      "date": "2026-09-03"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "PRISM: A Plasmid-based Reporter for Intracellular Spectral Microscopy",
-      "body": "Organelles form an interconnected network whose morphology, positioning and interactions reflect cellular state. However, reproducibly quantifying these organelle phenotypes across large cell populations and diverse cell types remains a significant challenge. Here we present PRISM (Plasmid-based Reporter for Intracellu…",
+      "subject": "developmental biology",
+      "title": "Neogenin-1 marks myeloid-primed fetal hematopoietic stem cells that undergo progressive lineage-restriction with age",
+      "body": "During aging, hematopoietic stem cells (HSCs) increasingly shift from balanced to myeloid-biased differentiation, resulting in reduced lymphoid output and impaired adaptive immunity. The question of whether this lineage bias is established in a subset of HSCs during early development or primarily emerges with aging war…",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.01.746207",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.09.01.747091",
+      "date": "2026-09-03"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Activation and inactivation pathways of a p53-like transcription factor govern lipid homeostasis in yeast",
-      "body": "Membrane fluidity depends on unsaturated acyl chains that are generated in Saccharomyces cerevisiae by the desaturase Ole1, whose expression is primarily under the control of the transcription factor Mga2. Here, we show that the endoplasmic reticulum-anchored Mga2 precursor is ubiquitinated by the E3 ligase Rsp5 and th…",
+      "subject": "biochemistry",
+      "title": "Structural basis for tetraspanin-dependent surface export and adhesive function of integrin α3β1",
+      "body": "Integrin 3{beta}1 (ITG3{beta}1) is a member of an integrin subfamily that binds to laminin proteins and promotes attachment of epithelial cells to the basement membrane. ITG3{beta}1 forms a complex with the tetraspanin CD151, and loss-of-function mutations in both ITG3 and CD151 cause epidermolysis bullosa, a severe sk…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.08.31.748402",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.09.01.748654",
+      "date": "2026-09-03"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Melanin Suppresses Aβ Aggregation and Toxicity",
-      "body": "The aggregation of amyloid-{beta} (A{beta}) peptides into insoluble deposits is a characteristic hallmark of Alzheimer's disease (AD) and related neurodegenerative disorders. While AD is the most common cause of dementia, there are currently no disease-modifying treatments which are both affordable and adverse-free. In…",
+      "subject": "molecular biology",
+      "title": "Sequence features and dynamics of subcellular translation revealed by APEX-Ribo-Seq",
+      "body": "Local translation at specific subcellular regions is proposed to define appropriate protein destinations and functions. However, our understanding of local translation still remains far from complete due to a lack of versatile analytical tools. Here, we developed a new method, termed APEX-Ribo-Seq, that integrates ribo…",
       "inst": [
-        "cambridge"
+        "riken"
       ],
-      "doi": "10.64898/2026.09.01.748646",
-      "date": "2026-09-02"
+      "doi": "10.1101/2025.05.26.656194",
+      "date": "2026-09-03"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Controlling Molecular Transport through Nanopores by Dynamic Aperture Sizing",
-      "body": "Molecular transport through a nanopore determines the information that can be recovered from a translocation signal, yet it remains difficult to control in conventional solid-state nanopores. Rapid translocation reduces the information content and fixed nanopore geometries limit the dimensionality of the signal. Here, …",
+      "subject": "bioengineering",
+      "title": "AutoBlot: deterministic single-cell western blotting reveals proteomic diversity in rare cell populations",
+      "body": "Protein abundance and proteoform composition are direct determinants of cellular phenotype, yet both remain difficult to quantify in individual cells from specimens available in limited numbers. Single-cell western blotting (scWB) provides quantitative, molecular-mass-resolved protein measurements but relies on Poisson…",
       "inst": [
-        "eth"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.09.01.748496",
-      "date": "2026-09-02"
+      "doi": "10.64898/2026.06.22.733890",
+      "date": "2026-09-03"
     }
   ]
 }
