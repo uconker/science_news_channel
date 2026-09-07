@@ -1,254 +1,201 @@
 {
-  "generated_at": "2026-09-06T10:40:44.002252+00:00",
+  "generated_at": "2026-09-07T12:06:53.704313+00:00",
   "institutions": {
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Modelling human haematopoietic stem cell commitment ex vivo identifies IL-33 as a regulator of megakaryopoiesis",
-      "body": "Commitment events to specific blood lineages arise from single hematopoietic stem cells (HSCs) and are influenced by stress, inflammation and disease. However, the understanding of how such events are regulated in human haematopoiesis is limited by the lack of tractable in vitro models. In this study, we introduce a no…",
+      "subject": "developmental biology",
+      "title": "Function-driven geometry directs human pilosebaceous unit development",
+      "body": "Single-cell technologies have generated cell censuses of tissues, however, how tissue geometry reflects functional needs remains poorly characterized. The human pilosebaceous unit offers a tractable model, a prenatally-formed complex mini-organ combining hair and sebum production with a stem cell reservoir. Using histo…",
       "inst": [
-        "cambridge"
+        "sanger"
       ],
-      "doi": "10.64898/2026.09.01.748535",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.08.31.745265",
+      "date": "2026-09-04"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Histone H3K9 methylation and Heterochromatin Protein 1 do not limit DNA accessibility in living S. pombe cells",
-      "body": "Chromatin is intrinsically repressive, limiting access to DNA, implying a major regulatory role. Studies with nuclei support this model. However, we have shown previously that genomic DNA is completely accessible in living budding yeast and human cells, except for centromeric chromatin. The fission yeast, Schizosacchar…",
+      "subject": "biophysics",
+      "title": "RNA plasticity emerges as an evolutionary response to fluctuating environments",
+      "body": "Phenotypic plasticity refers to the ability of a single genotype to produce multiple distinct phenotypes. Using the computationally tractable genotype-phenotype (GP) map of RNA secondary structures, we model RNA phenotypic plasticity using the Boltzmann distribution of secondary structures for each genotype. Through ev…",
       "inst": [
-        "nih"
+        "cambridge"
       ],
-      "doi": "10.64898/2025.12.12.694020",
-      "date": "2026-09-03"
+      "doi": "10.1101/2024.10.02.614758",
+      "date": "2026-09-04"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "SEROTONERGIC ANXIETY IS A STRESS INTENSITY-DEPENDENT STATE MEDIATED BY DOPAMINERGIC SIGNALING",
-      "body": "Despite the central role attributed to serotonin in anxiety, its involvement and therapeutic efficacy are inconsistent, raising the possibility that serotonergic recruitment depends on the stress history from which anxiety emerges. Using larval zebrafish, we combined graded glucocorticoid exposure with chemogenetic DRN…",
+      "title": "A canonical excitatory-inhibitory motif embedded in the connectome underlies rhythmic locomotion in Drosophila larvae",
+      "body": "Rhythmic locomotion is generated by central pattern generators, yet how defined neural circuits generate rhythmic motor waves remains unclear. Theoretical models, including Wilson-Cowan-type excitatory-inhibitory networks, have long proposed that reciprocal interactions between excitatory and inhibitory neuronal popula…",
       "inst": [
-        "copenhagen"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.08.28.747812",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.08.31.748252",
+      "date": "2026-09-04"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A reactivated thalamocortical plasticity window promotes learning and is reshaped by experience",
-      "body": "Adult sensory loss can reactivate critical-period-like thalamocortical plasticity, but whether this reactivation defines a temporally gated circuit state that facilitates learning and is reciprocally shaped by experience remains unknown. Here we define its in vivo trajectory and functional consequences in adult mouse b…",
+      "subject": "bioinformatics",
+      "title": "QuickSeg: A fast, versatile and accurate algorithm for genomic copy number segmentation using dynamic programming",
+      "body": "Copy number alterations are among the most common genomic aberrations in cancer and their accurate identification relies on robust segmentation of sequencing read-depth signals. Existing segmentation methods typically balance computational efficiency against segmentation accuracy and remain sensitive to technical artif…",
       "inst": [
-        "nih"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.08.27.747577",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.08.31.747916",
+      "date": "2026-09-04"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Structural mechanism of nuclear membrane sealing by LEM2-ESCRT-III",
-      "body": "In open mitosis, re-establishing nucleocytoplasmic compartmentalization requires the LEM2-ESCRT machinery to coordinate spindle clearance with sealing of the remaining nuclear envelope pores. The structural basis of this topologically unique and fundamental membrane-remodeling process is poorly understood. Here, we com…",
+      "subject": "neuroscience",
+      "title": "Superior colliculus neurons encode and causally shape somatosensory decisions",
+      "body": "The ability of an organism to attend to, and orient towards, relevant stimuli is critical for survival. In the mammalian brain, a principal brain region performing this function is the superior colliculus (SC). Despite its important role in attention and orienting movements, little is known about the role the SC plays …",
       "inst": [
-        "mpi_generic"
+        "anu"
       ],
-      "doi": "10.64898/2026.09.01.748678",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.07.01.735970",
+      "date": "2026-09-04"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Why are fishers retaining manta and devil ray bycatch?",
-      "body": "Increasing fishing pressure, including from small-scale fisheries, has caused declines in more than one-third of all elasmobranch species. Tackling conservation issues in small-scale fisheries requires interdisciplinary approaches due to the coastal community's interdependence on marine resources. To support inclusive …",
+      "subject": "biophysics",
+      "title": "Constrained template matching using rejection sampling",
+      "body": "Identifying macromolecular complexes in situ using cryo-electron tomography remains challenging, with low signal-to-noise ratios, the missing wedge, and crowded backgrounds among the key limiting factors. By integrating prior knowledge on macromolecular localization, such as the preferred orientations of membrane-assoc…",
       "inst": [
-        "oxford"
+        "embl"
       ],
-      "doi": "10.64898/2026.09.01.748649",
-      "date": "2026-09-03"
+      "doi": "10.1101/2025.06.10.658890",
+      "date": "2026-09-04"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Short-term, long-term, and genetic determinants of human plasma proteome variability",
-      "body": "Plasma proteomics is increasingly used for biomarker discovery and predictive modeling, yet diurnal protein trajectories remain insufficiently characterized. In our review of recent proteomic biomarker studies, 43% of the identified biomarkers had previously been reported to display 24-h rhythmicity. We demonstrate tha…",
+      "subject": "neuroscience",
+      "title": "Silent brains isolate the heartbeat-evoked potential",
+      "body": "Introduction The heartbeat-evoked potential (HEP) is widely interpreted as an EEG/MEG marker of cortical processing of cardiac afferent signals. It is superimposed on electrical and mechanical signals generated by the heartbeat. Because the neural response and cardiac artefact share the same trigger, conventional avera…",
       "inst": [
-        "stanford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.07.30.741635",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.07.22.740079",
+      "date": "2026-09-04"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Mapping the Phenotypic Landscape of Beta-lactam Resistance in Streptococcus pneumoniae",
-      "body": "Beta-lactam resistance in Streptococcus pneumoniae is typically analysed one antibiotic at a time, often using resistant/susceptible classifications. This obscures the fact that minimum inhibitory concentrations (MICs) in this species are continuous, vary across beta-lactam subclasses in correlated but non-identical wa…",
+      "subject": "neuroscience",
+      "title": "Recurrent beta-gamma interactions between olfactory bulb and piriform cortex support cross-sniff perceptual continuity in humans",
+      "body": "Olfactory perception relies on active sampling, where each inhalation delivers a discrete packet of sensory input. In humans, successive inhalations can be separated by several seconds, yet odors are perceived as continuous and stable. How the brain maintains this perceptual continuity across temporally discrete sample…",
       "inst": [
-        "sanger"
+        "karolinska"
       ],
-      "doi": "10.1101/2025.09.12.675231",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.08.31.747807",
+      "date": "2026-09-04"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "In-cell structural analysis reveals a distinctive chloroplast ribosome in Chlamydomonas reinhardtii",
-      "body": "Chloroplast ribosomes synthesize plastid-encoded components of photosynthetic machinery, yet their structure and organization remain poorly understood. We combined cryo-focused ion beam milling, cryo-electron tomography and subtomogram averaging to determine native chloroplast ribosomes in Chlamydomonas reinhardtii. Th…",
+      "subject": "evolutionary biology",
+      "title": "Unmasking the large and highly repetitive genome of Phlox reveals a complex evolutionary history of speciation with gene flow",
+      "body": "The large size and high repetitive content of many plant genomes have hindered elucidation of how the fundamental processes of evolution give rise to speciation. Here we present chromosome-level assemblies of 6 gigabase genomes for four closely related Phlox wildflower species. We generate extensive population genetic …",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.08.28.747797",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.09.01.748350",
+      "date": "2026-09-04"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "OsPATROL1 overexpression accelerates stomatal opening to enhance photosynthetic induction and growth under fluctuating light in rice",
-      "body": "Slow stomatal opening after increases in irradiance constrains carbon gain under fluctuating light, yet stomatal kinetics remain an underexplored target for crop improvement. Here, we investigated Oryza sativa PROTON ATPASE TRANSLOCATION CONTROL 1 (OsPATROL1), which encodes a Munc13-like protein implicated in stomatal …",
+      "subject": "evolutionary biology",
+      "title": "Rapid evolution can select for fitness tradeoffs in fluctuating environments",
+      "body": "In fluctuating environments, the fates of new mutations depend on the fitness tradeoffs they experience across multiple environmental conditions. Selection on these tradeoffs is well-understood when mutations compete in isolation, but much less is known in the empirically relevant case where multiple mutations compete …",
       "inst": [
-        "tokyo"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.01.748733",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.09.01.748641",
+      "date": "2026-09-04"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Region-specific generation and retention of acetylated cohesin shape the genome-wide pattern of sister chromatid cohesion",
-      "body": "Sister chromatid cohesion depends on ESCO2-mediated acetylation of the cohesin subunit SMC3, yet how this modification is established and maintained across the genome remains poorly understood. Here, we examined the chromatin-binding dynamics of ESCO2 and its enzymatic activity using quantitative ChIP-seq of human cell…",
+      "subject": "evolutionary biology",
+      "title": "Coverage Geometry and Heuristic Discovery Times in Protein Sequence Space",
+      "body": "Functional protein sequence space is often described either by the sparsity of functional sequences or by the connectivity of neutral networks. These quantities characterize different properties: density measures the fraction of all sequences that are functional, whereas connectivity describes relationships among funct…",
       "inst": [
-        "tokyo"
+        "ucl"
       ],
-      "doi": "10.64898/2026.01.14.699591",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.09.01.748471",
+      "date": "2026-09-04"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Volumetric Cyclic Immunofluorescence for 3D Spatial Profiling of Tumour, Stroma, and Immune Structures in Human FFPE Tissue",
-      "body": "Mapping how parenchymal, immune, and stromal cells interact with extended structures such as blood vessels and nerves is challenging using conventional thin-section tissue imaging. Volumetric methods such as light-sheet fluorescence microscopy (LSFM) are ideal in these cases and LSFM is widely used in animal models suc…",
+      "subject": "evolutionary biology",
+      "title": "NGS-RFA/FRA: A High Throughput Experimental and Computational Pipeline for Selective Mutational Scanning in Parallel",
+      "body": "Influenza viruses evade vaccine and infection mediated immunity by accumulating mutations in their hemagglutinin (HA) protein. Predicting this evolution might be possible via selective mutational scanning (SMS) - the generation of many specific mutants of interest from currently circulating viruses and characterizing t…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.05.17.725158",
-      "date": "2026-09-03"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Neogenin-1 marks myeloid-primed fetal hematopoietic stem cells that undergo progressive lineage-restriction with age",
-      "body": "During aging, hematopoietic stem cells (HSCs) increasingly shift from balanced to myeloid-biased differentiation, resulting in reduced lymphoid output and impaired adaptive immunity. The question of whether this lineage bias is established in a subset of HSCs during early development or primarily emerges with aging war…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.01.747091",
-      "date": "2026-09-03"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Structural basis for tetraspanin-dependent surface export and adhesive function of integrin α3β1",
-      "body": "Integrin 3{beta}1 (ITG3{beta}1) is a member of an integrin subfamily that binds to laminin proteins and promotes attachment of epithelial cells to the basement membrane. ITG3{beta}1 forms a complex with the tetraspanin CD151, and loss-of-function mutations in both ITG3 and CD151 cause epidermolysis bullosa, a severe sk…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.01.748654",
-      "date": "2026-09-03"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Sequence features and dynamics of subcellular translation revealed by APEX-Ribo-Seq",
-      "body": "Local translation at specific subcellular regions is proposed to define appropriate protein destinations and functions. However, our understanding of local translation still remains far from complete due to a lack of versatile analytical tools. Here, we developed a new method, termed APEX-Ribo-Seq, that integrates ribo…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.1101/2025.05.26.656194",
-      "date": "2026-09-03"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "AutoBlot: deterministic single-cell western blotting reveals proteomic diversity in rare cell populations",
-      "body": "Protein abundance and proteoform composition are direct determinants of cellular phenotype, yet both remain difficult to quantify in individual cells from specimens available in limited numbers. Single-cell western blotting (scWB) provides quantitative, molecular-mass-resolved protein measurements but relies on Poisson…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.06.22.733890",
-      "date": "2026-09-03"
+      "doi": "10.64898/2026.09.01.748481",
+      "date": "2026-09-04"
     }
   ]
 }
