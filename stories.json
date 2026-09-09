@@ -1,77 +1,20 @@
 {
-  "generated_at": "2026-09-08T10:59:50.797775+00:00",
+  "generated_at": "2026-09-09T11:03:33.274105+00:00",
   "institutions": {
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     }
   },
   "stories": [
     {
       "id": 0,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Learning Universal Representations of Intermolecular Interactions with ATOMICA",
-      "body": "Molecular interactions underlie nearly all biological processes, yet most representation models describe isolated entities or specialize in a single molecular setting. Here, we introduce ATOMICA, an interaction-centered geometric deep learning model designed to learn transferable representations of intermolecular inter…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2025.04.02.646906",
-      "date": "2026-09-07"
-    },
-    {
-      "id": 1,
       "cat": "science",
       "subject": "cell biology",
       "title": "Paralemmin-2 is a membrane-anchored cytoskeletal constituent of Axon Initial Segments and nodes of Ranvier",
@@ -83,7 +26,7 @@
       "date": "2026-09-06"
     },
     {
-      "id": 2,
+      "id": 1,
       "cat": "science",
       "subject": "neuroscience",
       "title": "The Adhesion GPCR Flamingo-Like 1 (FMIL-1) Directs Synapse Formation in a Nociceptive Circuit",
@@ -93,150 +36,6 @@
       ],
       "doi": "10.64898/2026.09.01.748526",
       "date": "2026-09-06"
-    },
-    {
-      "id": 3,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "ContrasTED: contrastive domain embeddings for scalable remote homology classification",
-      "body": "Protein structure prediction has expanded structural databases to hundreds of millions of domains. Classifying these domains into homologous superfamilies reveals evolutionary and functional relationships that can persist despite low sequence similarity. As the size of structural databases continues to grow, homology c…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.08.28.747864",
-      "date": "2026-09-06"
-    },
-    {
-      "id": 4,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Phantom genetic nurture: assortative mating accounts for most of the apparent association between parental genotypes and childhood cognitive performance",
-      "body": "Parental genotypes may influence offspring outcomes through the environments parents provide, a process known as genetic nurture, but estimating such effects from polygenic scores is complicated jointly by measurement error, unobserved genetic variation, and assortative mating. Here, we introduce RAVEL, a structural eq…",
-      "inst": [
-        "sanger"
-      ],
-      "doi": "10.64898/2026.09.01.748516",
-      "date": "2026-09-06"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "The Structural Basis of Malodorant Skatole Formation by the Glycyl Radical Enzyme Indoleacetate Decarboxylase",
-      "body": "Glycyl radical enzymes (GREs) catalyze challenging chemical reactions using a post-translationally installed glycyl radical cofactor. One such enzyme, indoleacetate decarboxylase (IAD), performs the radical-based decarboxylation of indole-3-acetate (I3A) to form the malodorant molecule skatole. In addition to being an …",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.05.24.727522",
-      "date": "2026-09-06"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Large-Scale Network Embedding Predicts Opposing Functions of Adjacent Regions Within Human Prefrontal Cortex",
-      "body": "Prefrontal regions are hypothesized to be organized hierarchically in support of cognitive control. Using precision functional MRI in three independent cohorts of intensively scanned participants (N=37), we consistently identified a lateral prefrontal cortex (LPFC) region linked to a canonical control network separate …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.02.748980",
-      "date": "2026-09-06"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "Niche constraints drive differences between mycorrhizal fungal guilds in future range shifts",
-      "body": "Mycorrhizal fungi are a diverse and ubiquitous group of plant symbionts whose distribution strongly influences ecosystem function across the globe. Yet, until now, we do not have quantitative data on the range sizes of different mycorrhizal fungal taxa, limiting our capacity to forecast future shifts in community compo…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.05.18.725971",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Weak interactions drive selective proteome demixing and tune the differential response to environmental perturbations",
-      "body": "The intracellular space is a crowded environment where macromolecules perform distinct tasks despite pervasive \"non-specific\" interactions. Whether these interactions are functionally relevant and how they influence cellular organization remains unclear. Here, we developed QuPID-MS, which measures the propensity of pro…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.07.22.739830",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Natural selection on synonymous genetic variation in the major histocompatibility complex",
-      "body": "Protein coding DNA sequences harbor synonymous nucleotide variation that does not change amino acid sequences but influences phenotypes via multiple effects on the pathway from gene to protein. Synonymous variation has recently been shown to coevolve between viruses and their natural hosts, but its potential role in ho…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.02.23.707394",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Forecasting viral evolution from phylogenetic trees",
-      "body": "Viral mutation forecasting plays a key role in pandemic preparedness by enabling researchers to anticipate novel variants and design proactive interventions. Evolutionary histories, represented as phylogenetic trees, offer key insights into the emergence of past and present strains, yet their role in predicting future …",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.08.27.741102",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Unlocking Sensitive Data with SPHERE in the Age of AI",
-      "body": "Sensitive human data underpin discoveries across medicine, biology and the social sciences, yet privacy regulation often prevents sharing them with collaborators or artificial intelligence (AI) systems. We introduce SPHERE, a model-free method that makes sensitive datasets directly usable by AI and shareable for open s…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.01.748580",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "DNA aptamers to interfere with HasA, the hemophore of the heme assimilation system in Pseudomonas aeruginosa, as a potential antimicrobial strategy",
-      "body": "Pseudomonas aeruginosa relies on heme acquisition to sustain growth and virulence in the iron-limited environment of the host, particularly in the acidic airways of patients with cystic fibrosis where antibiotic efficacy is markedly reduced. The Has heme assimilation system is initiated by the secreted hemophore HasA, …",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.03.749098",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "Programmable DNA-peptide nanostructures for multivalent regulation of intracellular signalling",
-      "body": "The Wnt/{beta}-catenin pathway is constitutively active in most colorectal and other cancers. Tankyrase (TNKS) promotes Wnt signalling by PARylating AXIN, a rate-limiting scaffold subunit of the {beta}-catenin destruction complex, and its inhibition is a validated strategy for pathway downregulation. Existing small-mol…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.03.749096",
-      "date": "2026-09-05"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "P2Y14 receptor agonist impairs, and antagonist improves whole-body glucose homeostasis and liver steatosis",
-      "body": "Knockout of the UDP-glucose-activated P2Y14 receptor (P2Y14R) in adipocytes or whole-body has been reported to provide metabolic benefits in obese mice. We hypothesized that selective P2Y14R activation would lead to metabolic impairments, whereas pharmacological antagonism would improve metabolic deficits in diet-induc…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.09.01.748648",
-      "date": "2026-09-05"
     }
   ]
 }
