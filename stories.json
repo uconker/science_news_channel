@@ -1,5 +1,321 @@
 {
-  "generated_at": "2026-09-11T10:57:52.938412+00:00",
-  "institutions": {},
-  "stories": []
+  "generated_at": "2026-09-12T10:27:01.766417+00:00",
+  "institutions": {
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  },
+  "stories": [
+    {
+      "id": 0,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Programmable DNA-peptide nanostructures for multivalent regulation of intracellular signalling",
+      "body": "The Wnt/{beta}-catenin pathway is constitutively active in most colorectal and other cancers. Tankyrase (TNKS) promotes Wnt signalling by PARylating AXIN, a rate-limiting scaffold subunit of the {beta}-catenin destruction complex, and its inhibition is a validated strategy for pathway downregulation. Existing small-mol…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.03.749096",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "Lysosomal signaling pathways influence heart rhythm, and regulate atrial function",
+      "body": "In the heart, endogenous nicotinic acid adenine dinucleotide phosphate (NAADP) triggers lysosomal calcium (Ca2+) release to augment sarcoplasmic reticulum (SR) Ca2+ sequestration, producing larger Ca2+ transients. However, the role of lysosomal Ca2+ signals in pacemaker activity, a distinct Ca2+-operated function of th…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.1101/2024.06.10.597905",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "What is it like to be a blob? A distributed, decentred and context-sensitive neurobiology of consciousness",
+      "body": "Consciousness is often studied by asking whether particular brain regions or systems are privileged. We tested a distributed, decentred and context-sensitive alternative using 579 consciousness-focused neuroimaging studies. Semantic clustering of titles and abstracts identified seven domains whose corrected meta-analyt…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.02.745341",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "An imaging framework for nuclei-based three-dimensional cell quantification in intact tissue using phase-contrast X-ray CT",
+      "body": "Objective. Quantitative analysis of cellular morphology and spatial organisation within intact tissue remains challenging, particularly when three-dimensional information must be preserved. This study investigates whether laboratory propagation-based phase-contrast X-ray computed tomography (CT) can support nuclei-base…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.06.03.729871",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Building an open infrastructure for molecular neuroimaging: standards and tools from the OpenNeuroPET initiative",
+      "body": "Molecular neuroimaging with positron emission tomography (PET) and single-photon emission computed tomography (SPECT) enables quantification of specific molecular targets in the living brain. Despite its scientific impact, molecular neuroimaging research has historically faced challenges due to high costs, small sample…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.05.06.722876",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Specific basal ganglia, amygdala, and cortical neurons are associated with borderline personality disorder (BPD)",
+      "body": "Borderline personality disorder (BPD) is clinically significant and poorly understood biologically. We tested which human brain cell types preferentially use genes associated with BPD, implicating two major types of neurons: LAMP5 interneurons and D2 medium spiny neurons. These interrogable cell types provide new avenu…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.04.749244",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "The Candida auris Adhesin Scf1 Mediates Broad Host-Protein Recognition through Shared Adhesive Regions",
+      "body": "Candida auris (C. auris) is a rapidly emerging, multidrug-resistant fungal pathogen whose persistence is partly driven by adhesion to host tissues and abiotic surfaces. Surface-colonization factor 1 (Scf1) is a C. auris-specific adhesin implicated in surface adhesion, biofilm formation, virulence, and persistence in he…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.09.04.749504",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Multidimensional T1-T2 Relaxation Imaging In Vivo on a Portable 0.064~T MRI Scanner",
+      "body": "Purpose: To demonstrate the feasibility of whole-brain multidimensional T1-T2 relaxation imaging on a portable 0.064 T MRI scanner. Methods: A two-dimensional inversion-recovery, fast spin-echo acquisition was used to jointly encode T1 and T2 relaxation. Joint relaxation distributions were reconstructed voxel-wise usin…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.09.04.749459",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Arrayed hydrogels pair whole-cell imaging with single-cell mass spectrometry proteomics",
+      "body": "Multimodal single-cell analysis aims to elucidate cellular-level phenotype within heterogeneous cell populations. Advancements in single-cell proteomics (SCP) seek to deepen quantitative depth, coverage, and reproducibility for a robust view of functional cell state. However, broadly accessible multimodal approaches ar…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.09.04.749469",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Cell Surface Sialoglycan Engineering Through Exogenous mRNA",
+      "body": "All human cells display a dense matrix of structurally diverse glycans that often terminate in monosaccharides belonging to the sialic acid family of sugars. While these sialoglycans are now recognized as critical regulators of human immunity, there is a lack of technologies that provide precise, transient control over…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.09.04.749178",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Mitochondrial adenine base editing of mouse somatic tissues via adeno-associated viral delivery",
+      "body": "The development of adenine base editing in mitochondria, alongside cytidine base editing, has significantly expanded the genome engineering capabilities of the mitochondrial DNA. We tested the recent advancements in adenine base editing technology using optimised TALEs targeting genes Mt-Cytb, Mt-CoII and Mt-Atp6 in mo…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.1101/2024.12.10.627690",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Engineered patient-derived organotypic bone model for multimodal characterization of donor-specific response to therapy",
+      "body": "Bone-forming therapies often fail in genetic skeletal disorders, highlighting critical gaps in mechanistic understanding and therapy evaluation. We developed 3D bioprinted organotypic bone models using primary cells from a patient with FKBP10-related osteogenesis imperfecta (OI) and from metabolically healthy controls …",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.1101/2025.04.17.649276",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Hyperface: a naturalistic fMRI dataset for investigating human face processing",
+      "body": "Faces convey information that guides social behavior, yet neuroimaging studies investigating human face processing typically use static images with small sets of identities under artificial conditions. Controlled designs limit our ability to characterize human face processing under naturalistic conditions or test wheth…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.03.11.711073",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Stable epigenetic states set single-cell activation thresholds in mammalian expression systems",
+      "body": "Quantitatively relating transcription factor (TF) input to gene expression output is central to understanding mammalian gene regulation and essential for designing predictable synthetic expression systems. However, even minimal synthetic systems often exhibit unexplained behaviors. In a widely used inducible mammalian …",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.04.749524",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The role of superior colliculus in a logistic decision",
+      "body": "In many circumstances the brain makes decisions according to logistic classification: summing weighted factors in favor of each option and choosing an option according to a softmax function. Here we find that the superior colliculus (SC) contributes additively to this computation, promoting competing options independen…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.06.05.730072",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Identification and characterization of inflammatory LILR and fibrotic SPP1 macrophages in chronic lung allograft dysfunction",
+      "body": "Chronic lung allograft dysfunction (CLAD) is a major cause of death after lung transplantation and manifests principally as bronchiolitis obliterans syndrome (BOS) or restrictive allograft syndrome (RAS). Although pulmonary macrophages are key regulators of lung injury and repair, their contributions to CLAD pathogenes…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.09.04.749490",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Interleukin-1 receptor antagonist is a conserved factor for exacerbating tuberculosis susceptibility",
+      "body": "Mycobacterium tuberculosis (Mtb) causes 1.25 million deaths a year; however, tuberculosis (TB) pathogenesis remains poorly understood. Here we find that gene signatures from three different Mtb-susceptible mouse models predict active TB disease in humans significantly better than a signature from resistant C57BL/6 (B6)…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.1101/2023.10.27.564420",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Derivation of primary fetal epithelial organoids from cryopreserved human amniotic fluid cells.",
+      "body": "Primary fetal human epithelial organoids are canonically derived from tissue samples obtained after termination of pregnancy. Recently, we have demonstrated that these organoids can be consistently generated from amniotic fluid cells isolated prenatally during diagnostic and interventional procedures. Amniotic Fluid-de…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.07.749928",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Deep Mutational Scanning of structure-switching aptamers identifies both base requirement and base-pairing and uncovers regions required for either sensitivity or specificity",
+      "body": "Structure-switching aptamers (SSAs) are short oligonucleotides that undergo a large conformational change on binding their specific target. This change can be used to read out target levels and SSA-based sensors have been developed for targets including drugs, metabolites, and toxins. Despite this potential as molecula…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.09.06.749718",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 19,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Salinity is associated with habitat use and mitochondrial lineage diversity in halophilic Ephydra flies (Diptera: Ephydridae)",
+      "body": "Brine flies of the genus Ephydra (Diptera: Ephydridae) are ubiquitous extremophile animals whose larval forms are able to thrive in high-stress environments, including hypersaline and high carbonate waters. Despite their historical and ecological importance, little is known about their evolutionary history. Here, we fo…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.03.749233",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 20,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Hearing hippocampal ripples: Event-faithful, reproducible sonification of multineuronal spiking with hierarchy-guided orchestration",
+      "body": "Among the human senses, hearing is distinguished by its high frequency resolution and sensitivity to spatiotemporal patterns. Accordingly, sonification--the rendering of neural activity as sound for direct perception--has a long history in neuroscience. Although sonification can facilitate exploration of the temporal s…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.09.05.749637",
+      "date": "2026-09-09"
+    },
+    {
+      "id": 21,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Resistance to antibacterial peptide nucleic acids through altered ribosome function",
+      "body": "When used as antibacterial agents, Peptide Nucleic Acid (PNAs) are generally designed to base-pair with complementary sequences of an essential mRNA and block translation initiation. Although bacterial susceptibility to peptide-conjugated PNAs is strongly influenced by cellular uptake, intracellular determinants of PNA…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.09.05.749517",
+      "date": "2026-09-09"
+    }
+  ]
 }
