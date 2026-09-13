@@ -87,6 +87,7 @@
 1Center for Plant Science Innovation, University of Nebraska, Lincoln, Nebraska, USA
 1Centre for Biomedical Data Science and Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore
 1Centre for Biomedical Technologies, Queensland University of Technology (QUT), Brisbane, QLD, Australia
+1Centro de Biotecnología de Sistemas, Universidad Andrés Bello, Santiago, Chile
 1Centro de Biotecnología y Genómica de Plantas (CBGP), Universidad Politécnica de Madrid (UPM)—Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA/CSIC) Campus de Montegancedo UPM, Pozuelo de Alarcón, Madrid 28223, Spain
 1Charité – Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt Universität zu Berlin, Department of Pediatric Neurology, Berlin, Germany
 1Department of Agriculture, Forestry and Bioresources and Research Institute of Agriculture and Life Sciences, Seoul National University, Seoul 08826, Republic of Korea
@@ -167,6 +168,7 @@
 1University of Cologne, Faculty of Medicine and University Hospital Cologne, Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy
 1University of Florence, Florence, Italy
 1University of Goettingen, Albrecht-von-Haller-Institute for Plant Sciences, Dept. of Plant Biochemistry, D-37077 Goettingen, Germany;
+1University of Kent, School of Natural Sciences, Canterbury CT2 7NZ, United Kingdom
 1Wageningen Marine Research, PO Box 68, 1970 AB IJmuiden, The Netherlands
 1Yunnan Key Laboratory of Cell Metabolism and Diseases, Center for Life Sciences, School of Life Sciences, Yunnan University, Kunming, China
 1ᵃGraduate Program in Biological Sciences: Biochemistry, Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil
@@ -236,6 +238,7 @@
 2Department of Ophthalmology, Duke University, Durham, NC, USA
 2Department of Otolaryngology, Henry Ford Medical Group, Detroit, Michigan, USA
 2Department of Pathobiological Sciences, School of Veterinary Medicine, Louisiana State University; Baton Rouge, LA, USA
+2Department of Pathology, Division of Molecular and Cellular Pathology, School of Medicine, The University of Alabama at Birmingham, AL , USA, 35294
 2Department of Pathology, Immunology and Laboratory Medicine, Rutgers New Jersey Medical School, Newark, NJ
 2Department of Pediatrics, The George Washington University School of Medicine and Health Sciences, Washington, DC 20037, USA
 2Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
@@ -248,6 +251,7 @@
 2Gladstone Institute of Data Science and Biotechnology; San Francisco, CA, USA
 2Graduate Program in Biochemistry of Health and Disease, Graduate School of Biomedical Sciences and Professional Studies, College of Medicine, Drexel University, Philadelphia, PA, USA
 2Howard Hughes Medical Institute, University of Texas Health San Antonio, San Antonio, Texas, USA, 78229
+2IRD, Sorbonne University, UMMISCO, 4, place Jussieu, Paris, France
 2Ilse Katz Institute for Nanoscale Science and Technology, Ben-Gurion University of the Negev, Beer-Sheva, Israel
 2Institute for Nanobiotechnology (INBT), Johns Hopkins University, Baltimore, Maryland, USA
 2Institute of Bioinformatics, International Technology Park, Bangalore 560066, India
@@ -280,6 +284,7 @@
 2University of Zurich, Department of Evolutionary Biology and Environmental Studies, Zurich, Switzerland
 2Université Paris Cité, CNRS, MAP5, F-75006 Paris, France
 2Université Paris-Saclay, INRIA, CIAMS, Gif-sur-Yvette, France
+2Washington State University, School of Biological Sciences, Pullman, Washington, U.S.A
 2ᵇDepartment of Psychiatry, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
 3 Area Quimica Inorganica, DEC, Facultad de Quimica, Universidad de la Republica
 3 Bind Research;
@@ -300,6 +305,7 @@
 3Biointerfaces Institute, University of Michigan, Ann Arbor, MI, 48109, USA
 3Center for Computational Neuroscience, Flatiron Institute
 3Center for Precision Plant Genomics, University of Minnesota, St. Paul, Minnesota, USA
+3Centro de Investigación e Innovación para el Cambio Climático (CiiCC), Facultad de Ciencias, Universidad Santo Tomás, Valdivia, Chile
 3Chair of Biological Imaging, Central Institute for Translational Cancer Research (TranslaTUM), School of Medicine and Health, Technical University of Munich, Munich, Germany
 3Cluster of Excellence GreenRobust, Eberhard Karls University, Tübingen, Germany
 3Computational and Chemical Biology, Italian Institute of Technology (IIT), CMP3VdA, Aosta, Italy
@@ -1064,6 +1070,7 @@ Department of Technical Physics, University of Eastern Finland, Kuopio, 70211, F
 Department of Translational Neurosciences, School of Medicine, Tulane University
 Department of Veterinary & Animal Sciences, University of Rajshahi, Rajshahi-6205, Bangladesh
 Department of Veterinary Biosciences, College of Veterinary Medicine, The Ohio State University, Columbus, Ohio, USA
+Departments of Neuroscience and of Cell Biology, Program in Cellular Neuroscience, Neurodegeneration, and Repair, Howard Hughes Medical Institute, Yale School o
 Departments of Psychiatry and Neurology, Faculty of Medicine, McGill University, Montreal, Quebec, Canada
 Dept. of Biological Sciences, Columbia University
 Dept. of Neuroscience Rita Levi Montalcini, Neuroscience Institute Cavalieri Ottolenghi, University of Turin, Turin, Italy
@@ -1122,6 +1129,7 @@ Eindhoven University of Technology
 Emory National Biomedical Research Center
 Emory University
 Emory University School of Medicine
+Environmental Genomics & Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA
 Epilepsy Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milano, Italy
 Epizyme Biomedical
 Erasmus MC
@@ -1477,6 +1485,7 @@ Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, 
 Institute of Systems and Information Engineering, University of Tsukuba, Tsukuba, Ibaraki, Japan
 Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences
 Institute of Vertebrate Biology of the Czech Academy of Sciences, Brno, Czech Republic
+Institute of Veterinary Pharmacology and Toxicology, Vetsuisse Faculty, University of Zurich, Zurich, Switzerland
 Instituto Antartico Chileno
 Instituto Federal do Rio de Janeiro  and Universidade Federal do Rio de Janeiro, Rio de Janeiro, RJ, BR
 Instituto Multidisciplinario de Salud, Tecnología, y Desarrollo-UNSE-CONICET
@@ -1618,6 +1627,7 @@ Lamar University
 Large Pelagics Research Center
 Lausanne University Hospital
 Lausanne University Hospital (CHUV)
+Lausanne University Hospital and University of Lausanne
 Laval University
 Lawrence Livermore National Lab
 Lehigh University
@@ -1771,6 +1781,7 @@ National and Kapodistrian University of Athens
 Natural History Museum Vienna, Central Research Labs, Burgring 7, 1010 Vienna, Austria
 Naturalis Biodiversity Center, Leiden, The Netherlands
 Nature Conservation Foundation
+Netherlands Institute for Neuroscience, Meibergdreef 47, 1105 BA Amsterdam, Netherlands
 NeuroSpin
 NeuroSpin, Paris-Saclay University, CEA, Joliot Institute, NeuroSpin-UNIACT / Paris Cite University, INSERM, U1141 NeuroDiderot, IndeV team
 Neurobiology Research Unit, Copenhagen University Hospital Rigshospitalet
@@ -1788,6 +1799,7 @@ New York University Grossman School of Medicine
 New York University School of Medicine
 New York University; Institut de Biologie de L'École Normale Supérieure
 Newcastle University
+Nihon University
 Nippon Medical School
 Norges miljo- og biovitenskapelige universitet Fakultet for biovitenskap
 North Carolina Central University
@@ -1844,6 +1856,7 @@ Paris-Saclay Institute of Neuroscience, CNRS
 Paris-Saclay University, INRAE, AgroParisTech, GABI, 78350 Jouy-en-Josas, France
 Paul Scherrer Institute
 Peking University
+Peking university
 Pennsylvania State University
 Peter Maccallum Cancer Centre
 Phenome Health
@@ -1883,6 +1896,7 @@ Purdue university
 Pusan National University Yangsan Hospital
 Q-MOL LLC
 QIMR Berghofer
+QMUL
 QUB
 Quadram Institute Bioscience
 Queen Mary University London
@@ -2014,6 +2028,7 @@ Simon Fraser University
 Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, USA
 Simula Research Laboratory
 Sloan Kettering Institute
+Sloan-Kettering Institute, Memorial Sloan-Kettering Cancer Center
 Smithsonian Institution
 Smithsonian's National Zoo and Conservation Biology Institute
 Sojo University
@@ -2023,6 +2038,7 @@ Soochow University
 Sorbonne Universite
 Sorbonne Universite, INSERM, Institut de Myologie, Centre de Recherche en Myologie
 Sorbonne University, CNRS, INSERM, Inbstitut de Biologie Paris Seine (IBPS), Center for Neuroscience at Sorbonne University (NeuroSU)
+Sorbonne Université, CNRS, Inserm, Institut de la Vision, F-75012 Paris, France
 Soterix Medical
 South Australian immunoGENomics Cancer Institute (SAiGENCI), Adelaide University Medical School, North Terrace, 5000, Adelaide, South Australia
 South China Normal University
@@ -2403,6 +2419,7 @@ University of California, Merced
 University of California, Riverside
 University of California, San Diego
 University of California, San Francisco
+University of California, San Francisco, San Francisco, CA
 University of California, Santa Barbara
 University of California, Santa Cruz
 University of Cape Town
@@ -2692,6 +2709,7 @@ VIB-VUB Center for Structural Biology
 VNU-HUS: Vietnam National University University of Science
 VU Amsterdam
 VU Amsterdam-FAU Erlangen-Nuremberg
+VU Amsterdam: Vrije Universiteit Amsterdam
 Vanderbilt University
 Vanderbilt University Medical Center
 Vector Molecular Biology Section, Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Healt
