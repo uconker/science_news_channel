@@ -1,273 +1,232 @@
 {
-  "generated_at": "2026-09-14T12:22:35.395954+00:00",
+  "generated_at": "2026-09-16T11:15:33.636374+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Postnatal maturation of putamen microstructure accompanies topographic white matter connectivity and altered circuits in autism",
-      "body": "The putamen is a major hub of the basal ganglia that emerges early in gestation. However, whether its mature organization is established before birth or emerges postnatally remains unknown. Using cross-sectional and longitudinal quantitative MRI (R1 and R2*, related to tissue density and iron, respectively) and diffusi…",
+      "subject": "biochemistry",
+      "title": "Biochemical characterisation of fungal bioluminescence enzymes reveals substrate inhibition and secondary turnover of 3-hydroxyhispidin by H3H",
+      "body": "The fungal bioluminescence pathway enables autonomous light production from caffeic acid and has emerged as a versatile platform for bioimaging and synthetic biology. However, biochemical characterisation of its core enzymes remains limited. Here, we establish recombinant purification and quantitative in vitro characte…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.09.750447",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.09.750069",
+      "date": "2026-09-14"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Live-cell PAINT microscopy of protein targets via fluorogenic exchangeable HaloTag ligands",
-      "body": "We report a generalizable method for single-molecule localization super-resolution microscopy in living cells. Live-cell PAINT (points accumulation for imaging in nanoscale topography) and single-molecule diffusivity mapping (SMdM) of intracellular protein targets are achieved by pairing exceptionally fluorogenic bis-t…",
+      "subject": "neuroscience",
+      "title": "Neural and autonomic predictors of future listening errors",
+      "body": "Some of the most demanding perceptual tasks require sustained vigilance to detect and classify infrequent, unpredictable targets within continuous sensory streams. Here, we designed a sustained listening task to ask whether cardinal classes of perceptual errors (misclassifications, miss, and false alarms) were associat…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.07.16.738981",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.09.750180",
+      "date": "2026-09-14"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Growth rate and yield are not constrained by a trade-off in microbes",
-      "body": "Ecological theory traditionally posits widespread trade-offs in organismal growth, survival, and reproduction. One core trade-off is the relation between maximum intrinsic growth rate (r) and carrying capacity (K), proposed as a key mechanism explaining species coexistence and the maintenance of biodiversity. To quanti…",
+      "subject": "neuroscience",
+      "title": "From Geometry to Hierarchy: Charting the Dominant Modes of Human Cortical Function Through Development",
+      "body": "Cortical function in the human cortex is spatially patterned along a macroscale information processing hierarchy. This hierarchy tracks a sensory-association axis anchored at one end by unimodal sensory regions and at the other by transmodal association areas. Biophysical models of brain dynamics suggest that this axis…",
       "inst": [
-        "mit"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.08.750265",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.11.750874",
+      "date": "2026-09-13"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Discovery of a molecular glue inhibitor that stabilises a non-productive Kalirin-Rac1 complex",
-      "body": "Rho guanosine triphosphatases (GTPases) are molecular-switches implicated in neurodegenerative diseases, yet targeting them through competitive inhibition remains a challenge due to their high affinity for guanine nucleotides. Guanine nucleotide exchange factors (GEFs) catalyse GDP-to-GTP nucleotide exchange to activat…",
+      "subject": "cell biology",
+      "title": "STING activation drives pericentrosomal positioning of acidic organelles via the VAIL-LRRK2-Rab35 pathway",
+      "body": "The cGAS-STING pathway is an innate immune system that responds to cytoplasmic double-stranded DNA, but recent studies have highlighted its noncanonical role in facilitating lysosomal stress responses. Specifically, STING activation has been shown to trigger V-ATPase-ATG16L1-induced LC3 lipidation (VAIL) and to activat…",
       "inst": [
-        "oxford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.09.08.749156",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.11.750829",
+      "date": "2026-09-13"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Evolution promotes transition-state-like conformations with enhanced basicity and electric fields in the substrate complex of a designer enzyme",
-      "body": "Enzymes can be computationally designed for an increasing range of reactions, yet the catalytic efficiencies achieved are typically well below those of natural biocatalysts. Directed evolution can narrow this gap, often improving activity through mutations with non-obvious effects on catalysis. Here, we dissect how dir…",
+      "subject": "cell biology",
+      "title": "Meiotic kinetochore reconstitution identifies chromosome segregation factors",
+      "body": "Kinetochores are complex protein assemblies at centromeres that direct and regulate chromosome segregation1. During gamete formation by meiosis, kinetochore specialisations drive two sequential and distinct segregation events to partition half the genome to the offspring2,3. Age-dependent segregation errors in human oo…",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.09.750330",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.11.750869",
+      "date": "2026-09-13"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Repeat element-anchored enhancer-promoter interactions (REEPIs) shape the regulatory landscape of hormone-resistant breast cancer",
-      "body": "Repeat elements (REs) comprise over half of the human genome and are increasingly recognized as regulatory components, yet their role in therapy resistance remains unclear. Here, we integrate CAGE and RADICL-seq to map regulatory elements and RNA-chromatin interactions in estrogen receptor-positive breast cancer cells …",
+      "subject": "developmental biology",
+      "title": "A genetically encoded redox bottleneck constrains human developmental rate",
+      "body": "The intrinsically slow pace of human development poses challenges for regenerative medicine and disease modeling. This trait is attributed to low metabolic rates, yet the endogenous mechanisms determining species-specific metabolic flux remain unknown. Here, we identify coupling between glycolytic NADH production and m…",
       "inst": [
-        "riken"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.09.750334",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.10.750701",
+      "date": "2026-09-13"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Influence of flowering phenology and strobili amount on mating patterns in an Abies nordmanniana clonal seed orchard",
-      "body": "Clonal seed orchards (CSOs) provide improved plant material from forest tree breeding. Mating dynamics of CSOs is therefore interesting, since dysfunctions like selfing, pollen contamination and differences in clonal contributions of gametes may hamper the genetic gain. Skewed paternal contribution can be caused by clo…",
+      "subject": "ecology",
+      "title": "Carry-over effects and plasticity to temperature shape phenology across life stages and generations",
+      "body": "Climate change is advancing spring phenology in temperate systems, with the potential to disrupt synchrony between trophic levels. Predicting these shifts requires understanding not only direct plastic responses to temperature, but also how plasticity at one stage carries over to shape timing at subsequent stages. We e…",
       "inst": [
-        "copenhagen"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.09.750367",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.10.749909",
+      "date": "2026-09-13"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Data-driven multiscale modeling deciphers MOI-dependent dual antiviral mechanisms of OP7",
-      "body": "OP7 defective interfering particles are promising antivirals against influenza A virus (IAV), but their antiviral mechanisms are not fully understood. Here, we developed a data-driven multiscale model of IAV and OP7 coinfection calibrated to in vitro human lung cell data. The model predicted, and experiments confirmed,…",
+      "subject": "cancer biology",
+      "title": "High-throughput spheroid profiling reveals BMP-driven rewiring of glioma cell death responses",
+      "body": "The mechanisms regulating glioma cell death are poorly understood. Here, we developed a high-throughput method to study cell death in patient-derived glioblastoma (GBM) and diffuse intrinsic pontine glioma (DIPG) spheroids. Using this method, we systematically profiled how extracellular ligands modulate compound-induce…",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.08.750025",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.10.750657",
+      "date": "2026-09-13"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Effects of cholinergic potentiation on resting-state functional connectivity in healthy adults",
-      "body": "Acetylcholine is a key attentional neuromodulator, yet its effects on large-scale organisation of resting-state networks remain poorly understood. Here, we investigated whether acute cholinergic potentiation with the acetylcholinesterase inhibitor donepezil modulates functional connectivity within and between resting-s…",
+      "subject": "systems biology",
+      "title": "Nonlinear regime transitions enable reservoir computation in activator-inhibitor cellular automata",
+      "body": "Activator-inhibitor systems are usually studied as pattern-forming media, but the same local nonlinear interactions can also shape how information is stored and separated over time. Here we first introduce a reaction-diffusion-inspired cellular automaton as a tunable nonlinear medium with two activation families, a con…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.09.09.750186",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.10.750595",
+      "date": "2026-09-13"
     },
     {
       "id": 9,
       "cat": "science",
       "subject": "cell biology",
-      "title": "Fatty acid metabolism controls plasma membrane cholesterol accessibility via ATGL-dependent phospholipid remodeling",
-      "body": "Accessible cholesterol, the pool of membrane cholesterol with high chemical activity, regulates vital processes including vertebrate development and pathogen evasion. The mechanisms that govern plasma membrane (PM) cholesterol accessibility are incompletely understood. Using a genome-wide screen we find that acetyl-CoA…",
+      "title": "Lifelong Invertebrate Chordate Central Nervous System Regeneration is Driven by a Migrating Pool of Conserved Neural Stem Cells Program",
+      "body": "Adult central nervous systems (CNS) are generally constrained by limited cellular replacement. How regenerating organisms integrate structural maintenance with continuous, cyclic renewal remains unresolved. Here, we leverage the colonial chordate Botryllus schlosseri which completely resorbs and regenerates its entire …",
       "inst": [
         "stanford"
       ],
-      "doi": "10.1101/2025.08.21.671640",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.11.750342",
+      "date": "2026-09-13"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Histology-Aware Graph for Modeling Intercellular Communication in Spatial Transcriptomics",
-      "body": "Cell-cell communication (CCC) is essential to how life forms and functions. Recent tools achieve single-cell-resolved CCC inference utilizing spatial transcriptomics (ST). However, most ignore the modeling of tissue contexts surrounding cells, causing high false-positive/negative rates. Here, we propose HARMONIC, a CCC…",
+      "subject": "neuroscience",
+      "title": "Advancing Neurological Liquid Biopsy via Six-Base Sequencing of Cerebrospinal Fluid Cell-Free DNA",
+      "body": "Real-time molecular insights into the human brain are crucial for understanding neurological conditions and development of soluble biomarkers but challenged by the limited access to target tissue. Here we utilize 6-base sequencing to profile DNA modifications of cell-free DNA released from neural cells into cerebrospin…",
       "inst": [
-        "cambridge"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.01.22.701166",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.06.749692",
+      "date": "2026-09-13"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Modulation of human dorsal root ganglion neuron excitability by Nav1.7 inhibition",
-      "body": "Nav1.7 voltage-gated sodium channels are strongly expressed in human primary pain-sensing neurons (nociceptors) and selective Nav1.7 inhibitors have been developed as possible therapeutic agents for treating pain, so far with disappointing clinical results. In contrast, a selective Nav1.8 channel inhibitor (suzetrigine…",
+      "subject": "physiology",
+      "title": "Importance of the Unseen: Near-Infrared Light Regulates Human Glucose Levels in the Built Environment",
+      "body": "Life evolved under broad spectrum sunlight (300-2500nm), but in the modern built environment under standard Light Emitting Diode (LED) illumination is restricted to around 400-650nm. Different wavelengths influence metabolism via mitochondria. 670-900nm support mitochondrial function while those in the Soret band (420-…",
       "inst": [
-        "harvard"
+        "ucl"
       ],
-      "doi": "10.64898/2026.03.26.714428",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.06.747571",
+      "date": "2026-09-13"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "A New Information Theoretic Approach Shows that Mixture Models Outperform Partitioned Models for Phylogenetic Analyses of Amino Acid Data",
-      "body": "Partitioned and mixture models are widely employed in Maximum Likelihood phylogenetic analyses of large genomic datasets. Comparing the fit of the two types of models has been challenging, because standard information-theoretic approaches cannot be applied. Mixture models are increasingly popular for the analysis of am…",
+      "subject": "bioinformatics",
+      "title": "AlphaPeptTools: scverse-native analysis of mass spectrometry-based proteomics",
+      "body": "Mass spectrometry (MS)-based proteomics now routinely profiles proteomes at scale, but extracting biological insight and integrating complementary modalities remains challenging. Here, we present AlphaPeptTools, a Python package for the analysis of MS-proteomics data built on the AnnData data structure of the scverse. …",
       "inst": [
-        "anu"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.03.16.712229",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.11.750886",
+      "date": "2026-09-13"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "physiology",
-      "title": "The length constant, time constant and velocity of a propagating action potential",
-      "body": "Length and time constants are foundational to the study of conduction in neurons but are defined only for passive membranes. Here we define length and time constants for uniformly propagating action potentials. The derivation exploits transmembrane current transition (TCT) instants during action potential conduction wh…",
+      "subject": "molecular biology",
+      "title": "Transcriptomic analysis of human induced pluripotent stem cell cardiomyocytes and myocardial tissue reveals novel role for miR-9-5p in hypertrophic cardiomyopathy",
+      "body": "Hypertrophic cardiomyopathy (HCM) is an inherited disease characterized by the thickening of the heart muscle. Mutations in genes encoding contractile proteins, such MYBPC3 and MYH7 account for over half of patients with familial HCM. MicroRNAs (miRNAs) are pivotal regulators of gene expression that may influence disea…",
       "inst": [
-        "cambridge"
+        "toronto"
       ],
-      "doi": "10.64898/2026.06.05.728191",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.07.749879",
+      "date": "2026-09-13"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Organization, development, and plasticity of the serotonergic dorsal raphe nucleus projectome",
-      "body": "The dorsal raphe nucleus (DRN) is the main source of serotonin (5-HT) in the central nervous system. 5-HT DRN neurons modulate a wide range of physiological functions and brain states via their widespread and heterogeneous projections. Yet the organizational logic, developmental dynamics, and experience-dependent plast…",
+      "subject": "bioinformatics",
+      "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
+      "body": "Protein language models (PLMs) such as ESM-2 encode protein sequences as embeddings for downstream tasks. PLMs are trained on a masked learning objective that leverages evolutionary constraints. While interpretability studies of ESM-2 have focused on folded proteins, their behavior on intrinsically disordered proteins …",
       "inst": [
-        "copenhagen"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.03.04.709518",
-      "date": "2026-09-11"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Mammalian spermatogenesis at single-cell resolution downstream of genetic perturbations in meiotic double-strand break repair",
-      "body": "Fertility in mammals relies on successful pairing of homologous chromosomes mediated by DNA double-strand breaks (DSBs). Here, we develop a system of mouse hybrids in which (a)symmetry of binding by the break-positioning protein PRDM9 to homologs varies over broad scales in the genome. Profiling transcription and chrom…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.05.14.724910",
-      "date": "2026-09-11"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Chromatin structure of the inactive X chromosome revealed by in situ cryo-electron tomography",
-      "body": "The intricate organisation of chromatin in eukaryotic cells plays a central role in regulating gene transcription and other DNA-templated processes. Prior studies using light microscopy, biochemistry, and genomics have implicated histone and DNA modifications, histone variants, chromosomal proteins, non-coding RNA, and…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.07.749863",
-      "date": "2026-09-11"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Social isolation is associated with microRNA expression changes in the visual system of poison frog tadpoles",
-      "body": "Brain microRNA (miRNA) expression can shift in response to the social environment, translating external cues into regulatory action that can influence brain structure, neural activity, and behavior. miRNAs are key drivers of behavioral flexibility, regulating gene networks involved in neuroplasticity. We manipulated so…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.04.749321",
-      "date": "2026-09-11"
+      "doi": "10.64898/2026.09.10.750691",
+      "date": "2026-09-13"
     }
   ]
 }
