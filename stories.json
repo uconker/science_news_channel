@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-09-16T11:15:33.636374+00:00",
+  "generated_at": "2026-09-17T11:23:35.362462+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "karolinska": {
       "name": "Karolinska Institute, Stockholm",
       "lat": 59.35,
       "lon": 18.03
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
     },
     "oxford": {
       "name": "University of Oxford",
@@ -31,25 +21,38 @@
       "lat": 35.71,
       "lon": 139.76
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Ageing reshapes the resting-state network landscape of the human brain",
+      "body": "Ageing alters brain rhythms and large-scale functional organisation, but whether these changes reflect isolated effects or a coordinated reconfiguration remains unclear. We applied Frequency-resolved Network Estimation via Source Separation (FREQ-NESS) to source-reconstructed resting-state MEG from 164 healthy younger …",
+      "inst": [
+        "oxford",
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.09.07.749858",
+      "date": "2026-09-14"
+    },
+    {
+      "id": 1,
       "cat": "science",
       "subject": "biochemistry",
       "title": "Biochemical characterisation of fungal bioluminescence enzymes reveals substrate inhibition and secondary turnover of 3-hydroxyhispidin by H3H",
@@ -61,7 +64,7 @@
       "date": "2026-09-14"
     },
     {
-      "id": 1,
+      "id": 2,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Neural and autonomic predictors of future listening errors",
@@ -73,160 +76,100 @@
       "date": "2026-09-14"
     },
     {
-      "id": 2,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "From Geometry to Hierarchy: Charting the Dominant Modes of Human Cortical Function Through Development",
-      "body": "Cortical function in the human cortex is spatially patterned along a macroscale information processing hierarchy. This hierarchy tracks a sensory-association axis anchored at one end by unimodal sensory regions and at the other by transmodal association areas. Biophysical models of brain dynamics suggest that this axis…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.11.750874",
-      "date": "2026-09-13"
-    },
-    {
       "id": 3,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "STING activation drives pericentrosomal positioning of acidic organelles via the VAIL-LRRK2-Rab35 pathway",
-      "body": "The cGAS-STING pathway is an innate immune system that responds to cytoplasmic double-stranded DNA, but recent studies have highlighted its noncanonical role in facilitating lysosomal stress responses. Specifically, STING activation has been shown to trigger V-ATPase-ATG16L1-induced LC3 lipidation (VAIL) and to activat…",
+      "subject": "plant biology",
+      "title": "Stigmatic papilla cells recover nonself pollen acceptance after self-pollen recognition",
+      "body": "In Brassicaceae, self-incompatibility is initiated when the pollen ligand SP11/SCR activates the cognate stigma receptor kinase SRK. Although this interaction is usually considered at a single pollen-papilla interface, individual papilla cells encounter mixed pollen loads. Here, using a self-incompatibility-reconstitut…",
       "inst": [
         "tokyo"
       ],
-      "doi": "10.64898/2026.09.11.750829",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.10.750793",
+      "date": "2026-09-14"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Meiotic kinetochore reconstitution identifies chromosome segregation factors",
-      "body": "Kinetochores are complex protein assemblies at centromeres that direct and regulate chromosome segregation1. During gamete formation by meiosis, kinetochore specialisations drive two sequential and distinct segregation events to partition half the genome to the offspring2,3. Age-dependent segregation errors in human oo…",
+      "subject": "plant biology",
+      "title": "Engineering chromatin to encode transcriptional immune memory in Arabidopsis",
+      "body": "Transcriptional memory enables organisms to respond more rapidly to recurrent stress, yet the underlying features of chromatin that contribute to this transcriptional recalibration remain poorly defined. Here we identify the genes displaying transcriptional memory in response to the bacterial immune elicitor, flg22, in…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.11.750869",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.10.750729",
+      "date": "2026-09-14"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "A genetically encoded redox bottleneck constrains human developmental rate",
-      "body": "The intrinsically slow pace of human development poses challenges for regenerative medicine and disease modeling. This trait is attributed to low metabolic rates, yet the endogenous mechanisms determining species-specific metabolic flux remain unknown. Here, we identify coupling between glycolytic NADH production and m…",
+      "subject": "immunology",
+      "title": "Patient-derived ascites reveals functional advantages of γδCAR T-cells within the ovarian cancer-like tumor microenvironment",
+      "body": "Chimeric antigen receptor (CAR) T-cells engineered from {gamma}{delta} T-cells show limited clinical benefit in solid tumors such as ovarian cancer (OVCA). Although {gamma}{delta} T-cells can detect malignant transformation and exert cytotoxicity, these properties confer potent preclinical efficacy but limited therapeu…",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.09.10.750701",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.08.749386",
+      "date": "2026-09-14"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Carry-over effects and plasticity to temperature shape phenology across life stages and generations",
-      "body": "Climate change is advancing spring phenology in temperate systems, with the potential to disrupt synchrony between trophic levels. Predicting these shifts requires understanding not only direct plastic responses to temperature, but also how plasticity at one stage carries over to shape timing at subsequent stages. We e…",
+      "subject": "neuroscience",
+      "title": "Cross-platform multi-laboratory screening identifies HUWE1, USP33 and USP20 as negative-regulators of autophagy or mitophagy with relevance to neurodegeneration",
+      "body": "Autophagy and mitophagy are essential cellular processes implicated in neurodegenerative diseases, yet few tractable targets have been robustly validated for therapeutic modulation of these pathways. In an industry-academia consortium we carried out an extensive literature review and expert curation, leading to selecti…",
       "inst": [
-        "oxford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.10.749909",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.07.749806",
+      "date": "2026-09-14"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "High-throughput spheroid profiling reveals BMP-driven rewiring of glioma cell death responses",
-      "body": "The mechanisms regulating glioma cell death are poorly understood. Here, we developed a high-throughput method to study cell death in patient-derived glioblastoma (GBM) and diffuse intrinsic pontine glioma (DIPG) spheroids. Using this method, we systematically profiled how extracellular ligands modulate compound-induce…",
+      "subject": "molecular biology",
+      "title": "Recovery of genomic and transcriptomic profiles from decades-old FFPE brain tissues",
+      "body": "Neurological, neurodegenerative, and psychiatric disorders impose substantial morbidity and disability worldwide, yet their molecular basis remains incompletely understood, in part due to limited access to human brain tissue. The Danish Brain Collection, comprising brains from individuals who lived in Danish psychiatri…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.09.10.750657",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.04.20.719637",
+      "date": "2026-09-14"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Nonlinear regime transitions enable reservoir computation in activator-inhibitor cellular automata",
-      "body": "Activator-inhibitor systems are usually studied as pattern-forming media, but the same local nonlinear interactions can also shape how information is stored and separated over time. Here we first introduce a reaction-diffusion-inspired cellular automaton as a tunable nonlinear medium with two activation families, a con…",
+      "subject": "bioinformatics",
+      "title": "SpaCoEx: Sparse Gene Selection for Spatially Varying Co-expression in Spatial Transcriptomics",
+      "body": "Spatial transcriptomics enables gene expression to be measured while preserving tissue location, but most existing analyses focus on spatial variation in individual genes or expression-defined domains. Here, we introduce SpaCoEx, a sparse spatial representation framework that integrates gene-expression levels with spat…",
       "inst": [
-        "ucl"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.10.750595",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.05.749559",
+      "date": "2026-09-14"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Lifelong Invertebrate Chordate Central Nervous System Regeneration is Driven by a Migrating Pool of Conserved Neural Stem Cells Program",
-      "body": "Adult central nervous systems (CNS) are generally constrained by limited cellular replacement. How regenerating organisms integrate structural maintenance with continuous, cyclic renewal remains unresolved. Here, we leverage the colonial chordate Botryllus schlosseri which completely resorbs and regenerates its entire …",
+      "subject": "neuroscience",
+      "title": "Stressor-Selective Sympathetic Preganglionic Modules for Organ-Biased Control",
+      "body": "The sympathetic nervous system coordinates organ function during stress, yet the spinal organization that converts autonomic commands into selective peripheral outputs remains poorly understood. Here, we combined spatial transcriptomics, immediate early gene mapping, anatomical tracing, and functional perturbation to d…",
       "inst": [
-        "stanford"
+        "riken"
       ],
-      "doi": "10.64898/2026.09.11.750342",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.07.749966",
+      "date": "2026-09-14"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Advancing Neurological Liquid Biopsy via Six-Base Sequencing of Cerebrospinal Fluid Cell-Free DNA",
-      "body": "Real-time molecular insights into the human brain are crucial for understanding neurological conditions and development of soluble biomarkers but challenged by the limited access to target tissue. Here we utilize 6-base sequencing to profile DNA modifications of cell-free DNA released from neural cells into cerebrospin…",
+      "title": "Comparing advanced interference suppression algorithms for OPM-MEG",
+      "body": "On-scalp MEG using optically pumped magnetometers (OPMs) have become more widespread with the recent introduction of the first whole-head systems that offer comparable spatial sampling to conventional MEG systems. For these systems to become truly useful in neuroscience and clinically they need to be able to deal with …",
       "inst": [
         "karolinska"
       ],
-      "doi": "10.64898/2026.09.06.749692",
-      "date": "2026-09-13"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Importance of the Unseen: Near-Infrared Light Regulates Human Glucose Levels in the Built Environment",
-      "body": "Life evolved under broad spectrum sunlight (300-2500nm), but in the modern built environment under standard Light Emitting Diode (LED) illumination is restricted to around 400-650nm. Different wavelengths influence metabolism via mitochondria. 670-900nm support mitochondrial function while those in the Soret band (420-…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.09.06.747571",
-      "date": "2026-09-13"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "AlphaPeptTools: scverse-native analysis of mass spectrometry-based proteomics",
-      "body": "Mass spectrometry (MS)-based proteomics now routinely profiles proteomes at scale, but extracting biological insight and integrating complementary modalities remains challenging. Here, we present AlphaPeptTools, a Python package for the analysis of MS-proteomics data built on the AnnData data structure of the scverse. …",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.09.11.750886",
-      "date": "2026-09-13"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Transcriptomic analysis of human induced pluripotent stem cell cardiomyocytes and myocardial tissue reveals novel role for miR-9-5p in hypertrophic cardiomyopathy",
-      "body": "Hypertrophic cardiomyopathy (HCM) is an inherited disease characterized by the thickening of the heart muscle. Mutations in genes encoding contractile proteins, such MYBPC3 and MYH7 account for over half of patients with familial HCM. MicroRNAs (miRNAs) are pivotal regulators of gene expression that may influence disea…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.09.07.749879",
-      "date": "2026-09-13"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
-      "body": "Protein language models (PLMs) such as ESM-2 encode protein sequences as embeddings for downstream tasks. PLMs are trained on a masked learning objective that leverages evolutionary constraints. While interpretability studies of ESM-2 have focused on folded proteins, their behavior on intrinsically disordered proteins …",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.10.750691",
-      "date": "2026-09-13"
+      "doi": "10.64898/2026.09.08.750027",
+      "date": "2026-09-14"
     }
   ]
 }
