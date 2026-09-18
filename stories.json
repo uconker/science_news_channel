@@ -1,175 +1,208 @@
 {
-  "generated_at": "2026-09-17T11:23:35.362462+00:00",
+  "generated_at": "2026-09-18T10:56:57.649676+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Ageing reshapes the resting-state network landscape of the human brain",
-      "body": "Ageing alters brain rhythms and large-scale functional organisation, but whether these changes reflect isolated effects or a coordinated reconfiguration remains unclear. We applied Frequency-resolved Network Estimation via Source Separation (FREQ-NESS) to source-reconstructed resting-state MEG from 164 healthy younger …",
+      "subject": "ecology",
+      "title": "Current estimates of population resilience are not robust to the longer-term impacts of directional environmental shifts",
+      "body": "Natural systems worldwide are exposed to gradual changes imposed by directional environmental shifts, known as ramp disturbances. However, contemporary assessments of population resilience focus on the resistance and recovery of systems following one-off (i.e., pulse) disturbances. Thus, our current perception of demog…",
       "inst": [
-        "oxford",
-        "copenhagen"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.07.749858",
-      "date": "2026-09-14"
+      "doi": "10.1101/2025.04.04.647258",
+      "date": "2026-09-15"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Biochemical characterisation of fungal bioluminescence enzymes reveals substrate inhibition and secondary turnover of 3-hydroxyhispidin by H3H",
-      "body": "The fungal bioluminescence pathway enables autonomous light production from caffeic acid and has emerged as a versatile platform for bioimaging and synthetic biology. However, biochemical characterisation of its core enzymes remains limited. Here, we establish recombinant purification and quantitative in vitro characte…",
+      "subject": "neuroscience",
+      "title": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
+      "body": "How sensory information is interpreted depends on context, yet the neural mechanisms by which context shapes sensory processing remain poorly understood. To address this question, we developed a computational model constrained by in vivo functional imaging of cortical neurons in mice during reversal learning of a tacti…",
       "inst": [
         "oxford"
       ],
-      "doi": "10.64898/2026.09.09.750069",
-      "date": "2026-09-14"
+      "doi": "10.1101/2024.09.30.615819",
+      "date": "2026-09-15"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Neural and autonomic predictors of future listening errors",
-      "body": "Some of the most demanding perceptual tasks require sustained vigilance to detect and classify infrequent, unpredictable targets within continuous sensory streams. Here, we designed a sustained listening task to ask whether cardinal classes of perceptual errors (misclassifications, miss, and false alarms) were associat…",
+      "subject": "bioinformatics",
+      "title": "SEAHORSE: A Serendipity Engine Assaying Heterogeneous Omics-Related Sampling Experiments",
+      "body": "Large public molecular atlases such as the Genotype-Tissue Expression (GTEx) project and The Cancer Genome Atlas (TCGA) invite systematic discovery, yet most analyses remain hypothesis-driven and interrogate a tiny fraction of possible relationships among phenotypic, clinical, and molecular variables. We developed SEAH…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.09.09.750180",
-      "date": "2026-09-14"
+      "doi": "10.1101/2025.08.15.670514",
+      "date": "2026-09-15"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Stigmatic papilla cells recover nonself pollen acceptance after self-pollen recognition",
-      "body": "In Brassicaceae, self-incompatibility is initiated when the pollen ligand SP11/SCR activates the cognate stigma receptor kinase SRK. Although this interaction is usually considered at a single pollen-papilla interface, individual papilla cells encounter mixed pollen loads. Here, using a self-incompatibility-reconstitut…",
+      "subject": "biophysics",
+      "title": "Lipid tail chemistry regulates selective membrane interactions with model DNA nanoprobes and DNA-based coacervates",
+      "body": "Biological membranes actively regulate their composition to fine-tune their packing, fluidity, phase and surface charge, key properties that influence biomolecular interactions driving essential cellular pathways. While membrane surface charge is often attributed to specific lipid headgroups, the role of acyl-chain che…",
       "inst": [
-        "tokyo"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.10.750793",
-      "date": "2026-09-14"
+      "doi": "10.1101/2025.10.11.681803",
+      "date": "2026-09-15"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Engineering chromatin to encode transcriptional immune memory in Arabidopsis",
-      "body": "Transcriptional memory enables organisms to respond more rapidly to recurrent stress, yet the underlying features of chromatin that contribute to this transcriptional recalibration remain poorly defined. Here we identify the genes displaying transcriptional memory in response to the bacterial immune elicitor, flg22, in…",
+      "subject": "neuroscience",
+      "title": "A single cortical circuit implements fast and slow visual search",
+      "body": "How the brain produces different behaviors from a fixed anatomical substrate is a foundational question in neuroscience. The dominant account holds that behavioral flexibility requires distinct neural circuits: dedicated systems selectively recruited for different processing modes. An alternative proposes that flexibil…",
       "inst": [
-        "cambridge"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.09.10.750729",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.09.09.750509",
+      "date": "2026-09-15"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Patient-derived ascites reveals functional advantages of γδCAR T-cells within the ovarian cancer-like tumor microenvironment",
-      "body": "Chimeric antigen receptor (CAR) T-cells engineered from {gamma}{delta} T-cells show limited clinical benefit in solid tumors such as ovarian cancer (OVCA). Although {gamma}{delta} T-cells can detect malignant transformation and exert cytotoxicity, these properties confer potent preclinical efficacy but limited therapeu…",
+      "subject": "ecology",
+      "title": "The probability of evolutionary rescue with competition: scaling-up from a single species to a community",
+      "body": "When ecological communities experience environmental change, continued coexistence may require rapid adaptation to avoid extinction, i.e., evolutionary rescue. This rescue can be inhibited by competition. Combining Lotka-Volterra and population genetic models, we investigate how both within- and between-species competi…",
       "inst": [
-        "karolinska"
+        "toronto"
       ],
-      "doi": "10.64898/2026.09.08.749386",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.09.11.751028",
+      "date": "2026-09-15"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Cross-platform multi-laboratory screening identifies HUWE1, USP33 and USP20 as negative-regulators of autophagy or mitophagy with relevance to neurodegeneration",
-      "body": "Autophagy and mitophagy are essential cellular processes implicated in neurodegenerative diseases, yet few tractable targets have been robustly validated for therapeutic modulation of these pathways. In an industry-academia consortium we carried out an extensive literature review and expert curation, leading to selecti…",
+      "subject": "developmental biology",
+      "title": "Tissue-wide metabolic buffering confers resilience to mitochondrial dysfunction",
+      "body": "Mitochondria and oxidative phosphorylation (OxPhos) are essential for cellular homeostasis. However, the phenotypes caused by mitochondrial dysfunction often display remarkable tissue-specificity. What determines the susceptibility of individual cells to metabolic or mitochondrial defects in a complex in vivo tissue co…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.09.07.749806",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.08.27.747448",
+      "date": "2026-09-15"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Recovery of genomic and transcriptomic profiles from decades-old FFPE brain tissues",
-      "body": "Neurological, neurodegenerative, and psychiatric disorders impose substantial morbidity and disability worldwide, yet their molecular basis remains incompletely understood, in part due to limited access to human brain tissue. The Danish Brain Collection, comprising brains from individuals who lived in Danish psychiatri…",
+      "subject": "bioengineering",
+      "title": "An Implantable Wireless Battery-Free Spatially Selective Vagus Nerve Stimulator",
+      "body": "Objective. Vagus nerve stimulation (VNS) is an established clinical therapy for drug-resistant epilepsy and other inflammatory conditions. However, off-target stimulation can produce unwanted side effects that limit therapeutic stimulation and hinder the development of new neuromodulation therapies. Selective VNS (sVNS…",
       "inst": [
-        "copenhagen"
+        "ucl"
       ],
-      "doi": "10.64898/2026.04.20.719637",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.04.10.717669",
+      "date": "2026-09-15"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "SpaCoEx: Sparse Gene Selection for Spatially Varying Co-expression in Spatial Transcriptomics",
-      "body": "Spatial transcriptomics enables gene expression to be measured while preserving tissue location, but most existing analyses focus on spatial variation in individual genes or expression-defined domains. Here, we introduce SpaCoEx, a sparse spatial representation framework that integrates gene-expression levels with spat…",
+      "subject": "neuroscience",
+      "title": "Divergence of Melanopsin's Intrinsic Properties and Downstream Actions",
+      "body": "Opsins are light-activated receptors. A basic question is how the molecular properties of an opsin shape its effects on the organism. In mammals, melanopsin regulates perception, cognition, physiology, and mood. Because these actions are vital, an international standard has been formulated to express light in terms of …",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.09.05.749559",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.09.09.750349",
+      "date": "2026-09-15"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Stressor-Selective Sympathetic Preganglionic Modules for Organ-Biased Control",
-      "body": "The sympathetic nervous system coordinates organ function during stress, yet the spinal organization that converts autonomic commands into selective peripheral outputs remains poorly understood. Here, we combined spatial transcriptomics, immediate early gene mapping, anatomical tracing, and functional perturbation to d…",
+      "subject": "genomics",
+      "title": "Chromosome-level, haplotype-resolved genome assembly of the tanniferous forage legume big trefoil (Lotus pedunculatus Cav.) using CiFi",
+      "body": "Big trefoil (Lotus pedunculatus Cav.) is a perennial forage legume that thrives on acidic, low-fertility soils and produces condensed tannins that reduce enteric methanogenesis in ruminants. Despite this agronomic potential, genomic resources for the species remain scarce, and the existing haploid assembly does not res…",
       "inst": [
-        "riken"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.07.749966",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.09.09.749848",
+      "date": "2026-09-15"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Comparing advanced interference suppression algorithms for OPM-MEG",
-      "body": "On-scalp MEG using optically pumped magnetometers (OPMs) have become more widespread with the recent introduction of the first whole-head systems that offer comparable spatial sampling to conventional MEG systems. For these systems to become truly useful in neuroscience and clinically they need to be able to deal with …",
+      "title": "Characterization of the Grin1Q536R/+ mouse: a preclinical model for GRIN1-related neurodevelopmental disorder",
+      "body": "N-methyl-D-aspartate receptors (NMDARs) are ionotropic glutamate receptors playing critical roles in brain development, synaptic plasticity, and cognition. GRIN1-Related Neurodevelopmental Disorder (GRIN1-NDD) is a rare genetic condition caused by pathogenic variations in the GRIN1 gene, which encodes the obligatory su…",
       "inst": [
-        "karolinska"
+        "toronto"
       ],
-      "doi": "10.64898/2026.09.08.750027",
-      "date": "2026-09-14"
+      "doi": "10.64898/2026.09.09.750465",
+      "date": "2026-09-15"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "PRDM9-mediated meiotic hotspot specification is constrained in humans despite extensive sequence diversity",
+      "body": "PRDM9 specifies meiotic recombination hotspots through a rapidly evolving C2H2 zinc-finger (ZNF) coding minisatellite that determines DNA-binding specificity. Although this minisatellite harbors extraordinary allelic diversity in humans, the functional consequences of most naturally occurring variants remain unknown. H…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.09.10.750150",
+      "date": "2026-09-15"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "A rational design strategy and validation for protease-resistant fusion-inhibitor antiviral peptides",
+      "body": "Peptide-based fusion inhibitors are promising pharmaceuticals in the fight against enveloped viruses relying on membrane fusion for host infection. However, peptide therapeutic applications have long been hindered by their poor stability in vivo. Here, we discovered that peptide inhibitors with the wildtype sequence of…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.12.750390",
+      "date": "2026-09-15"
     }
   ]
 }
