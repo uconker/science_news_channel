@@ -1,332 +1,82 @@
 {
-  "generated_at": "2026-09-19T10:40:31.832848+00:00",
+  "generated_at": "2026-09-20T11:02:43.406931+00:00",
   "institutions": {
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Content-Sensitive Linguistic Representations in the Human Multiple-Demand Network",
-      "body": "Neuroimaging dissociates specialized language regions from the domain-general multiple-demand (MD) network, yet the functional contribution of MD regions to language processing remains unresolved. Because MD recruitment during linguistic tasks is conventionally attributed to domain-general cognitive load, prior researc…",
+      "subject": "genomics",
+      "title": "Gene conversion is a key driver of diversity hotspots in M. tuberculosis antigens and virulence-associated loci",
+      "body": "Despite the long-held view of Mycobacterium tuberculosis (Mtb) as a genetically conserved pathogen, many genomic regions remain poorly resolved due to high sequence homology and repetitive content. Using complete genome assemblies generated from long-read sequencing of 151 globally representative clinical isolates, we …",
       "inst": [
-        "ucl",
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.14.749455",
-      "date": "2026-09-16"
+      "doi": "10.64898/2026.02.26.708061",
+      "date": "2026-09-17"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Osmo-hydraulic volume regulation ensures robust endothelial-to-haematopoietic transition",
-      "body": "Haematopoietic stem and progenitor cells (HSPCs) emerge from specialised haemogenic endothelial cells (HECs) in the ventral wall of the dorsal aorta (VDA) through a process known as endothelial-to-haematopoietic transition (EHT). During EHT, elongated HECs undergo actomyosin-driven rounding and extrusion, a mechanicall…",
+      "subject": "neuroscience",
+      "title": "Intrinsic timescale develops hierarchically from sensorimotor to association cortex in youth and stabilizes in adulthood",
+      "body": "Intrinsic timescale is a commonly used measure of spontaneous neural dynamics that quantifies the temporal window of processing of neuronal populations. Intrinsic timescale displays a hierarchical cortical organization across multiple species and imaging modalities, with shorter timescales in sensorimotor cortex compar…",
       "inst": [
-        "riken"
+        "harvard"
       ],
-      "doi": "10.64898/2026.04.09.711986",
-      "date": "2026-09-16"
+      "doi": "10.64898/2026.04.08.717312",
+      "date": "2026-09-17"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Breathlessness catastrophising after COVID-19 involves both interoceptive and visceromotor connectivity",
-      "body": "Persistent breathlessness is common after COVID-19, yet its severity typically correlates weakly with objective clinical measures. This discordance is often attributed to perceptual inference amplified by anxiety. Because breathing involves a closed perception-action loop, breathlessness may also reflect alterations in…",
+      "subject": "bioinformatics",
+      "title": "Unlocking Sensitive Data with SPHERE in the Age of AI",
+      "body": "Sensitive human data underpin discoveries across medicine, biology and the social sciences, yet privacy regulation often prevents sharing them with collaborators or artificial intelligence (AI) systems. We introduce SPHERE, a model-free method that makes sensitive datasets directly usable by AI and shareable for open s…",
       "inst": [
-        "oxford"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.11.750997",
-      "date": "2026-09-16"
+      "doi": "10.64898/2026.09.01.748580",
+      "date": "2026-09-17"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice",
-      "body": "Lack of social interaction results in various behavioral abnormalities in rodents, including increased anxiety levels, altered sociability, and impaired cognitive ability. Epigenetic factors regulate gene expression, however, how they are involved in juvenile social isolation (jSI)-induced behavioral alterations remain…",
+      "subject": "molecular biology",
+      "title": "Spatiotemporal isoform profiling identifies a central activator of microexon splicing in C. elegans",
+      "body": "Dynamic alternative splicing programs drive tissue specification and organismal development. Here, we present the most comprehensive, tissue-resolved alternative splicing dataset in Caenorhabditis elegans to date, spanning three major tissue types from early embryogenesis to adulthood. We uncovered broad developmental …",
       "inst": [
-        "tokyo"
+        "toronto"
       ],
-      "doi": "10.64898/2026.05.11.724160",
-      "date": "2026-09-16"
+      "doi": "10.64898/2026.09.14.751627",
+      "date": "2026-09-17"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Multimodal substrate recruitment enables CTLH-MKLN1 E3 ligase to target N-, C-, and internal degrons",
-      "body": "The GID/CTLH family of E3 ubiquitin ligases employs several substrate receptor subunits that recruit distinct degrons, but the substrate recognition mechanism of the CTLHMKLN1 assembly has largely remained elusive. Here, we reconstitute CTLHMKLN1-dependent ubiquitylation of three biochemically distinct substrates - MKL…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.09.10.750665",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Multiple contact sites between cells and the vitelline envelope coordinate tissue flows in Drosophila gastrulation",
-      "body": "Gastrulation is thought to be driven primarily by forces generated within individual cells. These cell-intrinsic forces collectively induce tissue-scale flows and transform the monolayered embryo into a multilayered structure. However, as the embryo constitutes a mechanically closed system, these flows must be balanced…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.07.30.741527",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Genetic drift decouples Fisherian trait-preference coevolution from genetic correlations in finite populations",
-      "body": "A central mechanism of sexual selection theory is Fisher's process, which refers to the coevolution of male traits and female preferences, in which preference is indirectly selected through genetic association with male trait alleles built up via mate choice. However, empirical studies often fail to detect strong trait…",
+      "subject": "cell biology",
+      "title": "3' Plasma Membrane Phosphoinositides Sustain ROS Production at Persistent Non-canonical Phagocytic Cups that Promote Macrophage Control of Aspergillus fumigatus Hyphae",
+      "body": "Aspergillus fumigatus is the leading cause of aspergillosis in immunocompromised individuals. Because A. fumigatus hyphae rapidly outgrow macrophages, they are generally thought to evade macrophage-mediated control once they exceed the size limits of phagocytosis, enabling invasive growth within host tissues. Here, we …",
       "inst": [
         "toronto"
       ],
-      "doi": "10.64898/2026.09.10.750770",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "Ether linkages in phospholipids provide modular control of membrane mechanics",
-      "body": "The structures of phospholipid headgroups and chains are well-established determinants of membrane elastic properties, but functions for different chemistries that join these moieties together are poorly understood. While common phospholipids feature ester linkages, alkyl ether- and plasmenyl-linked species emerged in …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.05.20.723252",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Repeat element-anchored enhancer-promoter interactions (REEPIs) shape the regulatory landscape of hormone-resistant breast cancer",
-      "body": "Repeat elements (REs) comprise over half of the human genome and are increasingly recognized as regulatory components, yet their role in therapy resistance remains unclear. Here, we integrate CAGE and RADICL-seq to map regulatory elements and RNA-chromatin interactions in estrogen receptor-positive breast cancer cells …",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.09.09.750334",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Regeneration-associated utrophin expression in skeletal muscle: implications for utrophin-targeted therapies",
-      "body": "Duchenne muscular dystrophy (DMD) is a lethal, X-linked muscle-wasting disease caused by loss of dystrophin. Utrophin, a structural and functional paralogue of dystrophin, can compensate for dystrophin deficiency and represents a therapeutic target applicable to patients irrespective of their DMD mutation. However, utr…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.10.750746",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Crystal structure of a class II UDP-glucose-hexose-1-phosphate uridylyltransferase from Bifidobacterium longum involved in human milk oligosaccharide metabolism",
-      "body": "Infant-associated bifidobacteria utilize lacto-N-biose I (LNB) and galacto-N-biose (GNB), major components of human milk oligosaccharides and intestinal mucin, respectively, through the GNB/LNB metabolic pathway. A UDP-glucose-hexose-1-phosphate uridylyltransferase (GalT) from Bifidobacterium longum JCM 1217 (BlGalT2) …",
-      "inst": [
-        "tokyo"
-      ],
-      "doi": "10.64898/2026.09.13.751320",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "Direct electrochemical cortisol detection via transition-resolved interrogation at a defect-engineered graphene interface",
-      "body": "Continuous tracking of cortisol is central to understanding human stress physiology, yet direct electrochemical detection without biological receptors remains challenging despite its promise for stable and dynamic sensing. Electrochemical reduction of cortisol typically occurs at highly negative potentials, where paras…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.13.751286",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Towards a Brain-Computer Interface (BCI) for Improving Phonological Processing in Developmental Dyslexia: An Exploratory Study",
-      "body": "Brain-computer interfaces (BCIs) have immense potential regarding the provision of therapies for disorders of development, but to date have typically been created for non-linguistic disorders such as ADHD (attention deficit hyperactivity disorder). Here we present a BCI designed to improve linguistic phonological proce…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.01.23.700941",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Whole-Embryo 3D Quantification Reveals Flexible Cellular Scaling and Conserved Tissue Architecture in Xenopus Species",
-      "body": "How embryos with markedly different absolute sizes and cell numbers establish comparable tissue organization during development remains a fundamental question in developmental biology. To address this question, we compared two closely related Xenopus species that differ substantially in embryonic size, Xenopus laevis a…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.06.16.732511",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "The Nature of Centromeric Repeat Turnovers in the genus Arabidopsis",
-      "body": "Centromeres are critical for accurate segregation of chromosomes and are often composed of megabases of tandemly arranged satellite repeats. Yet, despite their conserved function, the DNA sequence of centromeres is, paradoxically, rapidly evolving. To understand the nature of centromeric sequence turnover, we assembled…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.09.10.749358",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "plant biology",
-      "title": "Making plant tissue accessible for cryo-electron tomography",
-      "body": "Cryo-Electron Tomography (cryo-ET) allows to visualize the molecular architecture of pristinely preserved cells and tissues. The workflow of sample preparation for cryo-ET is rather complex; it involves vitrification by rapid freezing followed by cryo-Focused Ion Beam (FIB) milling rendering the volumes of interest thi…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.1101/2025.02.14.638237",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Interaction Profiles as a Universal Language for Generative Molecular Design with ShEPhERD-2",
-      "body": "Three-dimensional intermolecular interactions govern molecular recognition and are fundamental to the pharmacological activity of small-molecule drugs. We propose that an interaction profile, comprising shape, electrostatics, and directional pharmacophores, is a sufficient and transferable design specification for mole…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.09.10.750648",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Hypomineralized Enamel Alters Trigeminal Sensory Afferent Architecture, Transcriptome, and Dental Injury Responses",
-      "body": "At barrier tissues such as the skin and gut, sensory neurons interface with environmental stimuli and coordinate with neighboring epithelial and immune cells to detect tissue perturbations. In teeth, however, the sensory dentin-pulp complex is insulated from the oral environment by highly mineralized enamel. Although d…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.10.750650",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Eye-specific drive and binocular suppression in mouse visual cortex during critical period development",
-      "body": "A key function of cortical sensory circuits is to integrate information from multiple sources to build a unified representation of the external environment. The binocular region of the mouse primary visual cortex (bV1) is a valuable model for studying sensory integration, as visual response properties of inputs from th…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.09.10.750218",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "Soft-Robotic Magnetic Microfluidic Catheter for Delivery of Aqueous-Based Dual-Component Embolic Formulations",
-      "body": "Transcatheter embolization requires materials that can be steered through tortuous vessels, solidify rapidly in situ, remain clearly visible under fluoroscopy, and, ideally, carry therapeutic cargo without harming tissue. To meet these requirements, we present a fully water-based, two-component PEI-PEG hydrogel deliver…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.09.14.751422",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 20,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Primary cilia coordinate c-KIT signaling induced proliferation in alpha cells",
-      "body": "Circulating glucagon levels are elevated in patients with diabetes and obesity and contribute to hyperglycemia. The mechanisms underlying hyperglucagonemia remain poorly understood, but expansion of pancreatic -cell mass is thought to play an important role. Primary cilia are sensory organelles that act as signaling hu…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.09.10.750659",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 21,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Passive thrust production in animal propulsion: exploitation of velocity gradients for energy conservation",
-      "body": "Animals move through fluid environments that are rich in velocity gradients, yet how they exploit these flows to reduce locomotor costs remains elusive. We hypothesize that vertebrates utilize shear layers to passively produce thrust and establish a force equilibrium, thereby reducing locomotor cost. We discovered a sh…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.10.750785",
-      "date": "2026-09-16"
+      "doi": "10.64898/2026.09.14.751521",
+      "date": "2026-09-17"
     }
   ]
 }
