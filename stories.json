@@ -1,82 +1,81 @@
 {
-  "generated_at": "2026-09-20T11:02:43.406931+00:00",
+  "generated_at": "2026-09-22T11:18:34.730420+00:00",
   "institutions": {
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "mpi_eva": {
+      "name": "MPI Evolutionary Anthropology, Leipzig",
+      "lat": 51.34,
+      "lon": 12.38
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Gene conversion is a key driver of diversity hotspots in M. tuberculosis antigens and virulence-associated loci",
-      "body": "Despite the long-held view of Mycobacterium tuberculosis (Mtb) as a genetically conserved pathogen, many genomic regions remain poorly resolved due to high sequence homology and repetitive content. Using complete genome assemblies generated from long-read sequencing of 151 globally representative clinical isolates, we …",
+      "subject": "neuroscience",
+      "title": "Sleep spindles stabilize human thalamocortical networks, inhibiting pathological disruptions",
+      "body": "The thalamus coordinates sleep-dependent brain function including memory consolidation, sensory gating, and network stability through spindle oscillations. Thalamocortical circuits are also affected in many neurological and neuropsychiatric disorders. Yet how human thalamocortical circuits respond to pathological disru…",
       "inst": [
+        "eth",
         "harvard"
       ],
-      "doi": "10.64898/2026.02.26.708061",
-      "date": "2026-09-17"
+      "doi": "10.64898/2026.09.13.751011",
+      "date": "2026-09-19"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Intrinsic timescale develops hierarchically from sensorimotor to association cortex in youth and stabilizes in adulthood",
-      "body": "Intrinsic timescale is a commonly used measure of spontaneous neural dynamics that quantifies the temporal window of processing of neuronal populations. Intrinsic timescale displays a hierarchical cortical organization across multiple species and imaging modalities, with shorter timescales in sensorimotor cortex compar…",
+      "subject": "biophysics",
+      "title": "The hearing-essential intracellular domain of PCDH15 reveals a new layer of auditory mechanotransduction",
+      "body": "Current models of mechanotransduction in inner-ear hair cells explain how force is transmitted through the extracellular tip link but provide little insight into how force is propagated beneath the plasma membrane. Although the CD2 isoform of PCDH15 has been shown to be essential for hearing in mature mammalian hair ce…",
       "inst": [
-        "harvard"
+        "embl"
       ],
-      "doi": "10.64898/2026.04.08.717312",
-      "date": "2026-09-17"
+      "doi": "10.64898/2026.09.17.752191",
+      "date": "2026-09-19"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Unlocking Sensitive Data with SPHERE in the Age of AI",
-      "body": "Sensitive human data underpin discoveries across medicine, biology and the social sciences, yet privacy regulation often prevents sharing them with collaborators or artificial intelligence (AI) systems. We introduce SPHERE, a model-free method that makes sensitive datasets directly usable by AI and shareable for open s…",
+      "subject": "neuroscience",
+      "title": "A comparative framework for neocortical sulcal anatomy in pinnipeds",
+      "body": "The transition of pinnipeds from terrestrial ancestors into marine environments provides a unique opportunity to examine how cortical organisation has changed with adaptation to life in water. Here, we examined neocortical sulcal anatomy in nine species representing all three extant pinniped families using cortical sur…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.01.748580",
-      "date": "2026-09-17"
+      "doi": "10.64898/2026.09.17.752275",
+      "date": "2026-09-19"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Spatiotemporal isoform profiling identifies a central activator of microexon splicing in C. elegans",
-      "body": "Dynamic alternative splicing programs drive tissue specification and organismal development. Here, we present the most comprehensive, tissue-resolved alternative splicing dataset in Caenorhabditis elegans to date, spanning three major tissue types from early embryogenesis to adulthood. We uncovered broad developmental …",
+      "subject": "animal behavior and cognition",
+      "title": "The building blocks of social structure: simulating constraints of social network analysis for inference about group-level properties",
+      "body": "The interdisciplinary usage of Social Network Analysis (SNA) means that, when researchers calculate global network metrics, the research interest can range from the ultimate ecological and evolutionary pressures that select for specific group-level structures or the proximate mechanisms by which those structures emerge…",
       "inst": [
-        "toronto"
+        "mpi_eva"
       ],
-      "doi": "10.64898/2026.09.14.751627",
-      "date": "2026-09-17"
-    },
-    {
-      "id": 4,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "3' Plasma Membrane Phosphoinositides Sustain ROS Production at Persistent Non-canonical Phagocytic Cups that Promote Macrophage Control of Aspergillus fumigatus Hyphae",
-      "body": "Aspergillus fumigatus is the leading cause of aspergillosis in immunocompromised individuals. Because A. fumigatus hyphae rapidly outgrow macrophages, they are generally thought to evade macrophage-mediated control once they exceed the size limits of phagocytosis, enabling invasive growth within host tissues. Here, we …",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.09.14.751521",
-      "date": "2026-09-17"
+      "doi": "10.64898/2026.09.17.752303",
+      "date": "2026-09-19"
     }
   ]
 }
