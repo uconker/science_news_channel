@@ -1,30 +1,35 @@
 {
-  "generated_at": "2026-09-22T11:18:34.730420+00:00",
+  "generated_at": "2026-09-23T11:12:34.216263+00:00",
   "institutions": {
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
-    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "mpi_eva": {
-      "name": "MPI Evolutionary Anthropology, Leipzig",
-      "lat": 51.34,
-      "lon": 12.38
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     }
   },
   "stories": [
@@ -32,50 +37,133 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Sleep spindles stabilize human thalamocortical networks, inhibiting pathological disruptions",
-      "body": "The thalamus coordinates sleep-dependent brain function including memory consolidation, sensory gating, and network stability through spindle oscillations. Thalamocortical circuits are also affected in many neurological and neuropsychiatric disorders. Yet how human thalamocortical circuits respond to pathological disru…",
+      "title": "Changes in Neural Dynamics of Brain Activity and Connectivity Independently Predict Post-Stroke Aphasia Recovery",
+      "body": "Post-stroke language recovery involves reorganization of left-hemisphere language and bilateral domain-general multiple-demand networks. Neuroimaging predictors of recovery are widely used, yet, they are often grouped into broad predictor families, limiting clinical translation and the identification of specific therap…",
       "inst": [
-        "eth",
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.13.751011",
-      "date": "2026-09-19"
+      "doi": "10.64898/2026.09.17.751646",
+      "date": "2026-09-20"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "The hearing-essential intracellular domain of PCDH15 reveals a new layer of auditory mechanotransduction",
-      "body": "Current models of mechanotransduction in inner-ear hair cells explain how force is transmitted through the extracellular tip link but provide little insight into how force is propagated beneath the plasma membrane. Although the CD2 isoform of PCDH15 has been shown to be essential for hearing in mature mammalian hair ce…",
+      "subject": "neuroscience",
+      "title": "The activation function of CA3 pyramidal neurons is optimal for the stable recall of memory patterns",
+      "body": "Hippocampal area CA3 is widely believed to serve a core memory function: retrieving distributed patterns of neural activity that were previously stored in the recurrent connections between neurons. However, it remains unknown how the physiological properties of individual neurons contribute to this function. Here, we p…",
       "inst": [
-        "embl"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.17.752191",
-      "date": "2026-09-19"
+      "doi": "10.64898/2026.09.17.752025",
+      "date": "2026-09-20"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A comparative framework for neocortical sulcal anatomy in pinnipeds",
-      "body": "The transition of pinnipeds from terrestrial ancestors into marine environments provides a unique opportunity to examine how cortical organisation has changed with adaptation to life in water. Here, we examined neocortical sulcal anatomy in nine species representing all three extant pinniped families using cortical sur…",
+      "subject": "evolutionary biology",
+      "title": "The Genetic Architecture of Neonatal Deer Mouse Cries Implicates the Cerebellum in the Temporal Control of an Infant Social Behavior",
+      "body": "Vocal communication is a conserved vertebrate social behavior that begins at birth with the cries of infants. These neonatal vocal signals vary across contexts to elicit parental care that matches infant needs, and across species to match species-specific ecologies and social systems. This natural variation presents an…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.17.752275",
-      "date": "2026-09-19"
+      "doi": "10.64898/2026.09.18.752619",
+      "date": "2026-09-20"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "The building blocks of social structure: simulating constraints of social network analysis for inference about group-level properties",
-      "body": "The interdisciplinary usage of Social Network Analysis (SNA) means that, when researchers calculate global network metrics, the research interest can range from the ultimate ecological and evolutionary pressures that select for specific group-level structures or the proximate mechanisms by which those structures emerge…",
+      "subject": "bioinformatics",
+      "title": "BRIDGE-AD reveals Alzheimer's disease effectors through interpretable large-scale omics integration",
+      "body": "The growing landscape of Alzheimer's disease (AD) datasets creates opportunities to integrate heterogeneous evidence and systematically discover disease effectors. We present BRIDGE-AD, an interpretable network medicine framework that transforms multimodal data into a unified, disease-specific gene representation for A…",
       "inst": [
-        "mpi_eva"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.17.752303",
-      "date": "2026-09-19"
+      "doi": "10.64898/2026.09.14.750802",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTD",
+      "body": "Nuclear depletion of TDP-43 is a defining pathological feature of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), leading to widespread RNA misprocessing, including the formation of cryptic exons. Here, we identified TDP-43 as a regulator of circular RNA (circRNA) biogenesis in multiple human neu…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.17.752342",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Rab11-exosome biogenesis regulators mediate Aβ-induced intercellular propagation of endolysosomal trafficking defects and neurodegeneration",
+      "body": "Alzheimer's Disease (AD) is characterised by two histopathological hallmarks, intracellular tau-containing neurofibrillary tangles and extracellular amyloid plaques containing {beta}-amyloid (A{beta}), a specific cleavage product of Amyloid Precursor Protein (APP). Initiation of A{beta}-induced neuronal pathology, howe…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.09.17.752336",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The post-hoc montage of perception: deep layers of primary visual cortex encode postdictive percepts",
+      "body": "One of the most puzzling aspects of perception is postdiction: later information can change how a previous stimulus is perceived [1,2]. This indicates that perception is not a livestream of the external world, but rather a post-hoc reconstruction. How does the brain revise perception? It has been proposed that recurren…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.04.749457",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "SEAHORSE: A Serendipity Engine Assaying Heterogeneous Omics-Related Sampling Experiments",
+      "body": "Large public molecular atlases such as the Genotype-Tissue Expression (GTEx) project and The Cancer Genome Atlas (TCGA) invite systematic discovery, yet most analyses remain hypothesis-driven and interrogate a tiny fraction of possible relationships among phenotypic, clinical, and molecular variables. We developed SEAH…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2025.08.15.670514",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The interplay between detection and localization in human vision",
+      "body": "Detection and localization are fundamental but distinct tasks of sensory systems: detecting a signal requires accumulating evidence for its presence, whereas localizing it requires extracting spatial information. How active sampling should be organized when both tasks must be performed simultaneously remains unclear. H…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.07.06.736811",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Modeling lung adenocarcinoma using layer-by-layer nanoparticles mitigates innate immune cell activation",
+      "body": "Lung adenocarcinoma, driven frequently by KRAS and p53 mutations, remains a leading cause of cancer mortality. Current state-of-the-art genetically engineered mouse models often rely on viral delivery of recombinases, such as Cre recombinase, to initiate transformation. However, viral particles can infect and activate …",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.09.14.751530",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Genetic background determines allele-specific Pfkelch13-mediated artemisinin tolerance and persistence in Plasmodium falciparum",
+      "body": "Artemisinin-based combination therapies are the frontline treatment for Plasmodium falciparum malaria, but their efficacy is threatened by Artemisinin partial resistance (ARTR). ARTR in Plasmodium falciparum is mediated by Pfkelch13 (k13) mutations but remains rare in West Africa. A critical question is whether short-t…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.09.03.749253",
+      "date": "2026-09-20"
     }
   ]
 }
