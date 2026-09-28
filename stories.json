@@ -1,5 +1,440 @@
 {
-  "generated_at": "2026-09-24T11:27:06.965899+00:00",
-  "institutions": {},
-  "stories": []
+  "generated_at": "2026-09-28T13:32:39.968269+00:00",
+  "institutions": {
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    }
+  },
+  "stories": [
+    {
+      "id": 0,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease",
+      "body": "Blood provides an accessible window into human health, yet the absence of a peripheral blood mononuclear cells (PBMCs) reference with standardized immune cell annotations has constrained comparisons between single-cell RNA sequencing (scRNAseq) studies. Here, we present HARP (Human Cell Atlas Reference for PBMCs), an i…",
+      "inst": [
+        "cambridge",
+        "sanger",
+        "mit",
+        "oxford",
+        "riken"
+      ],
+      "doi": "10.64898/2026.09.21.749940",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Multidimensional semantic representations emerge from multi-frequency representational similarity learning",
+      "body": "Current theories of semantic representation are agnostic about how fine-grained neurophysiological activity corresponds to representation of multidimensional semantic information. By applying an innovative multivariate technique (representational similarity learning; RSL), we adjudicated three hypotheses: (1) that mult…",
+      "inst": [
+        "cambridge",
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.23.753859",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "BRIDGE-AD reveals Alzheimer's disease effectors through interpretable large-scale omics integration",
+      "body": "The growing landscape of Alzheimer's disease (AD) datasets creates opportunities to integrate heterogeneous evidence and systematically discover disease effectors. We present BRIDGE-AD, an interpretable network medicine framework that transforms multimodal data into a unified, disease-specific gene representation for A…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.14.750802",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Disruption of a Structural Niche for Otoconia Maintenance May Underlie Common Vestibular Disorders",
+      "body": "Many falls and balance disorders in older adults originate in the otolith organs, the gravity sensors of the inner ear. These sensors maintain upright posture through otoconia, calcium carbonate crystals that mass-load the sensory maculae. Otoconia dislodgement causes the most common form of vertigo, and their age-rela…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.09.16.752180",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "PRISM: A Plasmid-based Reporter for Intracellular Spectral Microscopy",
+      "body": "Organelles form an interconnected network whose morphology, positioning and interactions reflect cellular state. However, reproducibly quantifying these organelle phenotypes across large cell populations and diverse cell types remains a significant challenge. Here we present PRISM (Plasmid-based Reporter for Intracellu…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.01.746207",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Adaptive loss of function accelerated the evolution of ancient and modern human cognition",
+      "body": "Methods to detect accelerated evolution have identified many genomic regions with unexpectedly rapid evolution in the human lineage-significantly more than in chimpanzees, our closest living relatives. However, these methods focus on accelerated sequence evolution of short non-coding regions, leaving open the questions…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.04.27.721126",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "HiMaLAYAS: enrichment-based annotation and visualization of hierarchically clustered matrices",
+      "body": "Summary: Hierarchical clustering reveals structure in high-dimensional biological matrices, but the resulting dendrogram-defined clusters are commonly visualized rather than tested for annotation enrichment. Existing workflows often require separate tools to cluster data, test enrichment, and display heatmaps. Here, we…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.02.11.705303",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Smaller Genomes and Shorter Prophage Sequences Differentiate Clinical from Environmental Isolates of Pseudomonas aeruginosa",
+      "body": "The opportunistic bacterial pathogen Pseudomonas aeruginosa can live in both environmental reservoirs as well as in the airways of people with cystic fibrosis (pwCF) and the evolutionary adaptations that enable P. aeruginosa to transition between these settings have clinical implications. Here, we compare the genome co…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2025.12.04.691226",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Acquired epithelial Wnt7b secretion establishes autocrine WNT dependency in BRAF mutant colorectal cancer",
+      "body": "Colorectal cancer (CRC) subtypes differ fundamentally in their reliance on WNT signaling, yet the sources and regulation of WNT ligands as well as the subtype-specific requirements for ligand-driven activation remain poorly defined. Here, we generated genetically-engineered organoid models of Apc- and Braf-mutant CRC t…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.09.24.754033",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Ductal myofibroblasts reactivate contractile program to stabilize alveolar architecture during lung regeneration",
+      "body": "The alveolar sac architecture is essential for efficient gas exchange and must be precisely maintained throughout life; however, how this delicate structure is preserved during adult regeneration remains poorly understood. Using a mouse pneumonectomy model, we found that Lgr6+ Hhip+ ductal myofibroblasts, a poorly char…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.64898/2026.09.23.753969",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Comparing morphological and molecular methods for stream macroinvertebrate biodiversity assessment across seven watersheds in the southern United States",
+      "body": "Freshwater biodiversity is declining at alarming rates globally, yet our capacity to monitor it depends heavily on the methods used for biodiversity assessment. Stream benthic macroinvertebrates are widely used as bioindicators, but traditional morphological identification is labor-intensive and limited by taxonomic ex…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.09.24.754159",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Perceptual constraints of motion shape animal movement strategies",
+      "body": "As animals explore their environment, self-generated motion can affect visual perception, while perceptual constraints shape movement decisions. Movement strategies should therefore balance the benefits of exploration against the potential perceptual costs of motion. Here, we test whether the movement strategies animal…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.22.753148",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Tracking human foragers and their prey reveals adaptive predator-prey dynamics",
+      "body": "Hunting for mobile prey is thought to have played a key role in hominin evolution, by providing high-quality nutrition that supported the development of the exceptionally large human brain. However, human-prey dynamics remain poorly understood because studies have not yet tracked human foragers and their prey simultane…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.09.21.752541",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Stimulatrix: An open-source automated platform for high-throughput functional characterization of engineered contractile tissues",
+      "body": "Engineered cardiac and skeletal muscle tissues suspended between flexible posts support disease modeling and pharmacology, yet their stimulation, longitudinal imaging and quantitative analysis often remain fragmented and labor-intensive. Here we present Stimulatrix, an open-source platform integrating automated video a…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.09.24.750079",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "APOA1 links a late fetal epithelial program to colonic maturation and injury responses",
+      "body": "Developmental programs establish tissue identity and organization, but how their reactivation contributes to adult tissue responses remains poorly understood. Here, we identify a functional contribution of apolipoprotein A-I (APOA1), which marks a late fetal colonic epithelial state that reappears after injury. Spatial…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.09.24.754040",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Pulsed-SILAC in single mouse embryos reveals early embryonic protein synthesis dynamics and phosphosite regulation",
+      "body": "Early embryogenesis relies extensively on maternally deposited products until zygotic genome activation, yet the dynamics for the synthesis of new proteins in mammalian embryos remains poorly characterized. To address this, we applied pulsed stable isotope labelling by amino acids in cell culture (pSILAC) combined with…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.09.24.754052",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Spatial separation provides the force-coupling mechanism for the spindle assembly checkpoint",
+      "body": "The spindle assembly checkpoint (SAC) prevents anaphase until chromosomes have formed correct bipolar attachments to the mitotic spindle. Spatial separation of pericentromeric Aurora B from outer-kinetochore substrates explains how tension-dependent biorientation stabilises microtubule-kinetochore attachments. How this…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.09.24.754109",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Deep generative embeddings of gene expression and splicing reposition the interpretation of single-cell transcriptomic signatures",
+      "body": "Single-cell transcriptomic analysis predominantly derives cell identity from gene expression analysis, while alternative splicing is processed separately despite its fundamental role for cell homeostasis. To overcome the limits of separate investigations, we developed a probabilistic deep learning framework, Crecerelle…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.23.753495",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Evaluating home-cage-activity metrics for detecting postprocedural pain in a plantar incision mouse model",
+      "body": "Detection of postoperative pain in mice is challenging, and there is a need for unbiased, automated methods. Home-cage monitoring systems are promising, but their ability to detect mild pain remains unclear. We evaluated whether home-cage activity measures can be used to detect pain-related changes in a plantar incisio…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.09.23.753854",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 19,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "ALDH1B1 promotes mitochondrial γ-butyrobetaine biosynthesisand fatty acid oxidation in colorectal cancer",
+      "body": "Metabolic reprogramming is a hallmark of cancer cells, and stem-like populations often upregulate aldehyde dehydrogenases (ALDHs). Functional studies have established essential roles for individual ALDH isoforms in tumor initiation, progression, and metastasis; however, the mechanisms by which these enzymes promote mal…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.24.753323",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 20,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Context-specific genetic interaction mapping reveals combinatorial KRAS/FGFR dependence in pancreatic cancer",
+      "body": "Oncogenic KRAS drives >90% of pancreatic ductal adenocarcinoma (PDAC), and the pan-RAS inhibitor daraxonrasib doubles overall survival, but adaptive and acquired resistance limit the depth and duration of responses. To systematically map combination vulnerabilities, we developed RAS+, a digenic CRISPR knockout library …",
+      "inst": [
+        "broad"
+      ],
+      "doi": "10.64898/2026.09.24.754062",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 21,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Translational antagonism enables bet-hedging in yeast via mitochondrial bistability",
+      "body": "We investigated the molecular basis of bet-hedging in budding yeast, Saccharomyces cerevisiae. Fast glycolytic growth generates two cell states: fermenting arrestors and respiring recoverers, of which only recoverers resume growth when shifted to a respiratory carbon source. Single-cell metabolic biosensors show that a…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.03.30.715437",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 22,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Translation fidelity mechanisms and their changes in aging",
+      "body": "Protein errors (amino acid misincorporations) are associated to protein misfolding and misfunction, and lower levels correlate with longer lifespan. Despite their prevalence, proteome-wide tracking of misincorporations in eukaryotes is challenging, with most insights being recent and coming from the mining of extensive…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.24.754133",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 23,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "A portable N-terminal biphenyl motif in LL-37 enhances the activity of short human cathelicidin derivatives",
+      "body": "Issues such as potency and stability limit our ability to realize the potential of host defense peptides (HDPs) to serve as new antibiotics. Informed by our prior structure-activity work, we demonstrate that transposition of an N-terminal biphenyl motif from full-length LL-37 onto the previously-described central activ…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.1101/2025.05.22.655619",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 24,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Lateralized dopaminergic neuron activity encodes goal-directed turning",
+      "body": "Animals navigate through dynamic environments in search of resources. Dopaminergic systems are known to control movement and assign motivational value to cues, actions and outcomes, but how they guide ongoing locomotion towards a goal remains unclear. Here, we demonstrate that Drosophila mushroom body innervating dopam…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.09.23.753763",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 25,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Sequential accumulation of adaptive alleles forms an inversion supergene in deer mice",
+      "body": "Supergenes are clusters of co-inherited loci that affect multiple or complex phenotypes. Despite the growing number of chromosomal inversions identified as supergenes in natural populations, their molecular basis and evolutionary history often remain obscure. Here, we identified two candidate genes, Slc45a2 and Npr3, w…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.09.23.753864",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 26,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "cAMP responsiveness determines follicular ovulatory fate downstream of the LH receptor in the cloudy catshark",
+      "body": "The number of offspring produced per reproductive cycle is generally explained by a luteinizing hormone receptor (LHR)-threshold model, in which only follicles expressing sufficient levels of LHR respond to the LH surge and proceed to ovulation. Using the cloudy catshark as a model, we reveal a distinct mechanism that …",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.04.10.717848",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 27,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "State-selective inhibition of alpha-synuclein aggregation by de novo oligomer-binding proteins",
+      "body": "The intrinsically disordered, non-amyloid-{beta} component domain of -synuclein (Syn) drives aggregation in Parkinson's disease but lacks a stable epitope for structure-based drug design. We used deep learning-based protein design to generate de novo binders capturing this region in a {beta}-strand conformation. Three …",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.07.13.738012",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 28,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Role of the unstructured N-linker of the alkaline phosphatase superfamily member BcsG in the gastrointestinal pathogen Salmonella typhimurium",
+      "body": "A subgroup of membrane-anchored bacterial Alkaline Phosphatase superfamily members transfers phospholipid headgroups from phospholipids to diverse acceptor molecules. As part of type II and hybrid type I/II cellulose biosynthesis gene clusters BcsG transfers phosphorylethanolamine pEtN from phospholipid to the emerging…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2026.09.23.753746",
+      "date": "2026-09-25"
+    }
+  ]
 }
