@@ -1,46 +1,6 @@
 {
-  "generated_at": "2026-09-29T12:32:28.472141+00:00",
+  "generated_at": "2026-10-01T12:51:40.157055+00:00",
   "institutions": {
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_eva": {
-      "name": "MPI Evolutionary Anthropology, Leipzig",
-      "lat": 51.34,
-      "lon": 12.38
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
     "toronto": {
       "name": "University of Toronto",
       "lat": 43.66,
@@ -51,47 +11,68 @@
       "lat": 37.43,
       "lon": -122.17
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
     },
     "nih": {
       "name": "NIH, Bethesda",
       "lat": 39.0,
       "lon": -77.1
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The cerebellum specializes for language even in the absence of contralateral neocortical inputs",
-      "body": "Long considered a structure dedicated primarily to motor control, the cerebellum is now known to contain regions that respond selectively to language. However, how cerebellar language specialization emerges during development remains unknown. The prevailing proposal is that cerebellar functional specialization critical…",
+      "subject": "systems biology",
+      "title": "Limit-pushing overexpression reveals constraints on protein abundance",
+      "body": "Proteins are often classified as toxic or non-toxic without measuring the abundance reached, leaving constraints on tolerable protein abundance unresolved. We established a limit-pushing approach in Saccharomyces cerevisiae combining strong inducible expression with gTOW-mediated high-copy selection to counteract copy-…",
       "inst": [
-        "harvard",
-        "mit",
-        "oxford"
+        "toronto",
+        "riken"
       ],
-      "doi": "10.64898/2026.08.19.745757",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.24.754258",
+      "date": "2026-09-28"
     },
     {
       "id": 1,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking",
-      "body": "Proteins are the principal architects of life, fueling advances in bioengineering, drug discovery, and synthetic biology. The integration of generative AI with computational protein science has revolutionized protein design while also posing dual-use risks, such as enabling the creation of pandemic-capable proteins tha…",
-      "inst": [
-        "stanford",
-        "harvard"
-      ],
-      "doi": "10.1101/2024.10.23.619960",
-      "date": "2026-09-26"
-    },
-    {
-      "id": 2,
       "cat": "science",
       "subject": "systems biology",
       "title": "A Mechanistic Model for the HPA Axis Cortisol Paradox in PTSD",
@@ -103,220 +84,244 @@
       "date": "2026-09-28"
     },
     {
-      "id": 3,
+      "id": 2,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Limit-pushing overexpression reveals constraints on protein abundance",
-      "body": "Proteins are often classified as toxic or non-toxic without measuring the abundance reached, leaving constraints on tolerable protein abundance unresolved. We established a limit-pushing approach in Saccharomyces cerevisiae combining strong inducible expression with gTOW-mediated high-copy selection to counteract copy-…",
+      "subject": "ecology",
+      "title": "Contrasting effects of forest fragmentation on the genetics and microbiomes of an endangered arboreal primate",
+      "body": "Landscape fragmentation, one of the leading drivers of biodiversity loss, can reshape both the genetics and microbiomes of wild populations. Although fragmentation is generally expected to limit gene flow and erode genetic diversity, and to disrupt host-associated microbial communities, these responses arise via differ…",
       "inst": [
         "toronto"
       ],
-      "doi": "10.64898/2026.09.24.754258",
+      "doi": "10.64898/2026.06.14.732134",
+      "date": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Computational design of a versatile, zero-radius proximity labeling enzyme",
+      "body": "The ability to map protein interactomes and organelle proteomes is foundational for achieving a molecular understanding of living cells. Proximity labeling (PL) provides a powerful strategy for this, but existing enzymes and photocatalysts are limited by their spatial resolution, reliance on biotin, and/or in vivo comp…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.24.754223",
       "date": "2026-09-28"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "genomics",
-      "title": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
-      "body": "Diverse human cell types establish specialized functions through lineage- and context-specific regulatory programs. Interpreting non-coding genetic risk requires integrated multi-omic reference maps that directly connect regulatory DNA to cellular expression across human tissues. Here we present a single-nucleus multi-…",
+      "subject": "biophysics",
+      "title": "Phase diagrams for biophysical fitness landscape design",
+      "body": "Viral populations often evolve toward the top of fitness landscapes by mutating their surface proteins to escape host antibodies and/or to bind more tightly to host cell receptors. As they climb fitness landscapes, newly mutated strains can spread across host populations, causing new waves of infection and death. As a …",
       "inst": [
-        "mit"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.25.754561",
-      "date": "2026-09-27"
+      "doi": "10.1101/2025.09.10.675274",
+      "date": "2026-09-28"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "genetics",
-      "title": "OPA1 controls mitochondrial dysfunction-driven liver fibrosis in MASLD",
-      "body": "Progressive hepatic fibrosis is the principal determinant of morbidity and mortality in metabolic dysfunction-associated steatotic liver disease and steatohepatitis (MASLD/MASH). Mitochondrial dysfunction is a hallmark of MASH, and the release of mitochondrial damage-associated molecular patterns (mito-DAMPs) from inju…",
+      "subject": "cancer biology",
+      "title": "Spatial immune profiling reveals lymphocyte confinement to myeloid-mesenchymal niches and heterogeneous therapeutic T-cell opportunity in pediatric ependymoma",
+      "body": "Pediatric posterior fossa group A (PFA) ependymoma is an aggressive, chemo-resistant brain tumor with a poor 10-year overall survival and no therapeutic options at relapse. Although conventionally classified as immune-cold, the spatial organization and therapeutic relevance of its rare immune infiltrates remain poorly …",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.09.24.753666",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.09.24.754209",
+      "date": "2026-09-28"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Cofilin Suppresses Tau-Induced Defects in Dense-Core Granule Formation and Aβ-Induced Neurodegeneration",
-      "body": "Intracellular neurofibrillary tangles formed from hyperphosphorylated tau and extracellular amyloid plaques containing aggregated A{beta}-peptides, specific cleavage products of the Amyloid Precursor Protein (APP), are the primary histopathological hallmarks of Alzheimers Disease (AD), the leading cause of dementia in …",
+      "subject": "plant biology",
+      "title": "Neural Processes with Normalizing Flows for Wheat Height Estimation",
+      "body": "In this work, we investigate modeling plant traits over time using neural processes, a class of machine learning models that learn distributions over functions. Plant growth is an inherently stochastic process with complex dynamics measured mostly at irregular times throughout the growing seasons. While individual trai…",
       "inst": [
-        "oxford"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.22.753479",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.06.24.734247",
+      "date": "2026-09-28"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Neurodegeneration-inducing macromolecules exit the brain via nanovascular conduits formed by reticular fibroblasts",
-      "body": "Accumulation of proteins such as amyloid beta (Abeta), hyperphosphorylated tau and alpha-synuclein within the brain alters neural information processing and causes neurodegeneration(1-3), but how toxic solutes are cleared from the brain remains highly controversial(4,5). Proposed exit routes include efflux across endot…",
+      "subject": "systems biology",
+      "title": "A thermoregulatory design principle for transitions into hypometabolism",
+      "body": "Mammals entering torpor or hibernation undergo an abrupt transition from normothermia to hypothermia, yet how thermoregulation enables this switch remains poorly understood. Here, we identify dynamical signatures that precede these transitions and a mathematical principle that can generate them. In fasting-induced torp…",
       "inst": [
-        "ucl"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.09.21.752863",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.09.25.754297",
+      "date": "2026-09-28"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Combining CHARMM36m with OPC water improves accuracy",
-      "body": "Atomistic simulations of intrinsically disordered proteins (IDPs) are notoriously sensitive to force field inaccuracies, either regarding the protein or the water model, yielding inaccurate observables such as compactness, secondary structure propensities, or kinetics. The currently most widely used IDP force fields ar…",
+      "subject": "microbiology",
+      "title": "Antagonistic small proteins enable magnesium-dependent tuning of two-component signaling",
+      "body": "Small proteins are emerging regulators of bacterial virulence via signaling pathways. However, how multiple small proteins coordinate to control a single pathway remains unclear. Here we show that two antagonistic small proteins, SafA and MgrB, forming a magnesium-dependent control module, enhance the signaling sensiti…",
       "inst": [
         "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.25.754057",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.05.06.723403",
+      "date": "2026-09-28"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Engineering CAR-T cells to remodel the mucin-rich cancer cell glycocalyx",
-      "body": "The dense glycocalyx of cancer cells can restrict immune-cell access to surface antigens and limit CAR-T cell activity. Here, we show that mucin density and epitope position determine how glycocalyx remodeling affects CAR-T cell recognition and killing. We identify KLK5 as a human protease that cleaves tumor-associated…",
+      "subject": "cell biology",
+      "title": "Remodeling of cholesterol metabolism in melanoma progression regulates nuclear membrane mechanics.",
+      "body": "Metastatic cancer cells migrate through physically restrictive environments where nuclear deformation ruptures the nuclear envelope (NE) resulting in genomic instability. Although structural proteins of the NE are established regulators of nuclear mechanics, how nuclear membrane (NM) lipid composition contributes to it…",
       "inst": [
-        "harvard"
+        "nih"
       ],
-      "doi": "10.64898/2026.09.25.754490",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.09.25.754527",
+      "date": "2026-09-28"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Quantitative Susceptibility Mapping for Differentiating Hydroxyapatite and Calcium Oxalate Breast Calcifications at 3T: A Phantom Study",
-      "body": "Objective. Breast microcalcifications cannot be differentiated by composition on mammography, and 70 to 80% of those biopsied prove benign. Type I calcifications are calcium oxalate (CaOx) and associate with benign processes; Type II are hydroxyapatite (HA) and correlate with malignancy. This work assesses whether quan…",
+      "subject": "cell biology",
+      "title": "Nucleosome Core Allostery Governs Chromatin Recognition and Cell Fate",
+      "body": "Nucleosomes regulate chromatin folding, accessibility, and factor recruitment. Current models primarily attribute these functions to histone tail modifications, while the core is largely viewed as a structural scaffold. Yet subtle changes within the nucleosome core can produce profound functional consequences, and the …",
       "inst": [
-        "ucl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.15.738683",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.09.24.753912",
+      "date": "2026-09-28"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "physiology",
-      "title": "DEPP1 connects nutrient and oxygen availability to maintenance of muscle mass",
-      "body": "Nutrients and oxygen are sensed within the muscle to control growth and disruption of either signal is sufficient to lead to muscle atrophy. While nutrient limitation is sensed via a conserved transcriptional atrophy program (commonly referred to as atrogenes) dictated via the Forkhead box O (FoxO) transcription factor…",
+      "subject": "ecology",
+      "title": "Habituation drives elevated antimicrobial resistance, functional, and compositional shifts in the black bear gut microbiome",
+      "body": "Wildlife habituation across the globe poses threats to human and animal safety and alters regular ecological function, yet the wildlife, environmental, and public health ramifications are poorly characterized. The gut microbiome is a valuable proxy for these factors as it influences host health, is affected by anthropo…",
       "inst": [
-        "harvard"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.09.21.753276",
-      "date": "2026-09-27"
+      "doi": "10.64898/2026.09.25.754533",
+      "date": "2026-09-28"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "The building blocks of social structure: simulating constraints of social network analysis for inference about group-level properties",
-      "body": "The interdisciplinary usage of Social Network Analysis (SNA) means that, when researchers calculate global network metrics, the research interest can range from the ultimate ecological and evolutionary pressures that select for specific group-level structures or the proximate mechanisms by which those structures emerge…",
+      "subject": "biochemistry",
+      "title": "Reconstitution of +1 nucleosome transcription reveals coordinated functions of SAGA, Mediator, and TFIIH",
+      "body": "The +1 nucleosome has emerged as a key regulator of eukaryotic transcription, but how it controls transcription initiation remains poorly understood. Here we reconstitute transcription through the +1 nucleosome using eleven purified yeast factors: RNA polymerase II (Pol II), the six general transcription factors (GTFs)…",
       "inst": [
-        "mpi_eva"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.17.752303",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.24.754195",
+      "date": "2026-09-28"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Cytosolic MagLOV Magnetofluorescence in Mammalian Cell Lines and Primary Neurons",
-      "body": "Magnetic fields can influence the outcome of photochemical reactions through the radical pair mechanism, but whether this sensitivity extends to standard experimental conditions in mammalian cells has remained unclear. Here, we quantify the cytosolic magnetofluorescence of MagLOV, a genetically encoded, flavin-binding …",
+      "subject": "bioengineering",
+      "title": "3D Human Neuromuscular Architecture Encoded by Compliant Patterned Hydrogel Scaffolds",
+      "body": "Engineered human neuromuscular models are limited by a trade-off between biological fidelity and architectural control: self-assembled organoids organize stochastically, while engineered 3D tissues impose anisotropy through passive tension at the edges without internal guidance. Here we encode architectural guidance in…",
       "inst": [
-        "harvard"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.08.750273",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.25.754309",
+      "date": "2026-09-28"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Impaired cortical encoding of prosodic prominence in single multisyllabic words for adults with dyslexia",
-      "body": "Developmental dyslexia is associated with impaired cortical tracking of continuous speech and difficulties in perceiving within-word prosodic structure in children and adults. For adults and continuous speech, both low-frequency delta- and theta-band impairments and high-frequency gamma- and beta-band differences are f…",
+      "subject": "cancer biology",
+      "title": "Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling",
+      "body": "CRISPR base editor (BE) scanning enables sequence-level interrogation of proteins at scale in their native cellular and genomic contexts. This approach opens new opportunities to dissect cellular pathways, where signaling depends on coordinated interactions among multiple pathway proteins. We apply BE scanning to the R…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.25.754341",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.25.753639",
+      "date": "2026-09-28"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Germ granules act as repositories for RNA and protein molecules essential for zebrafish germline development",
-      "body": "Germ granules are conserved, phase-separated ribonucleoprotein condensates enriched in germline determinants, yet their precise function remains unclear. Using quantitative live imaging, translational reporters, and targeted disruption of germ granule assembly in zebrafish primordial germ cells, we show that germ granu…",
+      "subject": "developmental biology",
+      "title": "SALL1 and neural microenvironmental contextspecify identity of stem cell derived humanmicroglia-like cells",
+      "body": "Microglia, the immune cells of the brain parenchyma, play a pivotal role in neurodevelopment and neuroprotection. Human stem cell-derived microglia-like cells (MGL) offer a valuable, human-relevant system to study microglia in vitro. However, their cell states and intercellular interactions within complex 3-dimensional…",
       "inst": [
-        "mpi_generic"
+        "weizmann"
       ],
-      "doi": "10.64898/2026.09.01.748510",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.25.754357",
+      "date": "2026-09-28"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "genetics",
-      "title": "Innate immune stress pathway activation underlies heterochromatin dysfunction pathology",
-      "body": "Heterochromatin loss disrupts nuclear architecture, gene regulation and repetitive element silencing, and is associated with diverse human diseases. However, mechanisms linking heterochromatin dysfunction to pathological phenotypes remain unclear. Using genetic interaction screening and genomic analyses in C. elegans, …",
+      "subject": "biophysics",
+      "title": "Single-molecule behavior and cell-growth regulation in human RTKs",
+      "body": "Receptor tyrosine kinases (RTKs) are a major family of cell surface receptor proteins responsible for various cellular functions in animal cells, including fate decisions, metabolism, polarization and migration. Lateral mobility, dimerization, clustering, and oligomerization are crucial behaviors in the activation proc…",
       "inst": [
-        "cambridge"
+        "riken"
       ],
-      "doi": "10.64898/2026.09.23.753861",
-      "date": "2026-09-26"
+      "doi": "10.64898/2025.12.29.696957",
+      "date": "2026-09-28"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Requirement for Type IX secretion machinery in a nematode model of Chryseobacterial pathogenesis",
-      "body": "Bacterium-nematode interactions in soil environments hold agricultural, economic, and evolutionary significance, with the rapid killing of nematodes by nematophagous bacteria representing an extreme and potentially valuable example of such interactions. Here, we investigate rapid killing of the model nematode Caenorhab…",
+      "subject": "synthetic biology",
+      "title": "Evolverator: An engineered yeast system to drive rapid continuous in vivo evolution of proteins",
+      "body": "Continuous in vivo evolution of non-essential proteins requires an engineered link between target protein and host cell fitness, which is difficult to establish and vulnerable to escape mutations. We systematically designed and tested Saccharomyces cerevisiae gene circuits guided by quantitative mathematical models tha…",
       "inst": [
-        "stanford"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.25.754504",
-      "date": "2026-09-26"
+      "doi": "10.1101/2024.09.01.610536",
+      "date": "2026-09-28"
     },
     {
       "id": 18,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "L-lactate is a regulator of gametocytogenesis in Plasmodium falciparum",
-      "body": "Epigenetic processes play important roles in the biology of the malaria parasite Plasmodium falciparum. We recently showed that Plasmodium histones are not only acetylated and methylated but also lactylated. This new epigenetic mark could form a particularly important axis of host-parasite signalling because severe mal…",
+      "subject": "molecular biology",
+      "title": "Dual-color fluorescent reporters resolve Alu and LINE-1 retrotransposition in single cells",
+      "body": "LINE-1 (L1) is transcribed by RNA polymerase (Pol) II, whereas the non-coding Short INterspersed Element (SINE) Alu is transcribed by Pol III and exploits L1 ORF2p for mobilization. Conventional L1 retrotransposition reporters rely on spliceosome-dependent introns and cannot directly monitor Alu retrotransposition. Her…",
       "inst": [
-        "cambridge"
+        "riken"
       ],
-      "doi": "10.64898/2026.09.25.754385",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.26.754642",
+      "date": "2026-09-28"
     },
     {
       "id": 19,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "High-resolution mapping of RNA structural maturation during Cas9 assembly with ABEL-FRET",
-      "body": "The structural flexibility of RNA is essential for forming ribonucleoprotein (RNP) complexes, which regulate diverse biological processes. This intrinsic property permits RNA to act as a dynamic scaffold along the assembly pathway as it folds into a specific structure for initial recognition by protein and undergoes co…",
+      "subject": "genetics",
+      "title": "Large language model-based bibliometric evaluation of population descriptors in human genetics",
+      "body": "As the use of population descriptors such as race, ethnicity, and ancestry have become increasingly common in modern genetics research, there have been growing calls to critically examine their use. Most notably, in 2023, the National Academies of Science, Engineering, and Medicine (NASEM) published a report titled Usi…",
       "inst": [
-        "nih"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.25.754466",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.24.754051",
+      "date": "2026-09-28"
     },
     {
       "id": 20,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Integrative analysis of the MDM2 promoter switch and cellular lineage plasticity in colorectal cancer: a contrast between the autonomous-proliferation type (CIN/CMS2) and the environment-adaptive type (MSI/gastric metaplasia)",
-      "body": "Background: Biopsy-measurable biomarkers that stratify colorectal cancer (CRC) by therapeutic responsiveness remain scarce. We asked whether dual MDM2 promoter (P1/P2) usage acts as a molecular switch separating two opposed CRC phenotypes: a chromosomal instability type and an environment-adaptive type (microsatellite …",
+      "subject": "biochemistry",
+      "title": "A draft atlas of the human plasma proteome at isoform resolution",
+      "body": "Key plasma protein, including albumin, complement system proteins, and coagulation factors circulate in biochemically and functionally distinct isoforms, or proteoforms. Despite the importance of these proteoforms being widely accepted, they are challenging to resolve systematically, and as a consequence, we still lack…",
       "inst": [
-        "tokyo"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.21.753357",
-      "date": "2026-09-26"
+      "doi": "10.64898/2026.09.26.754256",
+      "date": "2026-09-28"
+    },
+    {
+      "id": 21,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry",
+      "body": "Predictive biomechanical models of the tricuspid valve require accurate representation of the chordae tendineae, yet subject-specific chordal geometry is difficult to reconstruct from non-invasive imaging. Here, we adopt a framework for generating functionally equivalent synthetic chordae without prior knowledge of in …",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.09.25.754571",
+      "date": "2026-09-28"
     }
   ]
 }
