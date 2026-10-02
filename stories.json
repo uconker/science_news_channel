@@ -1,327 +1,274 @@
 {
-  "generated_at": "2026-10-01T12:51:40.157055+00:00",
+  "generated_at": "2026-10-02T12:14:40.962053+00:00",
   "institutions": {
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Limit-pushing overexpression reveals constraints on protein abundance",
-      "body": "Proteins are often classified as toxic or non-toxic without measuring the abundance reached, leaving constraints on tolerable protein abundance unresolved. We established a limit-pushing approach in Saccharomyces cerevisiae combining strong inducible expression with gTOW-mediated high-copy selection to counteract copy-…",
+      "subject": "neuroscience",
+      "title": "The development of slow and fast theta oscillations in the human brain",
+      "body": "Theta oscillations are pivotal for attention and memory, with developmental shifts in theta activity and connectivity tracking memory ability across the lifespan. Building on initial evidence that the theta band separates into slow and fast sub-bands across development within the medial temporal lobe (MTL) and the pref…",
       "inst": [
-        "toronto",
-        "riken"
+        "stanford",
+        "berkeley"
       ],
-      "doi": "10.64898/2026.09.24.754258",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.27.754757",
+      "date": "2026-09-29"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "A Mechanistic Model for the HPA Axis Cortisol Paradox in PTSD",
-      "body": "Post-traumatic Stress Disorder (PTSD) is a debilitating psychiatric condition characterized by intrusive memories, hyperarousal, avoidance, and cognitive and mood disturbances. A longstanding biological paradox in PTSD is the observation of low basal cortisol levels, despite the expectation of elevated cortisol under c…",
+      "subject": "evolutionary biology",
+      "title": "Cis-regulation and natural selection in the evolution of human DNA methylation",
+      "body": "The vast collection of human-specific traits-- such as our unique morphology, cognition, behavior, and diseases-- has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis-regulatory elements such as promoters and enhancers may d…",
       "inst": [
-        "weizmann"
+        "stanford"
       ],
-      "doi": "10.1101/2025.10.13.681561",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.01.20.700710",
+      "date": "2026-09-29"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Contrasting effects of forest fragmentation on the genetics and microbiomes of an endangered arboreal primate",
-      "body": "Landscape fragmentation, one of the leading drivers of biodiversity loss, can reshape both the genetics and microbiomes of wild populations. Although fragmentation is generally expected to limit gene flow and erode genetic diversity, and to disrupt host-associated microbial communities, these responses arise via differ…",
+      "subject": "neuroscience",
+      "title": "Theta sweeps accelerate cognitive map learning by broadcasting information to unvisited regions",
+      "body": "To support flexible behavior, animals need to learn map like representations of environments from limited experiences, but the underlying neural mechanisms remain unclear. Here, we propose that theta sweeps, a prominent feature in the activities of grid and place cells during active movement, can broadcast acquired sen…",
       "inst": [
-        "toronto"
+        "ucl"
       ],
-      "doi": "10.64898/2026.06.14.732134",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.26.754738",
+      "date": "2026-09-29"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Computational design of a versatile, zero-radius proximity labeling enzyme",
-      "body": "The ability to map protein interactomes and organelle proteomes is foundational for achieving a molecular understanding of living cells. Proximity labeling (PL) provides a powerful strategy for this, but existing enzymes and photocatalysts are limited by their spatial resolution, reliance on biotin, and/or in vivo comp…",
+      "subject": "ecology",
+      "title": "Do higher-order moments improve inference of population dynamics?",
+      "body": "Fitting mathematical models of population dynamics to microbial time-series data allows us to estimate the ecological processes and interactions taking place in the microbiome. Repeated experiments of microbial systems yield replicates which slightly differ from each other. Some of this variability arises due to the fa…",
       "inst": [
-        "stanford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.24.754223",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.754680",
+      "date": "2026-09-29"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Phase diagrams for biophysical fitness landscape design",
-      "body": "Viral populations often evolve toward the top of fitness landscapes by mutating their surface proteins to escape host antibodies and/or to bind more tightly to host cell receptors. As they climb fitness landscapes, newly mutated strains can spread across host populations, causing new waves of infection and death. As a …",
+      "subject": "bioengineering",
+      "title": "SpiraMed: A Stereotactic Helix-based Therapy Delivery system for the Human Brain",
+      "body": "Stereotactic needle-based delivery remains the standard for local administration of Advanced Therapy Medicinal Products (ATMPs) to the human brain. ATMP administration typically involves multiple trajectories, presenting cumulative risks and prolonging surgery. Reflux-prone, patchy therapy coverage compromises clinical…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.1101/2025.09.10.675274",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.27.754823",
+      "date": "2026-09-29"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Spatial immune profiling reveals lymphocyte confinement to myeloid-mesenchymal niches and heterogeneous therapeutic T-cell opportunity in pediatric ependymoma",
-      "body": "Pediatric posterior fossa group A (PFA) ependymoma is an aggressive, chemo-resistant brain tumor with a poor 10-year overall survival and no therapeutic options at relapse. Although conventionally classified as immune-cold, the spatial organization and therapeutic relevance of its rare immune infiltrates remain poorly …",
+      "subject": "bioinformatics",
+      "title": "MDM2 P1/P2 promoter usage separates autonomously proliferative and environment-adaptive, gastric-metaplastic programs in colorectal cancer",
+      "body": "Background: Biopsy-measurable biomarkers that stratify colorectal cancer (CRC) by therapeutic responsiveness remain scarce. We asked whether dual MDM2 promoter (P1/P2) usage acts as a molecular switch separating two opposed CRC phenotypes: a chromosomal instability type and an environment-adaptive type (microsatellite …",
       "inst": [
-        "karolinska"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.09.24.754209",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.21.753357",
+      "date": "2026-09-29"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Neural Processes with Normalizing Flows for Wheat Height Estimation",
-      "body": "In this work, we investigate modeling plant traits over time using neural processes, a class of machine learning models that learn distributions over functions. Plant growth is an inherently stochastic process with complex dynamics measured mostly at irregular times throughout the growing seasons. While individual trai…",
+      "subject": "cancer biology",
+      "title": "Circadian gene-network distortion in high-risk neuroblastoma across multiple biological reference contexts",
+      "body": "Background: The circadian clock regulates cellular homeostasis, and its disruption has been implicated in aggressive neuroblastoma, particularly in tumours harbouring MYCN- amplification. However, it remains unclear whether alterations are restricted to individual clock genes or extend to circadian gene network coordin…",
       "inst": [
-        "eth"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.06.24.734247",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.754955",
+      "date": "2026-09-29"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "A thermoregulatory design principle for transitions into hypometabolism",
-      "body": "Mammals entering torpor or hibernation undergo an abrupt transition from normothermia to hypothermia, yet how thermoregulation enables this switch remains poorly understood. Here, we identify dynamical signatures that precede these transitions and a mathematical principle that can generate them. In fasting-induced torp…",
+      "subject": "cancer biology",
+      "title": "Single-Cell Analysis of Non-Functioning Gonadotroph Tumors Identifies Lineage Infidelity and Tumor Growth Programs",
+      "body": "Non-functioning gonadotroph (NFG) tumors are the most common type of non-functioning pituitary adenomas and can cause significant symptoms due to mass effect. However, the molecular programs underlying NFG tumor growth and their relationship to the normal anterior pituitary gland (APG) are poorly understood. To gain a …",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.25.754297",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.17.752250",
+      "date": "2026-09-29"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Antagonistic small proteins enable magnesium-dependent tuning of two-component signaling",
-      "body": "Small proteins are emerging regulators of bacterial virulence via signaling pathways. However, how multiple small proteins coordinate to control a single pathway remains unclear. Here we show that two antagonistic small proteins, SafA and MgrB, forming a magnesium-dependent control module, enhance the signaling sensiti…",
+      "subject": "neuroscience",
+      "title": "A Single, Reproducible Dimension Organizes Associations Between the Early Environment and the Developing Brain",
+      "body": "Childhood adversity has enduring consequences for health and development across the lifespan, yet the organizing structure linking diverse environmental experiences to the developing brain remains poorly understood. We jointly modeled 104 measures of children's environments, spanning interpersonal, household, and neigh…",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.05.06.723403",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.26.754719",
+      "date": "2026-09-29"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Remodeling of cholesterol metabolism in melanoma progression regulates nuclear membrane mechanics.",
-      "body": "Metastatic cancer cells migrate through physically restrictive environments where nuclear deformation ruptures the nuclear envelope (NE) resulting in genomic instability. Although structural proteins of the NE are established regulators of nuclear mechanics, how nuclear membrane (NM) lipid composition contributes to it…",
+      "subject": "ecology",
+      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
+      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
       "inst": [
-        "nih"
+        "ucl"
       ],
-      "doi": "10.64898/2026.09.25.754527",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.754864",
+      "date": "2026-09-29"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Nucleosome Core Allostery Governs Chromatin Recognition and Cell Fate",
-      "body": "Nucleosomes regulate chromatin folding, accessibility, and factor recruitment. Current models primarily attribute these functions to histone tail modifications, while the core is largely viewed as a structural scaffold. Yet subtle changes within the nucleosome core can produce profound functional consequences, and the …",
+      "subject": "neuroscience",
+      "title": "I err, therefore I am: Neural signature of error-monitoring predicts self-awareness in infants",
+      "body": "Self-reflection is central for human cognition, yet the mechanisms enabling our mind to construct a sense of self remain unclear. By investigating human infants during their second year of life, when a conceptual self is believed to emerge, we reveal a longitudinal link between early error-monitoring at 12 months and t…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.09.24.753912",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.02.01.702903",
+      "date": "2026-09-29"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Habituation drives elevated antimicrobial resistance, functional, and compositional shifts in the black bear gut microbiome",
-      "body": "Wildlife habituation across the globe poses threats to human and animal safety and alters regular ecological function, yet the wildlife, environmental, and public health ramifications are poorly characterized. The gut microbiome is a valuable proxy for these factors as it influences host health, is affected by anthropo…",
+      "subject": "neuroscience",
+      "title": "Motion-Corrected Structural Realignment and Quantitative Voxel Targeting in Magnetic Resonance Spectroscopy",
+      "body": "Magnetic resonance spectroscopy (MRS) non-invasively quantifies neurochemical metabolites within a prescribed voxel in the brain, but is highly sensitive to head motion that displaces the voxel from its intended anatomical location, and introduces spectral contamination as well as tissue estimation errors. In particula…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.25.754533",
-      "date": "2026-09-28"
+      "doi": "10.1101/2025.07.31.668045",
+      "date": "2026-09-29"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Reconstitution of +1 nucleosome transcription reveals coordinated functions of SAGA, Mediator, and TFIIH",
-      "body": "The +1 nucleosome has emerged as a key regulator of eukaryotic transcription, but how it controls transcription initiation remains poorly understood. Here we reconstitute transcription through the +1 nucleosome using eleven purified yeast factors: RNA polymerase II (Pol II), the six general transcription factors (GTFs)…",
+      "subject": "bioengineering",
+      "title": "Synthetic genetic circuits that count developmental cues in plant roots",
+      "body": "Plants explore soil environments through their roots, which branch repeatedly to access water and soil-borne nutrients. In many plants, root branches are generated by repeated developmental programs and molecular analyses have not identified markers that distinguish primary from later root branches. Consequently, effor…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.09.24.754195",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.755210",
+      "date": "2026-09-29"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "3D Human Neuromuscular Architecture Encoded by Compliant Patterned Hydrogel Scaffolds",
-      "body": "Engineered human neuromuscular models are limited by a trade-off between biological fidelity and architectural control: self-assembled organoids organize stochastically, while engineered 3D tissues impose anisotropy through passive tension at the edges without internal guidance. Here we encode architectural guidance in…",
+      "subject": "systems biology",
+      "title": "TxCyto: A machine learning framework for estimating cytokine activity from whole transcriptome",
+      "body": "Cytokines are critical mediators of intercellular communication, and a comprehensive characterization of their activity is essential for understanding health and disease. Existing tools to infer cytokine activity rely on experimental measurements. However, such measurements are available only for a small minority (43) …",
       "inst": [
-        "eth"
+        "nih"
       ],
-      "doi": "10.64898/2026.09.25.754309",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.754405",
+      "date": "2026-09-29"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling",
-      "body": "CRISPR base editor (BE) scanning enables sequence-level interrogation of proteins at scale in their native cellular and genomic contexts. This approach opens new opportunities to dissect cellular pathways, where signaling depends on coordinated interactions among multiple pathway proteins. We apply BE scanning to the R…",
+      "subject": "cell biology",
+      "title": "Ether glycerophospholipid control of peroxisome degradation confers protection from ischemia",
+      "body": "Ether glycerophospholipids (ether lipids) are a subclass of glycerophospholipids that are synthesized at the peroxisome and constitute nearly 20% of the total phospholipid content in metazoans. Biochemically, ether lipids have an alkyl chain attached by an ether bond at the sn-1 position of the glycerol backbone (alkyl…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.09.25.753639",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.755133",
+      "date": "2026-09-29"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "SALL1 and neural microenvironmental contextspecify identity of stem cell derived humanmicroglia-like cells",
-      "body": "Microglia, the immune cells of the brain parenchyma, play a pivotal role in neurodevelopment and neuroprotection. Human stem cell-derived microglia-like cells (MGL) offer a valuable, human-relevant system to study microglia in vitro. However, their cell states and intercellular interactions within complex 3-dimensional…",
+      "subject": "biochemistry",
+      "title": "GraPPI: A Self-Supervised Graph Encoder for Transferable Protein--Protein Interaction Modeling",
+      "body": "Protein--Protein Interactions (PPIs) are fundamental to cellular processes and represent major targets for therapeutic development. Recent advances in machine learning for protein modeling, particularly protein language models, have enabled powerful representations of protein sequences and monomeric structures. However…",
       "inst": [
-        "weizmann"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.09.25.754357",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.755140",
+      "date": "2026-09-29"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Single-molecule behavior and cell-growth regulation in human RTKs",
-      "body": "Receptor tyrosine kinases (RTKs) are a major family of cell surface receptor proteins responsible for various cellular functions in animal cells, including fate decisions, metabolism, polarization and migration. Lateral mobility, dimerization, clustering, and oligomerization are crucial behaviors in the activation proc…",
+      "subject": "cancer biology",
+      "title": "SMYD3 protein degraders in HPV-negative head and neck squamous cell carcinoma.",
+      "body": "Despite the advent of immunotherapy in the treatment of human-papilloma-virus (HPV)-negative head and neck squamous cell carcinoma, the overall prognosis still remains dismal. Novel therapeutic approaches are thus urgently needed. We recently reported that SET and MYND containing 3 (SMYD3), a protein methyltransferase …",
       "inst": [
-        "riken"
+        "nih"
       ],
-      "doi": "10.64898/2025.12.29.696957",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.28.754983",
+      "date": "2026-09-29"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Evolverator: An engineered yeast system to drive rapid continuous in vivo evolution of proteins",
-      "body": "Continuous in vivo evolution of non-essential proteins requires an engineered link between target protein and host cell fitness, which is difficult to establish and vulnerable to escape mutations. We systematically designed and tested Saccharomyces cerevisiae gene circuits guided by quantitative mathematical models tha…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.1101/2024.09.01.610536",
-      "date": "2026-09-28"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Dual-color fluorescent reporters resolve Alu and LINE-1 retrotransposition in single cells",
-      "body": "LINE-1 (L1) is transcribed by RNA polymerase (Pol) II, whereas the non-coding Short INterspersed Element (SINE) Alu is transcribed by Pol III and exploits L1 ORF2p for mobilization. Conventional L1 retrotransposition reporters rely on spliceosome-dependent introns and cannot directly monitor Alu retrotransposition. Her…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.09.26.754642",
-      "date": "2026-09-28"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Large language model-based bibliometric evaluation of population descriptors in human genetics",
-      "body": "As the use of population descriptors such as race, ethnicity, and ancestry have become increasingly common in modern genetics research, there have been growing calls to critically examine their use. Most notably, in 2023, the National Academies of Science, Engineering, and Medicine (NASEM) published a report titled Usi…",
+      "subject": "microbiology",
+      "title": "Bacteriophage and Antibiotic Resistance Are Positively Associated across a Phylogenetically Diverse Set of Clinical Pseudomonas aeruginosa Isolates",
+      "body": "Co-administration of phages and antibiotics has been proposed as a therapeutic approach against antibiotic-resistant bacteria. The relationship, however, between antibiotic resistance and phage resistance in clinical isolates is unclear. Here, we examine associations between phage and antibiotic resistance profiles acr…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.09.24.754051",
-      "date": "2026-09-28"
-    },
-    {
-      "id": 20,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "A draft atlas of the human plasma proteome at isoform resolution",
-      "body": "Key plasma protein, including albumin, complement system proteins, and coagulation factors circulate in biochemically and functionally distinct isoforms, or proteoforms. Despite the importance of these proteoforms being widely accepted, they are challenging to resolve systematically, and as a consequence, we still lack…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.09.26.754256",
-      "date": "2026-09-28"
-    },
-    {
-      "id": 21,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "No Strings Attached: Predicting Tricuspid Valve Deformation Without In Vivo Chordal Geometry",
-      "body": "Predictive biomechanical models of the tricuspid valve require accurate representation of the chordae tendineae, yet subject-specific chordal geometry is difficult to reconstruct from non-invasive imaging. Here, we adopt a framework for generating functionally equivalent synthetic chordae without prior knowledge of in …",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.25.754571",
-      "date": "2026-09-28"
+      "doi": "10.64898/2026.09.27.754834",
+      "date": "2026-09-29"
     }
   ]
 }
