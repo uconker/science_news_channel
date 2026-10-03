@@ -1,193 +1,103 @@
 {
-  "generated_at": "2026-10-02T12:14:40.962053+00:00",
+  "generated_at": "2026-10-03T11:25:45.169262+00:00",
   "institutions": {
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "karolinska": {
       "name": "Karolinska Institute, Stockholm",
       "lat": 59.35,
       "lon": 18.03
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The development of slow and fast theta oscillations in the human brain",
-      "body": "Theta oscillations are pivotal for attention and memory, with developmental shifts in theta activity and connectivity tracking memory ability across the lifespan. Building on initial evidence that the theta band separates into slow and fast sub-bands across development within the medial temporal lobe (MTL) and the pref…",
+      "subject": "cancer biology",
+      "title": "Quantitative imaging of schwannoma captures heterogeneity and accelerates preclinical testing, exposing distinct therapeutic signatures",
+      "body": "Schwannomas are debilitating hallmarks of familial schwannomatoses and common sporadic tumors that form on spinal and cranial nerves. Drug-based therapies for schwannoma are desperately needed but their development has been extremely slow and disappointing, impeded particularly by the poorly understood and surprisingly…",
       "inst": [
-        "stanford",
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.27.754757",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.03.24.714069",
+      "date": "2026-09-30"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Cis-regulation and natural selection in the evolution of human DNA methylation",
-      "body": "The vast collection of human-specific traits-- such as our unique morphology, cognition, behavior, and diseases-- has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis-regulatory elements such as promoters and enhancers may d…",
+      "subject": "neuroscience",
+      "title": "Longitudinal White Matter Microstructure and Transition to Psychosis in Individuals at Clinical High Risk",
+      "body": "Altered white matter microstructure, commonly indexed by fractional anisotropy (FA), has been reported in individuals at clinical high-risk of psychosis (CHR-P) across multiple white matter tracts. However, the relationship between these alterations and later transition to psychosis remains unclear. To address this gap…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.01.20.700710",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.27.754817",
+      "date": "2026-09-30"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Theta sweeps accelerate cognitive map learning by broadcasting information to unvisited regions",
-      "body": "To support flexible behavior, animals need to learn map like representations of environments from limited experiences, but the underlying neural mechanisms remain unclear. Here, we propose that theta sweeps, a prominent feature in the activities of grid and place cells during active movement, can broadcast acquired sen…",
+      "subject": "microbiology",
+      "title": "Coupling Stickland fermentation with reverse β-oxidation represents a new mode of medium-chain carboxylate production",
+      "body": "Biotechnologies for producing medium-chain carboxylic acids (MCCAs) by chain elongating bacteria (CEB) promise to shift the oleochemical industry away from existing land use practices, vulnerable supply chains, and significant environmental costs. Realizing this potential requires a broader understanding of CEB physiol…",
       "inst": [
-        "ucl"
+        "toronto"
       ],
-      "doi": "10.64898/2026.09.26.754738",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.09.750506",
+      "date": "2026-09-30"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Do higher-order moments improve inference of population dynamics?",
-      "body": "Fitting mathematical models of population dynamics to microbial time-series data allows us to estimate the ecological processes and interactions taking place in the microbiome. Repeated experiments of microbial systems yield replicates which slightly differ from each other. Some of this variability arises due to the fa…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.09.28.754680",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 4,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "SpiraMed: A Stereotactic Helix-based Therapy Delivery system for the Human Brain",
-      "body": "Stereotactic needle-based delivery remains the standard for local administration of Advanced Therapy Medicinal Products (ATMPs) to the human brain. ATMP administration typically involves multiple trajectories, presenting cumulative risks and prolonging surgery. Reflux-prone, patchy therapy coverage compromises clinical…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.27.754823",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "MDM2 P1/P2 promoter usage separates autonomously proliferative and environment-adaptive, gastric-metaplastic programs in colorectal cancer",
-      "body": "Background: Biopsy-measurable biomarkers that stratify colorectal cancer (CRC) by therapeutic responsiveness remain scarce. We asked whether dual MDM2 promoter (P1/P2) usage acts as a molecular switch separating two opposed CRC phenotypes: a chromosomal instability type and an environment-adaptive type (microsatellite …",
-      "inst": [
-        "tokyo"
-      ],
-      "doi": "10.64898/2026.09.21.753357",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Circadian gene-network distortion in high-risk neuroblastoma across multiple biological reference contexts",
-      "body": "Background: The circadian clock regulates cellular homeostasis, and its disruption has been implicated in aggressive neuroblastoma, particularly in tumours harbouring MYCN- amplification. However, it remains unclear whether alterations are restricted to individual clock genes or extend to circadian gene network coordin…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.09.28.754955",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 7,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Single-Cell Analysis of Non-Functioning Gonadotroph Tumors Identifies Lineage Infidelity and Tumor Growth Programs",
-      "body": "Non-functioning gonadotroph (NFG) tumors are the most common type of non-functioning pituitary adenomas and can cause significant symptoms due to mass effect. However, the molecular programs underlying NFG tumor growth and their relationship to the normal anterior pituitary gland (APG) are poorly understood. To gain a …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.17.752250",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 8,
-      "cat": "science",
       "subject": "neuroscience",
-      "title": "A Single, Reproducible Dimension Organizes Associations Between the Early Environment and the Developing Brain",
-      "body": "Childhood adversity has enduring consequences for health and development across the lifespan, yet the organizing structure linking diverse environmental experiences to the developing brain remains poorly understood. We jointly modeled 104 measures of children's environments, spanning interpersonal, household, and neigh…",
+      "title": "Dose-dependent ultrasound neuromodulation of the human brain",
+      "body": "Transcranial ultrasound stimulation (TUS) can noninvasively modulate deep brain structures, but the relationship between delivered dose and neuromodulatory response remains poorly characterized in humans. Here, we show that ultrasound-induced tissue displacement measured in vivo predicts local and downstream functional…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.09.26.754719",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.27.754841",
+      "date": "2026-09-30"
     },
     {
-      "id": 9,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
-      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.09.28.754864",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "I err, therefore I am: Neural signature of error-monitoring predicts self-awareness in infants",
-      "body": "Self-reflection is central for human cognition, yet the mechanisms enabling our mind to construct a sense of self remain unclear. By investigating human infants during their second year of life, when a conceptual self is believed to emerge, we reveal a longitudinal link between early error-monitoring at 12 months and t…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.02.01.702903",
-      "date": "2026-09-29"
-    },
-    {
-      "id": 11,
+      "id": 4,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Motion-Corrected Structural Realignment and Quantitative Voxel Targeting in Magnetic Resonance Spectroscopy",
@@ -196,79 +106,175 @@
         "harvard"
       ],
       "doi": "10.1101/2025.07.31.668045",
-      "date": "2026-09-29"
+      "date": "2026-09-30"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "RNA splicing factor mutations drive myeloid neoplasm oncogenesis through protein complex poisoning",
+      "body": "RNA splicing factor mutations (SFmut) are founding oncogenic events which cause RNA splicing errors with unpredictable gene expression dynamics. Despite extensive transcriptomic studies, SFmut cancer-initiating mechanisms remain elusive. Among SFmut cancers, myeloid neoplasms (MN) alone offer a setting where true cance…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2026.09.29.754980",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Structural mechanism of Gasdermin E-mediated mtDNA release from apoptotic mitochondria",
+      "body": "During apoptosis, the permeabilization of the mitochondrial inner membrane (MIM) through still-unclear mechanisms releases mtDNA into the cytosol, triggering the inflammatory cGAS/STING pathway under low caspase activity. Here, we report that, in apoptosis, the active form of the pore-forming protein Gasdermin E (GSDME…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.09.29.755391",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Life-history traits explain variation in the larval dispersal potential of corals",
+      "body": "1. Protecting and restoring corals is critical to conserve marine biodiversity and ecosystem services in the Anthropocene. Knowledge of coral larval dispersal dynamics can be used to identify important sites for coral metapopulation connectivity and to spatially optimise coral conservation efforts. However, we know lit…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.09.29.755390",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "OpenEvo: An Open-Source Platform for Automated Evolution and Analysis",
+      "body": "Here we introduce OpenEvo, a fully open-source, low-cost turbidostat platform for automated continuous culture and directed evolution experiments. Existing tools are expensive, complex, or lack open-source hardware; OpenEvo fills this gap with a complete, fully automated evolution platform, detailed illustrated constru…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.07.06.735356",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "ProPER: Ligation-free in situ proximity extension enables multiplexed molecular-state analysis",
+      "body": "Molecular proximity reports molecular interactions, local environments, and functional states in intact cells, but current in situ proximity detection methods remain limited in sensitivity, spatial resolution, multiplexing, and quantitative performance. Here we introduce Proximity Primer Exchange Reaction (ProPER), a s…",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.04.24.718482",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Pig vocalizations contain shared acoustic structure for humans and machines, but limited correspondence with presumed affective valence",
+      "body": "Pig vocalizations are increasingly used as indicators of affective state and welfare. This view is supported by above-chance human valence judgments and striking machine learning classification performance in prior studies. Yet, in both approaches the affective distinction is already built into the test. Algorithms are…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.07.06.736900",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Aged white adipose tissue is rejuvenated in a young host through thermogenic remodeling of mature adipocytes",
+      "body": "Existing studies focus on endpoints, leaving unambiguous rejuvenation largely undemonstrated. To address this gap, we transplanted white adipose tissue (WAT) between young and old mice and longitudinally quantified biological age using molecular and histological approaches. Transplantation accelerated graft aging, and …",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2025.12.28.696721",
+      "date": "2026-09-30"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Synthetic genetic circuits that count developmental cues in plant roots",
-      "body": "Plants explore soil environments through their roots, which branch repeatedly to access water and soil-borne nutrients. In many plants, root branches are generated by repeated developmental programs and molecular analyses have not identified markers that distinguish primary from later root branches. Consequently, effor…",
+      "subject": "bioinformatics",
+      "title": "Contrastive Poincare Maps: uncovering developmental lineages from single-cell data with scalable hyperbolic embeddings",
+      "body": "Embedding hierarchical data in low dimensions is a problem common to many domains: the number of distinct states grows exponentially with depth, whereas Euclidean area grows only polynomially with radius, so branches crowd, cross, and collapse. Hyperbolic geometry, whose area grows exponentially with radius, matches th…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.28.755210",
-      "date": "2026-09-29"
+      "doi": "10.1101/2025.08.22.671789",
+      "date": "2026-09-30"
     },
     {
       "id": 13,
       "cat": "science",
       "subject": "systems biology",
-      "title": "TxCyto: A machine learning framework for estimating cytokine activity from whole transcriptome",
-      "body": "Cytokines are critical mediators of intercellular communication, and a comprehensive characterization of their activity is essential for understanding health and disease. Existing tools to infer cytokine activity rely on experimental measurements. However, such measurements are available only for a small minority (43) …",
+      "title": "Multi-Omic, Multi-Tissue Responses to Acute Exercise in Sedentary Adults: Findings from the Molecular Transducers of Physical Activity Consortium",
+      "body": "Regular physical activity represents one of the greatest mechanisms for maintaining human health, yet the underlying molecular transducers of these benefits remain incompletely understood. Multi-omic assays now provide new opportunities to study the coordinated molecular responses of body tissues to different exercise …",
       "inst": [
-        "nih"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.28.754405",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.02.27.702183",
+      "date": "2026-09-30"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Ether glycerophospholipid control of peroxisome degradation confers protection from ischemia",
-      "body": "Ether glycerophospholipids (ether lipids) are a subclass of glycerophospholipids that are synthesized at the peroxisome and constitute nearly 20% of the total phospholipid content in metazoans. Biochemically, ether lipids have an alkyl chain attached by an ether bond at the sn-1 position of the glycerol backbone (alkyl…",
+      "subject": "bioengineering",
+      "title": "MR-ARFI and Beyond: Characterizing the Temporal Dynamics of Acoustic Radiation Force in Human Brain",
+      "body": "Purpose: Magnetic Resonance Acoustic Radiation Force Imaging (MR-ARFI) encodes focused ultrasound (FUS)-induced tissue displacements to MR phase shifts. Because these phase shifts are small, optimizing displacement sensitivity and minimizing motion artifacts requires characterization of the temporal dynamics of acousti…",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.28.755133",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.29.755540",
+      "date": "2026-09-30"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "GraPPI: A Self-Supervised Graph Encoder for Transferable Protein--Protein Interaction Modeling",
-      "body": "Protein--Protein Interactions (PPIs) are fundamental to cellular processes and represent major targets for therapeutic development. Recent advances in machine learning for protein modeling, particularly protein language models, have enabled powerful representations of protein sequences and monomeric structures. However…",
+      "subject": "plant biology",
+      "title": "Neofunctionalised plastid translocon regulates chloroplast ageing in Arabidopsis",
+      "body": "Protein import across the chloroplast outer membrane is mediated by the TOC complex and regulated by GTP hydrolysis at two receptor GTPases, large and small. The former are the {beta}-barrel-containing Toc159 family of proteins (Sun and Jarvis 2023; H. Li and Chiu 2010; Shi and Theg 2013a; Kessler and Schnell 2009). Th…",
       "inst": [
-        "berkeley"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.28.755140",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.29.755046",
+      "date": "2026-09-30"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "SMYD3 protein degraders in HPV-negative head and neck squamous cell carcinoma.",
-      "body": "Despite the advent of immunotherapy in the treatment of human-papilloma-virus (HPV)-negative head and neck squamous cell carcinoma, the overall prognosis still remains dismal. Novel therapeutic approaches are thus urgently needed. We recently reported that SET and MYND containing 3 (SMYD3), a protein methyltransferase …",
+      "subject": "molecular biology",
+      "title": "The androgen receptor polyglutamine tract sets the transcriptional balance between muscle growth and atrophy",
+      "body": "The androgen receptor (AR) mediates the potent anabolic effects of testosterone and other androgens on skeletal muscle, yet the transcriptional mechanisms coupling this hormonal signal to muscle growth remain unresolved. AR is a ligand-inducible transcription factor whose N-terminal transactivation domain (NTD) harbour…",
       "inst": [
-        "nih"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.28.754983",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.29.755413",
+      "date": "2026-09-30"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Bacteriophage and Antibiotic Resistance Are Positively Associated across a Phylogenetically Diverse Set of Clinical Pseudomonas aeruginosa Isolates",
-      "body": "Co-administration of phages and antibiotics has been proposed as a therapeutic approach against antibiotic-resistant bacteria. The relationship, however, between antibiotic resistance and phage resistance in clinical isolates is unclear. Here, we examine associations between phage and antibiotic resistance profiles acr…",
+      "subject": "cell biology",
+      "title": "Proteasomal surveillance of exposed cysteines",
+      "body": "Cysteine residues are critical for both the catalytic activity and structural stability of many proteins, yet their high chemical reactivity threatens proteome integrity. Whether cells have specialized mechanisms to recognize and eliminate proteins with aberrant or exposed cysteines is unknown. By systematically analyz…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.27.754834",
-      "date": "2026-09-29"
+      "doi": "10.64898/2026.09.29.755535",
+      "date": "2026-09-30"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "How do variable patch sizes hold higher beta diversity?",
+      "body": "Beta diversity is a fundamental component of regional biodiversity that accumulates from compositional differences between local species assemblages. Although beta diversity is increasingly applied across spatial scales, its scale dependence remains incompletely synthesized, particularly concerning variation in spatial…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.09.29.755527",
+      "date": "2026-09-30"
     }
   ]
 }
