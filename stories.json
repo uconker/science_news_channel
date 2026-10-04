@@ -1,280 +1,155 @@
 {
-  "generated_at": "2026-10-03T11:25:45.169262+00:00",
+  "generated_at": "2026-10-04T12:06:36.827395+00:00",
   "institutions": {
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "embl": {
       "name": "EMBL Heidelberg",
       "lat": 49.42,
       "lon": 8.62
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Quantitative imaging of schwannoma captures heterogeneity and accelerates preclinical testing, exposing distinct therapeutic signatures",
-      "body": "Schwannomas are debilitating hallmarks of familial schwannomatoses and common sporadic tumors that form on spinal and cranial nerves. Drug-based therapies for schwannoma are desperately needed but their development has been extremely slow and disappointing, impeded particularly by the poorly understood and surprisingly…",
+      "subject": "bioengineering",
+      "title": "A dual-photoreactive adapter enables one-step DNA barcoding of antibody panels for multiplexed imaging",
+      "body": "DNA-barcoded antibodies are central to a broad range of spatial and dissociative assays and applications, including multiplexed imaging, single-cell profiling, and proximity detection. Direct modification of primary antibodies with defined DNA barcodes enables flexible panel design for multiplexed labeling of proteins.…",
       "inst": [
-        "harvard"
+        "embl"
       ],
-      "doi": "10.64898/2026.03.24.714069",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.06.16.730979",
+      "date": "2026-10-01"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Longitudinal White Matter Microstructure and Transition to Psychosis in Individuals at Clinical High Risk",
-      "body": "Altered white matter microstructure, commonly indexed by fractional anisotropy (FA), has been reported in individuals at clinical high-risk of psychosis (CHR-P) across multiple white matter tracts. However, the relationship between these alterations and later transition to psychosis remains unclear. To address this gap…",
+      "subject": "ecology",
+      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
+      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.09.27.754817",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.28.754864",
+      "date": "2026-10-01"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Coupling Stickland fermentation with reverse β-oxidation represents a new mode of medium-chain carboxylate production",
-      "body": "Biotechnologies for producing medium-chain carboxylic acids (MCCAs) by chain elongating bacteria (CEB) promise to shift the oleochemical industry away from existing land use practices, vulnerable supply chains, and significant environmental costs. Realizing this potential requires a broader understanding of CEB physiol…",
+      "subject": "plant biology",
+      "title": "NO VEIN is an ancestral immunity protein involved in plant-virus interaction",
+      "body": "The conservation of immune systems from prokaryotes to eukaryotes can guide discovery of immunity genes across the tree of life. Most studies to date have focused on metazoan systems, while the extent of ancestral immunity conservation in plants remains underexplored. Here we show that NO VEIN (NOV), a plant protein pr…",
       "inst": [
-        "toronto"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.09.750506",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.30.755639",
+      "date": "2026-10-01"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dose-dependent ultrasound neuromodulation of the human brain",
-      "body": "Transcranial ultrasound stimulation (TUS) can noninvasively modulate deep brain structures, but the relationship between delivered dose and neuromodulatory response remains poorly characterized in humans. Here, we show that ultrasound-induced tissue displacement measured in vivo predicts local and downstream functional…",
+      "subject": "evolutionary biology",
+      "title": "Migrations facilitated the cultural diffusion of megaliths in Neolithic Europe",
+      "body": "Around 6700 BP (years before present), Neolithic Europe saw the emergence of megalithic monuments in northern France, followed by a rapid spread to the rest of the continent1. However, whether this was driven by the transmission of ideas (cultural diffusion) or the movement of people remains debated. To test whether th…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.09.27.754841",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.24.753699",
+      "date": "2026-10-01"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Motion-Corrected Structural Realignment and Quantitative Voxel Targeting in Magnetic Resonance Spectroscopy",
-      "body": "Magnetic resonance spectroscopy (MRS) non-invasively quantifies neurochemical metabolites within a prescribed voxel in the brain, but is highly sensitive to head motion that displaces the voxel from its intended anatomical location, and introduces spectral contamination as well as tissue estimation errors. In particula…",
+      "subject": "bioinformatics",
+      "title": "Rank-based integration identifies convergent disease mechanisms across omics",
+      "body": "The rapid growth of omics studies offers new opportunities to uncover disease mechanisms, yet findings from individual studies or single omics may be influenced by cohort-, platform- and layer-specific variation. Integrating evidence across studies and omics layers can reveal robust biological signals that are reproduc…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.1101/2025.07.31.668045",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.25.754380",
+      "date": "2026-10-01"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "RNA splicing factor mutations drive myeloid neoplasm oncogenesis through protein complex poisoning",
-      "body": "RNA splicing factor mutations (SFmut) are founding oncogenic events which cause RNA splicing errors with unpredictable gene expression dynamics. Despite extensive transcriptomic studies, SFmut cancer-initiating mechanisms remain elusive. Among SFmut cancers, myeloid neoplasms (MN) alone offer a setting where true cance…",
+      "subject": "immunology",
+      "title": "Targeting DNA-PK is a highly conserved poxvirus innate immune evasion mechanism",
+      "body": "The sensing of viral nucleic acid by pattern recognition receptors (PRRs) is essential for initiation of a type-I interferon response against infection. Intracellular DNA sensing PRRs are responsible for initiating innate immune responses to poxviruses and other double-stranded DNA viruses. Poxviruses, in turn, encode …",
       "inst": [
-        "karolinska"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.29.754980",
-      "date": "2026-09-30"
+      "doi": "10.1101/2024.10.06.616852",
+      "date": "2026-10-01"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Structural mechanism of Gasdermin E-mediated mtDNA release from apoptotic mitochondria",
-      "body": "During apoptosis, the permeabilization of the mitochondrial inner membrane (MIM) through still-unclear mechanisms releases mtDNA into the cytosol, triggering the inflammatory cGAS/STING pathway under low caspase activity. Here, we report that, in apoptosis, the active form of the pore-forming protein Gasdermin E (GSDME…",
+      "subject": "microbiology",
+      "title": "A novel virus lineage is abundant in metaviromes from Dehalococcoides-containing mixed cultures",
+      "body": "Dehalococcoides mccartyi are obligately anaerobic organohalide-respiring bacteria that play important roles in the detoxification of chlorinated pollutants in groundwater and sediments. Despite having small genomes, they host a diverse set of mobile elements. Here we characterize a family of mobile elements, termed int…",
       "inst": [
-        "mpi_generic"
+        "toronto"
       ],
-      "doi": "10.64898/2026.09.29.755391",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.15.751708",
+      "date": "2026-10-01"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Life-history traits explain variation in the larval dispersal potential of corals",
-      "body": "1. Protecting and restoring corals is critical to conserve marine biodiversity and ecosystem services in the Anthropocene. Knowledge of coral larval dispersal dynamics can be used to identify important sites for coral metapopulation connectivity and to spatially optimise coral conservation efforts. However, we know lit…",
+      "subject": "neuroscience",
+      "title": "High-SNR Whole-Brain Mesoscale Diffusion MRI Using Rotating-View Acquisitions (ROVER-dMRI)",
+      "body": "Purpose: We aim to acquire and reconstruct high signal-to-noise ratio (SNR), whole-brain, mesoscale (isotropic submillimeter) diffusion MRI (dMRI) in vivo in a clinically feasible scan time. Methods: We present ROVER-dMRI, a unified rotating-view acquisition and super-resolution reconstruction framework. Thick slices (…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.29.755390",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.25.754394",
+      "date": "2026-10-01"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "OpenEvo: An Open-Source Platform for Automated Evolution and Analysis",
-      "body": "Here we introduce OpenEvo, a fully open-source, low-cost turbidostat platform for automated continuous culture and directed evolution experiments. Existing tools are expensive, complex, or lack open-source hardware; OpenEvo fills this gap with a complete, fully automated evolution platform, detailed illustrated constru…",
+      "subject": "evolutionary biology",
+      "title": "EXCON: a scalable, reproducible Nextflow pipeline for CAFE-based gene EXpansion and CONtraction analysis",
+      "body": "Gene family expansion and contraction analysis is a commonly used approach in evolutionary comparative genomics to identify lineage-specific evolutionary pressures on gene copy/family number. CAFE is one of the most popular tools to measure changes in gene family size, but requires a high level of bioinformatics expert…",
       "inst": [
-        "stanford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.07.06.735356",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "ProPER: Ligation-free in situ proximity extension enables multiplexed molecular-state analysis",
-      "body": "Molecular proximity reports molecular interactions, local environments, and functional states in intact cells, but current in situ proximity detection methods remain limited in sensitivity, spatial resolution, multiplexing, and quantitative performance. Here we introduce Proximity Primer Exchange Reaction (ProPER), a s…",
-      "inst": [
-        "embl"
-      ],
-      "doi": "10.64898/2026.04.24.718482",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Pig vocalizations contain shared acoustic structure for humans and machines, but limited correspondence with presumed affective valence",
-      "body": "Pig vocalizations are increasingly used as indicators of affective state and welfare. This view is supported by above-chance human valence judgments and striking machine learning classification performance in prior studies. Yet, in both approaches the affective distinction is already built into the test. Algorithms are…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.07.06.736900",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Aged white adipose tissue is rejuvenated in a young host through thermogenic remodeling of mature adipocytes",
-      "body": "Existing studies focus on endpoints, leaving unambiguous rejuvenation largely undemonstrated. To address this gap, we transplanted white adipose tissue (WAT) between young and old mice and longitudinally quantified biological age using molecular and histological approaches. Transplantation accelerated graft aging, and …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2025.12.28.696721",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Contrastive Poincare Maps: uncovering developmental lineages from single-cell data with scalable hyperbolic embeddings",
-      "body": "Embedding hierarchical data in low dimensions is a problem common to many domains: the number of distinct states grows exponentially with depth, whereas Euclidean area grows only polynomially with radius, so branches crowd, cross, and collapse. Hyperbolic geometry, whose area grows exponentially with radius, matches th…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2025.08.22.671789",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Multi-Omic, Multi-Tissue Responses to Acute Exercise in Sedentary Adults: Findings from the Molecular Transducers of Physical Activity Consortium",
-      "body": "Regular physical activity represents one of the greatest mechanisms for maintaining human health, yet the underlying molecular transducers of these benefits remain incompletely understood. Multi-omic assays now provide new opportunities to study the coordinated molecular responses of body tissues to different exercise …",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.02.27.702183",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "MR-ARFI and Beyond: Characterizing the Temporal Dynamics of Acoustic Radiation Force in Human Brain",
-      "body": "Purpose: Magnetic Resonance Acoustic Radiation Force Imaging (MR-ARFI) encodes focused ultrasound (FUS)-induced tissue displacements to MR phase shifts. Because these phase shifts are small, optimizing displacement sensitivity and minimizing motion artifacts requires characterization of the temporal dynamics of acousti…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.29.755540",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "plant biology",
-      "title": "Neofunctionalised plastid translocon regulates chloroplast ageing in Arabidopsis",
-      "body": "Protein import across the chloroplast outer membrane is mediated by the TOC complex and regulated by GTP hydrolysis at two receptor GTPases, large and small. The former are the {beta}-barrel-containing Toc159 family of proteins (Sun and Jarvis 2023; H. Li and Chiu 2010; Shi and Theg 2013a; Kessler and Schnell 2009). Th…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.29.755046",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "The androgen receptor polyglutamine tract sets the transcriptional balance between muscle growth and atrophy",
-      "body": "The androgen receptor (AR) mediates the potent anabolic effects of testosterone and other androgens on skeletal muscle, yet the transcriptional mechanisms coupling this hormonal signal to muscle growth remain unresolved. AR is a ligand-inducible transcription factor whose N-terminal transactivation domain (NTD) harbour…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.29.755413",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Proteasomal surveillance of exposed cysteines",
-      "body": "Cysteine residues are critical for both the catalytic activity and structural stability of many proteins, yet their high chemical reactivity threatens proteome integrity. Whether cells have specialized mechanisms to recognize and eliminate proteins with aberrant or exposed cysteines is unknown. By systematically analyz…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.09.29.755535",
-      "date": "2026-09-30"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "How do variable patch sizes hold higher beta diversity?",
-      "body": "Beta diversity is a fundamental component of regional biodiversity that accumulates from compositional differences between local species assemblages. Although beta diversity is increasingly applied across spatial scales, its scale dependence remains incompletely synthesized, particularly concerning variation in spatial…",
-      "inst": [
-        "tokyo"
-      ],
-      "doi": "10.64898/2026.09.29.755527",
-      "date": "2026-09-30"
+      "doi": "10.64898/2026.09.25.754512",
+      "date": "2026-10-01"
     }
   ]
 }
