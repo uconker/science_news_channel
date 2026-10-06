@@ -1,213 +1,186 @@
 {
-  "generated_at": "2026-10-05T14:11:20.613319+00:00",
+  "generated_at": "2026-10-06T13:08:09.395820+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
     "toronto": {
       "name": "University of Toronto",
       "lat": 43.66,
       "lon": -79.4
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Claudin-dependent clonal expansion couples epicardial activation to regenerative fate acquisition",
-      "body": "Epicardial activation is a conserved response to injury across vertebrates, yet only in regenerative species do epicardium-derived cells (EPDCs) acquire the capacity to invade the injury site and contribute to cardiac regeneration. How regenerative competence is established in epicardial cells downstream of activation …",
+      "subject": "biophysics",
+      "title": "Embodied mechanical sensing through self-generated motion in climbing plants",
+      "body": "Embodied mechanical intelligence and morphological computation enable adaptive behavior by shifting computation from centralized control to body mechanics. Yet how dynamical material structures encode environmental information remains poorly understood. Here, we address this question using climbing plants as a minimal …",
       "inst": [
-        "karolinska"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.01.753275",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.03.16.712031",
+      "date": "2026-10-05"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Creation of a High-Resolution, Continually Evolvable Lineage Tracer",
-      "body": "Cellular diversity is required for the proper function of many tissues, including the retina, with its ~130 cell types.1-3 Previous lineage studies suggested that retinal progenitor cells (RPCs) generate cell diversity through biased cell divisions.4-9 However, the extent to which each progenitor cell contributes to di…",
+      "subject": "plant biology",
+      "title": "Arabidopsis cysteine protease RD19 limits RBOHD-generated ROS production in pattern triggered immunity",
+      "body": "Plants perceive pathogenic threats through receptors localized at the plasma membrane and inside cells to initiate pattern-triggered immunity (PTI) and effector-triggered immunity (ETI), respectively. PTI and ETI pathways are interconnected and partially converge on the EDS1-PAD4-ADR1 branch which stimulates anti-patho…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.30.754670",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.10.02.755912",
+      "date": "2026-10-05"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Population reweighting and reporter distortion obscure ribosome regulation during translation inhibition",
-      "body": "Bacteria dynamically adjust their ribosome allocation as growth conditions change, but how this regulation unfolds within individual cells remains poorly understood. Established relationships between ribosome allocation and growth are largely derived from population measurements under steady-state conditions, which may…",
+      "subject": "plant biology",
+      "title": "Evolutionary signatures of self-incompatibility genes in grasses: high diversity, trans-generic polymorphism and co-evolution",
+      "body": "In many flowering plants, self-incompatibility (SI) is a genetically controlled recognition system that prevents self-fertilization, thereby promoting outcrossing and maintaining genetic diversity within populations. The gametophytic SI system in grasses (Poaceae) is governed by two multiallelic loci, S and Z, each loc…",
       "inst": [
-        "cambridge"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.30.755718",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.10.02.754995",
+      "date": "2026-10-05"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Extracellular cGAMP transmission exacerbates neuroinflammation in aging and multiple sclerosis",
-      "body": "Neuroinflammation drives neurodegeneration and cognitive decline in aging, but the signals that spread this inflammation across the CNS remain unclear. Here, we show in mice that advanced age and experimental autoimmune encephalomyelitis (EAE) both result in elevated cytosolic mtDNA in microglia, which stimulates the p…",
+      "subject": "neuroscience",
+      "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
+      "body": "The prion concept postulates that seeded aggregation results in the recruitment of soluble protein monomers and their assembly into amyloid filaments with the same structures as those of the seeds. Here we show that this concept applies to tau filaments formed in cortical organoids obtained from human iPSCs of control …",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.30.754737",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.30.755295",
+      "date": "2026-10-05"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Phase-noise tolerant fully-coherent optical coherence tomography angiography for high-contrast 3D microvasculature mapping",
-      "body": "Optical coherence tomography angiography (OCTA) has been extensively explored for the detection of pathological retinal changes arising in various ophthalmological diseases. Due to phase instability of conventional systems, most OCTA signal processing methods to date have relied on intensity-based averaging, despite th…",
+      "subject": "neuroscience",
+      "title": "Templated paired helical filament formation and tau fold-dependent inclusion morphologies in primary neurons",
+      "body": "Neurodegenerative tauopathies are characterized by the abnormal assembly of tau into amyloid filaments with distinct, disease-specific folds. These filaments are proposed to spread in a prion-like manner, thus underlying the progression of pathology in diseased brains. A prediction of this hypothesis is that tau filame…",
       "inst": [
-        "mit"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.30.755749",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.30.755038",
+      "date": "2026-10-05"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The superior temporal asymmetrical pit remains asymmetric in autism spectrum disorder",
-      "body": "Neuroimaging studies identify the superior temporal sulcus (STS) as an anatomical and functional target in autism spectrum disorder (ASD). Yet, the STS is a heterogeneous structure containing unique subregions, such as the superior temporal asymmetrical pit (STAP), which is a recently identified human-specific landmark…",
+      "subject": "molecular biology",
+      "title": "A contact-mediated transfer mechanism directs in cis localization and spread of Xist RNA",
+      "body": "X chromosome inactivation in mammals is driven by the long non-coding RNA Xist, which localizes and spreads across the chromosome from which it is transcribed. Although several factors required for Xist localization have been identified, the underlying mechanism remains unclear. Here, we combine Nuclear-BRITE, a method…",
       "inst": [
-        "berkeley"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.01.755796",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.10.02.756235",
+      "date": "2026-10-05"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Deep learning models detect neuromuscular disease and quantify functional impairment from video-derived biomechanics data",
-      "body": "Measurements of human movement are critical for evaluating patients with neuromuscular diseases. However, current clinical tools are limited in sensitivity and can fail to detect the full spectrum of movement changes patients may exhibit. These limitations can obscure early signs of decline, delaying interventions that…",
+      "subject": "molecular biology",
+      "title": "A Structural Model of Transcriptional Activation by Mediator",
+      "body": "Mediator integrates regulatory signals from transcription factors (TFs) and controls RNA polymerase II (Pol II) activity in eukaryotes. Its Tail module serves as the primary hub for TF activation domains (ADs), but the mechanistic logic coupling this distal engagement to transcriptional output is unclear. Here we model…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.09.30.754736",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.10.01.756097",
+      "date": "2026-10-05"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Comprehensive Phylogenomic Inference of Eucalypts Reveals Taxonomic Limits through Gene Tree Concordance",
-      "body": "Speciation can be a slow process for long-lived organisms with large populations due to persistent incomplete lineage sorting, while hybridisation can further obscure species boundaries through admixture. In eucalypts, there is tremendous morphological and environmental variation with almost a thousand described specie…",
+      "subject": "cell biology",
+      "title": "Fast single molecule localization microscopy in 3D",
+      "body": "Super-resolution methods, such as single molecule localisation microscopy (SMLM), can determine the distribution of specific proteins at the nanometre scale. However, three-dimensional (3D) SMLM is typically limited to thin sections and requires prohibitively long acquisition times to image complete cells. Here we intr…",
       "inst": [
-        "anu"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.25.753384",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.29.755394",
+      "date": "2026-10-05"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Trying to be unpredictable even against unobserved opponents shifts humans away from randomness but not from human predictability",
-      "body": "In competitive settings, randomization can prevent exploitation by opponents, yet human choices depend on both opponents' past actions and players' own action histories. Why this latter dependence arises, and how it affects predictability to others, remain unclear. Across three experiments, we separated sequence genera…",
+      "subject": "cell biology",
+      "title": "Fast single molecule localization microscopy in 3D",
+      "body": "Super-resolution methods, such as single molecule localisation microscopy (SMLM), can determine the distribution of specific proteins at the nanometre scale. However, three-dimensional (3D) SMLM is typically limited to thin sections and requires prohibitively long acquisition times to image complete cells. Here we intr…",
       "inst": [
-        "tokyo"
+        "cambridge"
       ],
-      "doi": "10.1101/2025.11.16.688665",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.29.755394",
+      "date": "2026-10-05"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Homology-Based Variant-Effect Predictors Break Down on Cytochrome P450 Pharmacogenes",
-      "body": "Cytochrome P450 (CYP) enzymes metabolize roughly three-quarters of clinically used drugs, and genetic variation in these enzymes is a leading source of interindividual differences in drug response. Predicting a variant's functional effect is therefore critical, yet the consequences of most CYP variants remain unknown. …",
+      "subject": "biophysics",
+      "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
+      "body": "Generative models of protein structures have accelerated scientific discovery. However, the leading structure-prediction models are trained primarily on crystal structures, limiting their ability to sample the conformations of intrinsically disordered proteins (IDPs). All-atom molecular dynamics (MD) simulations can pr…",
       "inst": [
-        "stanford"
+        "toronto"
       ],
-      "doi": "10.64898/2026.07.30.741616",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.10.02.756250",
+      "date": "2026-10-04"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "pathology",
-      "title": "Multiscale mapping of venous remodelling in idiopathic pulmonary fibrosis",
-      "body": "The integrity of the pulmonary vasculature is a key determinant of lung health, yet challenges in visualisation and quantification have hindered interrogation of its pathophysiological role in chronic lung disease. Here, we align recent advances in microscale image acquisition with novel computer vision-based vessel se…",
+      "subject": "immunology",
+      "title": "The helminth-derived effector protein HpBARI trimerises to selectively target membrane bound ST2 receptor",
+      "body": "The ST2 receptor is activated by the alarmin cytokine IL-33, inducing and controlling immune responses. ST2-mediated signalling contributes to protection from parasitic infection, but is also involved in asthma, inflammatory bowel disease, fibrosis and allergic inflammation, making inhibitors of ST2 desirable. While si…",
       "inst": [
-        "ucl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.17.752253",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.29.755424",
+      "date": "2026-10-04"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Electroencephalography for Radiation-Free Orientation Estimation of Directional Deep Brain Stimulation Leads",
-      "body": "Background: Programming segmented deep brain stimulation (DBS) leads requires knowledge of their rotational orientation, but current postoperative workflows rely mainly on radiographic imaging. Objective: To develop and evaluate a radiation-free electroencephalography (EEG) framework for directional lead orientation es…",
+      "subject": "immunology",
+      "title": "IgG sequencing maps systemic antibody binding to oral commensals and pathobionts in health and periodontitis",
+      "body": "The oral cavity harbors one of the body's most diverse microbial communities, which continuously seeds the bloodstream and gastrointestinal tract, particularly in periodontitis, a disease in which both barrier permeability and microbial burden increase. Despite this constant systemic exposure, overt bacteremia from ora…",
       "inst": [
-        "ucl"
+        "nih"
       ],
-      "doi": "10.1101/2024.02.27.582287",
-      "date": "2026-10-02"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "pharmacology and toxicology",
-      "title": "Balancing receptor engagement and payload catalytic activity broadens the therapeutic window of immunotoxins",
-      "body": "Immunotoxins (ITs) are potent targeted cancer therapeutics that couple tumor-selective receptor binding with efficient intracellular delivery and cytotoxic enzymatic activity of bacterial toxins. While ITs have shown impressive efficacy in hematologic malignancies, dose-limiting toxicity remains a major barrier to thei…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.09.27.754776",
-      "date": "2026-10-02"
+      "doi": "10.64898/2026.09.28.753837",
+      "date": "2026-10-03"
     }
   ]
 }
