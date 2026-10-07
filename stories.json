@@ -1,45 +1,62 @@
 {
-  "generated_at": "2026-10-06T13:08:09.395820+00:00",
+  "generated_at": "2026-10-07T13:03:20.395359+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "toronto": {
       "name": "University of Toronto",
       "lat": 43.66,
       "lon": -79.4
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Pancreatic progenitor cells respond to laminar shear stress with transcriptomic changes, accompanied by reduced YAP1 activity",
+      "body": "The human pancreas secretes digestive fluid that flows through an extensive ductal network before emptying into the duodenum. However, little is known about how hydrodynamic forces influence pancreatic function and development. We hypothesized that pancreatic cells respond to physiological levels of fluid shear stress.…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.09.29.754874",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 1,
       "cat": "science",
       "subject": "biophysics",
       "title": "Embodied mechanical sensing through self-generated motion in climbing plants",
@@ -51,7 +68,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 1,
+      "id": 2,
       "cat": "science",
       "subject": "plant biology",
       "title": "Arabidopsis cysteine protease RD19 limits RBOHD-generated ROS production in pattern triggered immunity",
@@ -63,7 +80,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 2,
+      "id": 3,
       "cat": "science",
       "subject": "plant biology",
       "title": "Evolutionary signatures of self-incompatibility genes in grasses: high diversity, trans-generic polymorphism and co-evolution",
@@ -75,7 +92,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 3,
+      "id": 4,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
@@ -84,18 +101,6 @@
         "cambridge"
       ],
       "doi": "10.64898/2026.09.30.755295",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 4,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Templated paired helical filament formation and tau fold-dependent inclusion morphologies in primary neurons",
-      "body": "Neurodegenerative tauopathies are characterized by the abnormal assembly of tau into amyloid filaments with distinct, disease-specific folds. These filaments are proposed to spread in a prion-like manner, thus underlying the progression of pathology in diseased brains. A prediction of this hypothesis is that tau filame…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.30.755038",
       "date": "2026-10-05"
     },
     {
@@ -149,6 +154,30 @@
     {
       "id": 9,
       "cat": "science",
+      "subject": "cell biology",
+      "title": "An amyloid-β/APP regulatory layer in human brown adipocyte recruitment identifies repurposable drugs for thermogenic fat expansion",
+      "body": "Brown adipose tissue (BAT) increases energy expenditure but is scarce in adults, yet most strategies focus on activating existing thermogenic adipocytes rather than recruiting new ones. We integrate human single-nucleus transcriptomics with protein-interaction and knowledge-graph analyses to identify stage-specific, dr…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.10.02.754417",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "Epigenetic regulators partition the genome by evolutionary and developmental constraint",
+      "body": "Many epigenetic regulators play essential roles in animal development, but precisely how they function across different cell types without clear sequence preferences remains a foundational challenge. Here, we employed single-cell RNA sequencing to survey the mutant phenotypes of 30 essential regulatory pathways across …",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.10.01.755350",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 11,
+      "cat": "science",
       "subject": "biophysics",
       "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
       "body": "Generative models of protein structures have accelerated scientific discovery. However, the leading structure-prediction models are trained primarily on crystal structures, limiting their ability to sample the conformations of intrinsically disordered proteins (IDPs). All-atom molecular dynamics (MD) simulations can pr…",
@@ -159,7 +188,7 @@
       "date": "2026-10-04"
     },
     {
-      "id": 10,
+      "id": 12,
       "cat": "science",
       "subject": "immunology",
       "title": "The helminth-derived effector protein HpBARI trimerises to selectively target membrane bound ST2 receptor",
@@ -171,16 +200,28 @@
       "date": "2026-10-04"
     },
     {
-      "id": 11,
+      "id": 13,
       "cat": "science",
-      "subject": "immunology",
-      "title": "IgG sequencing maps systemic antibody binding to oral commensals and pathobionts in health and periodontitis",
-      "body": "The oral cavity harbors one of the body's most diverse microbial communities, which continuously seeds the bloodstream and gastrointestinal tract, particularly in periodontitis, a disease in which both barrier permeability and microbial burden increase. Despite this constant systemic exposure, overt bacteremia from ora…",
+      "subject": "microbiology",
+      "title": "Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi",
+      "body": "Bacterial infochemicals can profoundly alter phytoplankton physiology, yet how these compounds influence viral infection outcomes remains poorly understood. The bacterial quorum sensing molecule 2-heptyl-4-quinolone (HHQ) enables the globally abundant coccolithophore, Gephyrocapsa huxleyi, to evade virus-induced mortal…",
       "inst": [
-        "nih"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.28.753837",
-      "date": "2026-10-03"
+      "doi": "10.64898/2026.09.30.755861",
+      "date": "2026-10-04"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "A stress-responsive morphogenetic program coordinates uterine luminal remodeling during early pregnancy",
+      "body": "Successful embryo implantation requires coordinated interactions among the endometrial epithelium, stroma, and the embryo, yet the underlying mechanisms have not been fully understood. Using three-dimensional histological reconstruction combined with single-cell and spatial transcriptomics, we identify a previously unr…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.01.29.702684",
+      "date": "2026-10-04"
     }
   ]
 }
