@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-07T13:03:20.395359+00:00",
+  "generated_at": "2026-10-08T13:10:05.341428+00:00",
   "institutions": {
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
@@ -16,21 +11,6 @@
       "lat": 37.43,
       "lon": -122.17
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
@@ -40,6 +20,21 @@
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     }
   },
   "stories": [
@@ -58,6 +53,30 @@
     {
       "id": 1,
       "cat": "science",
+      "subject": "bioengineering",
+      "title": "Enriching microlaser-labelled cells by commercial flow cytometry-based cell sorting systems",
+      "body": "Microlasers based on whispering-gallery modes (WGMs) provide bright, spectrally narrow emission, making them ideal optical probes for high-resolution cellular tagging, single-cell tracking, and biosensing. To reproducibly apply WGM microlasers in biomedical or tissue-engineering contexts, control over the number of las…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.10.02.756078",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Agentic campaign control for high-throughput de novo binder design",
+      "body": "Progress in artificial intelligence has produced a rapidly growing ecosystem of methods for de novo protein design. With access to many specialized and often complementary tools, how does one use them effectively, especially with a finite compute budget? Here, we introduce Target adaptive Rescue-Explore-eXploit (T-REX)…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.09.22.753604",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 3,
+      "cat": "science",
       "subject": "biophysics",
       "title": "Embodied mechanical sensing through self-generated motion in climbing plants",
       "body": "Embodied mechanical intelligence and morphological computation enable adaptive behavior by shifting computation from centralized control to body mechanics. Yet how dynamical material structures encode environmental information remains poorly understood. Here, we address this question using climbing plants as a minimal …",
@@ -68,7 +87,19 @@
       "date": "2026-10-05"
     },
     {
-      "id": 2,
+      "id": 4,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "Two-way pantothenate/nitrogen exchange reprograms fly metabolism and reinforces microbiota growth",
+      "body": "Animals and their gut bacteria can provide one another with nutrients, but whether this represents reciprocal trade is unclear. We show that Drosophila and their gut bacteria exchange a vitamin for nitrogen. Acetobacter pomorum supplies the fly with pantothenate (vitamin B5) and nearly doubles downstream coenzyme A, an…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.1101/2025.11.15.688587",
+      "date": "2026-10-05"
+    },
+    {
+      "id": 5,
       "cat": "science",
       "subject": "plant biology",
       "title": "Arabidopsis cysteine protease RD19 limits RBOHD-generated ROS production in pattern triggered immunity",
@@ -80,7 +111,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 3,
+      "id": 6,
       "cat": "science",
       "subject": "plant biology",
       "title": "Evolutionary signatures of self-incompatibility genes in grasses: high diversity, trans-generic polymorphism and co-evolution",
@@ -92,7 +123,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 4,
+      "id": 7,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
@@ -104,7 +135,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 5,
+      "id": 8,
       "cat": "science",
       "subject": "molecular biology",
       "title": "A contact-mediated transfer mechanism directs in cis localization and spread of Xist RNA",
@@ -116,7 +147,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 6,
+      "id": 9,
       "cat": "science",
       "subject": "molecular biology",
       "title": "A Structural Model of Transcriptional Activation by Mediator",
@@ -128,7 +159,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 7,
+      "id": 10,
       "cat": "science",
       "subject": "cell biology",
       "title": "Fast single molecule localization microscopy in 3D",
@@ -140,7 +171,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 8,
+      "id": 11,
       "cat": "science",
       "subject": "cell biology",
       "title": "Fast single molecule localization microscopy in 3D",
@@ -152,7 +183,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 9,
+      "id": 12,
       "cat": "science",
       "subject": "cell biology",
       "title": "An amyloid-β/APP regulatory layer in human brown adipocyte recruitment identifies repurposable drugs for thermogenic fat expansion",
@@ -164,7 +195,7 @@
       "date": "2026-10-05"
     },
     {
-      "id": 10,
+      "id": 13,
       "cat": "science",
       "subject": "developmental biology",
       "title": "Epigenetic regulators partition the genome by evolutionary and developmental constraint",
@@ -176,52 +207,40 @@
       "date": "2026-10-05"
     },
     {
-      "id": 11,
+      "id": 14,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
-      "body": "Generative models of protein structures have accelerated scientific discovery. However, the leading structure-prediction models are trained primarily on crystal structures, limiting their ability to sample the conformations of intrinsically disordered proteins (IDPs). All-atom molecular dynamics (MD) simulations can pr…",
+      "subject": "neuroscience",
+      "title": "Psychedelics Restructure the Global Workspace of Consciousness",
+      "body": "Psychoactive drugs profoundly alter consciousness, but the neural mechanisms by which they do so remain poorly understood. Global workspace theory may provide a framework for investigating these mechanisms. The global workspace, a candidate neural substrate of consciousness, is a set of brain regions that integrate and…",
       "inst": [
-        "toronto"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.02.756250",
-      "date": "2026-10-04"
+      "doi": "10.64898/2026.09.28.755172",
+      "date": "2026-10-05"
     },
     {
-      "id": 12,
+      "id": 15,
       "cat": "science",
-      "subject": "immunology",
-      "title": "The helminth-derived effector protein HpBARI trimerises to selectively target membrane bound ST2 receptor",
-      "body": "The ST2 receptor is activated by the alarmin cytokine IL-33, inducing and controlling immune responses. ST2-mediated signalling contributes to protection from parasitic infection, but is also involved in asthma, inflammatory bowel disease, fibrosis and allergic inflammation, making inhibitors of ST2 desirable. While si…",
+      "subject": "bioinformatics",
+      "title": "Reconstructing donor genotypes from scRNA-seq for downstream eQTL and HLA-TCR analysis",
+      "body": "Single-cell eQTL studies can reveal heterogeneous genetic effects on gene expression that vary with cell type, but their wider application has been constrained by the frequent absence of matched genotype data. Here, we present single-cell Transcriptome Allelic Prediction and Association Studies (scTAPAS), a bioinformat…",
       "inst": [
         "oxford"
       ],
-      "doi": "10.64898/2026.09.29.755424",
-      "date": "2026-10-04"
+      "doi": "10.64898/2026.09.30.755703",
+      "date": "2026-10-05"
     },
     {
-      "id": 13,
+      "id": 16,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi",
-      "body": "Bacterial infochemicals can profoundly alter phytoplankton physiology, yet how these compounds influence viral infection outcomes remains poorly understood. The bacterial quorum sensing molecule 2-heptyl-4-quinolone (HHQ) enables the globally abundant coccolithophore, Gephyrocapsa huxleyi, to evade virus-induced mortal…",
+      "subject": "bioinformatics",
+      "title": "Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models",
+      "body": "Spatial transcriptomics pairs spatially resolved gene expression with tissue morphology in the same tissue section. Transcriptomic foundation models encode such expression profiles into general-purpose representations, but these representations can retain slide- and cohort-specific variation that obscures biological si…",
       "inst": [
-        "harvard"
+        "eth"
       ],
-      "doi": "10.64898/2026.09.30.755861",
-      "date": "2026-10-04"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "A stress-responsive morphogenetic program coordinates uterine luminal remodeling during early pregnancy",
-      "body": "Successful embryo implantation requires coordinated interactions among the endometrial epithelium, stroma, and the embryo, yet the underlying mechanisms have not been fully understood. Using three-dimensional histological reconstruction combined with single-cell and spatial transcriptomics, we identify a previously unr…",
-      "inst": [
-        "tokyo"
-      ],
-      "doi": "10.64898/2026.01.29.702684",
-      "date": "2026-10-04"
+      "doi": "10.64898/2026.09.30.755585",
+      "date": "2026-10-05"
     }
   ]
 }
