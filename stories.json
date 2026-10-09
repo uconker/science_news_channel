@@ -1,246 +1,162 @@
 {
-  "generated_at": "2026-10-08T13:10:05.341428+00:00",
+  "generated_at": "2026-10-09T12:56:27.866025+00:00",
   "institutions": {
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
     },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Pancreatic progenitor cells respond to laminar shear stress with transcriptomic changes, accompanied by reduced YAP1 activity",
-      "body": "The human pancreas secretes digestive fluid that flows through an extensive ductal network before emptying into the duodenum. However, little is known about how hydrodynamic forces influence pancreatic function and development. We hypothesized that pancreatic cells respond to physiological levels of fluid shear stress.…",
+      "subject": "cell biology",
+      "title": "A dsRNA Virus Converts Early Endosomes into Stable Replication Organelles Through Maturation Arrest and Retrograde Transport",
+      "body": "Infectious bursal disease virus (IBDV) and infectious pancreatic necrosis virus (IPNV) are major animal pathogens that impose a heavy burden on the poultry and aquaculture industries. Yet, major aspects of their unique replication program remain unknown. IBDV is unusual among double-stranded RNA viruses in that it repl…",
       "inst": [
-        "mpi_generic"
+        "toronto"
       ],
-      "doi": "10.64898/2026.09.29.754874",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.02.756243",
+      "date": "2026-10-06"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Enriching microlaser-labelled cells by commercial flow cytometry-based cell sorting systems",
-      "body": "Microlasers based on whispering-gallery modes (WGMs) provide bright, spectrally narrow emission, making them ideal optical probes for high-resolution cellular tagging, single-cell tracking, and biosensing. To reproducibly apply WGM microlasers in biomedical or tissue-engineering contexts, control over the number of las…",
+      "subject": "ecology",
+      "title": "STEM-LM: Spatio-Temporal Ecological Modeling via Masked Language Model for Multi-Species Distribution",
+      "body": "Species distribution models (SDMs) are central to biodiversity forecasting and conservation decision-making. As ecological datasets grow in size, dimensionality, and resolution, there is a need for flexible yet scalable SDMs tailored to large-scale species observation data. Inspired by the masked modeling approach in n…",
       "inst": [
-        "mpi_generic"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.02.756078",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.05.13.724718",
+      "date": "2026-10-06"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Agentic campaign control for high-throughput de novo binder design",
-      "body": "Progress in artificial intelligence has produced a rapidly growing ecosystem of methods for de novo protein design. With access to many specialized and often complementary tools, how does one use them effectively, especially with a finite compute budget? Here, we introduce Target adaptive Rescue-Explore-eXploit (T-REX)…",
+      "subject": "cancer biology",
+      "title": "Genetic dissection of DNA damage response pathways reveals divergent modulation of PD-1 blockade response in colorectal cancer",
+      "body": "Although MSI-H/dMMR colorectal cancers and the rarer subset with pathogenic POLE exonuclease domain mutations can benefit from immune checkpoint blockade, MSS colorectal cancer remains largely refractory, raising the question of whether other DNA damage response defects may also confer sensitivity to immunotherapy. Her…",
       "inst": [
-        "mit"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.22.753604",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.03.756428",
+      "date": "2026-10-06"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Embodied mechanical sensing through self-generated motion in climbing plants",
-      "body": "Embodied mechanical intelligence and morphological computation enable adaptive behavior by shifting computation from centralized control to body mechanics. Yet how dynamical material structures encode environmental information remains poorly understood. Here, we address this question using climbing plants as a minimal …",
+      "subject": "bioengineering",
+      "title": "Differential Adaptation of Osteocyte Lacunar Morphology at Bone (Re)modeling Sites under Mechanical Loading and Pharmacological Therapies in a Mouse Model of Osteoporosis",
+      "body": "Postmenopausal osteoporosis is a highly prevalent disease characterized by low bone mass and structural deterioration of bone tissue leading to increased bone fragility and fracture risk. Osteocytes orchestrate local bone (re)modeling and therefore, characterizing their 3D morphological and spatial distribution across …",
       "inst": [
-        "cambridge"
+        "eth"
       ],
-      "doi": "10.64898/2026.03.16.712031",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.05.756707",
+      "date": "2026-10-06"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Two-way pantothenate/nitrogen exchange reprograms fly metabolism and reinforces microbiota growth",
-      "body": "Animals and their gut bacteria can provide one another with nutrients, but whether this represents reciprocal trade is unclear. We show that Drosophila and their gut bacteria exchange a vitamin for nitrogen. Acetobacter pomorum supplies the fly with pantothenate (vitamin B5) and nearly doubles downstream coenzyme A, an…",
+      "subject": "bioengineering",
+      "title": "Benchmarking cartilage regeneration across ten chondrogenic cell sources using native tissue references",
+      "body": "A persistent challenge in cartilage tissue engineering is identifying cell sources capable of regenerating cartilage with native-like properties. Variability in chondrogenic potential among human- and animal-derived cells complicates graft development and disease modeling. Here we benchmarked ten chondrogenic cell sour…",
       "inst": [
-        "copenhagen"
+        "eth"
       ],
-      "doi": "10.1101/2025.11.15.688587",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.05.756631",
+      "date": "2026-10-06"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Arabidopsis cysteine protease RD19 limits RBOHD-generated ROS production in pattern triggered immunity",
-      "body": "Plants perceive pathogenic threats through receptors localized at the plasma membrane and inside cells to initiate pattern-triggered immunity (PTI) and effector-triggered immunity (ETI), respectively. PTI and ETI pathways are interconnected and partially converge on the EDS1-PAD4-ADR1 branch which stimulates anti-patho…",
+      "subject": "paleontology",
+      "title": "New data on the gorgonopsian Aelurognathus tigriceps from the Daptocephalus Assemblage Zone (Karoo Basin, South Africa) with novel insights into the pelvic girdle, hind limbs and tail",
+      "body": "Gorgonopsian therapsids represent a transitional condition in the evolution of synapsid locomotion and postcranial structure. However, most descriptions of gorgonopsians have focused on the skull, limiting their usefulness for informing patterns of postcranial evolution on the mammal stem. While some recent work has be…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.02.755912",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.05.27.727204",
+      "date": "2026-10-06"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Evolutionary signatures of self-incompatibility genes in grasses: high diversity, trans-generic polymorphism and co-evolution",
-      "body": "In many flowering plants, self-incompatibility (SI) is a genetically controlled recognition system that prevents self-fertilization, thereby promoting outcrossing and maintaining genetic diversity within populations. The gametophytic SI system in grasses (Poaceae) is governed by two multiallelic loci, S and Z, each loc…",
+      "subject": "bioengineering",
+      "title": "Colocalization between bone loading and metabolic activity in the human tibia in response to acute exercise",
+      "body": "Bone strain and remodeling are important factors for bone health. Improved characterization of relationships between these factors in response to acute loading will improve our understanding of bone maintenance, adaptation to load, and pathophysiology. The purpose of this study was to evaluate colocalization between fi…",
       "inst": [
-        "eth"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.02.754995",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.05.756847",
+      "date": "2026-10-06"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
-      "body": "The prion concept postulates that seeded aggregation results in the recruitment of soluble protein monomers and their assembly into amyloid filaments with the same structures as those of the seeds. Here we show that this concept applies to tau filaments formed in cortical organoids obtained from human iPSCs of control …",
+      "subject": "biophysics",
+      "title": "Emergent Dynamic Instability in Micrometer-scale Synthetic Active-matter Polymers",
+      "body": "In cells, cytoskeletal filaments such as microtubules are dissipative polymers that switch stochastically between growth and rapid collapse, a behaviour known as dynamic instability. This switching is coupled to nucleotide hydrolysis, so a filament's fate depends on the chemical state of its subunits and the free-monom…",
       "inst": [
-        "cambridge"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.30.755295",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.07.06.736608",
+      "date": "2026-10-06"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "A contact-mediated transfer mechanism directs in cis localization and spread of Xist RNA",
-      "body": "X chromosome inactivation in mammals is driven by the long non-coding RNA Xist, which localizes and spreads across the chromosome from which it is transcribed. Although several factors required for Xist localization have been identified, the underlying mechanism remains unclear. Here, we combine Nuclear-BRITE, a method…",
+      "subject": "neuroscience",
+      "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
+      "body": "Inhibitory control deficits have long been proposed as a central neurocognitive mechanism underlying childhood Attention Deficit/Hyperactivity Disorder (ADHD). However, neuroimaging findings remain heterogeneous, partly due to methodological variability across developmental samples and experimental paradigms. The prese…",
       "inst": [
-        "oxford"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.02.756235",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.04.756535",
+      "date": "2026-10-06"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "A Structural Model of Transcriptional Activation by Mediator",
-      "body": "Mediator integrates regulatory signals from transcription factors (TFs) and controls RNA polymerase II (Pol II) activity in eukaryotes. Its Tail module serves as the primary hub for TF activation domains (ADs), but the mechanistic logic coupling this distal engagement to transcriptional output is unclear. Here we model…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.10.01.756097",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 10,
-      "cat": "science",
       "subject": "cell biology",
-      "title": "Fast single molecule localization microscopy in 3D",
-      "body": "Super-resolution methods, such as single molecule localisation microscopy (SMLM), can determine the distribution of specific proteins at the nanometre scale. However, three-dimensional (3D) SMLM is typically limited to thin sections and requires prohibitively long acquisition times to image complete cells. Here we intr…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.29.755394",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Fast single molecule localization microscopy in 3D",
-      "body": "Super-resolution methods, such as single molecule localisation microscopy (SMLM), can determine the distribution of specific proteins at the nanometre scale. However, three-dimensional (3D) SMLM is typically limited to thin sections and requires prohibitively long acquisition times to image complete cells. Here we intr…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.09.29.755394",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "An amyloid-β/APP regulatory layer in human brown adipocyte recruitment identifies repurposable drugs for thermogenic fat expansion",
-      "body": "Brown adipose tissue (BAT) increases energy expenditure but is scarce in adults, yet most strategies focus on activating existing thermogenic adipocytes rather than recruiting new ones. We integrate human single-nucleus transcriptomics with protein-interaction and knowledge-graph analyses to identify stage-specific, dr…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.10.02.754417",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "Epigenetic regulators partition the genome by evolutionary and developmental constraint",
-      "body": "Many epigenetic regulators play essential roles in animal development, but precisely how they function across different cell types without clear sequence preferences remains a foundational challenge. Here, we employed single-cell RNA sequencing to survey the mutant phenotypes of 30 essential regulatory pathways across …",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.10.01.755350",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Psychedelics Restructure the Global Workspace of Consciousness",
-      "body": "Psychoactive drugs profoundly alter consciousness, but the neural mechanisms by which they do so remain poorly understood. Global workspace theory may provide a framework for investigating these mechanisms. The global workspace, a candidate neural substrate of consciousness, is a set of brain regions that integrate and…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.09.28.755172",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Reconstructing donor genotypes from scRNA-seq for downstream eQTL and HLA-TCR analysis",
-      "body": "Single-cell eQTL studies can reveal heterogeneous genetic effects on gene expression that vary with cell type, but their wider application has been constrained by the frequent absence of matched genotype data. Here, we present single-cell Transcriptome Allelic Prediction and Association Studies (scTAPAS), a bioinformat…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.30.755703",
-      "date": "2026-10-05"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models",
-      "body": "Spatial transcriptomics pairs spatially resolved gene expression with tissue morphology in the same tissue section. Transcriptomic foundation models encode such expression profiles into general-purpose representations, but these representations can retain slide- and cohort-specific variation that obscures biological si…",
+      "title": "Conserved Fibroblast Subsets Drive Shared Fibrotic Mechanisms in Osteoarthritis Synovium and Systemic Sclerosis Skin",
+      "body": "Osteoarthritis (OA) and systemic sclerosis (SSc) are diseases with distinct etiologies but similar disease phenotypes, most prominently fibrosis, a process governed by the pathological activation of fibroblasts. Mechanisms underpinning fibrosis in these diseases are widely studied, though have yet to be directly compar…",
       "inst": [
         "eth"
       ],
-      "doi": "10.64898/2026.09.30.755585",
-      "date": "2026-10-05"
+      "doi": "10.64898/2026.10.05.756653",
+      "date": "2026-10-06"
     }
   ]
 }
