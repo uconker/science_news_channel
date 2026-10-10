@@ -1,162 +1,288 @@
 {
-  "generated_at": "2026-10-09T12:56:27.866025+00:00",
+  "generated_at": "2026-10-10T12:14:44.884563+00:00",
   "institutions": {
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "A dsRNA Virus Converts Early Endosomes into Stable Replication Organelles Through Maturation Arrest and Retrograde Transport",
-      "body": "Infectious bursal disease virus (IBDV) and infectious pancreatic necrosis virus (IPNV) are major animal pathogens that impose a heavy burden on the poultry and aquaculture industries. Yet, major aspects of their unique replication program remain unknown. IBDV is unusual among double-stranded RNA viruses in that it repl…",
+      "subject": "ecology",
+      "title": "Landscape restoration strategies differ in their predicted benefits for species persistence",
+      "body": "Global biodiversity recovery demands restoration at landscape scales, where ecological outcomes are shaped not only by habitat amount but also spatial arrangement. Alternative landscape restoration strategies can increase habitat amount, improve quality, and alter configuration in fundamentally different ways and may t…",
       "inst": [
-        "toronto"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.02.756243",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.06.756954",
+      "date": "2026-10-07"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "ecology",
-      "title": "STEM-LM: Spatio-Temporal Ecological Modeling via Masked Language Model for Multi-Species Distribution",
-      "body": "Species distribution models (SDMs) are central to biodiversity forecasting and conservation decision-making. As ecological datasets grow in size, dimensionality, and resolution, there is a need for flexible yet scalable SDMs tailored to large-scale species observation data. Inspired by the masked modeling approach in n…",
+      "subject": "bioengineering",
+      "title": "Achieving near single-molecule sensitivity in separation-free protein detection using engineered kinetic proofreading",
+      "body": "Unlike nucleic acids, proteins cannot be directly amplified. Ultrasensitive detection must therefore couple efficient analyte-to-signal conversion with strong suppression of target-independent background. Consistently detecting ~100 molecules (below which Poisson sampling noise alone causes CV to exceed 10%) across pro…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.05.13.724718",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.05.756571",
+      "date": "2026-10-07"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Genetic dissection of DNA damage response pathways reveals divergent modulation of PD-1 blockade response in colorectal cancer",
-      "body": "Although MSI-H/dMMR colorectal cancers and the rarer subset with pathogenic POLE exonuclease domain mutations can benefit from immune checkpoint blockade, MSS colorectal cancer remains largely refractory, raising the question of whether other DNA damage response defects may also confer sensitivity to immunotherapy. Her…",
+      "subject": "bioengineering",
+      "title": "Machine learning-assisted directed evolution yields dramatic improvement on novel AAV engineering task",
+      "body": "Directed evolution enables the discovery of protein mutants with improved fitness through iterative rounds of selection and has been widely applied to adeno-associated virus (AAV) capsid engineering. Machine learning (ML) can augment this process by prioritising mutants for experimental validation, but whether its bene…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.03.756428",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.06.757046",
+      "date": "2026-10-07"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Differential Adaptation of Osteocyte Lacunar Morphology at Bone (Re)modeling Sites under Mechanical Loading and Pharmacological Therapies in a Mouse Model of Osteoporosis",
-      "body": "Postmenopausal osteoporosis is a highly prevalent disease characterized by low bone mass and structural deterioration of bone tissue leading to increased bone fragility and fracture risk. Osteocytes orchestrate local bone (re)modeling and therefore, characterizing their 3D morphological and spatial distribution across …",
+      "subject": "cell biology",
+      "title": "Vac8-driven vacuolar remodeling primes mega-autophagy and safeguardsgamete developmental competence",
+      "body": "During gametogenesis, organelle remodeling is coordinated alongside chromosome segregation to ensure gamete quality. In Saccharomyces cerevisiae, the precursor-cell vacuole permeabilizes following completion of meiotic divisions, releasing hydrolytic enzymes that degrade cellular material excluded from gametes. The reg…",
       "inst": [
-        "eth"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.05.756707",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.05.756849",
+      "date": "2026-10-07"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Benchmarking cartilage regeneration across ten chondrogenic cell sources using native tissue references",
-      "body": "A persistent challenge in cartilage tissue engineering is identifying cell sources capable of regenerating cartilage with native-like properties. Variability in chondrogenic potential among human- and animal-derived cells complicates graft development and disease modeling. Here we benchmarked ten chondrogenic cell sour…",
+      "subject": "paleontology",
+      "title": "The trilobite nervous system and the early evolution of the mandibulate central complex",
+      "body": "Fossil central nervous systems (CNS) have illuminated several facets of total-group euarthropod evolution, including their phylogenetic affinities, the origin of the head, and their ancestral neuroanatomical organization. However, the CNS remains unknown in trilobites, the most diverse and earliest group of Palaeozoic …",
       "inst": [
-        "eth"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.05.756631",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.05.756825",
+      "date": "2026-10-07"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "paleontology",
-      "title": "New data on the gorgonopsian Aelurognathus tigriceps from the Daptocephalus Assemblage Zone (Karoo Basin, South Africa) with novel insights into the pelvic girdle, hind limbs and tail",
-      "body": "Gorgonopsian therapsids represent a transitional condition in the evolution of synapsid locomotion and postcranial structure. However, most descriptions of gorgonopsians have focused on the skull, limiting their usefulness for informing patterns of postcranial evolution on the mammal stem. While some recent work has be…",
+      "subject": "developmental biology",
+      "title": "Developmental small RNA transcriptomics reveals divergent evolution of the conserved microRNA miR-100 and the let-7-complex in nematodes",
+      "body": "Background Over the last three decades, small RNAs have emerged as one of the key post-transcriptional regulators, and are categorised into microRNAs (miRNAs), small interfering RNAs (siRNAs), and PIWI-interacting RNAs (piRNAs). Since their discovery as regulators of developmental timing in the nematode Caenorhabditis …",
       "inst": [
-        "oxford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.05.27.727204",
-      "date": "2026-10-06"
+      "doi": "10.1101/2024.07.19.604269",
+      "date": "2026-10-07"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Colocalization between bone loading and metabolic activity in the human tibia in response to acute exercise",
-      "body": "Bone strain and remodeling are important factors for bone health. Improved characterization of relationships between these factors in response to acute loading will improve our understanding of bone maintenance, adaptation to load, and pathophysiology. The purpose of this study was to evaluate colocalization between fi…",
+      "subject": "evolutionary biology",
+      "title": "Separating biological signal from statistical artifact in trait trade-off inference",
+      "body": "Trade-offs are commonly assumed when the statistical parameters used to define biological traits are negatively correlated. However, parameter correlations can emerge from the geometry of the model, rather than underlying biological signal. We characterize this phenomenon generally, and develop a framework to parse bio…",
       "inst": [
-        "stanford"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.05.756847",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.03.756330",
+      "date": "2026-10-07"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Emergent Dynamic Instability in Micrometer-scale Synthetic Active-matter Polymers",
-      "body": "In cells, cytoskeletal filaments such as microtubules are dissipative polymers that switch stochastically between growth and rapid collapse, a behaviour known as dynamic instability. This switching is coupled to nucleotide hydrolysis, so a filament's fate depends on the chemical state of its subunits and the free-monom…",
+      "subject": "genomics",
+      "title": "Origin and evolution of acrocentric chromosomes in human and great apes",
+      "body": "The short arms of human acrocentric chromosomes are characterized by nucleolar organizer regions essential for ribosome biogenesis, but their highly repetitive nature has hindered genomic analysis. Leveraging the recently completed genomes of all major great ape lineages, we identified recurrent features of their acroc…",
       "inst": [
-        "mpi_generic"
+        "nih"
       ],
-      "doi": "10.64898/2026.07.06.736608",
-      "date": "2026-10-06"
+      "doi": "10.64898/2025.12.22.696095",
+      "date": "2026-10-07"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
-      "body": "Inhibitory control deficits have long been proposed as a central neurocognitive mechanism underlying childhood Attention Deficit/Hyperactivity Disorder (ADHD). However, neuroimaging findings remain heterogeneous, partly due to methodological variability across developmental samples and experimental paradigms. The prese…",
+      "subject": "bioengineering",
+      "title": "REZCUE: Rescuing 3D spatial omics from archived FFPE tissue",
+      "body": "Archived formalin-fixed, paraffin-embedded (FFPE) tissue represents a vast clinical resource, yet three-dimensional imaging and molecular profiling remain largely incompatible because current antigen retrieval and clearing can degrade nucleic acids. We developed REZCUE, a depth-invariant antigen retrieval chemistry bas…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.10.04.756535",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.06.757132",
+      "date": "2026-10-07"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Conserved Fibroblast Subsets Drive Shared Fibrotic Mechanisms in Osteoarthritis Synovium and Systemic Sclerosis Skin",
-      "body": "Osteoarthritis (OA) and systemic sclerosis (SSc) are diseases with distinct etiologies but similar disease phenotypes, most prominently fibrosis, a process governed by the pathological activation of fibroblasts. Mechanisms underpinning fibrosis in these diseases are widely studied, though have yet to be directly compar…",
+      "subject": "plant biology",
+      "title": "Root-to-shoot ABA transport by NPF2.4 and NPF2.5 links stomatal regulation to photosynthetic performance",
+      "body": "Fluctuating light strongly limits photosynthetic efficiency in plants, yet the mechanisms coordinating stomatal dynamics with rapid photosynthetic induction remain incompletely understood. Here, through a forward physiological screen in Arabidopsis, we identify the abscisic acid (ABA) transporters NPF2.4 and NPF2.5 as …",
       "inst": [
-        "eth"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.05.756653",
-      "date": "2026-10-06"
+      "doi": "10.64898/2026.10.07.757215",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A shared circuit architecture for multiscale signal recognition in crickets",
+      "body": "Communication signals often contain behaviorally relevant structure on multiple temporal scales. Short-timescale features are commonly thought to be recognized first and then integrated into longer-timescale representations. Whether a shared circuit can instead recognize multiple timescales remains unclear. Cricket cal…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.09.28.754905",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "DNA replication stress redistributes the histone methyltransferase G9a and activates lineage-specific gene expression",
+      "body": "Perturbations that cause DNA replication stress can induce lineage-specific changes in gene expression. Specifically, DNA replication stress activates primed loci in euchromatin that are epigenetically silenced, but the mechanism linking stalled replication forks to the activation of distal genes remains unknown. Using…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.06.757090",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Biomimetic scaffolds mimic human subretinal debris for preclinical testing of prosthetic vision",
+      "body": "Photovoltaic subretinal prostheses replace the lost photoreceptors in patients blinded by atrophic age-related macular degeneration (AMD) and provide central vision by electrically stimulating the inner retinal neurons. Subretinal debris in geographic atrophy separate the inner nuclear layer from the implant by tens of…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.06.756601",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Engineering developmental transitions during human neurulation through modular integration of multimodal spatial cues",
+      "body": "Reconstituting organ development in vitro requires reproducing dynamic developmental transitions rather than only terminal tissue structures. Here, we developed MoSAIC (Modular Spatial Assembly and Integration of Cues), a modular platform that decomposes complex culture operations and subsequently integrates them to re…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.64898/2026.10.07.757222",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "High-throughput serial two-photon tomography with BakingTray and BrainSaw",
+      "body": "Volumetric imaging is increasingly important in fields such as neuroscience, where quantifying structure and mapping features are inherently three-dimensional problems. Block-face serial two-photon tomography (STPT) has emerged as a powerful approach for high-resolution, whole-organ volumetric imaging. STPT avoids comp…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.28.748989",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "In-Depth Immune Profiling Reveals Cell-Type, Sex and Infection-Stage Dependent Differences for Tuberculosis Control",
+      "body": "Tuberculosis (TB) disease consistently causes the highest number of annual deaths from infectious disease and is responsible for over 100 million disability-adjusted-life-years annually. Despite the dramatic impact on human health, TB treatments are intensive and moderately effective, while Bacille Calmette-Guerin (BCG…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.09.30.755733",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Proteomes reflect size-based growth constraints across diverse microbes",
+      "body": "The maximum growth rate of microbes plays a central role in shaping ecological outcomes and is a major target of bioengineering efforts. Previous data compilations suggest single cell maximum growth rates mostly decrease with cell volume across species, except for an initial increase from the very smallest microbes to …",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.06.756872",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Vertical climbing in mice: a translationally relevant measure of pain-related impact on natural behaviour",
+      "body": "Despite urgent need for better analgesics, drug development has been complicated by incomplete bench-to-bedside translation. A likely contributing factor is the poor connection between the experimenter-evoked pain-related measures often used in preclinical models, and the clinical symptoms, like broader functional impa…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.09.30.755655",
+      "date": "2026-10-07"
     }
   ]
 }
