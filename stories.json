@@ -1,10 +1,45 @@
 {
-  "generated_at": "2026-10-13T13:56:40.575979+00:00",
+  "generated_at": "2026-10-14T11:33:50.479668+00:00",
   "institutions": {
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
     "mit": {
       "name": "MIT",
@@ -15,46 +50,24 @@
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A Hypothalamic Pathway for Energy Conservation",
+      "body": "Many animals utilize a survival strategy of hypothermia, inactivity, and a dramatic decrease in their energy metabolism when faced with a shortfall in energy supplies. Mice, for example, show daily torpor that may last several hours to bridge the lack of energy availability in a cold environment. While our recent studi…",
+      "inst": [
+        "mit",
+        "harvard"
+      ],
+      "doi": "10.64898/2026.10.06.756421",
+      "date": "2026-10-11"
+    },
+    {
+      "id": 1,
       "cat": "science",
       "subject": "genomics",
       "title": "An iPSC-based experimental framework for investigating phenotypic variation associated with Jomon ancestry in the present-day Japanese population",
@@ -66,196 +79,220 @@
       "date": "2026-10-11"
     },
     {
-      "id": 1,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "PRMT5 inhibition induces a histone methylation switch that drives chromatin plasticity, drug resistance, and metastatic progression",
-      "body": "PRMT5 is the major type II protein arginine methyltransferase, regulating fundamental processes including transcription, splicing, and translation. Its expression is restricted to stem and progenitor cells but reactivated in many tumors. Numerous PRMT5 inhibitors (PRMT5i) have been developed, and several are currently …",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.01.30.702866",
-      "date": "2026-10-10"
-    },
-    {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Hunger reconfigures a reward learning circuit into a memory competent mode",
-      "body": "Internal states such as hunger dynamically reshape activity across circuits to support resource seeking. Neuromodulation provides a means of controlling such physiological properties of neurons, but how this flexibility regulates memory networks remains unclear. Here, we describe how hunger reconfigures a dopaminergic …",
+      "subject": "bioinformatics",
+      "title": "Inferring ecDNA Evolution from Allele Frequency Spectra",
+      "body": "Extrachromosomal DNA (ecDNA) can arise early in the development of aggressive tumors or later upon progression, but the impact of chronology on patient outcome is not known. Currently, it is not possible to determine when an ecDNA arose in the course of tumor development and progression, based on genome sequencing data…",
       "inst": [
-        "oxford"
+        "stanford"
       ],
-      "doi": "10.64898/2026.09.17.752172",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.09.758054",
+      "date": "2026-10-11"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Cell cycle exit is required for differentiation and cell fate diversification but not neoblast specialisation in planarians",
-      "body": "In planarians, adult stem cells constantly proliferate and differentiate into dozens of different cell types to maintain tissue homeostasis. However, how cell fate acquisition is coordinated with cell cycle progression remains poorly understood. To address this, we generated single-cell RNA-sequencing datasets from cel…",
+      "subject": "neuroscience",
+      "title": "Impacts of different SETD1A mutations and genetic backgrounds on human induced pluripotent stem cell-derived hippocampal neurons",
+      "body": "Abstract Human induced pluripotent stem cells (hiPSCs) provide a translational platform to interrogate the impact of genetic risk factors for various disorders on human biology. It has been a common practice to engineer premature stop codons to model predicted loss-of-function mutations using isogenic hiPSCs, yet effec…",
       "inst": [
-        "oxford"
+        "nih"
       ],
-      "doi": "10.64898/2026.09.16.750956",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.07.756381",
+      "date": "2026-10-11"
     },
     {
       "id": 4,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "A Bayesian approach to volumetric analysis in rare neurodegenerative disorders",
-      "body": "Identifying regional brain atrophy is critical for understanding neurodegenerative disorders. Traditionally, group comparisons rely on frequentist statistics, utilising $p$-values and point estimates that offer limited characterization of uncertainty. Bayesian methods provide an alternative by estimating effect sizes a…",
+      "title": "Inflections in adolescent cortical maturation signal psychopathology risk",
+      "body": "Cerebral cortical maturation supports emotional, social, and cognitive development during adolescence1. Neurodevelopmental theories of psychiatric illnesses, which peak in onset around age 182, implicate subtle alterations in adolescent cortical development3. However, mechanistic links between cortical maturation and e…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.02.756349",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.08.755024",
+      "date": "2026-10-11"
     },
     {
       "id": 5,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Inferotemporal cortex stimulation is perceived before its onset",
-      "body": "Neural response latency measures when stimulus-evoked activity becomes detectable, but it does not reveal when the brain assigns the causal contribution of that activity to events in the external world. We define this temporal adjustment as projected delay and measure it in the macaque inferotemporal cortex using optog…",
+      "title": "Neural Dissociation of Cognitive Maps and Graphs in the Human Brain",
+      "body": "Cognitive maps and graphs offer two distinct ways of organizing knowledge: maps arrange items within a spatial layout, whereas graphs thread them together through experiential transitions. However, spatial proximity and experiential contiguity are typically correlated, and content represented in one format can often be…",
       "inst": [
-        "nih"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.02.756371",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.09.757922",
+      "date": "2026-10-11"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Widespread attraction of marine bacteria to the macroalgae-derived polysaccharide fucoidan",
-      "body": "Fucoidan is the second most abundant polysaccharide in brown macroalgae, contributing up to 50% of the dissolved organic matter released daily from these algae into the ocean, substantially influencing the marine carbon cycle. Due to its complex chemical structure, fucoidan is highly resistant to microbial degradation …",
+      "subject": "neuroscience",
+      "title": "Ultrastructurally planar growth cones during neocortical axon navigation",
+      "body": "Neurons extend axons toward spatially defined but often distant targets to establish brain circuits. Callosal projection neurons exemplify this organization, linking corresponding cortical territories between the two hemispheres. Growing axons rely on growth cones to regulate direction and speed through densely packed …",
       "inst": [
-        "eth"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.08.757582",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.05.756131",
+      "date": "2026-10-11"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "The porin MspA is a phage-specific determinant of mycobacteriophage infection",
-      "body": "Mycobacteriophages are being developed as therapeutics for mycobacterial infections, but their highly variable host ranges limit this application and the bacterial factors that determine whether infection succeeds remain poorly defined. The determinants characterized so far are dominated by cell envelope lipids and gly…",
+      "subject": "neuroscience",
+      "title": "Identification of surface colors across environmental illuminations",
+      "body": "When objects are embedded in a complex lighting environment, the illumination they receive depends on their geometric relationship to the environment. We measured performance in an odd-one-out color constancy task, with objects rendered in complex lighting environments. Observers identified the odd object among four ob…",
       "inst": [
-        "karolinska"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.08.757660",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.03.756408",
+      "date": "2026-10-11"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Expanding the DNA Motif Lexicon of the Transcriptional Regulatory Code",
-      "body": "Cis-regulatory sequences in metazoan genomes contain elaborate combinations of transcription factor (TF) motifs. Stereospecific arrangements of simple motifs constitute composite elements (CEs) that enhance DNA-protein interaction specificity and enable combinatorial regulatory logic. Despite their importance, CEs rema…",
+      "subject": "ecology",
+      "title": "From margins to mainstream: restoration of riparian margins to support oil palm sustainability in modern and future climates",
+      "body": "Palm oil is the worlds leading vegetable oil, with production continuing to expand, particularly across Southeast Asia. Within established plantations, conserving and restoring riparian margins can reduce erosion, improve connectivity, and support biodiversity. Simultaneously, climate change is increasing thermal stres…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.1101/2025.07.09.662874",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.09.757517",
+      "date": "2026-10-11"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Genomic insights into bacterial isolates dominating honeypot ant crop microbiomes reveal metabolically distinct Fructilactobacillus sp.",
-      "body": "Honeypot ants engage in a convergently-evolved phenotype called repletism, where specialized workers expand their crops and gasters to store vast amounts of food internally. They then store that food for months to support colonies during times of food scarcity. This fascinating phenotype is not well-understood and only…",
+      "subject": "evolutionary biology",
+      "title": "Contrasting phylogeographic patterns between geographically restricted and widespread mitochondrial lineages of the water strider Aquarius paludum in the Japanese archipelago",
+      "body": "Aim To investigate how repeated historical connections between continental islands and the mainland have shaped the phylogeographic structure and genetic diversity of populations, using the widespread water strider Aquarius paludum as a model. Location Japan Taxon Water strider Aquarius paludum (Insecta: Hemiptera: Ger…",
       "inst": [
-        "cambridge"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.04.09.717501",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.09.757895",
+      "date": "2026-10-11"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "genomics",
-      "title": "Systematic benchmark of demultiplexing workflows for direct RNA sequencing",
-      "body": "Direct RNA nanopore sequencing offers the capacity to directly profile native RNAs, enabling detection of diverse epitranscriptomic modifications based on current changes as the RNA passes through a pore. Innovations in chemistry, hardware and bioinformatic tools have increased sequencing capacity and accuracy, creatin…",
+      "title": "Ayahuasca plant genomes reveal retrotransposon-derived centromeres and contrasting routes to DMT and β-carbolines",
+      "body": "Ayahuasca, used religiously for centuries by Amazonian Indigenous peoples and increasingly studied for its therapeutic potential, owes its psychoactivity to two plants: Psychotria viridis supplies N,N-dimethyltryptamine (DMT), whereas Banisteriopsis caapi supplies beta-carbolines that render DMT orally active. Here we …",
       "inst": [
-        "copenhagen"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.03.756430",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.06.754717",
+      "date": "2026-10-11"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Environmental dynamics shape human learning: change points versus random walks",
-      "body": "Adaptive learning requires interpreting prediction errors in light of environmental dynamics. However, environments may differ not only in when changes occur, but also in how they occur: some nonstationary processes drift gradually, whereas others change abruptly. This raises the question of whether humans can adapt th…",
+      "subject": "genomics",
+      "title": "Genome assemblies and annotations of the poneroid ants Platythyrea mocquerysi (Ponerinae) and Stigmatomma oregonense (Amblyoponinae)",
+      "body": "We present draft genome assemblies for two poneroid ant species with distinctive life history traits: Platythyrea mocquerysi Emery, 1899 (Ponerinae) and Stigmatomma oregonense Wheeler, 1915 (Amblyoponinae). Platythyrea mocquerysi is a Malagasy ant in which larvae produce secretions from a ventral tubercle that are cons…",
       "inst": [
-        "oxford"
+        "cambridge"
       ],
-      "doi": "10.1101/2025.11.26.690700",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.08.757030",
+      "date": "2026-10-11"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Microplastics disrupt a cDC1-CD8/NKT regulatory circuit that restrains plasma cell accumulation after injury",
-      "body": "Traumatic injury exposes abundant self-antigens while simultaneously mounting a significant inflammatory response to counter infection and clear debris. While canonical regulatory T cells have been implicated in recovery from sterile injury, mechanisms of peripheral tolerance maintenance in clinically relevant models w…",
+      "subject": "neuroscience",
+      "title": "Differential utilization of PACAP and glutamate in parabrachial neurons shapes pain and stress",
+      "body": "The external parabrachial nucleus (elPBN) contributes to diverse behaviors, including pain and stress. Neurons in this region use glutamatergic and neuropeptidergic signaling, with pituitary adenylate cyclase-activating polypeptide (PACAP) expressed in a subset of glutamatergic neurons. Deletion of PACAP in elPBN neuro…",
       "inst": [
         "nih"
       ],
-      "doi": "10.1101/2025.01.13.632166",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.07.755626",
+      "date": "2026-10-11"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Structural Basis of Human Kinetochore-Microtubule Coupling by the Ndc80 and Ska Complexes",
-      "body": "Faithful chromosome segregation depends on kinetochore-microtubule attachments that must be load-bearing, dynamic, and tightly regulated. In human cells, the Ska and Ndc80 complexes (SkaC and Ndc80C) cooperate to sustain these attachments, but how they are organized on microtubules and coupled to end dynamics remains u…",
+      "subject": "genomics",
+      "title": "A multi-tissue transcriptome strategy for genomic resource development in  Pinus edulis",
+      "body": "Premise:: Conifers comprise one-sixth of global forests and landscape genomic studies are urgently needed to understand their biology, yet relatively few conifer species have reference genomes. Targeted exon-capture is a practical alternative to whole-genome sequencing, but selecting loci without a reference genome rem…",
       "inst": [
         "berkeley"
       ],
-      "doi": "10.64898/2025.12.06.692780",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.05.756810",
+      "date": "2026-10-11"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Multilayer analysis reveals extensive hidden population complexity in a dairy starter microbiome comprising few species",
-      "body": "The genomic and epigenomic complexity of microbiomes with low species richness remains poorly characterized. Here, we integrated 111 non-redundant isolate genomes with deep long-read metagenomics to investigate an undefined mesophilic dairy starter. Closely related isolates harboured distinct combinations of features a…",
+      "subject": "neuroscience",
+      "title": "The Onset of Breathing at Birth Switches Off Regenerative Capacity",
+      "body": "Many mammalian tissues, including the central nervous system (CNS), lose regenerative capacity in adulthood, but when and how this transition is initiated remains unclear. By monitoring mTOR activity, an evolutionarily conserved readout of cellular growth and intrinsic regenerative potential, we found that mTOR signali…",
       "inst": [
-        "copenhagen"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.09.757929",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.03.756425",
+      "date": "2026-10-11"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Experimental evidence for antagonistic effects of sperm competition in two sea urchin species",
-      "body": "Sperm competition can occur when sperm from two or more males compete for fertilization of a batch of eggs. While it has been extensively studied in internal fertilizers, it remains poorly under-stood in external fertilizers. To investigate how sperm competition affects fertilization under sperm limitation, we conducte…",
+      "subject": "bioinformatics",
+      "title": "FastaLake selects compact metaproteomic databases from large sequence reservoirs by de novo peptide lookup",
+      "body": "Metaproteomics analyses require protein sequence databases, yet the microbial proteins present in complex communities are not known in advance. Searching reference catalogs containing hundreds of millions of candidate sequences reduces identification sensitivity, while generating sample-specific databases through metag…",
       "inst": [
-        "berkeley"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.08.757654",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.08.757395",
+      "date": "2026-10-11"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Maternal hyperglycemia impairs postnatal skeletal muscle growth and induces stage-dependent gene expression changes in mouse offspring",
-      "body": "Maternal hyperglycemia can affect offspring development and metabolism, but how its effects on skeletal muscle change during postnatal life remains unclear. We investigated skeletal muscle phenotypes in male offspring of streptozotocin-induced hyperglycemic mice at 4 and 8 weeks of age, representing early post-weaning …",
+      "subject": "immunology",
+      "title": "Robust V(D)J Recombination in the Absence of SA1/2-mediated Chromatin Loops",
+      "body": "The cohesin ring complex organizes and mediates functional activity of the genome through chromatin loop extrusion1,2. Cohesin comprises a core SMC1-SMC3-RAD21 ring associated with multiple regulatory proteins, including SA1 and SA2 paralogs that bind mutually-exclusively to a RAD21 site3,4. Functional studies of cohes…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.03.755574",
-      "date": "2026-10-10"
+      "doi": "10.64898/2026.10.10.757971",
+      "date": "2026-10-11"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Intracellular complement Factor B couples inflammatory sensing to metabolism, chromatin regulation and maladaptive tissue repair",
+      "body": "Inflammatory signals are broadly conserved, yet how tissue context converts them into programs of recovery or maladaptive repair remains unclear. Using kidney injury as a model of inflammation-to-repair transitions, we identify an injury-induced proximal-tubule complement program in which cell-intrinsic complement prot…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.10.04.756581",
+      "date": "2026-10-11"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "CXCR3 on transferred T cells enables vaccine-boosted adoptive T-cell therapy in solid tumors",
+      "body": "Adoptive T-cell therapy (ACT) has demonstrated marked clinical benefit in hematological malignancies but has limited efficacy against solid tumors. Cancer vaccines can improve ACT, but the mechanisms underlying this combination are poorly understood. Here, we combined ACT with chimpanzee adenovirus ChAdOx1 (ChAd) and m…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.04.753375",
+      "date": "2026-10-11"
+    },
+    {
+      "id": 19,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "DAP12-deficient microglia adopt a TREM2-independent antigen-presenting state with a glial-to-neuronal cascade in Nasu-Hakola disease",
+      "body": "Nasu-Hakola disease (NHD), a dementia with about 200 cases worldwide, is caused by loss-of-function mutation of TYROBP, encoding DAP12, or its receptor TREM2. TREM2-DAP12 is the switch that converts microglia from a surveillant to a reactive state; what DAP12-deficient microglia become and to what extent they reshape t…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.64898/2026.10.07.757387",
+      "date": "2026-10-11"
     }
   ]
 }
