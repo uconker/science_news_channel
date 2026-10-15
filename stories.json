@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-10-14T11:33:50.479668+00:00",
+  "generated_at": "2026-10-15T11:11:52.729282+00:00",
   "institutions": {
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
@@ -11,45 +21,35 @@
       "lat": 51.75,
       "lon": -1.25
     },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     }
   },
   "stories": [
@@ -57,242 +57,230 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "A Hypothalamic Pathway for Energy Conservation",
-      "body": "Many animals utilize a survival strategy of hypothermia, inactivity, and a dramatic decrease in their energy metabolism when faced with a shortfall in energy supplies. Mice, for example, show daily torpor that may last several hours to bridge the lack of energy availability in a cold environment. While our recent studi…",
+      "title": "Functional and structural profiling of circulation via genetically encoded modular fluorescent probes.",
+      "body": "Sustained labeling of fluids is crucial for their investigation in animal models. Here, we introduce a mouse line (Alb-mSc-ST), where blood and interstitial fluid are labeled with the red fluorescent protein mScarlet and SpyTag. The SpyTag-SpyCatcher technology is exploited to monitor circulating fluid properties by bi…",
       "inst": [
-        "mit",
-        "harvard"
+        "copenhagen",
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.06.756421",
-      "date": "2026-10-11"
+      "doi": "10.1101/2025.03.18.643859",
+      "date": "2026-10-12"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "genomics",
-      "title": "An iPSC-based experimental framework for investigating phenotypic variation associated with Jomon ancestry in the present-day Japanese population",
-      "body": "Ancestry-related genomic variation may contribute to phenotypic diversity. However, its cellular consequences remain difficult to evaluate. To address this, we developed a human induced pluripotent stem cell (hiPSC)-based framework for investigating such phenotypes. We used the Japanese population as a model of Jomon-r…",
+      "subject": "bioengineering",
+      "title": "A StayGold-based calcium ion indicator",
+      "body": "Genetically encoded calcium ion (Ca2+) indicators (GECIs) enable visualization of Ca2+ dynamics in living systems but often suffer from limited photostability during prolonged imaging. The recent discovery of StayGold, a green fluorescent protein (FP) with exceptional brightness and photostability, opened the possibili…",
       "inst": [
         "tokyo"
       ],
-      "doi": "10.64898/2026.10.07.756619",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.03.06.710044",
+      "date": "2026-10-12"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Inferring ecDNA Evolution from Allele Frequency Spectra",
-      "body": "Extrachromosomal DNA (ecDNA) can arise early in the development of aggressive tumors or later upon progression, but the impact of chronology on patient outcome is not known. Currently, it is not possible to determine when an ecDNA arose in the course of tumor development and progression, based on genome sequencing data…",
+      "subject": "microbiology",
+      "title": "Identifiability of metabolic resilience from sparse longitudinal metabolomics",
+      "body": "Sparse and irregular longitudinal metabolomic measurements can make dynamical quantities numerically estimable without making them scientifically identifiable. We formulate effective-landscape inference as an observation-timescale inverse problem and evaluate its operating characteristics using stochastic systems with …",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.09.758054",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.08.01.742207",
+      "date": "2026-10-12"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Impacts of different SETD1A mutations and genetic backgrounds on human induced pluripotent stem cell-derived hippocampal neurons",
-      "body": "Abstract Human induced pluripotent stem cells (hiPSCs) provide a translational platform to interrogate the impact of genetic risk factors for various disorders on human biology. It has been a common practice to engineer premature stop codons to model predicted loss-of-function mutations using isogenic hiPSCs, yet effec…",
+      "subject": "bioengineering",
+      "title": "Coordinated Enhancement of Molecular and Spatial Fidelity for Biological Inference in Spatial Transcriptomics",
+      "body": "Understanding tissue organization requires accurate molecular quantification and faithful spatial localization. Spatial omics, particularly spatial transcriptomics (ST), face measurement trade-offs that limit simultaneous achievement of molecular and spatial fidelity across spatial resolution, detection sensitivity, mo…",
       "inst": [
-        "nih"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.07.756381",
-      "date": "2026-10-11"
+      "doi": "10.64898/2025.12.23.696267",
+      "date": "2026-10-12"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Inflections in adolescent cortical maturation signal psychopathology risk",
-      "body": "Cerebral cortical maturation supports emotional, social, and cognitive development during adolescence1. Neurodevelopmental theories of psychiatric illnesses, which peak in onset around age 182, implicate subtle alterations in adolescent cortical development3. However, mechanistic links between cortical maturation and e…",
+      "subject": "bioinformatics",
+      "title": "Histology-aware Inference of Cell-cell Communication in Spatial Transcriptomics",
+      "body": "Cell-cell communication (CCC) is fundamental to tissue organization and function, yet inferring communication from spatial transcriptomics (ST) remains challenging because molecular and spatial information does not fully capture the anatomical context of signaling. Paired hematoxylin and eosin (H&E)-stained images prov…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.08.755024",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.01.22.701166",
+      "date": "2026-10-12"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Neural Dissociation of Cognitive Maps and Graphs in the Human Brain",
-      "body": "Cognitive maps and graphs offer two distinct ways of organizing knowledge: maps arrange items within a spatial layout, whereas graphs thread them together through experiential transitions. However, spatial proximity and experiential contiguity are typically correlated, and content represented in one format can often be…",
+      "subject": "pharmacology and toxicology",
+      "title": "Cell Painting and machine learning for mechanistic profiling of hepatotoxic botanicals and their constituents",
+      "body": "BACKGROUND Botanicals are widely consumed as herbal remedies and plant-derived products, but their complex and variable chemical composition presents major challenges for safety assessment. Although hepatotoxicity has been reported for several botanicals, the constituent compounds responsible and the underlying mechani…",
       "inst": [
-        "mpi_generic"
+        "embl"
       ],
-      "doi": "10.64898/2026.10.09.757922",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.05.756246",
+      "date": "2026-10-12"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Ultrastructurally planar growth cones during neocortical axon navigation",
-      "body": "Neurons extend axons toward spatially defined but often distant targets to establish brain circuits. Callosal projection neurons exemplify this organization, linking corresponding cortical territories between the two hemispheres. Growing axons rely on growth cones to regulate direction and speed through densely packed …",
+      "subject": "cancer biology",
+      "title": "Microbial Invasion and Immunosuppression Drives Adenoma Progression in Early Colorectal Cancer Development",
+      "body": "Several inherited predispositions to colorectal cancer exist, most notably familial adenomatous polyposis (FAP), which typically involves a germline loss-of-function mutation in one APC allele. A second hit in APC or related loci leads to aberrant Wnt signalling, triggering adenoma formation with near-complete penetran…",
       "inst": [
-        "tokyo"
+        "embl"
       ],
-      "doi": "10.64898/2026.10.05.756131",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.07.10.737736",
+      "date": "2026-10-12"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Identification of surface colors across environmental illuminations",
-      "body": "When objects are embedded in a complex lighting environment, the illumination they receive depends on their geometric relationship to the environment. We measured performance in an odd-one-out color constancy task, with objects rendered in complex lighting environments. Observers identified the odd object among four ob…",
+      "subject": "genetics",
+      "title": "Spatial isotope tracing maps compartmentalized nutrient use across the adult fruit fly",
+      "body": "Drosophila melanogaster is a powerful model for studying systemic metabolism. Although metabolism is compartmentalized across tissues, prior work in adult Drosophila has mostly measured it in dissected tissues rather than in situ, limiting the spatial information that can be gained. Here, we combine whole-fly mass-spec…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.03.756408",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.06.757091",
+      "date": "2026-10-12"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "ecology",
-      "title": "From margins to mainstream: restoration of riparian margins to support oil palm sustainability in modern and future climates",
-      "body": "Palm oil is the worlds leading vegetable oil, with production continuing to expand, particularly across Southeast Asia. Within established plantations, conserving and restoring riparian margins can reduce erosion, improve connectivity, and support biodiversity. Simultaneously, climate change is increasing thermal stres…",
+      "subject": "neuroscience",
+      "title": "Large-scale all-optical electrophysiology links excitability and connectivity to circuit dynamics in vivo",
+      "body": "To understand neural computations, one would like to relate circuit dynamics to neuronal intrinsic excitability and connectivity. We developed tools for large-scale all-optical electrophysiology and applied them to approximately 300 layer 1 interneurons per mouse in vivo. Across two mice, targeted stimulation and volta…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.09.757517",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.05.756595",
+      "date": "2026-10-12"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Contrasting phylogeographic patterns between geographically restricted and widespread mitochondrial lineages of the water strider Aquarius paludum in the Japanese archipelago",
-      "body": "Aim To investigate how repeated historical connections between continental islands and the mainland have shaped the phylogeographic structure and genetic diversity of populations, using the widespread water strider Aquarius paludum as a model. Location Japan Taxon Water strider Aquarius paludum (Insecta: Hemiptera: Ger…",
+      "subject": "neuroscience",
+      "title": "Suzetrigine-evoked analgesia is potentiated by Nav1.7 null-related opioid mechanisms.",
+      "body": "The genetic evidence for an essential role of sodium channel Nav1.7 in human pain conditions is compelling. Unfortunately, potent selective channel blockers of Nav1.7 are not useful analgesics because they have deleterious side effects, particularly on the autonomic nervous system. Here we have evaluated the downstream…",
       "inst": [
-        "tokyo"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.09.757895",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.05.755985",
+      "date": "2026-10-12"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Ayahuasca plant genomes reveal retrotransposon-derived centromeres and contrasting routes to DMT and β-carbolines",
-      "body": "Ayahuasca, used religiously for centuries by Amazonian Indigenous peoples and increasingly studied for its therapeutic potential, owes its psychoactivity to two plants: Psychotria viridis supplies N,N-dimethyltryptamine (DMT), whereas Banisteriopsis caapi supplies beta-carbolines that render DMT orally active. Here we …",
+      "subject": "genetics",
+      "title": "ABC transporters support Drosophila intestinal stem and progenitor cells during cytotoxic challenge",
+      "body": "Adult stem cells can survive diverse insults, from ionizing radiation to toxic chemicals. In vertebrates, ABC transporter expression and dye-efflux capacity have been associated with stem-cell protection and multidrug resistance. How compound accumulation differs between adult stem cells and their differentiated daught…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.06.754717",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.05.756803",
+      "date": "2026-10-12"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Genome assemblies and annotations of the poneroid ants Platythyrea mocquerysi (Ponerinae) and Stigmatomma oregonense (Amblyoponinae)",
-      "body": "We present draft genome assemblies for two poneroid ant species with distinctive life history traits: Platythyrea mocquerysi Emery, 1899 (Ponerinae) and Stigmatomma oregonense Wheeler, 1915 (Amblyoponinae). Platythyrea mocquerysi is a Malagasy ant in which larvae produce secretions from a ventral tubercle that are cons…",
+      "subject": "plant biology",
+      "title": "Agronomic characterisation of a common buckwheat germplasm collection unlocks resources for genomics-assisted ideotype breeding",
+      "body": "The mechanisation of agriculture has achieved major increases in labour productivity but has also led to an erosion of agrobiodiversity. Neglected and underutilized crops such as common buckwheat (Fagopyrum esculentum Moench) offer the potential to diversify food production systems but require major genetic improvement…",
       "inst": [
-        "cambridge"
+        "eth"
       ],
-      "doi": "10.64898/2026.10.08.757030",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757874",
+      "date": "2026-10-12"
     },
     {
       "id": 12,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Differential utilization of PACAP and glutamate in parabrachial neurons shapes pain and stress",
-      "body": "The external parabrachial nucleus (elPBN) contributes to diverse behaviors, including pain and stress. Neurons in this region use glutamatergic and neuropeptidergic signaling, with pituitary adenylate cyclase-activating polypeptide (PACAP) expressed in a subset of glutamatergic neurons. Deletion of PACAP in elPBN neuro…",
+      "title": "Sustained Activation of a Defensive Behavior-Related Circuit Elicits a distinct Homeostatic Sleep Response",
+      "body": "Animals and humans often forgo sleep in response to other physiological needs. Prolonged wakefulness leads to a compensatory homeostatic sleep response involving enhanced amounts of sleep and electroencephalographic delta (0.5-4 Hz) power, yet how the type of preceding wakefulness and brain activity affects this respon…",
       "inst": [
-        "nih"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.07.755626",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.758035",
+      "date": "2026-10-12"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "genomics",
-      "title": "A multi-tissue transcriptome strategy for genomic resource development in  Pinus edulis",
-      "body": "Premise:: Conifers comprise one-sixth of global forests and landscape genomic studies are urgently needed to understand their biology, yet relatively few conifer species have reference genomes. Targeted exon-capture is a practical alternative to whole-genome sequencing, but selecting loci without a reference genome rem…",
+      "subject": "molecular biology",
+      "title": "Stainless Steel vs Calcium Fluoride for biomedical Raman Spectroscopy",
+      "body": "Raman spectroscopy (RS) has been shown to differentiate various disease states in tissue samples, yet the impact of sample substrate on spectral quality and downstream machine-learning (ML) performance is under-explored. We collected 960 spectra from 36 formalin-fixed, paraffin-embedded colonic specimens mounted in par…",
       "inst": [
-        "berkeley"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.05.756810",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.753418",
+      "date": "2026-10-12"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The Onset of Breathing at Birth Switches Off Regenerative Capacity",
-      "body": "Many mammalian tissues, including the central nervous system (CNS), lose regenerative capacity in adulthood, but when and how this transition is initiated remains unclear. By monitoring mTOR activity, an evolutionarily conserved readout of cellular growth and intrinsic regenerative potential, we found that mTOR signali…",
+      "subject": "cell biology",
+      "title": "A chemigenetic fluorescence lifetime-based biosensor for imaging of ERK activity",
+      "body": "Extracellular signal-regulated kinase (ERK) governs many cellular processes, and its spatiotemporal activity dynamics are important for downstream signaling specificity. Existing fluorescent ERK activity biosensors, however, fall short in enabling spectrally multiplexed, spatially resolved, or deep tissue measurements.…",
       "inst": [
-        "harvard"
+        "eth"
       ],
-      "doi": "10.64898/2026.10.03.756425",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757842",
+      "date": "2026-10-12"
     },
     {
       "id": 15,
       "cat": "science",
       "subject": "bioinformatics",
-      "title": "FastaLake selects compact metaproteomic databases from large sequence reservoirs by de novo peptide lookup",
-      "body": "Metaproteomics analyses require protein sequence databases, yet the microbial proteins present in complex communities are not known in advance. Searching reference catalogs containing hundreds of millions of candidate sequences reduces identification sensitivity, while generating sample-specific databases through metag…",
+      "title": "Probabilistic Modelling of Base Editing Efficiency and Bystander Outcome Composition",
+      "body": "Abstract. Base editors install single nucleotide substitutions without a double strand break or donor template, but editing at multiple susceptible positions can generate bystander alleles. Predicting the frequency of an intended outcome therefore requires both editing efficiency and the composition of edited products.…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.08.757395",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757916",
+      "date": "2026-10-12"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Robust V(D)J Recombination in the Absence of SA1/2-mediated Chromatin Loops",
-      "body": "The cohesin ring complex organizes and mediates functional activity of the genome through chromatin loop extrusion1,2. Cohesin comprises a core SMC1-SMC3-RAD21 ring associated with multiple regulatory proteins, including SA1 and SA2 paralogs that bind mutually-exclusively to a RAD21 site3,4. Functional studies of cohes…",
+      "subject": "cell biology",
+      "title": "Single-Cell Proteo-Transcriptomic Profiling Uncovers Post-Translational Regulatory Layers in Human Hematopoiesis",
+      "body": "Background: Hematopoietic stem cells (HSCs) have the unique ability to produce all mature cell types in the blood and understanding the mechanisms governing their differentiation and renewal is a driving question in stem cell biology. While single-cell RNA sequencing has transformed our view of human hematopoiesis, mRN…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.10.757971",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757909",
+      "date": "2026-10-12"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Intracellular complement Factor B couples inflammatory sensing to metabolism, chromatin regulation and maladaptive tissue repair",
-      "body": "Inflammatory signals are broadly conserved, yet how tissue context converts them into programs of recovery or maladaptive repair remains unclear. Using kidney injury as a model of inflammation-to-repair transitions, we identify an injury-induced proximal-tubule complement program in which cell-intrinsic complement prot…",
+      "subject": "ecology",
+      "title": "Planting set-up and local environmental conditions affect outcomes in tropical agricultural restoration",
+      "body": "1. Fine-scale environmental metrics, including spatial configuration and identity of surrounding plants, can strongly influence plant survival and ecosystem functioning. However, tropical restoration projects rarely test their role. Within the Riparian Ecosystem Restoration in Tropical Agriculture (RERTA) Project, loca…",
       "inst": [
-        "nih"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.04.756581",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757530",
+      "date": "2026-10-12"
     },
     {
       "id": 18,
       "cat": "science",
-      "subject": "immunology",
-      "title": "CXCR3 on transferred T cells enables vaccine-boosted adoptive T-cell therapy in solid tumors",
-      "body": "Adoptive T-cell therapy (ACT) has demonstrated marked clinical benefit in hematological malignancies but has limited efficacy against solid tumors. Cancer vaccines can improve ACT, but the mechanisms underlying this combination are poorly understood. Here, we combined ACT with chimpanzee adenovirus ChAdOx1 (ChAd) and m…",
+      "subject": "biochemistry",
+      "title": "Pre-catalytic activation pathway of the Smc5/6 complex",
+      "body": "The Smc5/6 complex (Smc5/6) preserves genome stability through ATP-dependent DNA organization, but the structural details that prime the complex for productive DNA engagement remain unknown. Here, we combine cryo-electron microscopy and conformational heterogeneity analysis to define the pre-catalytic activation pathwa…",
       "inst": [
-        "oxford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.04.753375",
-      "date": "2026-10-11"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "DAP12-deficient microglia adopt a TREM2-independent antigen-presenting state with a glial-to-neuronal cascade in Nasu-Hakola disease",
-      "body": "Nasu-Hakola disease (NHD), a dementia with about 200 cases worldwide, is caused by loss-of-function mutation of TYROBP, encoding DAP12, or its receptor TREM2. TREM2-DAP12 is the switch that converts microglia from a surveillant to a reactive state; what DAP12-deficient microglia become and to what extent they reshape t…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.10.07.757387",
-      "date": "2026-10-11"
+      "doi": "10.64898/2026.10.09.757879",
+      "date": "2026-10-12"
     }
   ]
 }
