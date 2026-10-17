@@ -1,20 +1,10 @@
 {
-  "generated_at": "2026-10-16T11:06:26.401096+00:00",
+  "generated_at": "2026-10-17T10:26:36.232330+00:00",
   "institutions": {
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
     },
     "harvard": {
       "name": "Harvard University",
@@ -31,20 +21,40 @@
       "lat": 48.14,
       "lon": 11.58
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     }
   },
   "stories": [
@@ -52,194 +62,205 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "A hippocampal digital Twin reveals latent structure in freely flying bats",
-      "body": "Concurrent advances in artificial intelligence (AI), large-scale neuronal recording, and behavioral tracking have enabled increasingly powerful predictive models of brain-behavior relationships. Yet predictive accuracy does not automatically yield interpretable principles of neural organization, particularly during nat…",
+      "title": "Spontaneous Hemodynamic Oscillations during Sleep Coordinate Directional CSF Flow in the Subarachnoid Space and Ventricles",
+      "body": "During sleep, cerebrospinal fluid (CSF) flow is enhanced and thought to facilitate clearance of metabolic waste from the brain. Human imaging has shown that sleep is associated with large waves of bulk CSF flow in the fourth ventricle; however, the CSF flow dynamics around brain tissue are unknown. Here, we investigate…",
       "inst": [
-        "berkeley",
-        "stanford"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.09.758148",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.07.757422",
+      "date": "2026-10-14"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Reuse of learned subtask representations during human planning",
-      "body": "The notion of a compositional reuse of previously learned problem solutions predicts that the human brain should reinstate such learned subtask representations during planning. Here, we test this in a value-ranking task implemented in an online and a magnetoencephalography (MEG) experiment, respectively. Participants f…",
+      "subject": "evolutionary biology",
+      "title": "Rethink the Sink: Urban cores act as leaky sinks to maintain regional gene flow in coyotes",
+      "body": "Urbanization is an accelerating evolutionary force, yet the patterns and drivers of urban gene flow remain largely obscured. This leaves a critical gap in testing the interplay between demographic and genetic models of urban connectivity. Specifically: the urban fragmentation model, where structural barriers restrict g…",
       "inst": [
-        "ucl"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.12.758531",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.09.24.753963",
+      "date": "2026-10-14"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Linking anterior cingulate sulcal variability to attention-deficit hyperactivity disorder behavior",
-      "body": "Background: The anterior cingulate cortex (ACC) is consistently implicated in attention-deficit/hyperactivity disorder (ADHD). ACC variability, including its most variable structure, the paracingulate sulcus (PCGS), has been known since the late 1800s, and since then, has been linked to cognitive control, impulsivity, …",
+      "subject": "bioengineering",
+      "title": "Pulsations of engineered microvessels enhance solute clearance via heterogeneous strain-dependent poroelasticity",
+      "body": "Tissue homeostasis relies on the exchange of interstitial fluid between blood and tissues, as well as lymphatic drainage. In regions lacking conventional lymphatic vasculature, such as the central nervous system, the mechanisms governing interstitial fluid clearance remain debated, with vascular pulsatility proposed as…",
       "inst": [
-        "berkeley"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.12.758584",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.01.08.698435",
+      "date": "2026-10-14"
     },
     {
       "id": 3,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Recovering Hidden Neural Oscillatory Modes from Partial Observations through Delay Embedding and Perturbation",
-      "body": "Characterising the oscillatory behaviour generated by neural interactions is central to systems neuroscience because these dynamical properties are linked to brain function. However, inferring latent neural dynamics is challenging because recordings sample only part of the system. Time-delay embedding allows dynamical …",
+      "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
+      "body": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but contributes to the construction and organisation of…",
       "inst": [
-        "tokyo"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.05.756919",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.08.757704",
+      "date": "2026-10-14"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Expecting the unexpected: Great apes anticipate surprise in others",
-      "body": "Humans adeptly navigate complex social environments by attempting to anticipate the actions and emotional responses of others. Although our closest ape relatives have sophisticated social cognitive abilities, we do not know whether they have a cognitive understanding of others' emotions. For the epistemic emotion surpr…",
+      "subject": "neuroscience",
+      "title": "Human Hippocampal Theta-Gamma Phase-Amplitude Coupling Signals the Distance to Remembered Goals",
+      "body": "In mammals, flexible navigation is believed to rely on a cognitive map of known locations supported by the hippocampus and surrounding medial temporal lobe structures. Hippocampal place cells typically exhibit spatial firing fields within a given environment. Moreover, their firing is modulated by the movement-related …",
       "inst": [
-        "mpi_generic"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.12.758475",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.08.757608",
+      "date": "2026-10-14"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Giant Vesicle Platform for Synthetic Endoplasmic Reticulum Networks",
-      "body": "The endoplasmic reticulum (ER) is a membrane-bound organelle found in all eukaryotic cells. This organelle has a fascinating morphology, which involves a network of membrane nanotubes and three-way junctions connecting three nanotubes. Previous reconstitution studies were based on proteo-liposomes with a size of 100 to…",
+      "subject": "animal behavior and cognition",
+      "title": "Percussive manipulations distinguish object play in capuchin and patas monkeys",
+      "body": "Object play has been proposed as a developmental precursor of flexible tool use. We applied a standardized object play protocol, previously used with corvids and parrots, to tufted capuchin monkeys (Sapajus apella), a member of a genus known for tool use, and patas monkeys (Erythrocebus patas), for which tool use has n…",
       "inst": [
         "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.10.756113",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.12.758487",
+      "date": "2026-10-14"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Hypothesis: A modern human range expansion ~300,000 years ago had a critical role in Neandertal origins",
-      "body": "This paper proposes that a critical event in Neandertal evolution was a range expansion of early modern humans into Europe 300 thousand years ago (ka). As bands of early modern humans spread, they incorporated resident archaic people leading ultimately to so much admixture that the resulting population carried ~3-7% mo…",
+      "subject": "biophysics",
+      "title": "Multivalent Surface Search Dynamics Shape Bacteriophage Adsorption Efficiency: A Stochastic Model of Tail Fiber Optimization",
+      "body": "Phages must locate and bind to bacterial surface receptors to initiate infection. Their tail fiber configuration critically influences this process. We develop a stochastic model describing surface search as a renewal process, incorporating attachment, detachment, and target-finding steps. Using both numerical simulati…",
       "inst": [
-        "harvard"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.03.11.711219",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.07.03.736286",
+      "date": "2026-10-14"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "A Novel Computational Framework to Investigate the Biomechanics of Burrowing",
-      "body": "Head-first burrowing likely imposes strong mechanical demands on the skull of fossorial vertebrates, but how cranial tissues respond to these loads remains obscure. Here, we developed a computational framework integrating the discrete element method (DEM) with finite element analysis (FEA) to investigate cranial biomec…",
+      "subject": "neuroscience",
+      "title": "Dorsal striatal astrocytes link dopamine to slow behavioral dynamics",
+      "body": "Humans and other animals repeatedly pause from their goal-directed behavior by taking breaks. How rapid neuromodulatory signals help organize these daily engagement-disengagement cycles has remained unclear, as most studies have concentrated on in-task behavior. Here we added study of the breaks. We made simultaneous r…",
       "inst": [
-        "ucl"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.10.758257",
-      "date": "2026-10-13"
+      "doi": "10.1101/2024.12.01.626240",
+      "date": "2026-10-14"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Separation, isolation, and membrane lipid profiling of selectively vulnerable and resilient neurons",
-      "body": "Certain neurons are more susceptible to pathogenic stressors and degenerate, while others remain resilient in neurodegenerative diseases. However, the mechanisms underlying this cell-to-cell heterogeneity in neuronal vulnerability remain unclear, primarily due to challenges in isolating vulnerable and resilient neurons…",
+      "subject": "bioengineering",
+      "title": "High-plex protein imaging across thick tissue by synchronized amplification",
+      "body": "High-plex protein imaging is essential for decoding complex tissue organization, yet it remains largely confined to thin sections. Current approaches in millimeter-thick samples suffer from poor signal penetration and depth-dependent, uneven signal amplification. Even with specialized instrumentation to facilitate prob…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.06.757005",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.12.757405",
+      "date": "2026-10-14"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dual Roles of Interferon-γ Receptor in Somatostatin Interneurons at Baseline and During Inflammation",
-      "body": "Background: Neuropsychiatric disorders such as major depressive disorder show converging evidence of gamma-aminobutyric acid (GABA) dysfunction, including consistent reductions in somatostatin (SST) interneuron markers. SST interneurons are selectively vulnerable to inflammation, yet the underlying mechanisms remain un…",
+      "subject": "synthetic biology",
+      "title": "Archival data storage using DNA proximity graphs",
+      "body": "DNA offers a promising medium for long-term archival data storage, but the high cost of synthesizing data-specific sequences remains a major barrier to its adoption. Here we introduce SPAN (Synthesis-free Proximity-graph Archiving in Nucleic acids), a synthesis-independent storage architecture in which digital informat…",
       "inst": [
-        "toronto"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.06.757042",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.12.758707",
+      "date": "2026-10-14"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "biophysics",
-      "title": "Chemokine-induced cell swelling fluidises the plasma membrane to regulate CD8+ T cell migration",
-      "body": "T cell migration is primarily viewed as a cytoskeletal process. Here, we show that chemokine-stimulated CD8+ T cell migration is modulated by a volume-driven biophysical switch at the plasma membrane (PM). We found that chemokine-induced cell swelling creates an adhesion-dependent gradient of high PM fluidity at the le…",
+      "title": "A chemical perturbation scan on a K2P channel modulator pocket identifies affinity hotspots",
+      "body": "Ion permeation in the two-pore-domain K+ (K2P) channel TREK1 is gated largely at the selectivity filter (SF), by a C-type-like inactivation mechanism involving distortions of the SF structure; and by a carbonyl flip, which disrupts K+ coordination. Both are prevented by a small-molecule activator bound adjacent to the …",
       "inst": [
-        "karolinska"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.07.757276",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758835",
+      "date": "2026-10-14"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Deep-learning-driven tumor microenvironment profiling improves immunotherapy response prediction",
-      "body": "Immunotherapy has transformed the management of many cancers, such as clear cell renal cell carcinoma (ccRCC), yet durable clinical benefit is achieved in only a subset of patients. Immunotherapy outcomes are governed by the multicellular tumor microenvironment (TME), through the structured and directional interplay of…",
+      "subject": "physiology",
+      "title": "Proteomics of steady-state and culture-derived human erythropoiesis reveals the dynamics of erythroid stress",
+      "body": "To generate a mature red blood cell, erythropoiesis requires the committed erythroid progenitor cell and later erythroblast stages to undergo a continuum of extreme morphological and functional remodeling. In vitro culture has been crucial to understand the extensive proteome dynamics that underlie this process. Howeve…",
       "inst": [
-        "stanford"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.06.757143",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758834",
+      "date": "2026-10-14"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Hyperglycaemia reversibly disrupts circadian behaviour in mice",
-      "body": "Disrupted sleep and circadian rhythms are among the most common features of diabetes, and are known to raise the risk of developing the disease. Whether the relationship also runs the other way, with diabetes itself disrupting the clock, has remained unresolved. Using an inducible mouse model of diabetes, in which hype…",
+      "subject": "evolutionary biology",
+      "title": "From promiscuity to specialization: The origin of cholinergic and monoaminergic signaling is pre-bilaterian",
+      "body": "The emergence of chemical neurotransmission was key to the evolution of nervous systems, yet when the different transmitter systems arose remains unclear. Biogenic amines (here, acetylcholine and the monoamines) have been reported in non-bilaterian animals and even outside Metazoa, but their physiological role has only…",
       "inst": [
-        "oxford"
+        "embl"
       ],
-      "doi": "10.64898/2026.10.07.757333",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758597",
+      "date": "2026-10-14"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Dual-Antigen CCHFV Vaccine Induces Neutralizing Immunity and Protection Against Lethal Challenge",
-      "body": "Crimean-Congo hemorrhagic fever virus (CCHFV) is a WHO-priority pathogen with high mortality and wide global distribution. A major challenge in CCHFV vaccine development is identifying antigens that induce functional cellular and humoral immunity. We previously showed that the CCHF nucleoprotein (NP) elicits protective…",
+      "subject": "genomics",
+      "title": "Transcriptomic and phenotypic characterization of Alzheimer's disease risk genes in neurons and astrocytes highlights shared and cell type specific cellular mechanisms",
+      "body": "Genome-wide association studies have identified nearly 100 genetic loci that affect Alzheimer's disease risk. However, there is still a major challenge in linking genetic associations to genes and understanding their downstream cellular mechanisms of action. To address this gap, we performed single-cell transcriptomics…",
       "inst": [
-        "karolinska"
+        "sanger"
       ],
-      "doi": "10.64898/2026.10.04.756518",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758778",
+      "date": "2026-10-14"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "ScreenDMT reveals metabolites replicably associated with sleep disorders across three human cohorts",
-      "body": "The robust replication of scientific findings across independent studies is essential, yet it remains challenging in high-dimensional biological datasets. A critical aspect of true replication requires detecting not only the repeated presence but also the consistent direction of an effect. Traditional methods for evalu…",
+      "subject": "cell biology",
+      "title": "Post-assembly proteostasis of the respiratory chain is independent of respirasome organization",
+      "body": "Respirasomes have long been proposed to stabilize their constituent complexes. Yet the close relationship between individual complex biogenesis and respirasome formation has made it difficult to determine whether respirasomes are required for complex maintenance after assembly. Here, we uncoupled these processes using …",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.10.755811",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758515",
+      "date": "2026-10-14"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Mapping Synthetic Circuit Design Space through Massively Parallel Measurement of Single-Cell Dynamics",
-      "body": "Engineering predictable and robust gene-regulatory networks requires a quantitative understanding of how their dynamics depend on genetic design and environmental conditions. To investigate these relationships, we introduce BARRACUDA, a high-throughput platform that combines combinatorial assembly and programmable pert…",
+      "subject": "biochemistry",
+      "title": "Structural Basis for Angiotensin II Type I Receptor G Protein-biased Signaling",
+      "body": "Biased agonism at the angiotensin II type 1 receptor (AT1R) offers a promising strategy for developing safer cardiovascular therapeutics. While beta-arrestin-biased agonism has been extensively investigated, G protein-biased signaling remains poorly understood. Here, we report structures of AT1R coupled to G protein an…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.11.758309",
-      "date": "2026-10-13"
+      "doi": "10.64898/2026.10.13.758900",
+      "date": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Spatial Tumour Tissue Distribution Dynamics of a Bicycle Peptide-MMAE Toxin Conjugate Profiled by Targeted Mass Spectrometry",
+      "body": "A highly specific-NECTIN-4 binding bicyclic peptide covalently linked to the cytotoxin monomethyl auristatin E (MMAE) via a valine-citrulline cleavable linker (zelenectide pevedotin, BT8009) is a promising modality to treat cancer patients with solid tumours. Although the pharmacokinetics and biodistribution of zelenec…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.13.758755",
+      "date": "2026-10-14"
     }
   ]
 }
