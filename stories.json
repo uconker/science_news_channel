@@ -1,266 +1,225 @@
 {
-  "generated_at": "2026-10-17T10:26:36.232330+00:00",
+  "generated_at": "2026-10-18T10:44:59.603155+00:00",
   "institutions": {
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
     "karolinska": {
       "name": "Karolinska Institute, Stockholm",
       "lat": 59.35,
       "lon": 18.03
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Spontaneous Hemodynamic Oscillations during Sleep Coordinate Directional CSF Flow in the Subarachnoid Space and Ventricles",
-      "body": "During sleep, cerebrospinal fluid (CSF) flow is enhanced and thought to facilitate clearance of metabolic waste from the brain. Human imaging has shown that sleep is associated with large waves of bulk CSF flow in the fourth ventricle; however, the CSF flow dynamics around brain tissue are unknown. Here, we investigate…",
+      "subject": "systems biology",
+      "title": "MAPKAP Kinase-2 signaling enhances the resolution of colonic inflammation through specialized pro-resolving mediators",
+      "body": "Failure to resolve acute inflammation contributes to chronic inflammatory diseases, including inflammatory bowel disease, and inflammation associated cancer. MAPKAP kinase-2 (MK2), a stress-activated effector of p38MAPK, is best known for promoting onset and amplification of inflammation through post-transcriptional re…",
       "inst": [
-        "mit"
+        "mit",
+        "karolinska",
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.07.757422",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.13.758902",
+      "date": "2026-10-15"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Rethink the Sink: Urban cores act as leaky sinks to maintain regional gene flow in coyotes",
-      "body": "Urbanization is an accelerating evolutionary force, yet the patterns and drivers of urban gene flow remain largely obscured. This leaves a critical gap in testing the interplay between demographic and genetic models of urban connectivity. Specifically: the urban fragmentation model, where structural barriers restrict g…",
+      "subject": "neuroscience",
+      "title": "Title: Unilateral loss of tyrosine hydroxylase in adult midbrain dopaminergic neurons reveals reduction to neuregulin1 in rat model of acute dopaminergic dysfunction",
+      "body": "Dopamine, produced primarily in the midbrain, is required for movement and reward-based signaling all throughout life. Loss of dopaminergic function can result in changes to motor systems, mood, motivation, and cognition. Dopaminergic cell death or dopaminergic hypofunction are implicated in a variety of diseases inclu…",
       "inst": [
-        "berkeley"
+        "nih"
       ],
-      "doi": "10.64898/2026.09.24.753963",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.09.757761",
+      "date": "2026-10-15"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Pulsations of engineered microvessels enhance solute clearance via heterogeneous strain-dependent poroelasticity",
-      "body": "Tissue homeostasis relies on the exchange of interstitial fluid between blood and tissues, as well as lymphatic drainage. In regions lacking conventional lymphatic vasculature, such as the central nervous system, the mechanisms governing interstitial fluid clearance remain debated, with vascular pulsatility proposed as…",
+      "subject": "neuroscience",
+      "title": "Perceptual similarity representations beyond the sensory cortex",
+      "body": "It is commonly thought that information supporting conscious perception is primarily represented in sensory cortices, whereas association cortex encodes more abstract, task-dependent information. However, this impression may partly stem from difficulties in experimentally assessing the functions of association areas ch…",
       "inst": [
-        "tokyo"
+        "riken"
       ],
-      "doi": "10.64898/2026.01.08.698435",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.09.757806",
+      "date": "2026-10-15"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
-      "body": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but contributes to the construction and organisation of…",
+      "subject": "cell biology",
+      "title": "PIEZO1 mediates mechanosensing and myofibroblastic activation of synovial fibroblasts in post-traumatic osteoarthritis",
+      "body": "Fibrosis and inflammation of the synovium are common pathological features of joint diseases. In osteoarthritis (OA), extensive evidence supports that synovial pathology drives symptoms and disease progression, yet the mechanisms underpinning pathological synovial remodeling, including fibrosis, remain unclear. Here, w…",
       "inst": [
-        "mpi_generic"
+        "eth"
       ],
-      "doi": "10.64898/2026.10.08.757704",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.13.758946",
+      "date": "2026-10-15"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Human Hippocampal Theta-Gamma Phase-Amplitude Coupling Signals the Distance to Remembered Goals",
-      "body": "In mammals, flexible navigation is believed to rely on a cognitive map of known locations supported by the hippocampus and surrounding medial temporal lobe structures. Hippocampal place cells typically exhibit spatial firing fields within a given environment. Moreover, their firing is modulated by the movement-related …",
+      "subject": "ecology",
+      "title": "Population structure of human-infecting and environmental isolates of Coccidioides immitis, the fungus causing Valley fever",
+      "body": "Coccidioides is a soil-dwelling fungus that can cause serious disease (coccidioidomycosis or Valley fever) when its spores are inhaled. Limiting exposure to environmental spores is critical for disease prevention, yet how Coccidioides is distributed in the soil and where people become exposed remain almost entirely unk…",
       "inst": [
-        "ucl"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.08.757608",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.13.758980",
+      "date": "2026-10-15"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Percussive manipulations distinguish object play in capuchin and patas monkeys",
-      "body": "Object play has been proposed as a developmental precursor of flexible tool use. We applied a standardized object play protocol, previously used with corvids and parrots, to tufted capuchin monkeys (Sapajus apella), a member of a genus known for tool use, and patas monkeys (Erythrocebus patas), for which tool use has n…",
+      "subject": "neuroscience",
+      "title": "Lysosomal lipidomics identifies glycosylated bis(monoacylglycero)phosphate as a novel biomarker of mutant GBA1",
+      "body": "Mutations in GBA1, which encodes the lysosomal enzyme glucocerebrosidase (GCase), cause Gaucher disease (GD) and represent a major genetic risk factor for Parkinson's disease (PD). PD clinical trials targeting or monitoring GCase canonical substrates (Glucosyl-ceramides/sphingosine) have failed to achieve their targets…",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.12.758487",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.13.758908",
+      "date": "2026-10-15"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Multivalent Surface Search Dynamics Shape Bacteriophage Adsorption Efficiency: A Stochastic Model of Tail Fiber Optimization",
-      "body": "Phages must locate and bind to bacterial surface receptors to initiate infection. Their tail fiber configuration critically influences this process. We develop a stochastic model describing surface search as a renewal process, incorporating attachment, detachment, and target-finding steps. Using both numerical simulati…",
+      "subject": "microbiology",
+      "title": "Functional Divergence in Gut Clostridia from Hadza Hunter-Gatherers Reveals Diet-Adapted Metabolic Machinery That Shapes Gut Ecology",
+      "body": "Lifestyle changes associated with industrialization, including shifts in diet, are linked to extensive remodeling of the human gut microbiome. Investigating the gut microbiomes of traditional populations living non-industrialized lifestyles, such as the Hadza hunter-gatherers of Tanzania, therefore offers insight into …",
       "inst": [
-        "copenhagen"
+        "stanford"
       ],
-      "doi": "10.64898/2026.07.03.736286",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.09.29.755216",
+      "date": "2026-10-15"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dorsal striatal astrocytes link dopamine to slow behavioral dynamics",
-      "body": "Humans and other animals repeatedly pause from their goal-directed behavior by taking breaks. How rapid neuromodulatory signals help organize these daily engagement-disengagement cycles has remained unclear, as most studies have concentrated on in-task behavior. Here we added study of the breaks. We made simultaneous r…",
+      "subject": "biochemistry",
+      "title": "A potent macrocyclic peptide binder enables effector-free crystallization of the GTPase RAB27A",
+      "body": "RAB27A is a member of a highly conserved family of small GTPases that regulate intracellular vesicle trafficking. Multiple studies have linked RAB27A cellular activity to exosome-mediated modulation of the tumour microenvironment and inflammatory signalling, highlighting it as an attractive target for drug discovery. H…",
       "inst": [
-        "mit"
+        "oxford"
       ],
-      "doi": "10.1101/2024.12.01.626240",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.13.758952",
+      "date": "2026-10-15"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "High-plex protein imaging across thick tissue by synchronized amplification",
-      "body": "High-plex protein imaging is essential for decoding complex tissue organization, yet it remains largely confined to thin sections. Current approaches in millimeter-thick samples suffer from poor signal penetration and depth-dependent, uneven signal amplification. Even with specialized instrumentation to facilitate prob…",
+      "subject": "biophysics",
+      "title": "Mechanical characterization of human centromeres",
+      "body": "Centromeres must withstand high pulling forces in metaphase, yet allow rapid and complete chromosome segregation in anaphase. Using optical tweezers measurements on isolated human metaphase chromosomes, we find that centromeres are stiffer at low forces and more frequently exhibit pronounced softening compared to whole…",
       "inst": [
-        "harvard"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.10.12.757405",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.14.759046",
+      "date": "2026-10-15"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Archival data storage using DNA proximity graphs",
-      "body": "DNA offers a promising medium for long-term archival data storage, but the high cost of synthesizing data-specific sequences remains a major barrier to its adoption. Here we introduce SPAN (Synthesis-free Proximity-graph Archiving in Nucleic acids), a synthesis-independent storage architecture in which digital informat…",
+      "subject": "neuroscience",
+      "title": "Dynamics of dopamine transients in human olfactory epithelium during reward learning",
+      "body": "Dopamine signaling is crucial for motivation, movement, and learning, but has remained beyond the reach of measurement in healthy humans. Here, we measured sub-second dopamine in the olfactory epithelium of healthy humans during two reward learning tasks with distinct reward types: liquid reward during a conditioning t…",
       "inst": [
-        "mit"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.12.758707",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.07.757414",
+      "date": "2026-10-15"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "A chemical perturbation scan on a K2P channel modulator pocket identifies affinity hotspots",
-      "body": "Ion permeation in the two-pore-domain K+ (K2P) channel TREK1 is gated largely at the selectivity filter (SF), by a C-type-like inactivation mechanism involving distortions of the SF structure; and by a carbonyl flip, which disrupts K+ coordination. Both are prevented by a small-molecule activator bound adjacent to the …",
+      "subject": "neuroscience",
+      "title": "Time at Home for Whom? Unequal Returns of Paid Family Leave for Infant White Matter and Language Development",
+      "body": "Paid family leave (PFL) may give parents more time with infants, ease financial strain, and support stable routines. Although PFL has been linked to child development, little is known about neural pathways that might underpin its benefits or whether associations vary across families. Using data from 274 infants in the …",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.13.758835",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.08.757668",
+      "date": "2026-10-15"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Proteomics of steady-state and culture-derived human erythropoiesis reveals the dynamics of erythroid stress",
-      "body": "To generate a mature red blood cell, erythropoiesis requires the committed erythroid progenitor cell and later erythroblast stages to undergo a continuum of extreme morphological and functional remodeling. In vitro culture has been crucial to understand the extensive proteome dynamics that underlie this process. Howeve…",
+      "subject": "genomics",
+      "title": "Global signatures of Ribonucleotide Excision Repair deficiency and its therapeutic vulnerabilities",
+      "body": "Cancer therapies increasingly exploit DNA repair deficiencies, yet many clinically actionable repair-deficient states remain undetectable because they lack robust biomarkers and are not identifiable through gene-based diagnostics. Here, we show that deficiency of ribonucleotide excision repair (RER), a pathway that rem…",
       "inst": [
-        "karolinska"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.13.758834",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.09.757935",
+      "date": "2026-10-15"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "From promiscuity to specialization: The origin of cholinergic and monoaminergic signaling is pre-bilaterian",
-      "body": "The emergence of chemical neurotransmission was key to the evolution of nervous systems, yet when the different transmitter systems arose remains unclear. Biogenic amines (here, acetylcholine and the monoamines) have been reported in non-bilaterian animals and even outside Metazoa, but their physiological role has only…",
-      "inst": [
-        "embl"
-      ],
-      "doi": "10.64898/2026.10.13.758597",
-      "date": "2026-10-14"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Transcriptomic and phenotypic characterization of Alzheimer's disease risk genes in neurons and astrocytes highlights shared and cell type specific cellular mechanisms",
-      "body": "Genome-wide association studies have identified nearly 100 genetic loci that affect Alzheimer's disease risk. However, there is still a major challenge in linking genetic associations to genes and understanding their downstream cellular mechanisms of action. To address this gap, we performed single-cell transcriptomics…",
-      "inst": [
-        "sanger"
-      ],
-      "doi": "10.64898/2026.10.13.758778",
-      "date": "2026-10-14"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Post-assembly proteostasis of the respiratory chain is independent of respirasome organization",
-      "body": "Respirasomes have long been proposed to stabilize their constituent complexes. Yet the close relationship between individual complex biogenesis and respirasome formation has made it difficult to determine whether respirasomes are required for complex maintenance after assembly. Here, we uncoupled these processes using …",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.10.13.758515",
-      "date": "2026-10-14"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Structural Basis for Angiotensin II Type I Receptor G Protein-biased Signaling",
-      "body": "Biased agonism at the angiotensin II type 1 receptor (AT1R) offers a promising strategy for developing safer cardiovascular therapeutics. While beta-arrestin-biased agonism has been extensively investigated, G protein-biased signaling remains poorly understood. Here, we report structures of AT1R coupled to G protein an…",
+      "subject": "bioinformatics",
+      "title": "Dual-graph deconvolution of enzyme fitness: an interpretable framework to identify and explain catalytic modulators",
+      "body": "Models trained on protein sequences can predict mutational effects, but their outputs represent a convolution of different phenotypes. Isolating stability-independent activity effects is essential for rational enzyme design, allosteric drug design and functional annotation, yet existing pLM-based deconvolution methods …",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.13.758900",
-      "date": "2026-10-14"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Spatial Tumour Tissue Distribution Dynamics of a Bicycle Peptide-MMAE Toxin Conjugate Profiled by Targeted Mass Spectrometry",
-      "body": "A highly specific-NECTIN-4 binding bicyclic peptide covalently linked to the cytotoxin monomethyl auristatin E (MMAE) via a valine-citrulline cleavable linker (zelenectide pevedotin, BT8009) is a promising modality to treat cancer patients with solid tumours. Although the pharmacokinetics and biodistribution of zelenec…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.10.13.758755",
-      "date": "2026-10-14"
+      "doi": "10.64898/2026.10.15.759402",
+      "date": "2026-10-15"
     }
   ]
 }
