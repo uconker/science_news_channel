@@ -1,40 +1,50 @@
 {
-  "generated_at": "2026-10-18T10:44:59.603155+00:00",
+  "generated_at": "2026-10-19T12:44:03.607609+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
@@ -45,181 +55,249 @@
       "name": "RIKEN, Tokyo/Wako",
       "lat": 35.78,
       "lon": 139.6
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "MAPKAP Kinase-2 signaling enhances the resolution of colonic inflammation through specialized pro-resolving mediators",
-      "body": "Failure to resolve acute inflammation contributes to chronic inflammatory diseases, including inflammatory bowel disease, and inflammation associated cancer. MAPKAP kinase-2 (MK2), a stress-activated effector of p38MAPK, is best known for promoting onset and amplification of inflammation through post-transcriptional re…",
+      "subject": "genomics",
+      "title": "Transcriptomic and phenotypic characterization of Alzheimer's disease risk genes in neurons and astrocytes highlights shared and cell type specific cellular mechanisms",
+      "body": "Genome-wide association studies have identified nearly 100 genetic loci that affect Alzheimer's disease risk. However, there is still a major challenge in linking genetic associations to genes and understanding their downstream cellular mechanisms of action. To address this gap, we performed single-cell transcriptomics…",
       "inst": [
-        "mit",
-        "karolinska",
-        "harvard"
+        "sanger",
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.13.758902",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.13.758778",
+      "date": "2026-10-16"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Title: Unilateral loss of tyrosine hydroxylase in adult midbrain dopaminergic neurons reveals reduction to neuregulin1 in rat model of acute dopaminergic dysfunction",
-      "body": "Dopamine, produced primarily in the midbrain, is required for movement and reward-based signaling all throughout life. Loss of dopaminergic function can result in changes to motor systems, mood, motivation, and cognition. Dopaminergic cell death or dopaminergic hypofunction are implicated in a variety of diseases inclu…",
+      "subject": "biophysics",
+      "title": "Localization accuracy in single-molecule fluorescence microscopy",
+      "body": "The two prevalent methods to determine the position of individual fluorophores in the focal plane of a microscope rely either on the centroid of the fluorescence pattern produced by the fluorophore on a camera or on targeting the fluorophore's coordinate with a spatially controlled illumination minimum, as realized in …",
       "inst": [
-        "nih"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.09.757761",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.14.759109",
+      "date": "2026-10-16"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Perceptual similarity representations beyond the sensory cortex",
-      "body": "It is commonly thought that information supporting conscious perception is primarily represented in sensory cortices, whereas association cortex encodes more abstract, task-dependent information. However, this impression may partly stem from difficulties in experimentally assessing the functions of association areas ch…",
+      "title": "Systematic comparison of color representations between humans and deep neural networks: towards predicting human color perception in a vast color space",
+      "body": "The representational structure of human color perception across a vast color space remains incompletely understood. While classical studies measured numerous color pairs, these measurements compared only similar colors, and exploring the global relationships among thousands of colors has been infeasible due to the time…",
       "inst": [
-        "riken"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.09.757806",
-      "date": "2026-10-15"
+      "doi": "10.64898/2025.12.10.693611",
+      "date": "2026-10-16"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "PIEZO1 mediates mechanosensing and myofibroblastic activation of synovial fibroblasts in post-traumatic osteoarthritis",
-      "body": "Fibrosis and inflammation of the synovium are common pathological features of joint diseases. In osteoarthritis (OA), extensive evidence supports that synovial pathology drives symptoms and disease progression, yet the mechanisms underpinning pathological synovial remodeling, including fibrosis, remain unclear. Here, w…",
+      "subject": "neuroscience",
+      "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
+      "body": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but contributes to the construction and organisation of…",
       "inst": [
-        "eth"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.13.758946",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.08.757704",
+      "date": "2026-10-16"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Population structure of human-infecting and environmental isolates of Coccidioides immitis, the fungus causing Valley fever",
-      "body": "Coccidioides is a soil-dwelling fungus that can cause serious disease (coccidioidomycosis or Valley fever) when its spores are inhaled. Limiting exposure to environmental spores is critical for disease prevention, yet how Coccidioides is distributed in the soil and where people become exposed remain almost entirely unk…",
+      "subject": "microbiology",
+      "title": "Time-resolved proteomic analysis of hepatitis B virus infection",
+      "body": "Hepatitis B virus (HBV) infection is a major cause of chronic liver disease and hepatocellular carcinoma, yet its impact on host proteome dynamics during early infection remains poorly defined. Here, we performed time-resolved label-free quantitative (LFQ) proteomics to characterise the host response to HBV infection i…",
       "inst": [
-        "berkeley"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.13.758980",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.02.24.707876",
+      "date": "2026-10-16"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Lysosomal lipidomics identifies glycosylated bis(monoacylglycero)phosphate as a novel biomarker of mutant GBA1",
-      "body": "Mutations in GBA1, which encodes the lysosomal enzyme glucocerebrosidase (GCase), cause Gaucher disease (GD) and represent a major genetic risk factor for Parkinson's disease (PD). PD clinical trials targeting or monitoring GCase canonical substrates (Glucosyl-ceramides/sphingosine) have failed to achieve their targets…",
+      "subject": "evolutionary biology",
+      "title": "A DNA-barcoded Luria-Delbrück assay resolves mechanisms of adaptation",
+      "body": "When populations encounter a harsh new environment, they adapt in many different ways -- from spontaneous genetic changes to transient non-genetic plasticity. Distinguishing between mechanisms of adaptation is often difficult, as the key events are rare and hard to observe directly. Here, we introduce HiDenSeq, a Luria…",
       "inst": [
-        "stanford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.13.758908",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.08.03.742544",
+      "date": "2026-10-16"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Functional Divergence in Gut Clostridia from Hadza Hunter-Gatherers Reveals Diet-Adapted Metabolic Machinery That Shapes Gut Ecology",
-      "body": "Lifestyle changes associated with industrialization, including shifts in diet, are linked to extensive remodeling of the human gut microbiome. Investigating the gut microbiomes of traditional populations living non-industrialized lifestyles, such as the Hadza hunter-gatherers of Tanzania, therefore offers insight into …",
+      "subject": "genetics",
+      "title": "Sequence sensitivity of open chromatin reveals constrained regulatory elements underlying human traits",
+      "body": "Open chromatin regions (OCRs) delineate cell-type-specific regulatory landscapes across the genome, yet their functional importance varies considerably. Here, we introduce CAMBUS (Chromatin Accessibility Mutation Burden Score), a machine-learning framework that quantifies the sensitivity of predicted chromatin accessib…",
       "inst": [
-        "stanford"
+        "riken"
       ],
-      "doi": "10.64898/2026.09.29.755216",
-      "date": "2026-10-15"
+      "doi": "10.1101/2024.10.31.621195",
+      "date": "2026-10-16"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "A potent macrocyclic peptide binder enables effector-free crystallization of the GTPase RAB27A",
-      "body": "RAB27A is a member of a highly conserved family of small GTPases that regulate intracellular vesicle trafficking. Multiple studies have linked RAB27A cellular activity to exosome-mediated modulation of the tumour microenvironment and inflammatory signalling, highlighting it as an attractive target for drug discovery. H…",
+      "subject": "pharmacology and toxicology",
+      "title": "Discovery of GluA3 preferring AMPA receptor positive allosteric modulator BRD3290",
+      "body": "Schizophrenia is a debilitating neuropsychiatric disease that lacks effective treatments for many symptom domains including negative, cognitive and sleep disturbances. Lack of clear disease etiology has hampered the development of new, effective treatments for the unmet needs of people with schizophrenia. Large scale h…",
       "inst": [
-        "oxford"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.13.758952",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.07.26.740780",
+      "date": "2026-10-16"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Mechanical characterization of human centromeres",
-      "body": "Centromeres must withstand high pulling forces in metaphase, yet allow rapid and complete chromosome segregation in anaphase. Using optical tweezers measurements on isolated human metaphase chromosomes, we find that centromeres are stiffer at low forces and more frequently exhibit pronounced softening compared to whole…",
+      "subject": "plant biology",
+      "title": "A Blast Fungus Effector Targets a Tubby-like F-box Protein to Suppress Plant Immunity",
+      "body": "The blast fungus Magnaporthe oryzae is one of the most destructive pathogens of rice, secreting effector proteins that reprogram host cells to enable infection. Identifying plant targets of these fungal effectors is central to understanding how blast disease is established, but the targets and mechanisms of most effect…",
       "inst": [
-        "copenhagen"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.14.759046",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.15.759101",
+      "date": "2026-10-16"
     },
     {
       "id": 9,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Dynamics of dopamine transients in human olfactory epithelium during reward learning",
-      "body": "Dopamine signaling is crucial for motivation, movement, and learning, but has remained beyond the reach of measurement in healthy humans. Here, we measured sub-second dopamine in the olfactory epithelium of healthy humans during two reward learning tasks with distinct reward types: liquid reward during a conditioning t…",
+      "title": "Neural signatures of glioma progression using implanted neural interfaces",
+      "body": "High-grade glioma is an incurable brain cancer with a median survival of approximately 14 months. Over the last 50 years, small improvements in patient outcomes have been overshadowed by significant progress in most other cancers. Yet, emerging research has revealed that neural circuits play an active and central role …",
       "inst": [
-        "mpi_generic"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.07.757414",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.07.01.735772",
+      "date": "2026-10-16"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Time at Home for Whom? Unequal Returns of Paid Family Leave for Infant White Matter and Language Development",
-      "body": "Paid family leave (PFL) may give parents more time with infants, ease financial strain, and support stable routines. Although PFL has been linked to child development, little is known about neural pathways that might underpin its benefits or whether associations vary across families. Using data from 274 infants in the …",
+      "title": "What drives apparent dynamic functional connectivity in resting-state fMRI?",
+      "body": "Dynamic functional connectivity (dFC) is widely used in resting-state fMRI, but it remains unclear what drives the dynamics. Here, we compared different hidden Markov models (HMMs) using evaluations made possible by bi-cross-validation (BCV), alongside ablations and use of split-half reproducibility, on resting fMRI da…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.08.757668",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.14.759083",
+      "date": "2026-10-16"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Global signatures of Ribonucleotide Excision Repair deficiency and its therapeutic vulnerabilities",
-      "body": "Cancer therapies increasingly exploit DNA repair deficiencies, yet many clinically actionable repair-deficient states remain undetectable because they lack robust biomarkers and are not identifiable through gene-based diagnostics. Here, we show that deficiency of ribonucleotide excision repair (RER), a pathway that rem…",
+      "subject": "molecular biology",
+      "title": "A shared molecular target but distinct genetic routes to diamide resistance in Helicoverpa armigera (Lepidoptera: Noctuidae)",
+      "body": "Diamide insecticides target insect ryanodine receptors (RyRs) and are widely used against lepidopteran pests, yet it remains unclear whether compounds sharing this molecular target evolve resistance through the same genetic routes. Here, we integrated RyR sequencing, structural modelling and population genomics to inve…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.10.09.757935",
-      "date": "2026-10-15"
+      "doi": "10.64898/2026.10.13.758793",
+      "date": "2026-10-16"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Dual-graph deconvolution of enzyme fitness: an interpretable framework to identify and explain catalytic modulators",
-      "body": "Models trained on protein sequences can predict mutational effects, but their outputs represent a convolution of different phenotypes. Isolating stability-independent activity effects is essential for rational enzyme design, allosteric drug design and functional annotation, yet existing pLM-based deconvolution methods …",
+      "subject": "molecular biology",
+      "title": "Ku limits aberrant mRNA splicing promoted by intronic antisense Alu elements",
+      "body": "Alu elements are short repeats that occupy approximately 10% of the human genome. The enrichment of primate genomes with Alu sequences occurred at the prosimian/new-world monkey evolutionary juncture, which coincided with a substantial increase in the expression levels of the Ku70/80 heterodimer. Previous work suggests…",
       "inst": [
-        "harvard"
+        "riken"
       ],
-      "doi": "10.64898/2026.10.15.759402",
-      "date": "2026-10-15"
+      "doi": "10.1101/2025.11.20.689478",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Workflow and instrumentation for multiscale correlative imaging in voluminous cryogenic specimens",
+      "body": "Cryo-electron tomography (cryo-ET) enables molecular-resolution imaging of intracellular environments, but is constrained by the need to generate electron-transparent sections of the biological specimen and thus a limited imaging volume. To alleviate such limitations, we present a multiscale correlative workflow that l…",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.10.14.759080",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "developmental biology",
+      "title": "A complex balance: PLETHORA - JANUS ratiometry explains the PLETHORA dosage regeneration paradox",
+      "body": "Molecular gradients are classically thought to encode positional information through concentration thresholds, but how transcription factor dosage is translated into regenerative competence remains unclear. In Arabidopsis roots, PLETHORA (PLT) transcription factors form a gradient that defines a regeneration competence…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.15.759210",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Efficient and precise discovery of LTR-retrotransposon families using HiRepEat",
+      "body": "Long Terminal Repeat Retrotransposons (LTR-RTs) are mobile genetic elements that replicate within host genomes using an RNA intermediate. Recent high quality genome assemblies provide new opportunities to study these repetitive elements across evolutionary timescales. We adapt the Myers O(Nd) wavefront alignment algori…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.10.14.759201",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Unilateral gene expression via maternally controlled zygotic recombination in Drosophila",
+      "body": "Structural and functional asymmetries are ubiquitous in bilaterians, but tools for unilateral genetic access have been lacking, a methodological gap that has limited mechanistic dissections of lateralized cellular functions. We developed the Maternally Controlled Zygotic Recombination (MCZR) system to overcome this lim…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.14.759140",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "animal behavior and cognition",
+      "title": "Heatwaves and turbidity influxes have interacting and lasting effects on the foraging behaviour of three-spined stickleback Gasterosteus aculeatus",
+      "body": "Freshwater ecosystems support a disproportionately high share of fish species and biodiversity yet are among the most threatened ecosystems globally and are increasingly being exposed to multiple, co-occurring environmental stressors. In addition, predicting the combined impacts of environmental stressors remains a maj…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.15.759403",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "Targeting proteasome composition reprograms tumor-intrinsic inflammation through selective degradation of STAT1",
+      "body": "Proteasome regulatory particles determine cellular protein degradation capacities. Yet specific ubiquitin-independent degradation targets of individual proteasome regulatory particles, and physiological roles of such pathways, remain largely elusive. Here, through a chemical biology-driven approach, we identify a coval…",
+      "inst": [
+        "weizmann"
+      ],
+      "doi": "10.64898/2026.10.15.759172",
+      "date": "2026-10-16"
+    },
+    {
+      "id": 19,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Sunflower sea star (Pycnopodia helianthoides) environmental DNA (eDNA) shedding and decay: Influence of sunlight and comparison to other marine organisms",
+      "body": "Conservation practitioners increasingly turn to environmental DNA (eDNA) for biomonitoring, yet interpreting DNA-based data requires attention to organismal shedding and decay dynamics. Here, we characterize shedding rates and decay rate constants of eDNA from Pycnopodia helianthoides, a critically endangered and ecolo…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.15.759472",
+      "date": "2026-10-16"
     }
   ]
 }
