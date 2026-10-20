@@ -1,303 +1,228 @@
 {
-  "generated_at": "2026-10-19T12:44:03.607609+00:00",
+  "generated_at": "2026-10-20T11:15:10.923151+00:00",
   "institutions": {
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "weizmann": {
       "name": "Weizmann Institute of Science",
       "lat": 31.91,
       "lon": 34.81
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Transcriptomic and phenotypic characterization of Alzheimer's disease risk genes in neurons and astrocytes highlights shared and cell type specific cellular mechanisms",
-      "body": "Genome-wide association studies have identified nearly 100 genetic loci that affect Alzheimer's disease risk. However, there is still a major challenge in linking genetic associations to genes and understanding their downstream cellular mechanisms of action. To address this gap, we performed single-cell transcriptomics…",
+      "subject": "neuroscience",
+      "title": "Neuroelectrophysiological correlates of extended cessation of consciousness in advanced meditators: A multimodal EEG and MEG study",
+      "body": "In some contemplative traditions, 'extended cessation' (EC) refers to a state of advanced meditation in which the meditator self-reports intentionally suppressing their own consciousness and re-emerging with a profound sense of clarity and equanimity. Here, we present the first electrophysiological study of EC, in whic…",
       "inst": [
-        "sanger",
-        "cambridge"
+        "stanford",
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.13.758778",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.09.19.677455",
+      "date": "2026-10-17"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Localization accuracy in single-molecule fluorescence microscopy",
-      "body": "The two prevalent methods to determine the position of individual fluorophores in the focal plane of a microscope rely either on the centroid of the fluorescence pattern produced by the fluorophore on a camera or on targeting the fluorophore's coordinate with a spatially controlled illumination minimum, as realized in …",
+      "subject": "cancer biology",
+      "title": "Mapping the spatial architecture of glioblastoma from core to edge delineates niche-specific tumor cell states and intercellular interactions",
+      "body": "Treatment resistance in glioblastoma (GBM) is largely driven by the extensive multi-level heterogeneity that typifies this disease. Despite significant progress toward elucidating GBM's genomic and transcriptional heterogeneity, a critical knowledge gap remains in defining this heterogeneity at the spatial level. To ad…",
       "inst": [
-        "mpi_generic"
+        "harvard",
+        "mit"
       ],
-      "doi": "10.64898/2026.10.14.759109",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.04.04.647096",
+      "date": "2026-10-17"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Systematic comparison of color representations between humans and deep neural networks: towards predicting human color perception in a vast color space",
-      "body": "The representational structure of human color perception across a vast color space remains incompletely understood. While classical studies measured numerous color pairs, these measurements compared only similar colors, and exploring the global relationships among thousands of colors has been infeasible due to the time…",
+      "subject": "bioinformatics",
+      "title": "HDCluster: High-Degree Graph Clustering for Robust Analysis of Single Molecule Localization Microscopy",
+      "body": "Clustering is a fundamental task in data analysis: grouping similar objects together into distinguishable subsets. Here, we introduce HDCluster, a novel high-degree graph-based clustering algorithm designed to effectively and rapidly handle various real-world clustering applications, particularly in the context of supe…",
       "inst": [
-        "tokyo"
+        "harvard",
+        "weizmann"
       ],
-      "doi": "10.64898/2025.12.10.693611",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.10.23.684134",
+      "date": "2026-10-17"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
-      "body": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but contributes to the construction and organisation of…",
+      "subject": "immunology",
+      "title": "Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction",
+      "body": "T cells are at the centre of adaptive immunity, protecting the organism against infection and cancer. T cell receptors (TCRs), expressed on the surface of T cells, enable the recognition of target cells through interactions with peptides presented by major histocompatibility complex (pMHC) molecules. Reliable, large-sc…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.08.757704",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.10.12.758456",
+      "date": "2026-10-18"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Time-resolved proteomic analysis of hepatitis B virus infection",
-      "body": "Hepatitis B virus (HBV) infection is a major cause of chronic liver disease and hepatocellular carcinoma, yet its impact on host proteome dynamics during early infection remains poorly defined. Here, we performed time-resolved label-free quantitative (LFQ) proteomics to characterise the host response to HBV infection i…",
+      "subject": "genomics",
+      "title": "Chromosome-level genome and caste transcriptomes for Africa's most widespread social wasp (Belonogaster juncea) reveal unexpected genomic diversity",
+      "body": "Belonogaster is an African genus of primitively eusocial wasps. They are widespread and conspicuous across sub-Saharan Africa and yet are among the least studied groups of social wasps. Here, we present the first high-quality, chromosome-level genome assembly for a representative of this genus, Belonogaster juncea, com…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.02.24.707876",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.10.16.759595",
+      "date": "2026-10-18"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "A DNA-barcoded Luria-Delbrück assay resolves mechanisms of adaptation",
-      "body": "When populations encounter a harsh new environment, they adapt in many different ways -- from spontaneous genetic changes to transient non-genetic plasticity. Distinguishing between mechanisms of adaptation is often difficult, as the key events are rare and hard to observe directly. Here, we introduce HiDenSeq, a Luria…",
+      "subject": "bioengineering",
+      "title": "Generative steering to adapt proteins beyond native biological contexts",
+      "body": "Proteins evolved for native biological contexts often fail when deployed in new cellular environments or therapeutic settings. We present ProVADA, a test-time framework that steers a pretrained protein generator toward externally defined properties while preserving functional constraints. Its Mixture-Adaptation Directe…",
       "inst": [
-        "ucl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.03.742544",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.07.11.664238",
+      "date": "2026-10-18"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "genetics",
-      "title": "Sequence sensitivity of open chromatin reveals constrained regulatory elements underlying human traits",
-      "body": "Open chromatin regions (OCRs) delineate cell-type-specific regulatory landscapes across the genome, yet their functional importance varies considerably. Here, we introduce CAMBUS (Chromatin Accessibility Mutation Burden Score), a machine-learning framework that quantifies the sensitivity of predicted chromatin accessib…",
+      "subject": "bioinformatics",
+      "title": "Generative modeling of spatially resolved perturbation responses with CONCERT",
+      "body": "Spatial perturbation transcriptomics measures gene expression responses to genetic or chemical perturbations in intact tissue. Each response depends on the intrinsic state of a cell and on its niche, the neighboring cells through which perturbation effects propagate. Here we present CONCERT a niche-aware Gaussian proce…",
       "inst": [
-        "riken"
+        "harvard"
       ],
-      "doi": "10.1101/2024.10.31.621195",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.11.08.686890",
+      "date": "2026-10-18"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "pharmacology and toxicology",
-      "title": "Discovery of GluA3 preferring AMPA receptor positive allosteric modulator BRD3290",
-      "body": "Schizophrenia is a debilitating neuropsychiatric disease that lacks effective treatments for many symptom domains including negative, cognitive and sleep disturbances. Lack of clear disease etiology has hampered the development of new, effective treatments for the unmet needs of people with schizophrenia. Large scale h…",
+      "subject": "systems biology",
+      "title": "Identifying and targeting abnormal mitochondrial localization associated with psychosis",
+      "body": "Therapeutics working by novel mechanisms are needed for patients with psychiatric conditions. Cell-based assays to identify candidates that reverse observed abnormalities, even if in subsets of patients, could accelerate the process. Here, we imaged peripheral cells (skin fibroblasts) of 168 individuals, stained for DN…",
       "inst": [
         "mit"
       ],
-      "doi": "10.64898/2026.07.26.740780",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.10.08.676630",
+      "date": "2026-10-18"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "A Blast Fungus Effector Targets a Tubby-like F-box Protein to Suppress Plant Immunity",
-      "body": "The blast fungus Magnaporthe oryzae is one of the most destructive pathogens of rice, secreting effector proteins that reprogram host cells to enable infection. Identifying plant targets of these fungal effectors is central to understanding how blast disease is established, but the targets and mechanisms of most effect…",
+      "subject": "physiology",
+      "title": "A Broad-Spectrum Chemokine Inhibitor Prevents Preterm Labor in Mice by Suppressing Inflammation Induced by Intra-Amniotic Injection of Interleukin-1 alpha",
+      "body": "Preterm birth (PTB) is a leading cause of perinatal and infant mortality worldwide. PTB can be induced by systemic maternal or intra-uterine infection or by sterile intra-amniotic inflammation driven by alarmins such as interleukin-1 (IL-1). We reported earlier that Broad-Spectrum Chemokine Inhibitor (BSCI) prevented P…",
       "inst": [
-        "mpi_generic"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.15.759101",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.03.04.709657",
+      "date": "2026-10-17"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Neural signatures of glioma progression using implanted neural interfaces",
-      "body": "High-grade glioma is an incurable brain cancer with a median survival of approximately 14 months. Over the last 50 years, small improvements in patient outcomes have been overshadowed by significant progress in most other cancers. Yet, emerging research has revealed that neural circuits play an active and central role …",
+      "subject": "biochemistry",
+      "title": "An intrinsically disordered region controls viperin (SAND) antiviral synthesis via a clamp-and-latch mechanism",
+      "body": "Inter-individual susceptibility to viral infections is a public health challenge. Understanding the structure and function of antiviral restriction-factor enzymes is necessary to link genetic variants to viral susceptibility. Viperin (SAND) is a sentinel antiviral restriction factor with broad-spectrum activity believe…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.07.01.735772",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.09.10.750538",
+      "date": "2026-10-17"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "What drives apparent dynamic functional connectivity in resting-state fMRI?",
-      "body": "Dynamic functional connectivity (dFC) is widely used in resting-state fMRI, but it remains unclear what drives the dynamics. Here, we compared different hidden Markov models (HMMs) using evaluations made possible by bi-cross-validation (BCV), alongside ablations and use of split-half reproducibility, on resting fMRI da…",
+      "subject": "cancer biology",
+      "title": "Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer",
+      "body": "For women with advanced ovarian cancer (OC), remission is typically achieved through surgery and platinum-based combination chemotherapy, but the duration of response varies widely, and reliable biomarkers of platinum sensitivity remain limited. Because tumor-associated glycosaminoglycans (GAGs) influence extracellular…",
       "inst": [
-        "oxford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.10.14.759083",
-      "date": "2026-10-16"
+      "doi": "10.1101/2025.10.06.675352",
+      "date": "2026-10-17"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "A shared molecular target but distinct genetic routes to diamide resistance in Helicoverpa armigera (Lepidoptera: Noctuidae)",
-      "body": "Diamide insecticides target insect ryanodine receptors (RyRs) and are widely used against lepidopteran pests, yet it remains unclear whether compounds sharing this molecular target evolve resistance through the same genetic routes. Here, we integrated RyR sequencing, structural modelling and population genomics to inve…",
+      "subject": "microbiology",
+      "title": "Identification and deletion of the extracellular polysaccharide slime pathway across the genus Xanthobacter",
+      "body": "Foods and commodities made by microbial bioproduction offer a sustainable alternative to those produced from our traditional petrochemical-based supply chains. Increasingly, Xanthobacter strains are used for bioproduction because of their unique metabolic properties (e.g., CO2 and N2 fixation) and wide feedstock range,…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.13.758793",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.10.16.759691",
+      "date": "2026-10-17"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Ku limits aberrant mRNA splicing promoted by intronic antisense Alu elements",
-      "body": "Alu elements are short repeats that occupy approximately 10% of the human genome. The enrichment of primate genomes with Alu sequences occurred at the prosimian/new-world monkey evolutionary juncture, which coincided with a substantial increase in the expression levels of the Ku70/80 heterodimer. Previous work suggests…",
+      "subject": "biophysics",
+      "title": "Quantitative fluorescence lifetime imaging of protein microenvironments by genetically encoded compact benzodiazole probes",
+      "body": "Quantitative fluorescence lifetime imaging microscopy (FLIM) is limited by a lack of probes that combine single-residue specificity, minimal steric perturbation, visible-light excitation, and strong environment-dependent lifetime contrast. We introduce benzodiazole-based non-canonical amino acids (BD-ncAAs) as compact,…",
       "inst": [
-        "riken"
+        "anu"
       ],
-      "doi": "10.1101/2025.11.20.689478",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.10.13.758698",
+      "date": "2026-10-17"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Workflow and instrumentation for multiscale correlative imaging in voluminous cryogenic specimens",
-      "body": "Cryo-electron tomography (cryo-ET) enables molecular-resolution imaging of intracellular environments, but is constrained by the need to generate electron-transparent sections of the biological specimen and thus a limited imaging volume. To alleviate such limitations, we present a multiscale correlative workflow that l…",
+      "subject": "physiology",
+      "title": "Reduced physiological reserve and a blunted response to acute exercise in adults with cerebral palsy",
+      "body": "Cerebral palsy (CP) is an early-onset neurodevelopmental condition associated with metabolic impairment and an increased risk of non-communicable diseases across the lifespan. However, the basis of these changes remains largely unknown. This study provides a comprehensive cardiometabolic and physical function profile o…",
       "inst": [
-        "embl"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.14.759080",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "developmental biology",
-      "title": "A complex balance: PLETHORA - JANUS ratiometry explains the PLETHORA dosage regeneration paradox",
-      "body": "Molecular gradients are classically thought to encode positional information through concentration thresholds, but how transcription factor dosage is translated into regenerative competence remains unclear. In Arabidopsis roots, PLETHORA (PLT) transcription factors form a gradient that defines a regeneration competence…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.10.15.759210",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Efficient and precise discovery of LTR-retrotransposon families using HiRepEat",
-      "body": "Long Terminal Repeat Retrotransposons (LTR-RTs) are mobile genetic elements that replicate within host genomes using an RNA intermediate. Recent high quality genome assemblies provide new opportunities to study these repetitive elements across evolutionary timescales. We adapt the Myers O(Nd) wavefront alignment algori…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.10.14.759201",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Unilateral gene expression via maternally controlled zygotic recombination in Drosophila",
-      "body": "Structural and functional asymmetries are ubiquitous in bilaterians, but tools for unilateral genetic access have been lacking, a methodological gap that has limited mechanistic dissections of lateralized cellular functions. We developed the Maternally Controlled Zygotic Recombination (MCZR) system to overcome this lim…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.10.14.759140",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Heatwaves and turbidity influxes have interacting and lasting effects on the foraging behaviour of three-spined stickleback Gasterosteus aculeatus",
-      "body": "Freshwater ecosystems support a disproportionately high share of fish species and biodiversity yet are among the most threatened ecosystems globally and are increasingly being exposed to multiple, co-occurring environmental stressors. In addition, predicting the combined impacts of environmental stressors remains a maj…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.10.15.759403",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Targeting proteasome composition reprograms tumor-intrinsic inflammation through selective degradation of STAT1",
-      "body": "Proteasome regulatory particles determine cellular protein degradation capacities. Yet specific ubiquitin-independent degradation targets of individual proteasome regulatory particles, and physiological roles of such pathways, remain largely elusive. Here, through a chemical biology-driven approach, we identify a coval…",
-      "inst": [
-        "weizmann"
-      ],
-      "doi": "10.64898/2026.10.15.759172",
-      "date": "2026-10-16"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "Sunflower sea star (Pycnopodia helianthoides) environmental DNA (eDNA) shedding and decay: Influence of sunlight and comparison to other marine organisms",
-      "body": "Conservation practitioners increasingly turn to environmental DNA (eDNA) for biomonitoring, yet interpreting DNA-based data requires attention to organismal shedding and decay dynamics. Here, we characterize shedding rates and decay rate constants of eDNA from Pycnopodia helianthoides, a critically endangered and ecolo…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.10.15.759472",
-      "date": "2026-10-16"
+      "doi": "10.64898/2026.10.11.758338",
+      "date": "2026-10-17"
     }
   ]
 }
