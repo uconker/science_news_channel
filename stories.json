@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-10-20T11:15:10.923151+00:00",
+  "generated_at": "2026-10-21T11:31:15.782435+00:00",
   "institutions": {
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
     "ucl": {
       "name": "University College London",
       "lat": 51.52,
       "lon": -0.13
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     }
   },
   "stories": [
@@ -57,43 +47,125 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Neuroelectrophysiological correlates of extended cessation of consciousness in advanced meditators: A multimodal EEG and MEG study",
-      "body": "In some contemplative traditions, 'extended cessation' (EC) refers to a state of advanced meditation in which the meditator self-reports intentionally suppressing their own consciousness and re-emerging with a profound sense of clarity and equanimity. Here, we present the first electrophysiological study of EC, in whic…",
+      "title": "Adolescent prodromal phenotypes of psychiatric disorders: insights from a novel DISC1-perturbed monkey model",
+      "body": "Neurodevelopmental deficits frequently lead to mild but significant adolescent social and cognitive changes, representing prodromal manifestations of adult-onset psychiatric disorders in a cross-disease manner. Although experimental medicine utilizes animal models to address the mechanisms, rodent brains lack critical …",
       "inst": [
-        "stanford",
-        "harvard"
+        "riken",
+        "toronto"
       ],
-      "doi": "10.1101/2025.09.19.677455",
-      "date": "2026-10-17"
+      "doi": "10.64898/2026.10.11.758339",
+      "date": "2026-10-18"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Mapping the spatial architecture of glioblastoma from core to edge delineates niche-specific tumor cell states and intercellular interactions",
-      "body": "Treatment resistance in glioblastoma (GBM) is largely driven by the extensive multi-level heterogeneity that typifies this disease. Despite significant progress toward elucidating GBM's genomic and transcriptional heterogeneity, a critical knowledge gap remains in defining this heterogeneity at the spatial level. To ad…",
+      "subject": "neuroscience",
+      "title": "Phasic and tonic pain serve distinct functions during adaptive behaviour",
+      "body": "Pain drives self-protective behaviour, and evolutionary theories suggest it acts over different timescales to serve distinct functions. Whilst phasic pain provides a teaching signal to drive avoidance of new injury, tonic pain is argued to support recuperative behaviour, for instance by reducing motivational vigour. We…",
       "inst": [
-        "harvard",
-        "mit"
+        "oxford"
       ],
-      "doi": "10.1101/2025.04.04.647096",
-      "date": "2026-10-17"
+      "doi": "10.1101/2025.02.10.637253",
+      "date": "2026-10-19"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "HDCluster: High-Degree Graph Clustering for Robust Analysis of Single Molecule Localization Microscopy",
-      "body": "Clustering is a fundamental task in data analysis: grouping similar objects together into distinguishable subsets. Here, we introduce HDCluster, a novel high-degree graph-based clustering algorithm designed to effectively and rapidly handle various real-world clustering applications, particularly in the context of supe…",
+      "subject": "neuroscience",
+      "title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
+      "body": "Background: Loss of function mutations in the lipid transporter ABCA7 have been linked to increased risk for late onset Alzheimer's disease (AD). Although rare and common variants in ABCA7 associated with AD alter the coding sequence and are predicted to impair protein function, the precise cell-type consequences of AB…",
       "inst": [
-        "harvard",
-        "weizmann"
+        "harvard"
       ],
-      "doi": "10.1101/2025.10.23.684134",
-      "date": "2026-10-17"
+      "doi": "10.64898/2026.10.16.759681",
+      "date": "2026-10-19"
     },
     {
       "id": 3,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A Relational Code for Objects in Primate Frontal Cortex",
+      "body": "When we remember a scene, we recall both the locations of individual objects and their spatial arrangement. Yet, how neurons encode this arrangement alongside individual locations is unknown. In this work, we recorded large-scale neural activity from the frontal and supplementary eye fields of monkeys performing a two-…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.17.759839",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Cognitive cartography of mammalian brains using meta-analysis of AI experts",
+      "body": "No individual mind can fully grasp the complexity of modern neuroscientific literature. Where human experts flag, the latest AI models excel. Here we show how frontier large language models can systematically and quantitatively summarise literature-wide neuroscientific knowledge about the cognitive functions and dysfun…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2025.12.01.691701",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Type 1 immunity linked to CMV exposure improves long-term survival in sepsis without shock",
+      "body": "Dysregulated immune responses are at the core of sepsis pathology and can drive both acute organ dysfunction and long-term morbidity and mortality. To better understand the association between specific immune histories, perturbations and sepsis outcomes, we combined immune phenotyping, functional cytokine production as…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.13.758958",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
+      "body": "Cellular migration and tumor evolution are central to tissue homeostasis and cancer biology. Rapid advances in spatial genomics have raised the possibility of using somatic mutations to track these processes in situ in human tissues. However, frequent data dropouts in spatial genomics measurements make this challenging…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.16.759405",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Pilifers provide rapid mechanosensory feedback during floral tracking in hawkmoths",
+      "body": "Hawkmoths expertly hover over flowers during feeding, accurately tracking floral movements even as flowers gently sway in the wind. They use visual and mechanosensory feedback to adjust their position, while their long, flexible mouthpart, the proboscis, stays inserted inside the nectar spur. Although much is known abo…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.10.11.758322",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "LIF is a pro-algesic mediator in human and mouse models of arthritis-related pain",
+      "body": "Purpose: Emerging clinical and experimental data suggest that JAK inhibitors (JAKi) are effective in reducing pain in Rheumatoid Arthritis (RA). We recently showed that JAK/STAT signalling cytokines, specifically IL-6, LIF and IL-11, are present in the RA joint and can act directly on human induced pluripotent stem cel…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.12.758476",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "N-terminal truncation diversifies USP18 function during early myogenesis",
+      "body": "Ubiquitin-specific protease 18 (USP18) is primarily studied for its dual role in type-I interferon (IFN-I) signaling. At basal levels, however, USP18 also regulates muscle cell development, independently of IFN-I signaling. USP18 exists as a canonical long isoform (LF) and a short isoform (SF) generated by N-terminal t…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.12.758511",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 10,
       "cat": "science",
       "subject": "immunology",
       "title": "Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction",
@@ -105,7 +177,7 @@
       "date": "2026-10-18"
     },
     {
-      "id": 4,
+      "id": 11,
       "cat": "science",
       "subject": "genomics",
       "title": "Chromosome-level genome and caste transcriptomes for Africa's most widespread social wasp (Belonogaster juncea) reveal unexpected genomic diversity",
@@ -117,7 +189,7 @@
       "date": "2026-10-18"
     },
     {
-      "id": 5,
+      "id": 12,
       "cat": "science",
       "subject": "bioengineering",
       "title": "Generative steering to adapt proteins beyond native biological contexts",
@@ -129,7 +201,7 @@
       "date": "2026-10-18"
     },
     {
-      "id": 6,
+      "id": 13,
       "cat": "science",
       "subject": "bioinformatics",
       "title": "Generative modeling of spatially resolved perturbation responses with CONCERT",
@@ -141,7 +213,7 @@
       "date": "2026-10-18"
     },
     {
-      "id": 7,
+      "id": 14,
       "cat": "science",
       "subject": "systems biology",
       "title": "Identifying and targeting abnormal mitochondrial localization associated with psychosis",
@@ -151,78 +223,6 @@
       ],
       "doi": "10.1101/2025.10.08.676630",
       "date": "2026-10-18"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "A Broad-Spectrum Chemokine Inhibitor Prevents Preterm Labor in Mice by Suppressing Inflammation Induced by Intra-Amniotic Injection of Interleukin-1 alpha",
-      "body": "Preterm birth (PTB) is a leading cause of perinatal and infant mortality worldwide. PTB can be induced by systemic maternal or intra-uterine infection or by sterile intra-amniotic inflammation driven by alarmins such as interleukin-1 (IL-1). We reported earlier that Broad-Spectrum Chemokine Inhibitor (BSCI) prevented P…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.03.04.709657",
-      "date": "2026-10-17"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "An intrinsically disordered region controls viperin (SAND) antiviral synthesis via a clamp-and-latch mechanism",
-      "body": "Inter-individual susceptibility to viral infections is a public health challenge. Understanding the structure and function of antiviral restriction-factor enzymes is necessary to link genetic variants to viral susceptibility. Viperin (SAND) is a sentinel antiviral restriction factor with broad-spectrum activity believe…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.09.10.750538",
-      "date": "2026-10-17"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer",
-      "body": "For women with advanced ovarian cancer (OC), remission is typically achieved through surgery and platinum-based combination chemotherapy, but the duration of response varies widely, and reliable biomarkers of platinum sensitivity remain limited. Because tumor-associated glycosaminoglycans (GAGs) influence extracellular…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.1101/2025.10.06.675352",
-      "date": "2026-10-17"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "Identification and deletion of the extracellular polysaccharide slime pathway across the genus Xanthobacter",
-      "body": "Foods and commodities made by microbial bioproduction offer a sustainable alternative to those produced from our traditional petrochemical-based supply chains. Increasingly, Xanthobacter strains are used for bioproduction because of their unique metabolic properties (e.g., CO2 and N2 fixation) and wide feedstock range,…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.10.16.759691",
-      "date": "2026-10-17"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "Quantitative fluorescence lifetime imaging of protein microenvironments by genetically encoded compact benzodiazole probes",
-      "body": "Quantitative fluorescence lifetime imaging microscopy (FLIM) is limited by a lack of probes that combine single-residue specificity, minimal steric perturbation, visible-light excitation, and strong environment-dependent lifetime contrast. We introduce benzodiazole-based non-canonical amino acids (BD-ncAAs) as compact,…",
-      "inst": [
-        "anu"
-      ],
-      "doi": "10.64898/2026.10.13.758698",
-      "date": "2026-10-17"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Reduced physiological reserve and a blunted response to acute exercise in adults with cerebral palsy",
-      "body": "Cerebral palsy (CP) is an early-onset neurodevelopmental condition associated with metabolic impairment and an increased risk of non-communicable diseases across the lifespan. However, the basis of these changes remains largely unknown. This study provides a comprehensive cardiometabolic and physical function profile o…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.10.11.758338",
-      "date": "2026-10-17"
     }
   ]
 }
