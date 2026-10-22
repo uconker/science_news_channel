@@ -1,10 +1,40 @@
 {
-  "generated_at": "2026-10-21T11:31:15.782435+00:00",
+  "generated_at": "2026-10-22T11:31:27.591411+00:00",
   "institutions": {
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
     "ucl": {
       "name": "University College London",
@@ -15,49 +45,11 @@
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
     }
   },
   "stories": [
     {
       "id": 0,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Adolescent prodromal phenotypes of psychiatric disorders: insights from a novel DISC1-perturbed monkey model",
-      "body": "Neurodevelopmental deficits frequently lead to mild but significant adolescent social and cognitive changes, representing prodromal manifestations of adult-onset psychiatric disorders in a cross-disease manner. Although experimental medicine utilizes animal models to address the mechanisms, rodent brains lack critical …",
-      "inst": [
-        "riken",
-        "toronto"
-      ],
-      "doi": "10.64898/2026.10.11.758339",
-      "date": "2026-10-18"
-    },
-    {
-      "id": 1,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Phasic and tonic pain serve distinct functions during adaptive behaviour",
@@ -69,7 +61,7 @@
       "date": "2026-10-19"
     },
     {
-      "id": 2,
+      "id": 1,
       "cat": "science",
       "subject": "neuroscience",
       "title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
@@ -81,7 +73,7 @@
       "date": "2026-10-19"
     },
     {
-      "id": 3,
+      "id": 2,
       "cat": "science",
       "subject": "neuroscience",
       "title": "A Relational Code for Objects in Primate Frontal Cortex",
@@ -93,7 +85,7 @@
       "date": "2026-10-19"
     },
     {
-      "id": 4,
+      "id": 3,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Cognitive cartography of mammalian brains using meta-analysis of AI experts",
@@ -105,7 +97,7 @@
       "date": "2026-10-19"
     },
     {
-      "id": 5,
+      "id": 4,
       "cat": "science",
       "subject": "immunology",
       "title": "Type 1 immunity linked to CMV exposure improves long-term survival in sepsis without shock",
@@ -117,112 +109,112 @@
       "date": "2026-10-19"
     },
     {
+      "id": 5,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Two populations with different cell dynamics maintain urethral epithelial homeostasis in female and male mice",
+      "body": "The urethra is an understudied organ in both humans and animal models. Here we investigate the mouse urethra to gain insights into its tissue architecture, maintenance mechanisms, and epithelial cell dynamics in homeostasis. For this, we generated a single-cell RNA sequencing dataset that includes cells from the entire…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.10.16.759572",
+      "date": "2026-10-19"
+    },
+    {
       "id": 6,
       "cat": "science",
       "subject": "bioinformatics",
-      "title": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
-      "body": "Cellular migration and tumor evolution are central to tissue homeostasis and cancer biology. Rapid advances in spatial genomics have raised the possibility of using somatic mutations to track these processes in situ in human tissues. However, frequent data dropouts in spatial genomics measurements make this challenging…",
+      "title": "U-Chrom: a unified framework for single-cell and spatial 3D genome data",
+      "body": "Single-cell Hi-C, spatial Hi-C and chromatin tracing measure the same genomes in incompatible formats. ChromData, one data model, indexes all three by cell and genomic bin; an open-source toolkit, linked browser and 22-dataset atlas build on it. Applied to ten mouse brain datasets of all three assays, the same calls ra…",
       "inst": [
-        "mit"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.16.759405",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.10.18.759996",
+      "date": "2026-10-19"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Pilifers provide rapid mechanosensory feedback during floral tracking in hawkmoths",
-      "body": "Hawkmoths expertly hover over flowers during feeding, accurately tracking floral movements even as flowers gently sway in the wind. They use visual and mechanosensory feedback to adjust their position, while their long, flexible mouthpart, the proboscis, stays inserted inside the nectar spur. Although much is known abo…",
+      "subject": "animal behavior and cognition",
+      "title": "Heatwaves and turbidity influxes have interacting and lasting effects on the foraging behaviour of three-spined stickleback Gasterosteus aculeatus",
+      "body": "Freshwater ecosystems support a disproportionately high share of fish species and biodiversity yet are among the most threatened ecosystems globally and are increasingly being exposed to multiple, co-occurring environmental stressors. In addition, predicting the combined impacts of environmental stressors remains a maj…",
       "inst": [
-        "berkeley"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.11.758322",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.10.15.759403",
+      "date": "2026-10-19"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "LIF is a pro-algesic mediator in human and mouse models of arthritis-related pain",
-      "body": "Purpose: Emerging clinical and experimental data suggest that JAK inhibitors (JAKi) are effective in reducing pain in Rheumatoid Arthritis (RA). We recently showed that JAK/STAT signalling cytokines, specifically IL-6, LIF and IL-11, are present in the RA joint and can act directly on human induced pluripotent stem cel…",
+      "subject": "biophysics",
+      "title": "Inferring protein-induced spontaneous curvature of lipid bilayers from molecular simulation",
+      "body": "Proteins and lipids of a biological cell work together to reshape the membranes in which they reside. Membrane reshaping is necessary for vesicular traffic and maintenance of organelle shape and structure. Curvature is the fundamental mathematical description of the local shape of a surface. Through the well-establishe…",
       "inst": [
-        "oxford"
+        "nih"
       ],
-      "doi": "10.64898/2026.10.12.758476",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.10.15.759481",
+      "date": "2026-10-19"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "N-terminal truncation diversifies USP18 function during early myogenesis",
-      "body": "Ubiquitin-specific protease 18 (USP18) is primarily studied for its dual role in type-I interferon (IFN-I) signaling. At basal levels, however, USP18 also regulates muscle cell development, independently of IFN-I signaling. USP18 exists as a canonical long isoform (LF) and a short isoform (SF) generated by N-terminal t…",
+      "subject": "biophysics",
+      "title": "Fluorescent Biosensors for Cryogenic Correlative Light and Electron Microscopy",
+      "body": "Cryogenic electron tomography provides nanometer-scale views of subcellular structures but lacks essential physiological context, such as the metabolic state or ion concentration. To bridge this gap, we incorporated fluorescent biosensors into a cryogenic correlative light and electron microscopy workflow, enabling dir…",
       "inst": [
-        "oxford"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.12.758511",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.10.15.759416",
+      "date": "2026-10-19"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction",
-      "body": "T cells are at the centre of adaptive immunity, protecting the organism against infection and cancer. T cell receptors (TCRs), expressed on the surface of T cells, enable the recognition of target cells through interactions with peptides presented by major histocompatibility complex (pMHC) molecules. Reliable, large-sc…",
+      "subject": "neuroscience",
+      "title": "An area postrema GLP-1R to NTS pathway dissociates semaglutide-induced satiation, nausea and reduced food motivation from satiety",
+      "body": "The GLP-1-based anti-obesity drug semaglutide lowers bodyweight primarily by increasing satiation and satiety, whilst also reducing motivation to consume high calorie foods, and commonly causing nausea. The brainstem dorsal vagal complex (DVC) has been identified as a key mediator of these phenotypic components of sema…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.12.758456",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.08.10.744052",
+      "date": "2026-10-19"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Chromosome-level genome and caste transcriptomes for Africa's most widespread social wasp (Belonogaster juncea) reveal unexpected genomic diversity",
-      "body": "Belonogaster is an African genus of primitively eusocial wasps. They are widespread and conspicuous across sub-Saharan Africa and yet are among the least studied groups of social wasps. Here, we present the first high-quality, chromosome-level genome assembly for a representative of this genus, Belonogaster juncea, com…",
+      "subject": "neuroscience",
+      "title": "Curiosity shapes brain-like architectures and functions",
+      "body": "How does complex cognition emerge from simpler underlying processes? We show that two components are sufficient: infant-like curiosity and brain-like biophysical constraints jointly drive the emergence of complex neuronal architectures and cognitive abilities. We first tested curiosity-driven exploration in 275 8- to 1…",
       "inst": [
-        "ucl"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.16.759595",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.07.02.735826",
+      "date": "2026-10-19"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Generative steering to adapt proteins beyond native biological contexts",
-      "body": "Proteins evolved for native biological contexts often fail when deployed in new cellular environments or therapeutic settings. We present ProVADA, a test-time framework that steers a pretrained protein generator toward externally defined properties while preserving functional constraints. Its Mixture-Adaptation Directe…",
+      "subject": "neuroscience",
+      "title": "Heterochronicity shapes brain network formation",
+      "body": "Brain network formation unfolds on a non-uniform developmental timetable, with different cortical regions generating connections at different developmental phases. Generative network models (GNMs) aim to uncover the principles underpinning the organisation of connectomes by creating synthetic networks according to simp…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.1101/2025.07.11.664238",
-      "date": "2026-10-18"
+      "doi": "10.1101/2025.10.13.682136",
+      "date": "2026-10-19"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Generative modeling of spatially resolved perturbation responses with CONCERT",
-      "body": "Spatial perturbation transcriptomics measures gene expression responses to genetic or chemical perturbations in intact tissue. Each response depends on the intrinsic state of a cell and on its niche, the neighboring cells through which perturbation effects propagate. Here we present CONCERT a niche-aware Gaussian proce…",
+      "subject": "molecular biology",
+      "title": "Monocyte Lineage Expansion Drives Transcriptomic Individuality in Genetically Identical Armadillo Quadruplets",
+      "body": "Genetic diversity shapes phenotypes, yet even genetically identical individuals differ. In nine-banded armadillo (Dasypus novemcinctus) quadruplets, we previously showed that allele-specific expression (ASE) imbalances provide a stable molecular fingerprint of individuality. Here, we test whether such transcriptomic in…",
       "inst": [
-        "harvard"
+        "toronto"
       ],
-      "doi": "10.1101/2025.11.08.686890",
-      "date": "2026-10-18"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Identifying and targeting abnormal mitochondrial localization associated with psychosis",
-      "body": "Therapeutics working by novel mechanisms are needed for patients with psychiatric conditions. Cell-based assays to identify candidates that reverse observed abnormalities, even if in subsets of patients, could accelerate the process. Here, we imaged peripheral cells (skin fibroblasts) of 168 individuals, stained for DN…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.1101/2025.10.08.676630",
-      "date": "2026-10-18"
+      "doi": "10.64898/2026.03.30.715171",
+      "date": "2026-10-19"
     }
   ]
 }
