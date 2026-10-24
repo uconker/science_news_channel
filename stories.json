@@ -1,5 +1,155 @@
 {
-  "generated_at": "2026-10-23T11:19:58.170211+00:00",
-  "institutions": {},
-  "stories": []
+  "generated_at": "2026-10-24T10:40:39.740154+00:00",
+  "institutions": {
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    }
+  },
+  "stories": [
+    {
+      "id": 0,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The limbic navigation system as a hierarchical RNN",
+      "body": "Path-integration-trained recurrent neural networks (RNNs) can reproduce grid-like and head-direction-like representations, but most existing models rely on low-dimensional velocity inputs and do not capture the hierarchical organisation of the brain's self-localisation circuit. We introduce a hierarchical recurrent neu…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.10.19.760224",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "Habituation drives elevated antimicrobial resistance, functional, and compositional shifts in the black bear gut microbiome",
+      "body": "Wildlife habituation across the globe poses threats to human and animal safety and alters regular ecological function, yet the wildlife, environmental, and public health ramifications are poorly characterized. The gut microbiome is a valuable proxy for these factors as it influences host health, is affected by anthropo…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.09.25.754533",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Q-DOAS: A Proximity Quenching Assay for Real-Time Detection of Early Protein Aggregation Events",
+      "body": "Accurate measurement of protein aggregation is essential for studying neurodegenerative diseases. The standard ThT assay reports on amyloid formation but is blind to early oligomers and is prone to interference. We describe Q-DOAS, a plate-reader assay that quantifies protein self-assembly in real time via proximity-qu…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.06.16.732424",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Activity-gated exocytosis drives myelin remodeling required for adult learning",
+      "body": "Myelin remodeling is emerging as a dynamic facet of plasticity in the adult brain. Learning and sensory experience induce remodeling of existing myelin sheaths through incompletely understood mechanisms, leaving its causal contribution to adaptive behaviors unclear. Here, we identify activity-dependent exocytosis in ma…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.19.760195",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "MiR-208b-3p is an upstream regulator of redox-associated cardiomyocyte survival",
+      "body": "Background: Cardiac stress induces MYH6-to-MYH7 remodeling and activates redox-defense programs, but the regulatory mechanisms that distinguish adaptive from maladaptive stress responses remain incompletely defined. We investigated the role of miR-208b-3p, an intronic MYH7 microRNA, in cardiac stress adaptation. Method…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2026.10.20.760401",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Water under the bridge: Aquatic environments and crepuscular-cathemeral intermediates facilitate temporal niche transitions in artiodactyls",
+      "body": "Animals partition their sleep and activity into distinct periods of the 24-hour day cycle. These temporal activity patterns are highly conserved across species and are associated with many ecomorphological traits. Adaptations to day or night environments may act as constraints to evolutionary transitions between differ…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.10.19.758924",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "From Coral Color to Tissue Heating: How Host Pigments Redirect Light Within the Tissue",
+      "body": "Coral host pigments strongly modify the internal light environment of corals, yet their influence on heat dissipation in coral tissue remains poorly understood. Here, we combined scalar irradiance and temperature microsensor measurements with mechanistic multiphysics modelling to quantify how chromoproteins (CPs) and f…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.10.20.760344",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "A statistical framework for system-level synthesis",
+      "body": "Simultaneous profiling of thousands of biological features is now routine. Yet transforming the data into interpretable models of system behavior remains a fundamental bottleneck as current analyses generally identify feature-wise associations or extract latent structure without anchoring it to the variables that defin…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.10.19.760244",
+      "date": "2026-10-21"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Complete loss of lipoprotein biosynthesis machinery in an obligate intracellular bacterium",
+      "body": "Orientia tsutsugamushi is a cytoplasm-dwelling, obligate intracellular, diderm bacterium with an unusual cell envelope. It lacks lipopolysaccharide and possesses only a minimal peptidoglycan-like cell wall. Here, we report that O. tsutsugamushi also lacks the two acyltransferase components of the lipoprotein biosynthes…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.10.19.760145",
+      "date": "2026-10-21"
+    }
+  ]
 }
