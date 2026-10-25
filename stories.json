@@ -1,45 +1,65 @@
 {
-  "generated_at": "2026-10-24T10:40:39.740154+00:00",
+  "generated_at": "2026-10-25T11:04:24.416300+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "bilkent": {
+      "name": "Bilkent University, Ankara",
+      "lat": 39.87,
+      "lon": 32.75
     }
   },
   "stories": [
@@ -47,109 +67,229 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "The limbic navigation system as a hierarchical RNN",
-      "body": "Path-integration-trained recurrent neural networks (RNNs) can reproduce grid-like and head-direction-like representations, but most existing models rely on low-dimensional velocity inputs and do not capture the hierarchical organisation of the brain's self-localisation circuit. We introduce a hierarchical recurrent neu…",
+      "title": "Enhancing cortical electrophysiological signatures of sleep overrides ER stress responses in sleep-deprived mice",
+      "body": "Sleep deprivation (SD) triggers characteristic changes in the cortical electroencephalogram (EEG) during waking and sleep, as well as upregulating molecular signatures of neuronal activity, synaptic plasticity, and endoplasmic reticulum (ER) stress. This includes the induction of the unfolded protein response (UPR), th…",
       "inst": [
-        "ucl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.19.760224",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.10.16.759564",
+      "date": "2026-10-22"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Habituation drives elevated antimicrobial resistance, functional, and compositional shifts in the black bear gut microbiome",
-      "body": "Wildlife habituation across the globe poses threats to human and animal safety and alters regular ecological function, yet the wildlife, environmental, and public health ramifications are poorly characterized. The gut microbiome is a valuable proxy for these factors as it influences host health, is affected by anthropo…",
+      "subject": "animal behavior and cognition",
+      "title": "Oro-manual assessment of food preservability in a wild rodent",
+      "body": "Animals encounter a variety of food items and must determine their future value and preservability. Because animals in laboratory settings are typically provided with uniform food items, there is a dearth of knowledge on how animals assess natural complex food. Here, we dissect how wild agoutis-a critical seed disperse…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.09.25.754533",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.09.23.752726",
+      "date": "2026-10-22"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Q-DOAS: A Proximity Quenching Assay for Real-Time Detection of Early Protein Aggregation Events",
-      "body": "Accurate measurement of protein aggregation is essential for studying neurodegenerative diseases. The standard ThT assay reports on amyloid formation but is blind to early oligomers and is prone to interference. We describe Q-DOAS, a plate-reader assay that quantifies protein self-assembly in real time via proximity-qu…",
+      "subject": "biophysics",
+      "title": "Low-order MLKL oligomers induce irregular membrane defects in necroptosis",
+      "body": "MLKL is a key executioner of necroptosis, a lytic form of regulated cell death associated with inflammatory pathologies. Upon activation by RIPK3-mediated phosphorylation, MLKL oligomerizes and translocates to the plasma membrane to induce permeabilization through yet unknown mechanisms. By imaging single particles of …",
       "inst": [
-        "stanford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.06.16.732424",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.10.21.760398",
+      "date": "2026-10-22"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Activity-gated exocytosis drives myelin remodeling required for adult learning",
-      "body": "Myelin remodeling is emerging as a dynamic facet of plasticity in the adult brain. Learning and sensory experience induce remodeling of existing myelin sheaths through incompletely understood mechanisms, leaving its causal contribution to adaptive behaviors unclear. Here, we identify activity-dependent exocytosis in ma…",
+      "subject": "plant biology",
+      "title": "Genome-scale mapping of plant transcription factor effector domains reveals conserved regulatory principles across eukaryotes",
+      "body": "Eukaryotic life spans species that diverged over a billion years ago, yet our molecular view of gene regulation remains heavily skewed toward Opisthokonta model systems, particularly yeast and humans. The degree to which the protein features governing transcriptional regulation are conserved across eukaryotes or have d…",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.19.760195",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.10.08.757571",
+      "date": "2026-10-22"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "MiR-208b-3p is an upstream regulator of redox-associated cardiomyocyte survival",
-      "body": "Background: Cardiac stress induces MYH6-to-MYH7 remodeling and activates redox-defense programs, but the regulatory mechanisms that distinguish adaptive from maladaptive stress responses remain incompletely defined. We investigated the role of miR-208b-3p, an intronic MYH7 microRNA, in cardiac stress adaptation. Method…",
+      "subject": "synthetic biology",
+      "title": "Archival data storage using DNA proximity graphs",
+      "body": "DNA offers a promising medium for long-term archival data storage, but data-specific DNA synthesis remains costly. Here we introduce SPAN (Synthesis-free Proximity-graph Archiving in Nucleic acids), a synthesis-independent storage architecture in which information is written as a physical pattern and encoded in the spa…",
       "inst": [
-        "karolinska"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.20.760401",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.10.12.758707",
+      "date": "2026-10-22"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Water under the bridge: Aquatic environments and crepuscular-cathemeral intermediates facilitate temporal niche transitions in artiodactyls",
-      "body": "Animals partition their sleep and activity into distinct periods of the 24-hour day cycle. These temporal activity patterns are highly conserved across species and are associated with many ecomorphological traits. Adaptations to day or night environments may act as constraints to evolutionary transitions between differ…",
+      "subject": "microbiology",
+      "title": "Multiple non-redundant functions underlie the essentiality of lipopolysaccharide in Gram-negative bacteria",
+      "body": "Lipopolysaccharide (LPS) is well known for its immunostimulatory activity and its contribution to the permeability barrier of the Gram-negative outer membrane. Yet LPS is essential for growth in nearly all Gram-negative bacteria, even under laboratory conditions where its barrier function should be less critical. LPS c…",
       "inst": [
-        "toronto"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.19.758924",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.10.21.760538",
+      "date": "2026-10-22"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "From Coral Color to Tissue Heating: How Host Pigments Redirect Light Within the Tissue",
-      "body": "Coral host pigments strongly modify the internal light environment of corals, yet their influence on heat dissipation in coral tissue remains poorly understood. Here, we combined scalar irradiance and temperature microsensor measurements with mechanistic multiphysics modelling to quantify how chromoproteins (CPs) and f…",
+      "subject": "genomics",
+      "title": "Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics",
+      "body": "Pooled CRISPR screens coupled with single-cell RNA sequencing enable high-throughput functional interrogation of gene regulatory networks, yet systematic comparisons of CRISPR knockout (CRISPRko) and CRISPR interference (CRISPRi) remain limited. We established a single-cell CRISPRko workflow and benchmarked it against …",
       "inst": [
-        "copenhagen"
+        "bilkent"
       ],
-      "doi": "10.64898/2026.10.20.760344",
-      "date": "2026-10-21"
+      "doi": "10.64898/2026.08.26.747303",
+      "date": "2026-10-22"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "A statistical framework for system-level synthesis",
-      "body": "Simultaneous profiling of thousands of biological features is now routine. Yet transforming the data into interpretable models of system behavior remains a fundamental bottleneck as current analyses generally identify feature-wise associations or extract latent structure without anchoring it to the variables that defin…",
+      "subject": "neuroscience",
+      "title": "Rationality self-organizes beyond subjective reasonings through the coupling of brain and internal organs",
+      "body": "Psychological evidence shows that updating the rhythmic, internal body activity (IBA) based on the decision outcome is important to have a rational decision-making in a gambling task. However, the detailed mechanism how body guides rationality remains largely unclear. This paper provides a comprehensive theory that bri…",
       "inst": [
-        "harvard"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.19.760244",
-      "date": "2026-10-21"
+      "doi": "10.1101/2025.03.05.641768",
+      "date": "2026-10-22"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Complete loss of lipoprotein biosynthesis machinery in an obligate intracellular bacterium",
-      "body": "Orientia tsutsugamushi is a cytoplasm-dwelling, obligate intracellular, diderm bacterium with an unusual cell envelope. It lacks lipopolysaccharide and possesses only a minimal peptidoglycan-like cell wall. Here, we report that O. tsutsugamushi also lacks the two acyltransferase components of the lipoprotein biosynthes…",
+      "subject": "neuroscience",
+      "title": "Task-general brain state dynamics relate to trial-to-trial performance and individual response strategy",
+      "body": "Behavior fluctuates from moment to moment, yet individuals also show characteristic response strategies across tasks. Whether these two levels of variation relate to common brain dynamics is unknown. Using an inside-out approach across 10 cognitive tasks during fMRI, we identified recurring brain states and related the…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.10.21.760632",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Multi-timescale dynamics organize descending pain modulation",
+      "body": "Descending pain-modulatory circuits must coordinate rapid nociceptive responses with slower changes in physiological state, yet how their activity is organized across time remains poorly understood. We investigated this question in physiologically identified pain-modulating neurons of the rostral ventromedial medulla (…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.10.19.760145",
-      "date": "2026-10-21"
+      "doi": "10.64898/2025.12.15.693905",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Local Confinement within Plasma Membrane Nanodomains Promotes Constitutive Activity of GPCRs",
+      "body": "Many G protein-coupled receptors (GPCRs) exhibit constitutive activity through spontaneous conformational transitions that facilitate G protein coupling and downstream signaling in the absence of ligand binding. This baseline activity, which is critical for cellular homeostasis, can be influenced by receptor conformati…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.02.17.706370",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "pharmacology and toxicology",
+      "title": "De novo macrocyclic peptide discovery produces potent class A GPCR ligands with diverse pharmacology",
+      "body": "G protein-coupled receptors (GPCRs) represent one of the largest protein families of therapeutic importance, as over one third of all currently approved drugs target GPCRs. A growing proportion of GPCR drugs are peptides. However, class A GPCRs (over 80% of clinically studied targets) are underexploited as peptide targ…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.10.21.760615",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A Relational Code for Objects in Primate Frontal Cortex",
+      "body": "When we remember a scene, we recall both the locations of individual objects and their spatial arrangement. Yet, how neurons encode this arrangement alongside individual locations is unknown. In this work, we recorded large-scale neural activity from the frontal and supplementary eye fields of monkeys performing a two-…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.17.759839",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Localis-REX: a general protocol for time-resolved spatiofunctional profiling in live cells and C. elegans",
+      "body": "We describe Localis-REX, a method for identifying organ or subcellular locale-specific innate reactive electrophilic metabolite (REM) responsive proteins in live Caenorhabdtis elegans and cultured cells. Localis-REX mimics the natural spatiotemporal production of REMs by expressing HaloTag transiently or stably in a sp…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.10.21.760500",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Dopaminergic reward signals shape foraging decisions through learned value expectations",
+      "body": "A fundamental function of the nervous system is to direct animals towards life-sustaining resources and enable adaptive strategies for acquiring them. Foraging, the challenge of securing these resources from the environment, requires making decisions that balance local gains against costs, opening a window on value-bas…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.10.21.760765",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Rewired mRNA homeostasis enforces cell-size associated senescence",
+      "body": "Cellular senescence refers to a permanent state of cell cycle exit and plays a key role in blocking the proliferation of compromised cells. Despite diverse drivers, senescent cells often share common features, one of which is their increased size. Though previously viewed as a passive outcome of cell growth during sene…",
+      "inst": [
+        "eth"
+      ],
+      "doi": "10.64898/2026.10.21.760624",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Do protein representations encode variant function? Diagnosing residue-level protein attributions via embedding-space gradients",
+      "body": "A common workflow in protein engineering involves building fitness predictors on protein language models (pLMs) to estimate a variant's fitness and interpret which residues drive it. Attribution methods such as integrated gradients address this second goal by assigning residues contributions to the variant's predicted …",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.10.21.760763",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "SPATNIC enables H&E-grounded cancer-cell identification across spatial and single-cell transcriptomic modalities in colorectal cancer",
+      "body": "Tumors contain diverse non-cancer cells that constitute the tumor microenvironment; thus, identifying which cells are cancerous is a foundational and critical first step in cancer research. However, to our knowledge, no transcriptome-based classifier has been trained using pathologist-defined annotations from matched H…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.10.21.760612",
+      "date": "2026-10-22"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "cancer biology",
+      "title": "A scalable in vitro cell competition model identifies preleukemic super competitor clones",
+      "body": "Preleukemic and leukemic conditions are frequently characterized by the acquisition of recurrent genetic mutations in hematopoietic stem cells (HSCs). One of the most frequently mutated genes in both clonal hematopoiesis and myeloid malignancies is the ten-eleven translocation 2 (TET2) gene, which encodes an epigenetic…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.10.21.760611",
+      "date": "2026-10-22"
     }
   ]
 }
