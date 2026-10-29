@@ -1,51 +1,6 @@
 {
-  "generated_at": "2026-10-28T12:30:27.077603+00:00",
+  "generated_at": "2026-10-29T12:41:10.793752+00:00",
   "institutions": {
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
@@ -55,63 +10,26 @@
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     }
   },
   "stories": [
     {
       "id": 0,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Optimisation of single-nuclei isolation and RNA sequencing of parasitic nematodes",
-      "body": "Single-cell/nuclei transcriptomics has revolutionised our understanding of cell, tissue, and organismal biology in humans and model organisms across health and disease. However, for non-model species, reassessment and refinement of conventional methods is needed to address novel technical and biological challenges. Her…",
-      "inst": [
-        "sanger",
-        "cambridge"
-      ],
-      "doi": "10.1101/2024.11.13.623282",
-      "date": "2026-10-26"
-    },
-    {
-      "id": 1,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Adrenal remodeling encodes stress axis memory to shape fentanyl seeking",
-      "body": "The hypothalamic-pituitary-adrenal (HPA) axis is implicated in substance use disorders, yet the features of this circuit that contribute to addiction vulnerability remain unclear. Here, we show that fentanyl engages with different components of the HPA axis, and this engagement varies across timescales. Within minutes,…",
-      "inst": [
-        "mit",
-        "harvard"
-      ],
-      "doi": "10.64898/2026.10.20.760432",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 2,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "RnR-ExM: Robust Non-rigid Registration Challenge for Expansion Microscopy Volumes",
-      "body": "Expansion Microscopy (ExM) enables nanoscale imaging of biological samples while preserving structural and molecular details. The Robust Non-rigid Registration Challenge for ExM (RnR-ExM) was launched to benchmark 3D registration algorithms on real-world ExM datasets. The challenge released 24 pairs of high-resolution …",
-      "inst": [
-        "harvard",
-        "mit"
-      ],
-      "doi": "10.64898/2026.10.22.760871",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 3,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Sensitivity of stochastic growth rate and lifetime reproductive output to kin effects: A nonlinear feedback model",
-      "body": "Humans exhibit a coevolutionary relationship between the trajectory of social evolution and senescence. A focal individual's kinship network is a function of his/her life history, while that network in turn shapes the focal individual's life history through kin effects on reproduction, generating a dynamic, nonlinear f…",
-      "inst": [
-        "mpi_generic",
-        "oxford"
-      ],
-      "doi": "10.64898/2026.10.22.761048",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 4,
       "cat": "science",
       "subject": "animal behavior and cognition",
       "title": "A foldable respiratory siphon enables near-surface locomotion through asymmetric rowing in Helophilus larvae",
@@ -123,19 +41,19 @@
       "date": "2026-10-26"
     },
     {
-      "id": 5,
+      "id": 1,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "A bistable type III secretion system is primed and loaded in Pseudomonas aeruginosa hypervirulent isolates with positively selected codon changes in exsA or exsD",
-      "body": "Pseudomonas aeruginosa has multiple virulence factors that promote airway infections in people with immune deficiencies. Most clinical isolates from human infections have functional type III secretion systems (T3SSs) that are subject to bistable regulation and secrete the cytotoxic effector ExoS into neutrophils. Durin…",
+      "subject": "molecular biology",
+      "title": "Optimisation of single-nuclei isolation and RNA sequencing of parasitic nematodes",
+      "body": "Single-cell/nuclei transcriptomics has revolutionised our understanding of cell, tissue, and organismal biology in humans and model organisms across health and disease. However, for non-model species, reassessment and refinement of conventional methods is needed to address novel technical and biological challenges. Her…",
       "inst": [
-        "nih"
+        "sanger"
       ],
-      "doi": "10.64898/2026.10.22.761281",
+      "doi": "10.1101/2024.11.13.623282",
       "date": "2026-10-26"
     },
     {
-      "id": 6,
+      "id": 2,
       "cat": "science",
       "subject": "pharmacology and toxicology",
       "title": "Drinking-Water 4,4'-Methylenedianiline Establishes a Longitudinally Tractable Mouse Model of Cholestatic Liver Injury",
@@ -147,7 +65,7 @@
       "date": "2026-10-26"
     },
     {
-      "id": 7,
+      "id": 3,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Dual reinforcement-learning network modules for modeling decision-making with multiple strategies",
@@ -159,7 +77,7 @@
       "date": "2026-10-26"
     },
     {
-      "id": 8,
+      "id": 4,
       "cat": "science",
       "subject": "biophysics",
       "title": "Protein cofactors diversify PRC2 architecture and function",
@@ -171,148 +89,52 @@
       "date": "2026-10-26"
     },
     {
-      "id": 9,
-      "cat": "science",
-      "subject": "plant biology",
-      "title": "Regulatory architecture tunes gene expression noise in the plant heat shock response",
-      "body": "Cells within the same tissue can respond differently to the same stress, yet how gene regulatory networks generate and control this variability remains unclear. Here, we show that cell-to-cell variation in the Arabidopsis heat shock response is coordinated across the heat shock regulon and that the distribution of resp…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.10.22.760979",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "AltORF-encoded microprotein recruits primary-ORF-encoded dehydrogenase to cell poles upon heat shock",
-      "body": "Alternative open reading frames (altORFs) initiating from in-frame or out-of-frame start sites within annotated protein-coding genes represent a largely unexplored source of protein-coding potential and remain poorly understood in terms of regulation, function, and impact on physiology. Here we investigate Escherichia …",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.10.22.760973",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "Genomic and oceanographic evidence of reef connectivity across the western and central Indian Ocean",
-      "body": "Connectivity among coral populations, via larval dispersal, is one of the key mechanisms supporting reef recovery after climate-driven bleaching events. This study examines reef connectivity of remote atolls of the understudied central and western Indian Ocean seascape, focusing on a key reef-building species, Acropora…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.10.22.761076",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "Scalable high-density tactile arenas for measuring ground-contact forces in freely moving animals",
-      "body": "Understanding how animals physically interact with their environment is fundamental to studying movement, sensorimotor control, and neurological function. Yet most behavioral measurement systems primarily capture movement and posture, while direct measurements of contact forces often require specialized instrumentation…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.10.22.760735",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "pathology",
-      "title": "Histological morphometric correlates of MRI-defined cortical thinning in temporal lobe epilepsy",
-      "body": "Large-scale MRI studies have consistently demonstrated progressive and age-accelerated neocortical thinning in temporal lobe epilepsy (TLE). These findings are frequently interpreted as evidence of cumulative neurodegeneration. However, the histopathological substrates underlying MRI-confirmed cortical thinning in epil…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.10.22.761130",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Development of py-mea-span for comprehensive analysis of multi-electrode array data and its application to LGI2-deficient neurons",
-      "body": "Multi-electrode arrays (MEAs) generate mid- to high-throughput electrophysiological data widely used to characterise neural network activity in vitro. Downstream analysis of recordings from Axion Biosystems instruments, however, has long depended on the manufacturers closed-source pipeline (AxIS Navigator, NeuralMetric…",
-      "inst": [
-        "cambridge"
-      ],
-      "doi": "10.64898/2026.10.14.759118",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "genetics",
-      "title": "Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons",
-      "body": "Huntington's disease (HD) affects the neocortex and striatum with different timing, severity, and gene-expression changes. These pathologies have long been proposed to involve different pathogenic mechanisms, with one brain area's degeneration leading to the other's. Striatal neurons degenerate in HD as their huntingti…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2025.12.09.688862",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Early Prenatal Cell-Free DNA Methylation Landscape Informs Epigenetic Purification of the Circulating Fetal Genome",
-      "body": "Circulating fetal cfDNA is the analyte of a screening test used by millions of pregnant women annually. However, low fetal fraction limits current testing. Fetal cfDNA can be enriched via hypomethylation, but the informative sites require a first-trimester fetal methylome reference. Here we sequenced fetal cfDNA (media…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.10.20.760549",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition",
-      "body": "Effective T cell vaccines for human immunodeficiency virus (HIV) will require induction of durable antiviral CD8+ T cell responses, but the cellular states associated with protection from viral acquisition remain poorly defined. Here, we developed a networked simian immunodeficiency virus (SIV) epitope vaccine targetin…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.10.20.760588",
-      "date": "2026-10-25"
-    },
-    {
-      "id": 18,
+      "id": 5,
       "cat": "science",
       "subject": "systems biology",
-      "title": "Modeling and Detecting Downward Causation in Disease Transmission",
-      "body": "We compare two epidemic models: the deterministic SIR (Susceptible-Infected-Recovered) model and the maximum-entropy-based DyMES (Dynamic Maxent across Entwined Scales) framework. In contrast to the widely used SIR model, the recently proposed DyMES model incorporates both top-down and bottom-up mechanisms and thus can…",
+      "title": "Decoding & manipulating human intercellular signaling via scalable cell-free protein synthesis",
+      "body": "Intercellular protein signals underpin human health and influence disease outcomes. Millions of patients are treated annually with signaling inhibitors and activators, generating billions in sales. However, our knowledge on the hundreds of signals encoded by our genomes is surprisingly sparse: 90% of data centers on ju…",
       "inst": [
-        "stanford"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.20.760281",
-      "date": "2026-10-25"
+      "doi": "10.64898/2026.10.24.761585",
+      "date": "2026-10-26"
     },
     {
-      "id": 19,
+      "id": 6,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
-      "body": "Inhibitory control deficits have long been proposed as a central neurocognitive mechanism underlying childhood Attention Deficit/Hyperactivity Disorder (ADHD). However, neuroimaging findings remain heterogeneous, partly due to methodological variability across developmental samples and experimental paradigms. The prese…",
+      "title": "Subspace Image Synthesis for Style-Invariant Object Recognition",
+      "body": "Human-like behavior in visual models does not necessarily imply human-like internal computation. When a model recognizes objects robustly across changes in visual style, what internal computations support this behavior, and which are relevant to human perception? We addressed this question by pruning style-robust neura…",
       "inst": [
-        "stanford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.04.756535",
-      "date": "2026-10-25"
+      "doi": "10.64898/2026.10.21.759598",
+      "date": "2026-10-26"
     },
     {
-      "id": 20,
+      "id": 7,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Phase diagrams for biophysical fitness landscape design",
-      "body": "Viral populations often evolve toward the top of fitness landscapes by mutating their surface proteins to escape host antibodies and/or to bind more tightly to host cell receptors. As they climb fitness landscapes, newly mutated strains can spread across host populations, causing new waves of infection and death. As a …",
+      "subject": "neuroscience",
+      "title": "Joint reconstruction of multi-contrast relaxation-diffusion imaging",
+      "body": "Diffusion MRI across multiple gradient directions, b-values and echo times (TEs) provides complementary tissue contrast but requires extensive sampling. Joint k-space and q-space undersampling requires reconstruction that preserves diffusion- and TE-dependent signal variation while exploiting shared anatomical informat…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.1101/2025.09.10.675274",
-      "date": "2026-10-25"
+      "doi": "10.64898/2026.10.21.760608",
+      "date": "2026-10-26"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Hippocampal replay repairs the cognitive map for flexible planning",
+      "body": "Hippocampal replay is highly structured: prospective replay precedes retrospective replay within a stopping period, each aligns with the animal's future and past paths, with replay sometimes being directed towards goals the animal has abandoned. These regularities have resisted a single explanation. Replay seems someti…",
+      "inst": [
+        "berkeley"
+      ],
+      "doi": "10.64898/2026.10.20.760493",
+      "date": "2026-10-26"
     }
   ]
 }
