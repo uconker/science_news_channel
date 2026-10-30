@@ -1,140 +1,209 @@
 {
-  "generated_at": "2026-10-29T12:41:10.793752+00:00",
+  "generated_at": "2026-10-30T12:32:28.708124+00:00",
   "institutions": {
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "A foldable respiratory siphon enables near-surface locomotion through asymmetric rowing in Helophilus larvae",
-      "body": "Specialized animal structures often perform multiple functions, yet how their structural adaptations support distinct behaviors remains poorly understood. Eristaline hoverfly larvae, commonly known as rat-tailed maggots, possess exceptionally elongated and extensible posterior respiratory siphons that allow them to bre…",
+      "subject": "molecular biology",
+      "title": "Molecular basis of mitogen-activated protein kinase ERK2 activation by its upstream kinase MEK1",
+      "body": "The RAS-RAF-MEK-ERK mitogen-activated protein kinase (MAPK) pathway relays extracellular signals into a cellular response and its dysregulation leads to many pathologies, particularly cancer. Much is known about the individual components of the pathway, however, details of their interactions and how specificity is main…",
       "inst": [
-        "tokyo"
+        "embl",
+        "ucl"
       ],
-      "doi": "10.64898/2026.06.29.735254",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.01.19.700303",
+      "date": "2026-10-27"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Optimisation of single-nuclei isolation and RNA sequencing of parasitic nematodes",
-      "body": "Single-cell/nuclei transcriptomics has revolutionised our understanding of cell, tissue, and organismal biology in humans and model organisms across health and disease. However, for non-model species, reassessment and refinement of conventional methods is needed to address novel technical and biological challenges. Her…",
+      "subject": "bioengineering",
+      "title": "Goal directed closed-loop training of network bursts in cortical cultures produces improved performance and error correction over days",
+      "body": "Dissociated neural cultures are living systems with no evolutionary history in their current form, which makes them a testbed for asking what goals neural tissue can learn to pursue once it is removed from its evolved body. It remains unclear which features of network activity such a culture can be trained to control, …",
       "inst": [
-        "sanger"
+        "harvard"
       ],
-      "doi": "10.1101/2024.11.13.623282",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.15.759184",
+      "date": "2026-10-27"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "pharmacology and toxicology",
-      "title": "Drinking-Water 4,4'-Methylenedianiline Establishes a Longitudinally Tractable Mouse Model of Cholestatic Liver Injury",
-      "body": "Longitudinal studies of liver injury require models that can be maintained with simple administration, low procedure-related stress, and acceptable survival. Drinking-water thioacetamide (TAA-DW) is useful for this purpose, but it mainly produces centrilobular hepatocellular injury. Few drinking-water models are availa…",
+      "subject": "biochemistry",
+      "title": "Independent evolution of harmala alkaloids in medicinal Syrian rue and ayahuasca plants",
+      "body": "Plants from distantly related lineages can produce identical neuroactive molecules, many of which have been independently adopted across human societies for their medicinal and cognition-altering effects. This phenomenon is exemplified by the traditional use of Syrian rue (Peganum harmala) and the ayahuasca vine (Banis…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.1101/2024.01.25.577198",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.24.761205",
+      "date": "2026-10-27"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dual reinforcement-learning network modules for modeling decision-making with multiple strategies",
-      "body": "Animals and humans use multiple behavioral strategies to perform tasks. However, neural implementations of multiple strategies remain elusive, as some studies propose distinct pathways, while others observe overlapping brain regions associated with strategies. We propose a hybrid deep reinforcement learning (H-DRL) met…",
+      "subject": "bioengineering",
+      "title": "Aptamer-Targeted PLGA Nanoparticles for Biofilm-Directed Intra-articular Antibiotic Delivery in Prosthetic Joint Infection",
+      "body": "Introduction: Prosthetic joint infection (PJI) is a severe complication of orthopedic surgery, driven by biofilm-forming bacteria such as Staphylococcus aureus. Conventional antibiotics are limited in penetrating biofilms or remaining localized at the infection site. We engineered a targeted nanocarrier system by conju…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.03.07.709953",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.23.760933",
+      "date": "2026-10-27"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Protein cofactors diversify PRC2 architecture and function",
-      "body": "The Polycomb repressive complex 2 (PRC2) deposits the H3K27me3 histone mark to silence gene expression, is essential for development, and is frequently dysregulated in cancer (1-4). PRC2 exists as two major subtypes, PRC2.1 and PRC2.2, that share core subunits but utilize structurally unrelated cofactors to regulate ge…",
+      "subject": "molecular biology",
+      "title": "The BAF chromatin remodeling subunit ARID1B coordinates cell-cycle exit and motor neuron differentiation",
+      "body": "Neuronal differentiation requires precise regulation of transcriptional and epigenetic networks by BAF (BRG1/BRM-associated factor) chromatin remodeling complexes. Mutations in Arid1b, encoding a core BAF subunit, are associated with motor dysfunction, yet the role of ARID1B in motor neuron specification remains unclea…",
       "inst": [
-        "berkeley"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.24.761575",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.24.761583",
+      "date": "2026-10-27"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Decoding & manipulating human intercellular signaling via scalable cell-free protein synthesis",
-      "body": "Intercellular protein signals underpin human health and influence disease outcomes. Millions of patients are treated annually with signaling inhibitors and activators, generating billions in sales. However, our knowledge on the hundreds of signals encoded by our genomes is surprisingly sparse: 90% of data centers on ju…",
+      "subject": "developmental biology",
+      "title": "Molecular basis of competence for neural induction in the chick embryo",
+      "body": "Competence is the capacity of a cell or tissue to respond to a specific inducing signal from a neighbouring tissue, by changing its fate in a specific direction. Neural induction is the process by which the epiblast of the early embryo responds to signals from the organizer (the tip of the primitive streak in amniotes)…",
       "inst": [
-        "mit"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.24.761585",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.06.03.729870",
+      "date": "2026-10-27"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Subspace Image Synthesis for Style-Invariant Object Recognition",
-      "body": "Human-like behavior in visual models does not necessarily imply human-like internal computation. When a model recognizes objects robustly across changes in visual style, what internal computations support this behavior, and which are relevant to human perception? We addressed this question by pruning style-robust neura…",
+      "subject": "biophysics",
+      "title": "Metabolic-State-Dependent Magnetic Field Effects on Endogenous Flavin Autofluorescence in Escherichia coli",
+      "body": "We demonstrate that endogenous autofluorescent molecules in Escherichia coli exhibit fluorescence changes exceeding 10% in response to a 25 mT magnetic field under specific physiological and excitation conditions. Fluorescence spectral analysis strongly supports a flavin origin of the magnetically sensitive signal, wit…",
       "inst": [
         "tokyo"
       ],
-      "doi": "10.64898/2026.10.21.759598",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.23.761314",
+      "date": "2026-10-27"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Joint reconstruction of multi-contrast relaxation-diffusion imaging",
-      "body": "Diffusion MRI across multiple gradient directions, b-values and echo times (TEs) provides complementary tissue contrast but requires extensive sampling. Joint k-space and q-space undersampling requires reconstruction that preserves diffusion- and TE-dependent signal variation while exploiting shared anatomical informat…",
+      "subject": "plant biology",
+      "title": "Manipulating cell cycle of rice bundle sheath cells reduces their chloroplast occupancy and inhibits leaf growth",
+      "body": "During the evolution of C4 photosynthesis from the ancestral C3 state, bundle sheath cells became more numerous, and chloroplast biogenesis increases. Modifying these traits is required to engineer the efficient C4 pathway into C3 crops to improve yield. As cell and chloroplast division are linked, we investigated whet…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.21.760608",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.24.761571",
+      "date": "2026-10-27"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Hippocampal replay repairs the cognitive map for flexible planning",
-      "body": "Hippocampal replay is highly structured: prospective replay precedes retrospective replay within a stopping period, each aligns with the animal's future and past paths, with replay sometimes being directed towards goals the animal has abandoned. These regularities have resisted a single explanation. Replay seems someti…",
+      "subject": "cell biology",
+      "title": "An iris-like pore for protein import into peroxisomes",
+      "body": "Peroxisomes are ubiquitous, membrane-bound organelles that house essential metabolic enzymes imported from the cytosol in a folded and sometimes oligomeric state. Mobile receptors, such as PEX5, ferry cargo through a tyrosine/glycine (YG)-rich selective phase formed by PEX13 within the membrane, but how folded proteins…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.20.760493",
-      "date": "2026-10-26"
+      "doi": "10.64898/2026.10.23.761396",
+      "date": "2026-10-27"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "One placement, many fields: robust voxel-wise mapping with multichannel TMS",
+      "body": "Understanding the human brain at the individual level is central to understanding its function and a prerequisite for personalized therapy. Transcranial magnetic stimulation (TMS) can map structure-function relationships at high resolution by regressing trial-wise variation in the TMS-induced electric field (E-field) a…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.10.24.761539",
+      "date": "2026-10-27"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "On-demand surround suppression explains the spatiotemporal window of the tilt illusion",
+      "body": "What we see at one location depends on what surrounds it. Such contextual effects are thought to arise from neural signals that travel across the retinotopic representations. Because these signals need more time to travel longer distances, a more distant surround should influence perception most strongly when presented…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.64898/2026.10.01.755975",
+      "date": "2026-10-27"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Interactome-based deep learning and path-level decomposition reveal TGFβ-IFNα competition in MASH",
+      "body": "Dysregulated signaling drives Metabolic Dysfunction-Associated Steatohepatitis (MASH) through a complex crosstalk between pro- and anti-fibrotic cues. We previously observed potential competition between IFN-mediated JAK-STAT signaling and TGF{beta} in modulating MASH fibrosis, but the precise mechanism of that competi…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.24.761530",
+      "date": "2026-10-27"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Structural Definition of Neutralizing Epitopes within and around the HKU1 Receptor-binding Site Reveals Cell Context-Dependent Neutralization",
+      "body": "Endemic human coronaviruses (HCoVs), such as HCoV-HKU1, account for ~30% of common colds each year and can cause serious upper and lower respiratory infections, yet no licensed vaccines or therapeutic antibodies target HCoVs. Despite being endemic to the human population, little is known about the antigenic landscape o…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.1101/2025.10.29.685445",
+      "date": "2026-10-27"
     }
   ]
 }
