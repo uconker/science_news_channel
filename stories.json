@@ -1,209 +1,191 @@
 {
-  "generated_at": "2026-10-30T12:32:28.708124+00:00",
+  "generated_at": "2026-10-31T11:59:37.661359+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
+    },
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Molecular basis of mitogen-activated protein kinase ERK2 activation by its upstream kinase MEK1",
-      "body": "The RAS-RAF-MEK-ERK mitogen-activated protein kinase (MAPK) pathway relays extracellular signals into a cellular response and its dysregulation leads to many pathologies, particularly cancer. Much is known about the individual components of the pathway, however, details of their interactions and how specificity is main…",
+      "subject": "immunology",
+      "title": "Chromatin and transcriptional adaptation accompany monocyte engraftment in the injured retina",
+      "body": "Distinguishing resident microglia from engrafted peripheral myeloid cells is important for interpreting CNS inflammation. P2RY12, TMEM119, and FCRLS are widely used to identify microglia, but their ability to distinguish cellular origin after prolonged engraftment remains context dependent. Using bone marrow chimeras, …",
       "inst": [
-        "embl",
-        "ucl"
+        "harvard"
       ],
-      "doi": "10.64898/2026.01.19.700303",
-      "date": "2026-10-27"
+      "doi": "10.1101/2024.09.09.612126",
+      "date": "2026-10-28"
     },
     {
       "id": 1,
       "cat": "science",
       "subject": "bioengineering",
-      "title": "Goal directed closed-loop training of network bursts in cortical cultures produces improved performance and error correction over days",
-      "body": "Dissociated neural cultures are living systems with no evolutionary history in their current form, which makes them a testbed for asking what goals neural tissue can learn to pursue once it is removed from its evolved body. It remains unclear which features of network activity such a culture can be trained to control, …",
+      "title": "From group-level neurophysiological biomarkers to individual-level phenotyping to identify mechanisms of neurodegenerative disease",
+      "body": "Precision medicine approaches require physiological effects to be informative when translated to the individual. Reliable group differences may have limited individual value when distributions overlap, mechanisms are heterogeneous, or patients differ in phenotype. A feature can differ between group means and still over…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.15.759184",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.26.761866",
+      "date": "2026-10-28"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Independent evolution of harmala alkaloids in medicinal Syrian rue and ayahuasca plants",
-      "body": "Plants from distantly related lineages can produce identical neuroactive molecules, many of which have been independently adopted across human societies for their medicinal and cognition-altering effects. This phenomenon is exemplified by the traditional use of Syrian rue (Peganum harmala) and the ayahuasca vine (Banis…",
+      "subject": "pharmacology and toxicology",
+      "title": "Mammalian cell-derived fatty acid biosynthesis derailment products are pro-inflammatory signalling molecules at the orphan receptor GPR84",
+      "body": "GPR84 is an orphan G protein coupled receptor (GPCR) implicated in inflammation. In 2006, decanoic acid was identified as a putative endogenous agonist, however subsequent work has found this to be implausible, leaving GPR84 officially classified as an orphan receptor. 6-Heptyl-4-hydroxy-2H-pyran-2-one (C7-alkylpyrone)…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.24.761205",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.14.759095",
+      "date": "2026-10-28"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Aptamer-Targeted PLGA Nanoparticles for Biofilm-Directed Intra-articular Antibiotic Delivery in Prosthetic Joint Infection",
-      "body": "Introduction: Prosthetic joint infection (PJI) is a severe complication of orthopedic surgery, driven by biofilm-forming bacteria such as Staphylococcus aureus. Conventional antibiotics are limited in penetrating biofilms or remaining localized at the infection site. We engineered a targeted nanocarrier system by conju…",
+      "subject": "neuroscience",
+      "title": "Connectome-based biophysical modeling of a figure-ground discrimination circuit",
+      "body": "Figure-ground discrimination via relative motion represents a highly conserved visual computation essential for uncovering camouflage \\citep{reichardt1983figure,Egelhaaf1985}. Over forty years ago, the Reichardt-Poggio-Hausen (RPH) model proposed a circuit architecture to explain this phenomenon, relying on an inhibito…",
       "inst": [
-        "harvard"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.23.760933",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.09.17.752514",
+      "date": "2026-10-28"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "The BAF chromatin remodeling subunit ARID1B coordinates cell-cycle exit and motor neuron differentiation",
-      "body": "Neuronal differentiation requires precise regulation of transcriptional and epigenetic networks by BAF (BRG1/BRM-associated factor) chromatin remodeling complexes. Mutations in Arid1b, encoding a core BAF subunit, are associated with motor dysfunction, yet the role of ARID1B in motor neuron specification remains unclea…",
+      "subject": "immunology",
+      "title": "Membrane-mediated cooperativity of antigen receptors and CD2 adhesion receptors in CAR-T cell activation",
+      "body": "Chimeric antigen receptor (CAR)-T cells exhibit a major defect in antigen recognition, often requiring 100-1000-fold higher antigen densities for activation than the native T cell receptor (TCR). Recent work has traced this defect to the inefficient use of CD2/CD58 adhesion by CAR-T cells and demonstrated that matching…",
       "inst": [
-        "toronto"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.24.761583",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.27.762129",
+      "date": "2026-10-28"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Molecular basis of competence for neural induction in the chick embryo",
-      "body": "Competence is the capacity of a cell or tissue to respond to a specific inducing signal from a neighbouring tissue, by changing its fate in a specific direction. Neural induction is the process by which the epiblast of the early embryo responds to signals from the organizer (the tip of the primitive streak in amniotes)…",
+      "subject": "cell biology",
+      "title": "A myosin filament cage drives multiple aspects of mitosis unique to cells dividing within a polarized epithelium",
+      "body": "Here we used mouse intestinal organoids expressing endogenously tagged myosin to clarify its roles in those aspects of mitosis unique to division within a polarized epithelium. Super-resolution imaging of rounded metaphase cells revealed a never-before-seen myosin filament cage that only forms in this context, exhibits…",
       "inst": [
-        "ucl"
+        "nih"
       ],
-      "doi": "10.64898/2026.06.03.729870",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.25.761724",
+      "date": "2026-10-28"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Metabolic-State-Dependent Magnetic Field Effects on Endogenous Flavin Autofluorescence in Escherichia coli",
-      "body": "We demonstrate that endogenous autofluorescent molecules in Escherichia coli exhibit fluorescence changes exceeding 10% in response to a 25 mT magnetic field under specific physiological and excitation conditions. Fluorescence spectral analysis strongly supports a flavin origin of the magnetically sensitive signal, wit…",
+      "subject": "bioinformatics",
+      "title": "Benchmarking strain-level profiling of Escherichia coli in short-read gut metagenomes",
+      "body": "Metagenomes facilitate Escherichia coli strain-level profiling in human gut microbiomes, informing our understanding of colonisation diversity and the genetic features distinguishing infection from carriage. Among numerous reference-based tools for short-read metagenomic strain-level profiling, the best approach remain…",
       "inst": [
-        "tokyo"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.23.761314",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.05.19.726160",
+      "date": "2026-10-28"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Manipulating cell cycle of rice bundle sheath cells reduces their chloroplast occupancy and inhibits leaf growth",
-      "body": "During the evolution of C4 photosynthesis from the ancestral C3 state, bundle sheath cells became more numerous, and chloroplast biogenesis increases. Modifying these traits is required to engineer the efficient C4 pathway into C3 crops to improve yield. As cell and chloroplast division are linked, we investigated whet…",
+      "subject": "cancer biology",
+      "title": "Circulating hematopoietic stem and progenitor cells in myeloproliferative neoplasms",
+      "body": "Myelofibrosis (MF) is the aggressive end of the myeloproliferative neoplasm (MPN) spectrum, and its diagnosis and monitoring depend on bone marrow biopsy, which is invasive, subject to interobserver variability and frequently non-diagnostic. Here we profiled 564,147 circulating hematopoietic stem and progenitor cells (…",
       "inst": [
-        "cambridge"
+        "weizmann"
       ],
-      "doi": "10.64898/2026.10.24.761571",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.26.761833",
+      "date": "2026-10-28"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "An iris-like pore for protein import into peroxisomes",
-      "body": "Peroxisomes are ubiquitous, membrane-bound organelles that house essential metabolic enzymes imported from the cytosol in a folded and sometimes oligomeric state. Mobile receptors, such as PEX5, ferry cargo through a tyrosine/glycine (YG)-rich selective phase formed by PEX13 within the membrane, but how folded proteins…",
+      "subject": "biophysics",
+      "title": "A Binding Site for CVN293 Reveals a Mechanism for Allosteric Control of THIK-1 K2P Channel Gating",
+      "body": "Microglial activation and subsequent neuroinflammation involves THIK-1 (KCNK13), a Two-Pore Domain (K2P) K+ channel. CVN293, a small molecule THIK-1 inhibitor is currently undergoing clinical trials for neurodegenerative disorders such as Alzheimer's and Amyotrophic Lateral Sclerosis (ALS). However, little is known abo…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.23.761396",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.27.761881",
+      "date": "2026-10-28"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "One placement, many fields: robust voxel-wise mapping with multichannel TMS",
-      "body": "Understanding the human brain at the individual level is central to understanding its function and a prerequisite for personalized therapy. Transcranial magnetic stimulation (TMS) can map structure-function relationships at high resolution by regressing trial-wise variation in the TMS-induced electric field (E-field) a…",
+      "subject": "immunology",
+      "title": "Temporal phosphoproteomic programmes set a redox-gated rheostat on neutrophil phagocytosis",
+      "body": "Neutrophils are essential frontline immune cells in the defence against bacterial pathogens such as Staphylococcus aureus, but their killing machinery also causes host tissue damage. How neutrophils regulate these processes remains incompletely understood. Here, we profile the proteome and phosphoproteome of human neut…",
       "inst": [
-        "mpi_generic"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.24.761539",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.26.761950",
+      "date": "2026-10-28"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "On-demand surround suppression explains the spatiotemporal window of the tilt illusion",
-      "body": "What we see at one location depends on what surrounds it. Such contextual effects are thought to arise from neural signals that travel across the retinotopic representations. Because these signals need more time to travel longer distances, a more distant surround should influence perception most strongly when presented…",
+      "subject": "bioinformatics",
+      "title": "Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction",
+      "body": "Peptide therapeutics occupy a compelling middle ground between small molecules and larger proteins, and in practice, most approved peptide drugs incorporate non-canonical amino acids (ncAAs) or other non-peptidic chemistries to elicit improved physiochemical properties (Yaseen Khan et al. (2026)). The chemical space of…",
       "inst": [
-        "riken"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.01.755975",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.22.760799",
+      "date": "2026-10-28"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Interactome-based deep learning and path-level decomposition reveal TGFβ-IFNα competition in MASH",
-      "body": "Dysregulated signaling drives Metabolic Dysfunction-Associated Steatohepatitis (MASH) through a complex crosstalk between pro- and anti-fibrotic cues. We previously observed potential competition between IFN-mediated JAK-STAT signaling and TGF{beta} in modulating MASH fibrosis, but the precise mechanism of that competi…",
+      "subject": "neuroscience",
+      "title": "Causal reasoning is domain-specific in the human brain",
+      "body": "Causal reasoning enables humans to explain the past, predict the future, and intervene on the present. Despite extensive interest in causal inference by philosophers, cognitive scientists, and developmental psychologists, few studies have investigated causal reasoning in the human brain. Here we use fMRI to ask whether…",
       "inst": [
         "mit"
       ],
-      "doi": "10.64898/2026.10.24.761530",
-      "date": "2026-10-27"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "Structural Definition of Neutralizing Epitopes within and around the HKU1 Receptor-binding Site Reveals Cell Context-Dependent Neutralization",
-      "body": "Endemic human coronaviruses (HCoVs), such as HCoV-HKU1, account for ~30% of common colds each year and can cause serious upper and lower respiratory infections, yet no licensed vaccines or therapeutic antibodies target HCoVs. Despite being endemic to the human population, little is known about the antigenic landscape o…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2025.10.29.685445",
-      "date": "2026-10-27"
+      "doi": "10.64898/2026.10.27.762213",
+      "date": "2026-10-28"
     }
   ]
 }
