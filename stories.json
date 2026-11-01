@@ -1,191 +1,150 @@
 {
-  "generated_at": "2026-10-31T11:59:37.661359+00:00",
+  "generated_at": "2026-11-01T12:59:55.297944+00:00",
   "institutions": {
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Chromatin and transcriptional adaptation accompany monocyte engraftment in the injured retina",
-      "body": "Distinguishing resident microglia from engrafted peripheral myeloid cells is important for interpreting CNS inflammation. P2RY12, TMEM119, and FCRLS are widely used to identify microglia, but their ability to distinguish cellular origin after prolonged engraftment remains context dependent. Using bone marrow chimeras, …",
+      "subject": "neuroscience",
+      "title": "Beyond Neural Noise: Critical Dynamics Predict Slower Reaction Times in Adults With and Without ADHD",
+      "body": "Historically, neural variability observed during task was interpreted as noise, assumed to obscure meaningful signal and thus something to be minimized both analytically by researchers and functionally by the brain. Changes to this signal-to-noise ratio have been proposed as a possible neural mechanism behind the incre…",
       "inst": [
-        "harvard"
+        "berkeley"
       ],
-      "doi": "10.1101/2024.09.09.612126",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.03.13.711705",
+      "date": "2026-10-29"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "From group-level neurophysiological biomarkers to individual-level phenotyping to identify mechanisms of neurodegenerative disease",
-      "body": "Precision medicine approaches require physiological effects to be informative when translated to the individual. Reliable group differences may have limited individual value when distributions overlap, mechanisms are heterogeneous, or patients differ in phenotype. A feature can differ between group means and still over…",
+      "subject": "neuroscience",
+      "title": "Multi-region two-photon calcium imaging in freely moving animals",
+      "body": "Complex behaviors emerge from the coordinated activity of neural circuits distributed across widely separated brain regions. Existing optical approaches for monitoring neural activity lack the combined capability to record from anatomically distributed regions with high spatiotemporal resolution in freely moving animal…",
       "inst": [
-        "cambridge"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.26.761866",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.10.27.760324",
+      "date": "2026-10-29"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "pharmacology and toxicology",
-      "title": "Mammalian cell-derived fatty acid biosynthesis derailment products are pro-inflammatory signalling molecules at the orphan receptor GPR84",
-      "body": "GPR84 is an orphan G protein coupled receptor (GPCR) implicated in inflammation. In 2006, decanoic acid was identified as a putative endogenous agonist, however subsequent work has found this to be implausible, leaving GPR84 officially classified as an orphan receptor. 6-Heptyl-4-hydroxy-2H-pyran-2-one (C7-alkylpyrone)…",
+      "subject": "neuroscience",
+      "title": "Transcranial electrical stimulation for memory enhancement: A systematic review and meta-analysis",
+      "body": "Non-invasive brain stimulation techniques have received increasing interest for their potential to enhance memory function, a fundamental cognitive aspect of daily life. This systematic review and meta-analysis aimed to investigate the efficacy of transcranial electrical stimulation (tES) in enhancing memory function i…",
       "inst": [
-        "oxford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.14.759095",
-      "date": "2026-10-28"
+      "doi": "10.1101/2025.03.17.643623",
+      "date": "2026-10-29"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Connectome-based biophysical modeling of a figure-ground discrimination circuit",
-      "body": "Figure-ground discrimination via relative motion represents a highly conserved visual computation essential for uncovering camouflage \\citep{reichardt1983figure,Egelhaaf1985}. Over forty years ago, the Reichardt-Poggio-Hausen (RPH) model proposed a circuit architecture to explain this phenomenon, relying on an inhibito…",
+      "subject": "bioengineering",
+      "title": "Revealing multiscale architecture of the intact human spine using hierarchical phase contrast tomography",
+      "body": "Background: Computed tomography (CT) and magnetic resonance imaging (MRI) provide detailed clinical assessment of the human spine; however, their millimeter-scale spatial resolution limits direct visualization of tissue microarchitecture and interfaces. Hierarchical phase-contrast tomography (HiP-CT) enables ex vivo no…",
       "inst": [
-        "mit"
+        "ucl"
       ],
-      "doi": "10.64898/2026.09.17.752514",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.10.23.760441",
+      "date": "2026-10-29"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Membrane-mediated cooperativity of antigen receptors and CD2 adhesion receptors in CAR-T cell activation",
-      "body": "Chimeric antigen receptor (CAR)-T cells exhibit a major defect in antigen recognition, often requiring 100-1000-fold higher antigen densities for activation than the native T cell receptor (TCR). Recent work has traced this defect to the inefficient use of CD2/CD58 adhesion by CAR-T cells and demonstrated that matching…",
+      "subject": "neuroscience",
+      "title": "Neural Bases for Working Memory of Natural Sound Textures",
+      "body": "Holding sound objects in mind is critical to understanding the sound world around us. Auditory texture perception is thought to rely on extracting statistical properties of sounds over time, raising the question of how encoding duration influences subsequent maintenance of auditory texture information. We investigated …",
       "inst": [
-        "mpi_generic"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.27.762129",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.10.28.762478",
+      "date": "2026-10-29"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "A myosin filament cage drives multiple aspects of mitosis unique to cells dividing within a polarized epithelium",
-      "body": "Here we used mouse intestinal organoids expressing endogenously tagged myosin to clarify its roles in those aspects of mitosis unique to division within a polarized epithelium. Super-resolution imaging of rounded metaphase cells revealed a never-before-seen myosin filament cage that only forms in this context, exhibits…",
+      "subject": "microbiology",
+      "title": "Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species",
+      "body": "Background: The vaginal microbiome is a key determinant of women's health, with Lactobacillus-dominant communities protecting against bacterial vaginosis (BV) and related adverse outcomes. Dysbiosis involves a decline in lactobacilli and overgrowth of anaerobes, with Gardnerella species central to initiating polymicrob…",
       "inst": [
-        "nih"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.25.761724",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.05.09.724037",
+      "date": "2026-10-29"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Benchmarking strain-level profiling of Escherichia coli in short-read gut metagenomes",
-      "body": "Metagenomes facilitate Escherichia coli strain-level profiling in human gut microbiomes, informing our understanding of colonisation diversity and the genetic features distinguishing infection from carriage. Among numerous reference-based tools for short-read metagenomic strain-level profiling, the best approach remain…",
+      "subject": "biochemistry",
+      "title": "Identification and inhibition of the Cyclin D Rb-docking interface that drives cell division",
+      "body": "The animal cell division cycle is initiated by the cyclin-dependent kinases CDK4 and CDK6 in complex with D-type cyclins. Cyclin D-CDK4/6 complex formation is promoted by the assembly factors p21 and p27, which bind both subunits. p27 binds the hydrophobic patch on cyclin D that is similar to the patch used by other ce…",
       "inst": [
-        "oxford"
+        "stanford"
       ],
-      "doi": "10.64898/2026.05.19.726160",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.01.14.699544",
+      "date": "2026-10-29"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Circulating hematopoietic stem and progenitor cells in myeloproliferative neoplasms",
-      "body": "Myelofibrosis (MF) is the aggressive end of the myeloproliferative neoplasm (MPN) spectrum, and its diagnosis and monitoring depend on bone marrow biopsy, which is invasive, subject to interobserver variability and frequently non-diagnostic. Here we profiled 564,147 circulating hematopoietic stem and progenitor cells (…",
+      "subject": "bioinformatics",
+      "title": "Efficient biological design via genomic in-context learning",
+      "body": "In-context learning (ICL), the ability to perform new tasks from a few examples supplied in a prompt, is a defining emergent capability of large language models. Here, we show that ICL emerges in the genome language model Evo 2 and enables biological design. With as few as four examples in the prompt and no additional …",
       "inst": [
-        "weizmann"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.26.761833",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.10.28.762643",
+      "date": "2026-10-29"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "A Binding Site for CVN293 Reveals a Mechanism for Allosteric Control of THIK-1 K2P Channel Gating",
-      "body": "Microglial activation and subsequent neuroinflammation involves THIK-1 (KCNK13), a Two-Pore Domain (K2P) K+ channel. CVN293, a small molecule THIK-1 inhibitor is currently undergoing clinical trials for neurodegenerative disorders such as Alzheimer's and Amyotrophic Lateral Sclerosis (ALS). However, little is known abo…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.10.27.761881",
-      "date": "2026-10-28"
-    },
-    {
-      "id": 9,
-      "cat": "science",
       "subject": "immunology",
-      "title": "Temporal phosphoproteomic programmes set a redox-gated rheostat on neutrophil phagocytosis",
-      "body": "Neutrophils are essential frontline immune cells in the defence against bacterial pathogens such as Staphylococcus aureus, but their killing machinery also causes host tissue damage. How neutrophils regulate these processes remains incompletely understood. Here, we profile the proteome and phosphoproteome of human neut…",
+      "title": "Structures of MyD88 and its oncogenic mutant reveal DNA binding with implications for cytosolic DNA sensing",
+      "body": "MyD88 is a universal adaptor that connects to Toll-like receptors and interleukin-1 receptors through its Toll/IL-1R homology (TIR) domain and activates inflammatory signaling via its death domain (DD). However, how MyD88TIR serves as the platform for these functions and if it has additional functions remain unclear. H…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.26.761950",
-      "date": "2026-10-28"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction",
-      "body": "Peptide therapeutics occupy a compelling middle ground between small molecules and larger proteins, and in practice, most approved peptide drugs incorporate non-canonical amino acids (ncAAs) or other non-peptidic chemistries to elicit improved physiochemical properties (Yaseen Khan et al. (2026)). The chemical space of…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.10.22.760799",
-      "date": "2026-10-28"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Causal reasoning is domain-specific in the human brain",
-      "body": "Causal reasoning enables humans to explain the past, predict the future, and intervene on the present. Despite extensive interest in causal inference by philosophers, cognitive scientists, and developmental psychologists, few studies have investigated causal reasoning in the human brain. Here we use fMRI to ask whether…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.10.27.762213",
-      "date": "2026-10-28"
+      "doi": "10.64898/2026.10.21.760499",
+      "date": "2026-10-29"
     }
   ]
 }
