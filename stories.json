@@ -1,40 +1,45 @@
 {
-  "generated_at": "2026-11-01T12:59:55.297944+00:00",
+  "generated_at": "2026-11-02T15:19:58.184469+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
@@ -42,109 +47,145 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Beyond Neural Noise: Critical Dynamics Predict Slower Reaction Times in Adults With and Without ADHD",
-      "body": "Historically, neural variability observed during task was interpreted as noise, assumed to obscure meaningful signal and thus something to be minimized both analytically by researchers and functionally by the brain. Changes to this signal-to-noise ratio have been proposed as a possible neural mechanism behind the incre…",
+      "title": "Brain representations of visual short-term memories during healthy human aging: occipital decline and frontoparietal compensation",
+      "body": "Visual short-term memory declines steeply with age, but the link to neural representations of memory content remains unknown. We used fMRI decoding to relate remembered motion-direction representations in visual and frontoparietal cortex to age and performance, in 115 adults, aged 25-87, from the Cambridge Centre for A…",
       "inst": [
-        "berkeley"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.03.13.711705",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.26.761884",
+      "date": "2026-10-30"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Multi-region two-photon calcium imaging in freely moving animals",
-      "body": "Complex behaviors emerge from the coordinated activity of neural circuits distributed across widely separated brain regions. Existing optical approaches for monitoring neural activity lack the combined capability to record from anatomically distributed regions with high spatiotemporal resolution in freely moving animal…",
+      "subject": "microbiology",
+      "title": "High-resolution temporal profiling reveals synchronized dynamics of the mouse gut microbiome",
+      "body": "Background The gut microbiome undergoes diurnal oscillations entrained by host circadian rhythms and feeding behavior, and disruption of these oscillations has been linked to metabolic dysfunction. However, the temporal organization of microbial activity within these oscillatory cycles remains poorly understood, largel…",
       "inst": [
-        "mpi_generic"
+        "riken"
       ],
-      "doi": "10.64898/2026.10.27.760324",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.03.26.714232",
+      "date": "2026-10-30"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Transcranial electrical stimulation for memory enhancement: A systematic review and meta-analysis",
-      "body": "Non-invasive brain stimulation techniques have received increasing interest for their potential to enhance memory function, a fundamental cognitive aspect of daily life. This systematic review and meta-analysis aimed to investigate the efficacy of transcranial electrical stimulation (tES) in enhancing memory function i…",
+      "subject": "cell biology",
+      "title": "Lipid Changes due to Low O-GlcNAc and the Downstream Consequences",
+      "body": "O-GlcNAc transferase (OGT) is an essential mammalian glycosyltransferase that installs O-GlcNAc onto thousands of cytosolic and nuclear proteins. Dysregulated glycosylation by OGT is associated with disease states, including cancer and neurodegeneration. However, cellular consequences of acute loss of O-GlcNAc remain p…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.1101/2025.03.17.643623",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.13.758586",
+      "date": "2026-10-30"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Revealing multiscale architecture of the intact human spine using hierarchical phase contrast tomography",
-      "body": "Background: Computed tomography (CT) and magnetic resonance imaging (MRI) provide detailed clinical assessment of the human spine; however, their millimeter-scale spatial resolution limits direct visualization of tissue microarchitecture and interfaces. Hierarchical phase-contrast tomography (HiP-CT) enables ex vivo no…",
+      "subject": "molecular biology",
+      "title": "Endonuclease G governs an antiviral RNA surveillance system in budding yeast",
+      "body": "Endonuclease G family DNA/RNA nucleases localize to the mitochondrial intermembrane space and prevent escape of mitochondrial DNA to the cytosol or nucleus. While extramitochondrial Endonuclease G also targets nuclear DNA during cell death, RNA regulatory roles of this family remain enigmatic. Here we discover an RNA s…",
       "inst": [
-        "ucl"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.23.760441",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.28.762607",
+      "date": "2026-10-30"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Neural Bases for Working Memory of Natural Sound Textures",
-      "body": "Holding sound objects in mind is critical to understanding the sound world around us. Auditory texture perception is thought to rely on extracting statistical properties of sounds over time, raising the question of how encoding duration influences subsequent maintenance of auditory texture information. We investigated …",
+      "subject": "bioengineering",
+      "title": "Few-shot regulatory sequence design with a genomic language model",
+      "body": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enab…",
       "inst": [
-        "ucl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.28.762478",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.28.762639",
+      "date": "2026-10-30"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species",
-      "body": "Background: The vaginal microbiome is a key determinant of women's health, with Lactobacillus-dominant communities protecting against bacterial vaginosis (BV) and related adverse outcomes. Dysbiosis involves a decline in lactobacilli and overgrowth of anaerobes, with Gardnerella species central to initiating polymicrob…",
+      "subject": "bioengineering",
+      "title": "EverGreen: A Calcium Sensing Fluorescent Protein with Ultra-Slow Response Properties",
+      "body": "Fluorescent calcium indicators are typically optimized for fast kinetics, but for some bio-engineering projects in synthetic biology slower indicators with long decay time constants may be more practical and easier to apply. We here present a green fluorescent protein calcium biosensor with unusually slow response kine…",
       "inst": [
-        "karolinska"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.05.09.724037",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.29.762894",
+      "date": "2026-10-30"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Identification and inhibition of the Cyclin D Rb-docking interface that drives cell division",
-      "body": "The animal cell division cycle is initiated by the cyclin-dependent kinases CDK4 and CDK6 in complex with D-type cyclins. Cyclin D-CDK4/6 complex formation is promoted by the assembly factors p21 and p27, which bind both subunits. p27 binds the hydrophobic patch on cyclin D that is similar to the patch used by other ce…",
+      "subject": "bioinformatics",
+      "title": "Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis",
+      "body": "Three-dimensional (3D) mural cell morphology is heterogeneous and coupled to vessel geometry, however, measurements from two-dimensional (2D) maximum intensity projections (MIP) obscure overlapping processes and cell-vessel contacts. Accordingly, we developed Mural-VISTA, a semi-automated Python workflow for mural cell…",
       "inst": [
-        "stanford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.01.14.699544",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.08.27.747487",
+      "date": "2026-10-30"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Efficient biological design via genomic in-context learning",
-      "body": "In-context learning (ICL), the ability to perform new tasks from a few examples supplied in a prompt, is a defining emergent capability of large language models. Here, we show that ICL emerges in the genome language model Evo 2 and enables biological design. With as few as four examples in the prompt and no additional …",
+      "subject": "plant biology",
+      "title": "DNA demethylases constrain multigenerational methylome and transcriptome divergence",
+      "body": "In plants, animals and fungi, DNA methylation is important for the silencing of repetitive DNA and impacts the expression of a subset of genes. DNA methylation landscapes exhibit a high degree of stability over generations, yet this stability is the product of multiple dynamic methylation and demethylation pathways. Ho…",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.28.762643",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.29.762914",
+      "date": "2026-10-30"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Structures of MyD88 and its oncogenic mutant reveal DNA binding with implications for cytosolic DNA sensing",
-      "body": "MyD88 is a universal adaptor that connects to Toll-like receptors and interleukin-1 receptors through its Toll/IL-1R homology (TIR) domain and activates inflammatory signaling via its death domain (DD). However, how MyD88TIR serves as the platform for these functions and if it has additional functions remain unclear. H…",
+      "subject": "synthetic biology",
+      "title": "Duality Vaccination through Nanodesign of Click-Ligated B-Cell Inhibitory Receptor Bridging",
+      "body": "Synthesis of precise and robust molecular architectures is critical to harness the power of the immune system. The dimensions, rigidity and multivalency of nanoparticles contribute to eliciting high levels of antibodies from vaccination. However, antibodies vary hugely in quality: some antibodies are highly effective a…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.10.28.762652",
+      "date": "2026-10-30"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "EEG decodability of facial expressions and their stereoscopic depth cues in immersive virtual reality",
+      "body": "Face perception typically occurs in three-dimensional space, where stereoscopic depth cues enrich the perception of facial features. Yet, most neurophysiological research on face processing relies on two-dimensional displays, potentially overlooking the role of stereoscopic depth information. Here, we combine immersive…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.1101/2025.08.18.670974",
+      "date": "2026-10-30"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Dynamic brain states during encoding and their post-encoding reinstatement predict episodic memory in children",
+      "body": "Episodic memory, the ability to rapidly learn and explicitly remember past events and experiences, plays a critical role in children's academic learning and knowledge acquisition. The formation of lasting memories relies on the brain's ability to dynamically organize its activity. How these neural configurations unfold…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.1101/2025.11.25.690570",
+      "date": "2026-10-30"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "GolgiFold: A Structural Predictome of Human Golgi Protein Complexes",
+      "body": "The Golgi apparatus is a central hub for protein secretion and endolysosomal biogenesis, coordinating protein and vesicular trafficking pathways that maintain cellular homeostasis. Although hundreds of proteins associate with the Golgi, molecular assemblies have been defined for only a subset. Such well-characterized c…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.21.760499",
-      "date": "2026-10-29"
+      "doi": "10.64898/2026.10.29.758816",
+      "date": "2026-10-30"
     }
   ]
 }
