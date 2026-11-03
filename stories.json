@@ -1,45 +1,55 @@
 {
-  "generated_at": "2026-11-02T15:19:58.184469+00:00",
+  "generated_at": "2026-11-03T13:56:42.969720+00:00",
   "institutions": {
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     }
   },
   "stories": [
@@ -47,28 +57,40 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Brain representations of visual short-term memories during healthy human aging: occipital decline and frontoparietal compensation",
-      "body": "Visual short-term memory declines steeply with age, but the link to neural representations of memory content remains unknown. We used fMRI decoding to relate remembered motion-direction representations in visual and frontoparietal cortex to age and performance, in 115 adults, aged 25-87, from the Cambridge Centre for A…",
+      "title": "Sequential Sampling as a Computational Principle of Episodic Memory",
+      "body": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but helps construct the representations that are subseq…",
       "inst": [
-        "cambridge"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.26.761884",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.08.757704",
+      "date": "2026-10-31"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "High-resolution temporal profiling reveals synchronized dynamics of the mouse gut microbiome",
-      "body": "Background The gut microbiome undergoes diurnal oscillations entrained by host circadian rhythms and feeding behavior, and disruption of these oscillations has been linked to metabolic dysfunction. However, the temporal organization of microbial activity within these oscillatory cycles remains poorly understood, largel…",
+      "subject": "neuroscience",
+      "title": "Modular functional brain network organization contributes to training-related changes in task switching in children",
+      "body": "Cognitive training often aims to improve cognitive skills, but improvements in cognitive performance have been variable. One factor that has been found to predict training outcomes is the degree of modularity of functional brain networks, defined as the extent to which brain regions are more strongly connected to regio…",
       "inst": [
-        "riken"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.03.26.714232",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.02.26.708262",
+      "date": "2026-10-31"
     },
     {
       "id": 2,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Psychedelics restructure information in the human brain",
+      "body": "How do psychedelic drugs alter human brain function? Answering this question relies on our ability to understand how information is stored, transferred, and transformed across the cortex. Here, we leverage a precise mathematical framework for multivariate information decomposition to construct the first comprehensive p…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.10.01.755915",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 3,
       "cat": "science",
       "subject": "cell biology",
       "title": "Lipid Changes due to Low O-GlcNAc and the Downstream Consequences",
@@ -77,115 +99,151 @@
         "harvard"
       ],
       "doi": "10.64898/2026.10.13.758586",
-      "date": "2026-10-30"
-    },
-    {
-      "id": 3,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Endonuclease G governs an antiviral RNA surveillance system in budding yeast",
-      "body": "Endonuclease G family DNA/RNA nucleases localize to the mitochondrial intermembrane space and prevent escape of mitochondrial DNA to the cytosol or nucleus. While extramitochondrial Endonuclease G also targets nuclear DNA during cell death, RNA regulatory roles of this family remain enigmatic. Here we discover an RNA s…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.64898/2026.10.28.762607",
-      "date": "2026-10-30"
+      "date": "2026-10-31"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Few-shot regulatory sequence design with a genomic language model",
-      "body": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enab…",
+      "subject": "cancer biology",
+      "title": "Polyclonal and clonal organoid models of Barrett oesophagus and oesophageal adenocarcinoma reveal heterogeneity in progression and therapy response",
+      "body": "Oesophageal adenocarcinoma (OAC) is a major cause of morbidity and mortality. OAC and its precursor, Barrett oesophagus (BO), are defined by substantial early heterogeneity, complicating prevention and treatment of OAC. This diversity is poorly recapitulated by current in vitro and animal model systems. We have generat…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.28.762639",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.01.09.698383",
+      "date": "2026-10-31"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "EverGreen: A Calcium Sensing Fluorescent Protein with Ultra-Slow Response Properties",
-      "body": "Fluorescent calcium indicators are typically optimized for fast kinetics, but for some bio-engineering projects in synthetic biology slower indicators with long decay time constants may be more practical and easier to apply. We here present a green fluorescent protein calcium biosensor with unusually slow response kine…",
+      "subject": "bioinformatics",
+      "title": "Kidzoi Enables Cell-Type-Specific Regulatory Activity and Variant Effect Prediction in Kidney",
+      "body": "Sequence-to-function (S2F) deep learning models predict genome-wide functional profiles directly from DNA sequences and have significantly advanced our understanding of gene regulation. However, existing S2F models are fundamentally constrained by their initial training datasets, and no single model encompasses the ful…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.29.762894",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.09.28.746288",
+      "date": "2026-10-31"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis",
-      "body": "Three-dimensional (3D) mural cell morphology is heterogeneous and coupled to vessel geometry, however, measurements from two-dimensional (2D) maximum intensity projections (MIP) obscure overlapping processes and cell-vessel contacts. Accordingly, we developed Mural-VISTA, a semi-automated Python workflow for mural cell…",
+      "subject": "cell biology",
+      "title": "Intravital single-molecule microscopy reveals protein kinetics in live mammalian tissues",
+      "body": "Quantifying individual protein behavior in living mammalian tissues remains challenging. Here we introduce intravital single-molecule microscopy (iSiMM), an imaging and analysis framework that combines instant structured illumination microscopy guided tissue navigation with highly inclined and laminated optical sheet i…",
       "inst": [
-        "tokyo"
+        "nih"
       ],
-      "doi": "10.64898/2026.08.27.747487",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.02.25.708035",
+      "date": "2026-10-31"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "DNA demethylases constrain multigenerational methylome and transcriptome divergence",
-      "body": "In plants, animals and fungi, DNA methylation is important for the silencing of repetitive DNA and impacts the expression of a subset of genes. DNA methylation landscapes exhibit a high degree of stability over generations, yet this stability is the product of multiple dynamic methylation and demethylation pathways. Ho…",
+      "subject": "neuroscience",
+      "title": "An atlas of the aging glycoproteome reveals how glycosylation modulates autoantibody binding in the brain",
+      "body": "N-glycosylation generates substantial molecular diversity, yet how glycan composition varies throughout aging remains poorly understood. We mapped the N-glycoproteome of brain, liver, spleen, kidney, and plasma across nine ages spanning the mouse lifespan, identifying 80,618 unique N-glycopeptides at 9,211 glycosites o…",
       "inst": [
-        "berkeley"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.29.762914",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.28.762617",
+      "date": "2026-10-31"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Duality Vaccination through Nanodesign of Click-Ligated B-Cell Inhibitory Receptor Bridging",
-      "body": "Synthesis of precise and robust molecular architectures is critical to harness the power of the immune system. The dimensions, rigidity and multivalency of nanoparticles contribute to eliciting high levels of antibodies from vaccination. However, antibodies vary hugely in quality: some antibodies are highly effective a…",
+      "subject": "genetics",
+      "title": "SMFnet reveals principles of combinatorial transcription factor assembly",
+      "body": "Combinatorial assembly of transcription factors (TFs) opens chromatin at cis-regulatory elements (cREs) to establish cell-type-specific gene expression. Dissecting the role of individual TFs and their collective function has been limited by the diversity of TF binding-site arrangements across cREs. A single regulatory …",
       "inst": [
-        "cambridge"
+        "embl"
       ],
-      "doi": "10.64898/2026.10.28.762652",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.30.762954",
+      "date": "2026-10-31"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "EEG decodability of facial expressions and their stereoscopic depth cues in immersive virtual reality",
-      "body": "Face perception typically occurs in three-dimensional space, where stereoscopic depth cues enrich the perception of facial features. Yet, most neurophysiological research on face processing relies on two-dimensional displays, potentially overlooking the role of stereoscopic depth information. Here, we combine immersive…",
+      "subject": "microbiology",
+      "title": "YhdP forms an envelope-spanning phospholipid-binding bridge in complex with DedD",
+      "body": "The outer membrane of Gram-negative bacteria is built from phospholipids synthesised at the inner membrane, but how they cross the periplasm remains unresolved. YhdP is the leading candidate for anterograde phospholipid transfer and is predicted to form an envelope-spanning bridge. Here we purify YhdP at endogenous lev…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.1101/2025.08.18.670974",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.30.763061",
+      "date": "2026-10-31"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dynamic brain states during encoding and their post-encoding reinstatement predict episodic memory in children",
-      "body": "Episodic memory, the ability to rapidly learn and explicitly remember past events and experiences, plays a critical role in children's academic learning and knowledge acquisition. The formation of lasting memories relies on the brain's ability to dynamically organize its activity. How these neural configurations unfold…",
+      "subject": "microbiology",
+      "title": "Metabolic cascades drive spatial prebiotic fermentation in a defined gut consortium",
+      "body": "Dietary fiber deficiency shifts the gut microbiota to degrade host mucus, compromising intestinal homeostasis. Mechanistically linking in vitro metabolic dynamics of fiber degradation to in vivo outcomes remains challenging due to a lack of representative model systems. Introducing spatial mucin structures to a defined…",
       "inst": [
-        "stanford"
+        "eth"
       ],
-      "doi": "10.1101/2025.11.25.690570",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.30.763039",
+      "date": "2026-10-31"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "GolgiFold: A Structural Predictome of Human Golgi Protein Complexes",
-      "body": "The Golgi apparatus is a central hub for protein secretion and endolysosomal biogenesis, coordinating protein and vesicular trafficking pathways that maintain cellular homeostasis. Although hundreds of proteins associate with the Golgi, molecular assemblies have been defined for only a subset. Such well-characterized c…",
+      "subject": "evolutionary biology",
+      "title": "Joint QTL mapping reveals patterns of pleiotropy across structured environments in budding yeast",
+      "body": "Quantitative trait locus (QTL) mapping studies in model organisms have long been used to infer the structure of genotype-phenotype maps. However, prior work has largely focused on analyzing the genetic architecture of complex traits individually. Here, we sought to instead infer genotype-phenotype maps for a large set …",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.29.758816",
-      "date": "2026-10-30"
+      "doi": "10.64898/2026.10.30.763211",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "DGM Is Dead; Long Live DGM-Star! A Quantization-Theoretic Approach to Gamma Rate Discretization",
+      "body": "Modeling substitution rate heterogeneity as a discretized Gamma distribution is standard in phylogenetic inference. Ferretti et al. (2026) have recently demonstrated that the most commonly used equiprobable Gamma rate discretization, known simply as the discrete Gamma model (DGM), substantially overestimates average br…",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.10.30.763052",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "pathology",
+      "title": "Digital pathological classification of peripheral neuroblastic tumors across multi-continent cohorts",
+      "body": "Peripheral neuroblastic tumors (pNTs) are embryonal tumors of neural crest origin with highly variable clinical behaviors, ranging from spontaneous regression to aggressive and fatal disease. The International Neuroblastoma Pathology Classification (INPC) defines four diagnostic categories and stratifies tumors into Fa…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.10.26.761046",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The Canadian Pediatric Imaging Platform (C-PIP) Reference Sample: Neuroimaging Protocol and Cross-site Validation for Harmonized Multimodal Pediatric Imaging",
+      "body": "Understanding how the human brain matures from infancy through adolescence is essential for identifying factors that influence health outcomes. Magnetic resonance imaging (MRI) provides powerful tools for characterizing structural, microstructural, functional, and metabolic aspects of brain development; however, many p…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.10.26.761379",
+      "date": "2026-10-31"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Structure of a secreted lancelet carotenoid cleavage dioxygenase (CCD), from an ancestral CCD clade",
+      "body": "Carotenoid cleavage dioxygenases (CCDs) are a superfamily of non-heme iron-containing enzymes ubiquitous across all kingdoms of life. Previously, we identified a new subfamily of CCDs termed beta-carotene oxygenase-like (BCOL) proteins, a chordate expansion of an ancestral sister clade of metazoan CCDs, which are widel…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.10.29.762971",
+      "date": "2026-10-31"
     }
   ]
 }
