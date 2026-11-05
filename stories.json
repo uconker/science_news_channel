@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-04T14:08:14.970702+00:00",
+  "generated_at": "2026-11-05T14:27:28.137902+00:00",
   "institutions": {
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "karolinska": {
       "name": "Karolinska Institute, Stockholm",
@@ -16,40 +36,20 @@
       "lat": 42.37,
       "lon": -71.12
     },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     }
   },
   "stories": [
@@ -128,170 +128,158 @@
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "A Unified World Model in Human Posterior Parietal Cortex",
-      "body": "How does the brain understand the physical world, predict future events, and plan actions? Are these problems solved by a unified world model, as hypothesized by cognitive scientists and artificial intelligence researchers? Posterior parietal cortex has been implicated in all these functions, but whether the same neuro…",
+      "subject": "developmental biology",
+      "title": "Coding region changes in the Hippo pathway component YAP1 contribute to body size differences among mammalian species",
+      "body": "Animal species differ dramatically in their overall size, yet the mechanisms underlying these differences are poorly understood. The Hippo pathway, first discovered in Drosophila, and widely conserved in mammals, regulates the nuclear levels of YAP1, a transcriptional co-activator that enhances the expression of growth…",
       "inst": [
-        "mit"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.30.762936",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.29.762931",
+      "date": "2026-11-02"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Impact of RNA modification and IL-12 boosts on mRNA-LNP vaccine-elicited CD8+ T cell responses",
-      "body": "Development of effective HIV-1 vaccines requires strategies for inducing both CD8+ T cell and neutralizing antibody responses. Nucleoside-modified mRNA-lipid-nanoparticles (LNP) induce more potent antibody responses than unmodified mRNA-LNP vaccines, while unmodified mRNA is typically employed for CD8+ T cell-inducing …",
+      "subject": "genetics",
+      "title": "Cellular context shapes the transcriptomic impact of somatic variants",
+      "body": "Somatic SNVs are commonly prioritized by recurrence or sequence annotation, leaving the molecular consequences of private variants unresolved. We developed PrismSNV and Ligo-Seq, a single-cell full-length transcriptome sequencing platform, to quantify transcriptomic displacement associated with within-cell SNV-state to…",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.26.761945",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.28.760887",
+      "date": "2026-11-02"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Phenotypic screening in Parkinson's iPSC-dopamine neurons identifies the FASN-SREBP1 axis as a potential therapeutic target",
-      "body": "Parkinson's disease (PD) remains highly challenging to model in vitro, particularly when seeking robust functional phenotypes for target discovery. Patient-derived induced pluripotent stem cell dopaminergic neurons (iPSC-DANs) offer a promising platform to address this challenge. Because calcium dyshomeostasis is well-…",
+      "subject": "physiology",
+      "title": "Quantitative imaging of native tissue architecture combined with deep multi-omics reveals the spatial biology of kidney aging",
+      "body": "Aging alters tissue architecture and metabolism in spatially heterogeneous ways, yet the connections between these measurable structural and compositional phenotypes and underlying molecular changes are largely unknown. Here, we introduce NORIGAMI (NoRI-Guided AI for Multimodal Integration), a pipeline combining Normal…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.27.761977",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.28.762545",
+      "date": "2026-11-02"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Improving Molecular Docking Pose Recovery through Targeted Side-Chain Monte Carlo Sampling of an Apo Structure",
-      "body": "Receptor flexibility complicates molecular docking when only an unbound (apo) protein structure is available. Local side-chain rearrangements can alter binding-pocket accessibility and ligand complementarity, motivating approaches that sample these motions efficiently. Here, we evaluate a targeted Markov Chain Monte Ca…",
+      "subject": "molecular biology",
+      "title": "Cell-resolved pharmacodynamic profiling reveals tissue- and cell-population-specific activity of antisense oligonucleotide chemical conjugates in vivo",
+      "body": "Chemical conjugation can modulate antisense oligonucleotide (ASO) pharmacology and improve organ-specific delivery, yet whole-tissue measurements provide limited information on cell-specific activity. Here, we used metastasis-associated lung adenocarcinoma transcript 1 (Malat1) knockdown as a pharmacodynamic readout to…",
       "inst": [
-        "mit"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.28.762659",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.762893",
+      "date": "2026-11-02"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Gene Embedding Hub: a standardized resource for human gene representations",
-      "body": "Gene embeddings are vector representations of gene identity that provide machine-learning models with information from diverse biological sources. However, their use is hindered by a lack of standardization: inconsistent identifiers, formats, and preprocessing conventions. In this work, we present a unified resource of…",
+      "subject": "cell biology",
+      "title": "Pathological levels of α-synuclein increase basal mitophagy in Parkinson's dopamine neurons",
+      "body": "Elevated -synuclein results in mitochondrial dysfunction, however the exact mechanism is poorly understood. -Synuclein localises to multiple subcellular sites including mitochondria, where it binds anionic lipids which regulate mitochondrial dynamics through DRP1. We hypothesised that pathogenic levels of -synuclein le…",
       "inst": [
-        "eth"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.29.762818",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.29.762809",
+      "date": "2026-11-02"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Twenty-five new microsporidian genomes: Insights into ploidy, reproduction, and the group's pangenome",
-      "body": "Microsporidia are single-celled, obligately intracellular eukaryotic parasites of growing importance. Many aspects of their biology remain enigmatic, partly because of difficulties in sampling, culturing, and experimentally manipulating them. Here, we continue efforts to generate microsporidian genomes from serendipito…",
+      "subject": "ecology",
+      "title": "Ancient environmental DNA reveals the distinct fingerprints of whaling and climate change on Antarctic marine biodiversity",
+      "body": "The Southern Ocean is a disproportionately large contributor to Earth system processes, playing a crucial role in the global transport of carbon, oxygen and heat. It also hosts enormous seasonal biological productivity that supports diverse endemic marine biodiversity. Industrial whaling in the first half of the 20th c…",
       "inst": [
-        "sanger"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.10.30.762710",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.763115",
+      "date": "2026-11-02"
     },
     {
       "id": 12,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "An ecological origin of the asymmetry of human color discrimination: evidence from psychophysics, MEG, and deep neural networks",
-      "body": "Hue is a powerful cue for object discrimination, but human color discrimination is anisotropic: hue thresholds are lower than chroma thresholds for orangish colors, but nearly equal for purplish colors. Here we show that this asymmetry reflects environmental color statistics rather than being a fixed consequence of con…",
+      "title": "Mapping Endogenous Psychedelic Chemistry: Indolethylamine N-Methyltransferase (INMT) Localizes Proximal to the Golgi Apparatus of Human Neurons",
+      "body": "N,N-dimethyltryptamine (DMT) is a serotonergic psychedelic with a history of ethnobotanical use and emerging clinical efficacy for neuropsychiatric disorders. Following Julius Axelrod's pioneering studies showing DMT production in human tissues, DMT has been proposed as an endogenous neuromodulator because it is a sero…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.06.16.732654",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.758666",
+      "date": "2026-11-02"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "EBF1 controls an embryonic artery-forming niche that reactivates in pulmonary arterial hypertension",
-      "body": "Developmental programs that orchestrate cell fate and tissue architecture during organogenesis can cause disease when reactivated in adults. Here we identify a population of endothelial cells (ECs) defined by the pioneer factor early B cell factor 1 (EBF1) that controls both pulmonary artery (PA) morphogenesis and pulm…",
+      "subject": "molecular biology",
+      "title": "Genomic context tunes sequence-encoded RNA processing",
+      "body": "Sequence and genomic position jointly determine RNA processing, but at native loci the two are difficult to separate. Here, we uncoupled them by integrating RNA-processing elements into endogenous transcription units at tens of thousands of mapped positions and different elements at shared positions. Genomic position d…",
       "inst": [
-        "stanford"
+        "weizmann"
       ],
-      "doi": "10.1101/2025.05.02.651303",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.29.762830",
+      "date": "2026-11-02"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "genetics",
-      "title": "A collaborative submission model for building high-quality data resources at scale through partnership: lessons from single-cell genomics",
-      "body": "Community data resources that aggregate datasets across studies are critical infrastructure for modern biomedical research, accelerating discovery, and rapidly-advancing Artificial Intelligence (AI) models place ever-greater demand on large, well-described data corpora. However, building these resources involves a fund…",
+      "subject": "molecular biology",
+      "title": "XRN1-dependent RNA homeostasis regulates hepatitis D virus",
+      "body": "Hepatitis delta virus (HDV) infection causes the most severe form of viral hepatitis, yet the host mechanisms restricting HDV replication remain poorly understood. Although HDV infection activates the MDA5-LGP2 pathway and induces robust interferon (IFN) responses, these antiviral programs have limited impact on viral …",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.06.02.729387",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.11.01.763535",
+      "date": "2026-11-02"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Sleep Renormalizes Negative Emotional Generalization",
-      "body": "Overgeneralization of negative experiences co-occurs with sleep disruption and characterizes anxiety and posttraumatic stress disorder (PTSD). A strategically-designed behavioral paradigm tested whether sleep shifts emotional generalization away from negative and toward positive representations. Participants learned po…",
+      "subject": "cell biology",
+      "title": "Tiled base editing screens uncover rare second-site mutations that rescue a misfolded disease protein",
+      "body": "Therapeutic base editing can directly revert ~30% of disease-causing missense mutations to the wild-type sequence. One strategy to broaden its reach is to install second-site corrector mutations that improve protein stability or function across multiple pathogenic alleles. Here, we use tiled adenine and cytosine base e…",
       "inst": [
-        "weizmann"
+        "stanford"
       ],
-      "doi": "10.1101/2025.08.18.670780",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.763201",
+      "date": "2026-11-02"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Policy regularization as a unifying theory of the striatal division of labor in learning",
-      "body": "Learning novel behaviors requires balancing previously learned actions with the ability to flexibly adapt to changing reward contingencies. This trade-off is well documented in the division of labor between dorsolateral striatum (DLS), which promotes selection of cached, history-dependent actions, and dorsomedial stria…",
+      "subject": "developmental biology",
+      "title": "Fertilization offsets the maternal age effect on mouse oocytes provided the oviduct is not itself aged",
+      "body": "Advanced maternal age compromises oocyte quality, and it is widely assumed that these deficits are transmitted to embryos. However, because most studies rely on in vivo conception, it has been difficult to separate the effects of oocyte aging from those of an aged fertilization environment. In aging mice, we observed t…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.09.10.750654",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.761756",
+      "date": "2026-11-02"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Germline stem cell isolation, lineage tracing, and aging in a protochordate",
-      "body": "Germline stem cells (GSCs), the source of gametes, are the only stem cells capable of passing genes to future generations making them cellular units of natural selection. Yet, factors regulating their fitness, and thus governing GSC competition, which exist in both protochordates and mammals, remain poorly understood. …",
+      "subject": "cancer biology",
+      "title": "APR-246 and DNA polymerase theta inhibitor Novobiocinsynergize to eliminate TP53 mutant AML cells",
+      "body": "Patients with TP53-mutant myelodysplasic syndromes (MDS) and acute myeloid leukemia (AML) are usually elderly and frail with highly resistant malignant clones and a median survival of less than one year. The molecule APR-246 targets mutant p53 but also perturbs redox homeostasis. APR-246 showed favorable safety in a ph…",
       "inst": [
-        "stanford"
+        "karolinska"
       ],
-      "doi": "10.1101/2025.08.31.673173",
-      "date": "2026-11-01"
+      "doi": "10.64898/2026.10.30.763043",
+      "date": "2026-11-02"
     },
     {
       "id": 18,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Regional species coexistence despite local priority effects: the overlooked role of dispersal-community feedback",
-      "body": "Many cases of animal-mediated dispersal are non-random, with the animals altering their movement pattern in response to the local species composition of the organisms that the vectoring animals disperse. Yet, this dispersal-community feedback has received little attention in metacommunity ecology. We use a mathematical…",
+      "subject": "bioengineering",
+      "title": "A Precisely Controlled Long-Acting Immunosuppression Platform Enables Prolonged Survival of Vascularized Composite Allografts",
+      "body": "Vascularized composite allotransplantation (VCA) restores complex multi-tissue defects but remains limited by the need for lifelong immunosuppression. Daily oral tacrolimus, the primary maintenance regimen, poses adherence challenges and produces large peak-trough fluctuations within a narrow therapeutic window, result…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.1101/2025.03.31.646410",
-      "date": "2026-11-01"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "BlastPhyMe: A toolkit for rapid generation and analysis of protein-coding sequence datasets",
-      "body": "SUMMARY: We present BlastPhyMe (BLAST, Phylogenies, and Molecular Evolution) a new application to facilitate the fast and easy generation and analysis of protein-coding sequence datasets. The application uses a portable database framework to manage and organize sequences along with a graphical user interface (GUI) that…",
-      "inst": [
-        "toronto"
-      ],
-      "doi": "10.1101/059881",
-      "date": "2026-11-01"
+      "doi": "10.1101/2025.11.07.687240",
+      "date": "2026-11-02"
     }
   ]
 }
