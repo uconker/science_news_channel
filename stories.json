@@ -1,285 +1,338 @@
 {
-  "generated_at": "2026-11-05T14:27:28.137902+00:00",
+  "generated_at": "2026-11-06T14:02:31.558321+00:00",
   "institutions": {
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
+    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "A rational design strategy and validation for protease-resistant fusion-inhibitor antiviral peptides",
-      "body": "Peptide-based fusion inhibitors are promising pharmaceuticals in the fight against enveloped viruses relying on membrane fusion for host infection. However, peptide therapeutic applications have long been hindered by their poor stability in vivo. Here, we discovered that peptide inhibitors with the wildtype sequence of…",
+      "subject": "neuroscience",
+      "title": "Learning complex temporal dependencies via local synaptic plasticity",
+      "body": "The ability to extract and exploit temporal structure across diverse tasks is central to human cognition. Neuroscientists have typically relied on recurrent neural networks (RNNs) trained with backpropagation through time (BPTT) when modelling neural and behavioural processes such as decision-making and motor control. …",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.09.12.750390",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.07.09.737423",
+      "date": "2026-11-03"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Naked antisense oligonucleotides access the cytosol during early endocytic trafficking",
-      "body": "Phosphorothioate-modified antisense oligonucleotides (ASOs) enter cells, but their site of productive escape remains uncertain. We combined live-cell imaging and ratiometric pH measurements to follow a Malat1-targeting ASO internalized without a delivery vehicle. In U2OS cells, less than 4% of internalized ASO reached …",
+      "subject": "molecular biology",
+      "title": "IER3-N-cadherin axis contributes to apoptosis resistance in dermal fibroblasts under profibrotic conditions",
+      "body": "Background: Persistent activation and resistance to apoptosis of dermal fibroblasts contribute to pathological skin fibrosis. Immediate early response 3 (IER3) is a stress-responsive protein involved in cell survival, but its role in cutaneous fibrosis remains unclear. We investigated the functional significance of IER…",
       "inst": [
-        "harvard"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.05.11.724403",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.31.763371",
+      "date": "2026-11-03"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Revisiting the role of cAMP in Drosophila aversive olfactory memory formation",
-      "body": "In aversive olfactory conditioning in Drosophila melanogaster, an odor (the conditioned stimulus, CS) is paired with an electric shock (the unconditioned stimulus, US). Rutabaga adenylyl cyclase, which synthesizes cAMP in Kenyon cells (KCs), has long been proposed to act as a coincidence detector, synergistically activ…",
+      "subject": "ecology",
+      "title": "Concrete waste as a source of calcium and alkalinity for coccolithophore cultivation: an experimental test of carbon dioxide removal and sequestration",
+      "body": "Cultivation of calcifying microalgae has been proposed as a route to carbon dioxide removal (CDR), but biogenic calcification releases CO2 unless the calcium supplied also adds alkalinity. We used cultures of the coccolithophore Chrysotila sp to test whether hydrated lime (Ca(OH)2), supplied as a reagent or within grou…",
       "inst": [
-        "tokyo"
+        "eth"
       ],
-      "doi": "10.1101/2023.06.26.545795",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.31.763296",
+      "date": "2026-11-03"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "immunology",
-      "title": "CD19-CAR T-cell therapy resets the EBV+ autoreactive B cell repertoire in autoimmune disease",
-      "body": "Epstein-Barr virus (EBV) reprograms autoreactive B cells into activated antigen-presenting cells that drive pathogenic T- and B-cell responses in autoimmune disease. Whether eliminating these cells contributes to durable remission after CD19 chimeric antigen receptor (CAR) T-cell therapy is unknown. Here, using EBV B-c…",
+      "subject": "bioinformatics",
+      "title": "Redesigning the Eterna100 RNA design benchmark for the Vienna 2 folding engine",
+      "body": "The rational design of RNA is becoming important for rapidly developing technologies in medicine and biochemistry, spurring development of numerous RNA secondary structure design algorithms and benchmarks to evaluate their performance. However, the problem of RNA design is dependent upon the inverse problem of RNA stru…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.10.24.761515",
-      "date": "2026-11-02"
+      "doi": "10.1101/2021.08.26.457839",
+      "date": "2026-11-03"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "A Unique Promoter Architecture Defines Menin-KMT2A Complex Selectivity",
-      "body": "Selective occupancy of chromatin-regulatory complexes is central to developmental gene regulation, yet the sequence determinants of this selectivity remain poorly understood. Using interpretable machine learning, we identify a composite promoter architecture comprising CpG islands flanked by several-kilobase A/T-rich d…",
+      "subject": "neuroscience",
+      "title": "Reduced enteric Bdnf expression and TrkB-dependent regulation of Vip in a Mecp2-null mouse model of Rett syndrome-associated gastrointestinal dysmotility",
+      "body": "Gastrointestinal (GI) dysmotility is a highly prevalent and clinically significant feature of Rett syndrome (RTT), yet its underlying mechanisms remain poorly defined. Here, we investigated these mechanisms of GI dysmotility in a Mecp2null mouse model of RTT. First, we observed that MeCP2 was expressed in murine myente…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.10.30.763078",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.04.12.718037",
+      "date": "2026-11-03"
     },
     {
       "id": 5,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Assessing reinforcement learning and vigor with an online decision-making battery",
-      "body": "Reinforcement learning and vigor are two fundamental aspects of decision-making modulated by dopamine. Although vigor is highly relevant for mood disorders, it has been overlooked by previous batteries characterizing decision-making abilities. We developed a test battery with two RL tasks (RL/working memory, go/no-go t…",
+      "title": "Multi-scale place fields provide a predictive basis for hierarchical control",
+      "body": "Hippocampal place cells typically exhibit unimodal spatial selectivity in small enclosures, but express multiple, irregularly spaced fields in environments of naturalistic scale. However, existing predictive-map theories of the hippocampus do not scale well to large environments and do not account for these heterogeneo…",
       "inst": [
-        "karolinska"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.10.30.763028",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.28.762461",
+      "date": "2026-11-03"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Coding region changes in the Hippo pathway component YAP1 contribute to body size differences among mammalian species",
-      "body": "Animal species differ dramatically in their overall size, yet the mechanisms underlying these differences are poorly understood. The Hippo pathway, first discovered in Drosophila, and widely conserved in mammals, regulates the nuclear levels of YAP1, a transcriptional co-activator that enhances the expression of growth…",
+      "subject": "immunology",
+      "title": "Enzymatic attachment of antigens to probe immune modulation by skin commensals",
+      "body": "The skin colonist Staphylococcus epidermidis induces potent T and B cell responses, which can be redirected against antigens of interest by genetic engineering. However, since many taxa in the microbiome are genetically intractable, the utility of this method is limited. Here, we use recombinant sortase to conjugate an…",
       "inst": [
-        "berkeley"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.29.762931",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.31.763323",
+      "date": "2026-11-03"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "genetics",
-      "title": "Cellular context shapes the transcriptomic impact of somatic variants",
-      "body": "Somatic SNVs are commonly prioritized by recurrence or sequence annotation, leaving the molecular consequences of private variants unresolved. We developed PrismSNV and Ligo-Seq, a single-cell full-length transcriptome sequencing platform, to quantify transcriptomic displacement associated with within-cell SNV-state to…",
+      "subject": "microbiology",
+      "title": "Genetics and genomics of enteroarthroconidial development in Coccidioides",
+      "body": "The human fungal pathogen Coccidioides causes disease when its infectious spores, enteroarthroconidia, are inhaled from the soil. Spore dispersal depends on the death of a unique developmental form, disjunctor cells, which flank incipient enteroarthroconidia and are unexplored molecularly. Here we used single-cell (sc)…",
       "inst": [
-        "karolinska"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.10.28.760887",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.27.762035",
+      "date": "2026-11-03"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Quantitative imaging of native tissue architecture combined with deep multi-omics reveals the spatial biology of kidney aging",
-      "body": "Aging alters tissue architecture and metabolism in spatially heterogeneous ways, yet the connections between these measurable structural and compositional phenotypes and underlying molecular changes are largely unknown. Here, we introduce NORIGAMI (NoRI-Guided AI for Multimodal Integration), a pipeline combining Normal…",
+      "subject": "bioinformatics",
+      "title": "JUMP Cell Painting chemical dataset: Morphological map of 115,796 compounds in human cells",
+      "body": "Image-based profiling decodes complex cellular states for high-impact biological and therapeutic applications, yet a large, public reference dataset of chemical perturbations has been lacking. We present Cell Painting images and 1.53 billion single-cell profiles for 115,796 compounds in human osteosarcoma cells, genera…",
       "inst": [
-        "harvard"
+        "broad"
       ],
-      "doi": "10.64898/2026.10.28.762545",
-      "date": "2026-11-02"
+      "doi": "10.1101/2023.03.23.534023",
+      "date": "2026-11-03"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Cell-resolved pharmacodynamic profiling reveals tissue- and cell-population-specific activity of antisense oligonucleotide chemical conjugates in vivo",
-      "body": "Chemical conjugation can modulate antisense oligonucleotide (ASO) pharmacology and improve organ-specific delivery, yet whole-tissue measurements provide limited information on cell-specific activity. Here, we used metastasis-associated lung adenocarcinoma transcript 1 (Malat1) knockdown as a pharmacodynamic readout to…",
+      "subject": "developmental biology",
+      "title": "Tissue geometry patterns epidermal stem cell fate in murine interfollicular skin",
+      "body": "How tissues maintain spatial patterns of stem cell renewal and differentiation despite continuous cellular turnover remains poorly understood. Here, we show that microscopic undulations of the dermal-epidermal junction (DEJ) are associated with distinct stem cell behaviors in the mouse epidermis. Using longitudinal int…",
       "inst": [
-        "ucl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.30.762893",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.01.763461",
+      "date": "2026-11-03"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Pathological levels of α-synuclein increase basal mitophagy in Parkinson's dopamine neurons",
-      "body": "Elevated -synuclein results in mitochondrial dysfunction, however the exact mechanism is poorly understood. -Synuclein localises to multiple subcellular sites including mitochondria, where it binds anionic lipids which regulate mitochondrial dynamics through DRP1. We hypothesised that pathogenic levels of -synuclein le…",
+      "subject": "neuroscience",
+      "title": "Photoentrainment as Bayesian Inference: How the central circadian clock may weight and integrate the intensity and wavelength of natural light to estimate astronomical time",
+      "body": "Synchronising with the Earth's 24-hour rotation using natural light as a timing cue presents a problem for the mammalian brain's central circadian clock. Natural light is highly variable and can take a range of values at any given time of day. For example, it fluctuates due to differences in weather conditions and acro…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.29.762809",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.27.762184",
+      "date": "2026-11-03"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Ancient environmental DNA reveals the distinct fingerprints of whaling and climate change on Antarctic marine biodiversity",
-      "body": "The Southern Ocean is a disproportionately large contributor to Earth system processes, playing a crucial role in the global transport of carbon, oxygen and heat. It also hosts enormous seasonal biological productivity that supports diverse endemic marine biodiversity. Industrial whaling in the first half of the 20th c…",
+      "subject": "neuroscience",
+      "title": "Integrated Characterization of Proximal and Distal Nerve Stumps in a Model of Chronic Motor Nerve Transection",
+      "body": "Prolonged peripheral nerve discontinuity subjects the proximal stump to chronic axotomy and the distal stump to chronic denervation, resulting in pathological changes that may compromise regeneration following delayed repair. Although these changes have been investigated in both nerve stumps, much of the existing evide…",
       "inst": [
-        "copenhagen"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.30.763115",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.02.763804",
+      "date": "2026-11-03"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Mapping Endogenous Psychedelic Chemistry: Indolethylamine N-Methyltransferase (INMT) Localizes Proximal to the Golgi Apparatus of Human Neurons",
-      "body": "N,N-dimethyltryptamine (DMT) is a serotonergic psychedelic with a history of ethnobotanical use and emerging clinical efficacy for neuropsychiatric disorders. Following Julius Axelrod's pioneering studies showing DMT production in human tissues, DMT has been proposed as an endogenous neuromodulator because it is a sero…",
+      "subject": "microbiology",
+      "title": "DarHTG is a tripartite phage defence system for purine DNA base ADP-ribosylation",
+      "body": "Bacteria evolved a variety of phage defence strategies to combat the constant onslaught of viral threats. DarTG toxin-antitoxin systems provide phage defence by ADP-ribosylation of bases in single-stranded DNA which interferes with viral replication and aborts phage infection. Here, we describe DarHTG, a system widespr…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.30.758666",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.02.763450",
+      "date": "2026-11-03"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Genomic context tunes sequence-encoded RNA processing",
-      "body": "Sequence and genomic position jointly determine RNA processing, but at native loci the two are difficult to separate. Here, we uncoupled them by integrating RNA-processing elements into endogenous transcription units at tens of thousands of mapped positions and different elements at shared positions. Genomic position d…",
+      "subject": "cell biology",
+      "title": "Inflammatory proteostasis reprogramming creates a lysosomal bottleneck for microglial aggregate clearance",
+      "body": "Efficient clearance of extracellular protein aggregates by microglia is essential for maintaining brain homeostasis and limiting the accumulation of pathological proteins during neurodegeneration. However, how inflammatory activation affects the ability of microglia to internalize and degrade these aggregates remains i…",
       "inst": [
-        "weizmann"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.29.762830",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.02.763615",
+      "date": "2026-11-03"
     },
     {
       "id": 14,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "XRN1-dependent RNA homeostasis regulates hepatitis D virus",
-      "body": "Hepatitis delta virus (HDV) infection causes the most severe form of viral hepatitis, yet the host mechanisms restricting HDV replication remain poorly understood. Although HDV infection activates the MDA5-LGP2 pathway and induces robust interferon (IFN) responses, these antiviral programs have limited impact on viral …",
+      "subject": "systems biology",
+      "title": "Simulating the dynamics of gene regulatory systems at cellular scale",
+      "body": "The temporal nature of eukaryotic gene expression is the result of a complex, non-linear, dynamical system of regulatory processes. So far, models of such systems trade realism for tractability by using strict simplifying assumptions. These simplified models are often unfaithful to our biological understanding; however…",
       "inst": [
-        "oxford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.01.763535",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.01.763459",
+      "date": "2026-11-03"
     },
     {
       "id": 15,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Tiled base editing screens uncover rare second-site mutations that rescue a misfolded disease protein",
-      "body": "Therapeutic base editing can directly revert ~30% of disease-causing missense mutations to the wild-type sequence. One strategy to broaden its reach is to install second-site corrector mutations that improve protein stability or function across multiple pathogenic alleles. Here, we use tiled adenine and cytosine base e…",
+      "subject": "microbiology",
+      "title": "Tandem repeats in methanogenic archaea and their viruses reveal a shared potential for rapid genomic diversification",
+      "body": "Methanogenic archaea drive global methane emissions, yet the molecular basis of their physiological flexibility is unclear. Archaeal adaptation is typically attributed to horizontal gene transfer, which is episodic and cannot explain rapid, reversible change. Here we show that direct tandem repeats (TRs) offer an intri…",
       "inst": [
-        "stanford"
+        "eth"
       ],
-      "doi": "10.64898/2026.10.30.763201",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.10.30.763056",
+      "date": "2026-11-03"
     },
     {
       "id": 16,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Fertilization offsets the maternal age effect on mouse oocytes provided the oviduct is not itself aged",
-      "body": "Advanced maternal age compromises oocyte quality, and it is widely assumed that these deficits are transmitted to embryos. However, because most studies rely on in vivo conception, it has been difficult to separate the effects of oocyte aging from those of an aged fertilization environment. In aging mice, we observed t…",
+      "subject": "animal behavior and cognition",
+      "title": "WhaleSonic: Recordings of cetacean vocal behaviour with hydrophone arrays in Northern Norway",
+      "body": "Killer whales, humpback whales, fin whales, and sperm whales converged in a fjord system in Northern Norway during the 2023-2024 winter, where whale watching and fishing vessels add to the acoustic scene. Cetaceans are intensely studied for their acoustic behaviour and communication, and the co-occurrence of four speci…",
       "inst": [
-        "mpi_generic"
+        "eth"
       ],
-      "doi": "10.64898/2026.10.30.761756",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.02.763576",
+      "date": "2026-11-03"
     },
     {
       "id": 17,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "APR-246 and DNA polymerase theta inhibitor Novobiocinsynergize to eliminate TP53 mutant AML cells",
-      "body": "Patients with TP53-mutant myelodysplasic syndromes (MDS) and acute myeloid leukemia (AML) are usually elderly and frail with highly resistant malignant clones and a median survival of less than one year. The molecule APR-246 targets mutant p53 but also perturbs redox homeostasis. APR-246 showed favorable safety in a ph…",
+      "subject": "biochemistry",
+      "title": "Structural Basis for Inhibition of Human Anion Transporter SLC26A6/PAT-1",
+      "body": "PAT-1, encoded by the gene SLC26A6, is an exchanger of small organic and inorganic anions including oxalate and chloride in the kidney and the intestines. PAT-1 dysfunction is implicated in nephrolithiasis and hyperoxaluria, and its modulation is a potential therapeutic strategy to treat cystic fibrosis. PAT-1 has two …",
       "inst": [
-        "karolinska"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.30.763043",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.01.757131",
+      "date": "2026-11-03"
     },
     {
       "id": 18,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "A Precisely Controlled Long-Acting Immunosuppression Platform Enables Prolonged Survival of Vascularized Composite Allografts",
-      "body": "Vascularized composite allotransplantation (VCA) restores complex multi-tissue defects but remains limited by the need for lifelong immunosuppression. Daily oral tacrolimus, the primary maintenance regimen, poses adherence challenges and produces large peak-trough fluctuations within a narrow therapeutic window, result…",
+      "subject": "biophysics",
+      "title": "FoxO1 and HNF1α cooperatively remodel nucleosome architecture and mechanical stability to activate transcription",
+      "body": "How different transcription factors (TFs) cooperate to bind nucleosomal DNA targets remains unclear. Cryo-EM and force spectroscopy show that the pioneer factor FoxO1 binds superhelical location (SHL) +2 of nucleosomes assembled on the human IGFBP1 promoter, enhances distal DNA unwrapping, destabilizes the histone core…",
       "inst": [
-        "harvard"
+        "berkeley"
       ],
-      "doi": "10.1101/2025.11.07.687240",
-      "date": "2026-11-02"
+      "doi": "10.64898/2026.11.01.763477",
+      "date": "2026-11-03"
+    },
+    {
+      "id": 19,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Organelle Aging Predicts Human Disease",
+      "body": "Aging affects cellular organelles differently, but whether subcellular aging predicts human disease remains unknown. Here, we integrated organelle-enriched proteins in plasma and cerebrospinal fluid proteomes from 61,931 individuals to model aging of 10 organelles across the human lifespan. Organelle aging was heteroge…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.11.01.763400",
+      "date": "2026-11-03"
+    },
+    {
+      "id": 20,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Embodied Dynamic Causal Modelling: Brain and Cardiac Effective Connectivity",
+      "body": "Brain-body interactions underpin embodied inference and interoception, and are central to both general health and the pathophysiology of mental health disorders. These interactions are orchestrated across a hierarchy extending from the cortex, through the brainstem, to peripheral autonomic effectors. Existing methods e…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.10.27.762241",
+      "date": "2026-11-03"
+    },
+    {
+      "id": 21,
+      "cat": "science",
+      "subject": "ecology",
+      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
+      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.09.28.754864",
+      "date": "2026-11-03"
+    },
+    {
+      "id": 22,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A vagal-to-sympathetic reflex controls lung vascular leak",
+      "body": "Dynamic regulation of the vascular barrier is required for innate immunity, yet excessive leak endangers vulnerable organs like the lungs, where edema stiffens tissue and threatens breathing. Using a chemogenetic screen, we discover a vagal-to-sympathetic reflex that controls pulmonary vascular leak. The reflex origina…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.10.22.761052",
+      "date": "2026-11-03"
     }
   ]
 }
