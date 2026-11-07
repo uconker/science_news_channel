@@ -1,338 +1,198 @@
 {
-  "generated_at": "2026-11-06T14:02:31.558321+00:00",
+  "generated_at": "2026-11-07T12:46:13.889136+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "broad": {
-      "name": "Broad Institute, Cambridge MA",
-      "lat": 42.36,
-      "lon": -71.1
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Learning complex temporal dependencies via local synaptic plasticity",
-      "body": "The ability to extract and exploit temporal structure across diverse tasks is central to human cognition. Neuroscientists have typically relied on recurrent neural networks (RNNs) trained with backpropagation through time (BPTT) when modelling neural and behavioural processes such as decision-making and motor control. …",
+      "subject": "physiology",
+      "title": "Site-, strain- and mutation-specific osteopetrosis phenotypes in mice with Clcn7 variants",
+      "body": "Background: Autosomal dominant osteopetrosis type II (ADOII) is a rare bone disorder caused primarily by heterozygous mutations in CLCN7 and characterized by increased bone mass yet fragility and marked phenotypic heterogeneity among affected individuals. The biological factors underlying this variability remain poorly…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.07.09.737423",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.10.31.763333",
+      "date": "2026-11-04"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "IER3-N-cadherin axis contributes to apoptosis resistance in dermal fibroblasts under profibrotic conditions",
-      "body": "Background: Persistent activation and resistance to apoptosis of dermal fibroblasts contribute to pathological skin fibrosis. Immediate early response 3 (IER3) is a stress-responsive protein involved in cell survival, but its role in cutaneous fibrosis remains unclear. We investigated the functional significance of IER…",
+      "subject": "neuroscience",
+      "title": "Gain Control of Peripheral Input by Core Brain Thermosensors Drives Drosophila Thermoregulation",
+      "body": "Temperature affects all aspects of animal physiology, rendering thermoregulation critical for survival. In Drosophila larvae, well-established peripheral thermosensors detect temperature changes and mediate thermotaxis over a broad innocuous range, but how larvae seek a specific preferred body temperature within this r…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.10.31.763371",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.764052",
+      "date": "2026-11-04"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Concrete waste as a source of calcium and alkalinity for coccolithophore cultivation: an experimental test of carbon dioxide removal and sequestration",
-      "body": "Cultivation of calcifying microalgae has been proposed as a route to carbon dioxide removal (CDR), but biogenic calcification releases CO2 unless the calcium supplied also adds alkalinity. We used cultures of the coccolithophore Chrysotila sp to test whether hydrated lime (Ca(OH)2), supplied as a reagent or within grou…",
+      "subject": "neuroscience",
+      "title": "SafeLens: A Statistically Controlled Nonlinear Machine Learning Framework for Characterizing Hidden Dynamics in Event-Locked Neural Activity",
+      "body": "Machine learning has advanced rapidly over the past decade, yet event-locked neural activity is still analyzed predominantly with traditional statistics and linear models. While traditional linear methods provide computationally tractable statistical control for pre-selected features or trial-averaged waveforms, they m…",
       "inst": [
-        "eth"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.31.763296",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.10.31.763367",
+      "date": "2026-11-04"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Redesigning the Eterna100 RNA design benchmark for the Vienna 2 folding engine",
-      "body": "The rational design of RNA is becoming important for rapidly developing technologies in medicine and biochemistry, spurring development of numerous RNA secondary structure design algorithms and benchmarks to evaluate their performance. However, the problem of RNA design is dependent upon the inverse problem of RNA stru…",
+      "subject": "neuroscience",
+      "title": "FGF signaling induces disease-associated oligodendrocyte states and drives myelin pathology",
+      "body": "Myelin integrity is essential for normal central nervous system (CNS) function and is disrupted in neuroinflammatory and neurodegenerative disorders, including multiple sclerosis and Alzheimer's disease. In these settings, myelin-forming oligodendrocytes adopt a conserved disease-associated transcriptional state, terme…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.1101/2021.08.26.457839",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.764025",
+      "date": "2026-11-04"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Reduced enteric Bdnf expression and TrkB-dependent regulation of Vip in a Mecp2-null mouse model of Rett syndrome-associated gastrointestinal dysmotility",
-      "body": "Gastrointestinal (GI) dysmotility is a highly prevalent and clinically significant feature of Rett syndrome (RTT), yet its underlying mechanisms remain poorly defined. Here, we investigated these mechanisms of GI dysmotility in a Mecp2null mouse model of RTT. First, we observed that MeCP2 was expressed in murine myente…",
+      "subject": "immunology",
+      "title": "Deep phenomics of human PBMCs using a 31-marker spectral flow cytometry panel",
+      "body": "Functional cytokines orchestrate leukocyte-mediated innate and adaptive immune responses within the host following infection or immunization. In contrast, lymphocyte-mediated activation-induced markers (AIMs) are predominantly associated with adaptive immune responses. Regulatory T cells (Tregs) primarily function to b…",
       "inst": [
         "harvard"
       ],
-      "doi": "10.64898/2026.04.12.718037",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.10.31.763346",
+      "date": "2026-11-04"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Multi-scale place fields provide a predictive basis for hierarchical control",
-      "body": "Hippocampal place cells typically exhibit unimodal spatial selectivity in small enclosures, but express multiple, irregularly spaced fields in environments of naturalistic scale. However, existing predictive-map theories of the hippocampus do not scale well to large environments and do not account for these heterogeneo…",
+      "subject": "microbiology",
+      "title": "A large, distinct family of RNase H fold nucleases associated with numerous defense systems in prokaryotes",
+      "body": "During the last decade, systematic efforts aimed at the characterization of prokaryotic immunity resulted in the discovery of several hundred distinct defense systems in bacteria and archaea. This suggests that the common defense systems were already known and only rare ones remained to be identified. Here we present a…",
       "inst": [
-        "cambridge"
+        "nih"
       ],
-      "doi": "10.64898/2026.10.28.762461",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.763955",
+      "date": "2026-11-04"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Enzymatic attachment of antigens to probe immune modulation by skin commensals",
-      "body": "The skin colonist Staphylococcus epidermidis induces potent T and B cell responses, which can be redirected against antigens of interest by genetic engineering. However, since many taxa in the microbiome are genetically intractable, the utility of this method is limited. Here, we use recombinant sortase to conjugate an…",
+      "subject": "ecology",
+      "title": "Ecology of gene drives: Organism fitness under larval competition determines gene drive performance",
+      "body": "Gene drives are a promising technology to control disease vectors, such as mosquitoes. However, as these interventions aim to modify and/or control the population of disease vectors, a full understanding of how gene drives interact with the ecology of the target species is essential. In this study, we explore how larva…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.31.763323",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.763917",
+      "date": "2026-11-04"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Genetics and genomics of enteroarthroconidial development in Coccidioides",
-      "body": "The human fungal pathogen Coccidioides causes disease when its infectious spores, enteroarthroconidia, are inhaled from the soil. Spore dispersal depends on the death of a unique developmental form, disjunctor cells, which flank incipient enteroarthroconidia and are unexplored molecularly. Here we used single-cell (sc)…",
+      "subject": "bioengineering",
+      "title": "Few-shot regulatory sequence design with a genomic language model",
+      "body": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enab…",
       "inst": [
-        "berkeley"
+        "stanford"
       ],
-      "doi": "10.64898/2026.10.27.762035",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.10.28.762639",
+      "date": "2026-11-04"
     },
     {
       "id": 8,
       "cat": "science",
       "subject": "bioinformatics",
-      "title": "JUMP Cell Painting chemical dataset: Morphological map of 115,796 compounds in human cells",
-      "body": "Image-based profiling decodes complex cellular states for high-impact biological and therapeutic applications, yet a large, public reference dataset of chemical perturbations has been lacking. We present Cell Painting images and 1.53 billion single-cell profiles for 115,796 compounds in human osteosarcoma cells, genera…",
+      "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
+      "body": "Genome-wide association and other genetic studies have identified genes involved in disease pathogenesis, and their encoded proteins have provided therapeutic targets. However, little is known about which cells are the functional home of these disease-associated genes and proteins. Single-cell technologies are enabling…",
       "inst": [
-        "broad"
+        "nih"
       ],
-      "doi": "10.1101/2023.03.23.534023",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.10.30.763199",
+      "date": "2026-11-04"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Tissue geometry patterns epidermal stem cell fate in murine interfollicular skin",
-      "body": "How tissues maintain spatial patterns of stem cell renewal and differentiation despite continuous cellular turnover remains poorly understood. Here, we show that microscopic undulations of the dermal-epidermal junction (DEJ) are associated with distinct stem cell behaviors in the mouse epidermis. Using longitudinal int…",
+      "subject": "neuroscience",
+      "title": "Active manipulation of surface orientation under directional illumination improves color discrimination",
+      "body": "Two surfaces that appear different colors under one illumination might appear the same color under another illumination. This phenomenon is known as illuminant metamerism and is thought to limit surface color discrimination. However, real-world lighting environments are not directionally uniform. In theory, surfaces th…",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.01.763461",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.763965",
+      "date": "2026-11-04"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Photoentrainment as Bayesian Inference: How the central circadian clock may weight and integrate the intensity and wavelength of natural light to estimate astronomical time",
-      "body": "Synchronising with the Earth's 24-hour rotation using natural light as a timing cue presents a problem for the mammalian brain's central circadian clock. Natural light is highly variable and can take a range of values at any given time of day. For example, it fluctuates due to differences in weather conditions and acro…",
+      "title": "Basal ganglia output guides decision-making by state destabilization",
+      "body": "To execute learned behavior, the nervous system can undergo an activity-state transition between the current and the learned activity states. Here, using adult zebrafish, we show that their basal ganglia output induces such state transitions for goal-directed behavior. After learning the Go/No-go task in virtual realit…",
       "inst": [
-        "ucl"
+        "riken"
       ],
-      "doi": "10.64898/2026.10.27.762184",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.01.763532",
+      "date": "2026-11-04"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Integrated Characterization of Proximal and Distal Nerve Stumps in a Model of Chronic Motor Nerve Transection",
-      "body": "Prolonged peripheral nerve discontinuity subjects the proximal stump to chronic axotomy and the distal stump to chronic denervation, resulting in pathological changes that may compromise regeneration following delayed repair. Although these changes have been investigated in both nerve stumps, much of the existing evide…",
+      "subject": "microbiology",
+      "title": "Tn-Seq-based identification of genes that play a role in antimicrobial tolerance of Pseudomonas aeruginosa aggregates",
+      "body": "Microbial biofilms, whether surface-associated or in the form of aggregated microbes, cause a variety of persistent infections due to their inherent tolerance to antibiotic treatment. Current knowledge of the mechanistic basis of biofilm-associated antibiotic tolerance is fragmented, and the relative importance of prev…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.02.763804",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.763911",
+      "date": "2026-11-04"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "DarHTG is a tripartite phage defence system for purine DNA base ADP-ribosylation",
-      "body": "Bacteria evolved a variety of phage defence strategies to combat the constant onslaught of viral threats. DarTG toxin-antitoxin systems provide phage defence by ADP-ribosylation of bases in single-stranded DNA which interferes with viral replication and aborts phage infection. Here, we describe DarHTG, a system widespr…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.11.02.763450",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 13,
-      "cat": "science",
       "subject": "cell biology",
-      "title": "Inflammatory proteostasis reprogramming creates a lysosomal bottleneck for microglial aggregate clearance",
-      "body": "Efficient clearance of extracellular protein aggregates by microglia is essential for maintaining brain homeostasis and limiting the accumulation of pathological proteins during neurodegeneration. However, how inflammatory activation affects the ability of microglia to internalize and degrade these aggregates remains i…",
+      "title": "Genetic disruption of cutaneous de novo glucocorticoid synthesis: a CRISPR-Cas9 CYP11B1-knockout human epidermal model",
+      "body": "Human skin functions as both a physical barrier and a neuroendocrine and steroidogenic organ. Glucocorticoids (GC) synthesized in the skin help to maintain skin immune homeostasis and to mediate responses to environmental stressors. Cutaneous GC synthesis has so far been disrupted only pharmacologically, with inhibitor…",
       "inst": [
-        "mpi_generic"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.11.02.763615",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Simulating the dynamics of gene regulatory systems at cellular scale",
-      "body": "The temporal nature of eukaryotic gene expression is the result of a complex, non-linear, dynamical system of regulatory processes. So far, models of such systems trade realism for tractability by using strict simplifying assumptions. These simplified models are often unfaithful to our biological understanding; however…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.11.01.763459",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "Tandem repeats in methanogenic archaea and their viruses reveal a shared potential for rapid genomic diversification",
-      "body": "Methanogenic archaea drive global methane emissions, yet the molecular basis of their physiological flexibility is unclear. Archaeal adaptation is typically attributed to horizontal gene transfer, which is episodic and cannot explain rapid, reversible change. Here we show that direct tandem repeats (TRs) offer an intri…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.10.30.763056",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "WhaleSonic: Recordings of cetacean vocal behaviour with hydrophone arrays in Northern Norway",
-      "body": "Killer whales, humpback whales, fin whales, and sperm whales converged in a fjord system in Northern Norway during the 2023-2024 winter, where whale watching and fishing vessels add to the acoustic scene. Cetaceans are intensely studied for their acoustic behaviour and communication, and the co-occurrence of four speci…",
-      "inst": [
-        "eth"
-      ],
-      "doi": "10.64898/2026.11.02.763576",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Structural Basis for Inhibition of Human Anion Transporter SLC26A6/PAT-1",
-      "body": "PAT-1, encoded by the gene SLC26A6, is an exchanger of small organic and inorganic anions including oxalate and chloride in the kidney and the intestines. PAT-1 dysfunction is implicated in nephrolithiasis and hyperoxaluria, and its modulation is a potential therapeutic strategy to treat cystic fibrosis. PAT-1 has two …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.11.01.757131",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "FoxO1 and HNF1α cooperatively remodel nucleosome architecture and mechanical stability to activate transcription",
-      "body": "How different transcription factors (TFs) cooperate to bind nucleosomal DNA targets remains unclear. Cryo-EM and force spectroscopy show that the pioneer factor FoxO1 binds superhelical location (SHL) +2 of nucleosomes assembled on the human IGFBP1 promoter, enhances distal DNA unwrapping, destabilizes the histone core…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.11.01.763477",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "systems biology",
-      "title": "Organelle Aging Predicts Human Disease",
-      "body": "Aging affects cellular organelles differently, but whether subcellular aging predicts human disease remains unknown. Here, we integrated organelle-enriched proteins in plasma and cerebrospinal fluid proteomes from 61,931 individuals to model aging of 10 organelles across the human lifespan. Organelle aging was heteroge…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.11.01.763400",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 20,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Embodied Dynamic Causal Modelling: Brain and Cardiac Effective Connectivity",
-      "body": "Brain-body interactions underpin embodied inference and interoception, and are central to both general health and the pathophysiology of mental health disorders. These interactions are orchestrated across a hierarchy extending from the cortex, through the brainstem, to peripheral autonomic effectors. Existing methods e…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.10.27.762241",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 21,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
-      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.09.28.754864",
-      "date": "2026-11-03"
-    },
-    {
-      "id": 22,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "A vagal-to-sympathetic reflex controls lung vascular leak",
-      "body": "Dynamic regulation of the vascular barrier is required for innate immunity, yet excessive leak endangers vulnerable organs like the lungs, where edema stiffens tissue and threatens breathing. Using a chemogenetic screen, we discover a vagal-to-sympathetic reflex that controls pulmonary vascular leak. The reflex origina…",
-      "inst": [
-        "mit"
-      ],
-      "doi": "10.64898/2026.10.22.761052",
-      "date": "2026-11-03"
+      "doi": "10.64898/2026.11.03.764005",
+      "date": "2026-11-04"
     }
   ]
 }
