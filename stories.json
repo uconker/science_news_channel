@@ -1,198 +1,138 @@
 {
-  "generated_at": "2026-11-07T12:46:13.889136+00:00",
+  "generated_at": "2026-11-08T13:04:21.403916+00:00",
   "institutions": {
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
+    "bilkent": {
+      "name": "Bilkent University, Ankara",
+      "lat": 39.87,
+      "lon": 32.75
+    },
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Site-, strain- and mutation-specific osteopetrosis phenotypes in mice with Clcn7 variants",
-      "body": "Background: Autosomal dominant osteopetrosis type II (ADOII) is a rare bone disorder caused primarily by heterozygous mutations in CLCN7 and characterized by increased bone mass yet fragility and marked phenotypic heterogeneity among affected individuals. The biological factors underlying this variability remain poorly…",
+      "subject": "animal behavior and cognition",
+      "title": "Kinship, acoustic signaling, and socio-spatial structure shape shared decisions and social influence in white-nosed coatis",
+      "body": "When individual preferences for collective outcomes diverge, cohesive animal groups often coalesce on the majority opinion. However, majority-based decision rules may be counterbalanced by other factors, particularly in heterogeneous groups with differentiated social relationships, and these factors could produce inequ…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.31.763333",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.08.11.744150",
+      "date": "2026-11-05"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Gain Control of Peripheral Input by Core Brain Thermosensors Drives Drosophila Thermoregulation",
-      "body": "Temperature affects all aspects of animal physiology, rendering thermoregulation critical for survival. In Drosophila larvae, well-established peripheral thermosensors detect temperature changes and mediate thermotaxis over a broad innocuous range, but how larvae seek a specific preferred body temperature within this r…",
+      "subject": "biochemistry",
+      "title": "Aggregate Deep Visual Proteomics reveals selective organization of α-synuclein inclusions",
+      "body": "-Synuclein inclusions, the lesions typical of Parkinson's disease, have been interpreted as protective deposits, toxic species or failed degradation products, each predicting a different composition and correlating that enrichment with neuron dysfunction and eventual degeneration. Distinguishing them requires measuring…",
       "inst": [
-        "harvard"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.03.764052",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.10.30.763157",
+      "date": "2026-11-05"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "SafeLens: A Statistically Controlled Nonlinear Machine Learning Framework for Characterizing Hidden Dynamics in Event-Locked Neural Activity",
-      "body": "Machine learning has advanced rapidly over the past decade, yet event-locked neural activity is still analyzed predominantly with traditional statistics and linear models. While traditional linear methods provide computationally tractable statistical control for pre-selected features or trial-averaged waveforms, they m…",
+      "title": "The C. elegans Connectome Toolbox: an open, extensible framework for multimodal connectomic data integration and analysis",
+      "body": "The nematode C. elegans is one of the best studied model organisms in biology. Since the initial description of the C. elegans neuronal connectome by White and colleagues, numerous studies have mapped and analyzed the connectome, and released structured datasets of the connectivity, often merging and adding to previous…",
       "inst": [
-        "stanford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.10.31.763367",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.11.04.764366",
+      "date": "2026-11-05"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "FGF signaling induces disease-associated oligodendrocyte states and drives myelin pathology",
-      "body": "Myelin integrity is essential for normal central nervous system (CNS) function and is disrupted in neuroinflammatory and neurodegenerative disorders, including multiple sclerosis and Alzheimer's disease. In these settings, myelin-forming oligodendrocytes adopt a conserved disease-associated transcriptional state, terme…",
+      "subject": "microbiology",
+      "title": "Phage lysates are reservoirs of biologically active quorum sensing signals",
+      "body": "Bacteriophage lysates are widely used to study phage-bacterial interactions and are typically applied after filtration without further purification. As a result, host-derived metabolites produced during phage propagation are transferred alongside phage particles, yet the biological consequences of this carryover remain…",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.03.764025",
-      "date": "2026-11-04"
+      "doi": "10.1101/2025.04.11.648453",
+      "date": "2026-11-05"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Deep phenomics of human PBMCs using a 31-marker spectral flow cytometry panel",
-      "body": "Functional cytokines orchestrate leukocyte-mediated innate and adaptive immune responses within the host following infection or immunization. In contrast, lymphocyte-mediated activation-induced markers (AIMs) are predominantly associated with adaptive immune responses. Regulatory T cells (Tregs) primarily function to b…",
+      "subject": "cell biology",
+      "title": "N-terminal cysteine independent effects of oxidative stress on the stability of RGS4 and 5",
+      "body": "Oxidative post-translational modifications on the sulfhydryl group of cysteines can occur spontaneously or enzymatically. The enzymatic dioxygenation of N-terminal cysteines has emerged as a new oxygen sensing paradigm, catalysed by 2-aminoethanethiol dioxygenase (ADO) in mammals. Conflicting evidence has been reported…",
       "inst": [
-        "harvard"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.31.763346",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.04.20.719627",
+      "date": "2026-11-05"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "A large, distinct family of RNase H fold nucleases associated with numerous defense systems in prokaryotes",
-      "body": "During the last decade, systematic efforts aimed at the characterization of prokaryotic immunity resulted in the discovery of several hundred distinct defense systems in bacteria and archaea. This suggests that the common defense systems were already known and only rare ones remained to be identified. Here we present a…",
+      "subject": "bioinformatics",
+      "title": "RPI-Zero: Zero-shot RNA-Protein Interaction Prediction",
+      "body": "In vivo protein-RNA interactions are mapped almost exclusively by CLIP-seq, which profiles one protein in one cell type per experiment and needs a specific antibody; only about 10% of the roughly 2,000 human RNA-binding proteins have been assayed, and the Protein Data Bank holds around 5,000 protein-RNA complexes, a qu…",
       "inst": [
-        "nih"
+        "bilkent"
       ],
-      "doi": "10.64898/2026.11.03.763955",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.11.04.764286",
+      "date": "2026-11-05"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Ecology of gene drives: Organism fitness under larval competition determines gene drive performance",
-      "body": "Gene drives are a promising technology to control disease vectors, such as mosquitoes. However, as these interventions aim to modify and/or control the population of disease vectors, a full understanding of how gene drives interact with the ecology of the target species is essential. In this study, we explore how larva…",
+      "subject": "biophysics",
+      "title": "Lipidic α-synuclein fibrils catalyze the formation of pathological mature fibrils",
+      "body": "The aggregation of -synuclein into amyloid fibrils is a hallmark of a collection of neurodegenerative diseases termed synucleinopathies, including Parkinson's disease (PD). Interactions between -synuclein and lipid membranes modulate -synuclein aggregation and can produce protofibril structures consisting of both prote…",
       "inst": [
-        "oxford"
+        "eth"
       ],
-      "doi": "10.64898/2026.11.03.763917",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.11.04.764198",
+      "date": "2026-11-05"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Few-shot regulatory sequence design with a genomic language model",
-      "body": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enab…",
+      "subject": "developmental biology",
+      "title": "Light-dependent conversion of body color change pattern during zebrafish development",
+      "body": "Zebrafish (Danio rerio) shows body color change in response to light: when light comes, it whitens body color. Our previous study has shown that larval zebrafish as early as 5 days post-fertilization (dpf) have this capacity fully developed whereas 2-dpf larvae exhibit light-induced darkening in sharp contrast (Shiraki…",
       "inst": [
-        "stanford"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.10.28.762639",
-      "date": "2026-11-04"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
-      "body": "Genome-wide association and other genetic studies have identified genes involved in disease pathogenesis, and their encoded proteins have provided therapeutic targets. However, little is known about which cells are the functional home of these disease-associated genes and proteins. Single-cell technologies are enabling…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.10.30.763199",
-      "date": "2026-11-04"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Active manipulation of surface orientation under directional illumination improves color discrimination",
-      "body": "Two surfaces that appear different colors under one illumination might appear the same color under another illumination. This phenomenon is known as illuminant metamerism and is thought to limit surface color discrimination. However, real-world lighting environments are not directionally uniform. In theory, surfaces th…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.11.03.763965",
-      "date": "2026-11-04"
-    },
-    {
-      "id": 10,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Basal ganglia output guides decision-making by state destabilization",
-      "body": "To execute learned behavior, the nervous system can undergo an activity-state transition between the current and the learned activity states. Here, using adult zebrafish, we show that their basal ganglia output induces such state transitions for goal-directed behavior. After learning the Go/No-go task in virtual realit…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.11.01.763532",
-      "date": "2026-11-04"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "Tn-Seq-based identification of genes that play a role in antimicrobial tolerance of Pseudomonas aeruginosa aggregates",
-      "body": "Microbial biofilms, whether surface-associated or in the form of aggregated microbes, cause a variety of persistent infections due to their inherent tolerance to antibiotic treatment. Current knowledge of the mechanistic basis of biofilm-associated antibiotic tolerance is fragmented, and the relative importance of prev…",
-      "inst": [
-        "copenhagen"
-      ],
-      "doi": "10.64898/2026.11.03.763911",
-      "date": "2026-11-04"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Genetic disruption of cutaneous de novo glucocorticoid synthesis: a CRISPR-Cas9 CYP11B1-knockout human epidermal model",
-      "body": "Human skin functions as both a physical barrier and a neuroendocrine and steroidogenic organ. Glucocorticoids (GC) synthesized in the skin help to maintain skin immune homeostasis and to mediate responses to environmental stressors. Cutaneous GC synthesis has so far been disrupted only pharmacologically, with inhibitor…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.11.03.764005",
-      "date": "2026-11-04"
+      "doi": "10.64898/2026.11.03.764145",
+      "date": "2026-11-05"
     }
   ]
 }
