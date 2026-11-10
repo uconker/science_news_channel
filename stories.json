@@ -1,354 +1,179 @@
 {
-  "generated_at": "2026-11-09T15:48:42.532546+00:00",
+  "generated_at": "2026-11-10T14:40:34.708353+00:00",
   "institutions": {
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
+    },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
-    "bilkent": {
-      "name": "Bilkent University, Ankara",
-      "lat": 39.87,
-      "lon": 32.75
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
-    },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
-    },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Interspecific social contacts spread gut microbiota in wild rodent communities",
-      "body": "Background: The mammalian gut microbiota influences a wide array of host phenotypes and varies substantially among individuals. Among conspecifics, microbiota composition is strongly shaped by microbial transmission through social interactions, yet the extent to which such transmission also occurs across species bounda…",
+      "subject": "developmental biology",
+      "title": "Dynamic mechanical sorting biases niche occupancy and lineage outcome during development of bilayered glandular epithelia",
+      "body": "Tissue compartmentalization into basal and luminal domains is a hallmark of glandular epithelia, yet how fate boundaries are established and stabilized during dynamic morphogenesis remains a major unresolved question. Here, using mouse embryonic explants, organoids, quantitative live imaging and genetic perturbations, …",
       "inst": [
-        "oxford",
-        "eth"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.04.764353",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.05.761865",
+      "date": "2026-11-09"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Ranging and territoriality in African Apes",
-      "body": "Intergroup relations vary strikingly among African apes, with only chimpanzees showing intense, often lethal territoriality. The economic defendability hypothesis proposes that such territorial behaviour is favored where home ranges can be economically defended, as indexed by the ratio of daily travel distance to home …",
+      "subject": "bioengineering",
+      "title": "Distinct mechanical signatures of dairy and plant-based cheeses",
+      "body": "Plant-based cheeses account for about 1% of U.S. retail cheese sales and often fail to match the texture and flavor of dairy cheese. Here we compare three commercial dairy and plant-based pairs, cheddar, feta, and mozzarella, with texture profile analysis (n = 60), tension, compression, and shear tests (n = 219), const…",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.03.763879",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.05.764742",
+      "date": "2026-11-09"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "A Dynamic Stem Cell State Links Environmental Cues to Skeletal and Regenerative Fates",
-      "body": "Stem cells faithfully generate tissue architecture during development, yet how their identity and regenerative output are reshaped as anatomical niches mature and environmental signals change with aging and injury remains poorly understood. Rare skeletal stem cells (SSCs) across diverse skeletal sites are defined by co…",
+      "subject": "bioengineering",
+      "title": "Benchmarking foundation models for resting-state functional magnetic resonance imaging time series in cognitive aging research",
+      "body": "Foundation models trained on large neuroimaging datasets could help smaller studies investigate cognition from brain recordings. However, whether the foundation model-derived representations improve assessment of current cognition, prediction of follow-up cognition, or characterization of cognitive change remains uncle…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.11.04.764000",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.05.764644",
+      "date": "2026-11-09"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Epigenome-informed Polymer Modeling Reveals Chromosome Folding Landscapes across Distinct Genetic and Epigenetic Contexts",
-      "body": "Three-dimensional (3D) genome organization is critical for gene regulation, enabling long-range interactions between genes and distal regulatory elements. Genomic structural variations and epigenetic differences can perturb this organization, contributing to phenotypic variation and tissue-specific gene regulation. Pri…",
+      "subject": "bioinformatics",
+      "title": "scPolyA enables efficient, interactive and agent-guided alternative polyadenylation analysis in single-cell and spatial transcriptomes",
+      "body": "Alternative polyadenylation (APA) changes which regulatory sequences an RNA retains, creating a layer of cellular variation that gene-level expression profiles cannot resolve. Here we present scPolyA, a unified, AI-enabled framework that transforms conventional single-cell and spatial 3'-end transcriptomes into quantit…",
       "inst": [
-        "toronto"
+        "anu"
       ],
-      "doi": "10.64898/2026.11.04.764273",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.05.764757",
+      "date": "2026-11-09"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "MitoDecode: quantitative phenotypic decoding of mitochondrial stress states from fluorescence images",
-      "body": "The quantitative measurement of mitochondrial stress from fluorescence images of cells remains a challenging task. Existing methods rely on mitochondrial segmentation, manually predefined features, and discrete phenotype severity classes, which are prone to error and bias. Here, we present MitoDecode, a deep learning n…",
+      "subject": "biochemistry",
+      "title": "Positive cooperativity enhances coupling of a second G protein to a GPCR dimer",
+      "body": "G protein-coupled receptors (GPCRs) are cell surface integral membrane proteins that transduce environmental, hormonal and neurotransmitter molecular signals into intracellular responses. Here we studied a class D1 fungal receptor, Ste2, an obligate dimer that couples two G proteins per dimer and show that coupling of …",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.04.764250",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.06.764869",
+      "date": "2026-11-09"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Automahout: an autonomous image analysis system for cell tracking",
-      "body": "Cell tracking in time-lapse images is complex image analysis that involves detection, linking and proofreading, often requiring the algorithm to be tuned for every new dataset. We present Automahout, an autonomous agent for the Mastodon/ELEPHANT platform that carries out these operations. It looks at the data and tries…",
+      "subject": "physiology",
+      "title": "Trunk muscle activity across various trunk-limb coordination patterns in centipede locomotion",
+      "body": "Animals coordinate movements of their limbs and flexible bodies, yet how trunk muscle activity changes across locomotor patterns remains unclear. We simultaneously recorded electromyograms from trunk muscles (deep dorsal oblique muscles) and trunk-limb kinematics in two centipede species exhibiting retrograde and direc…",
       "inst": [
-        "riken"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.11.04.764293",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.05.764723",
+      "date": "2026-11-09"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "RPFace: From biased structural benchmarks to generalizable RNA-protein interface prediction",
-      "body": "Modeling protein-RNA complexes with co-folding and docking methods is routine, yet these methods are evaluated on benchmarks whose composition mirrors the deposited structures on which they were trained or tuned, leaving open whether their reported performance reflects true generalization. Here, we focus the evaluation…",
+      "subject": "neuroscience",
+      "title": "Testing and training geometrical knowledge in baboons through a conceptual categorization task",
+      "body": "Sensitivity to geometric regularity has been proposed as a signature of human cognitive singularity. Baboons can detect an intruder shape among quadrilaterals but, unlike humans, show no advantage for regular shapes such as squares and rectangles, suggesting they are not sensitive to geometric regularity. Here we asked…",
       "inst": [
-        "bilkent"
+        "ucl"
       ],
-      "doi": "10.64898/2026.11.04.764332",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.06.764828",
+      "date": "2026-11-09"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Single-cell multi-omics identify OTP and NOVA1 as regulators of leptin action in hypothalamic feeding circuits",
-      "body": "Leptin acts directly and indirectly on multiple neuronal populations to regulate feeding and numerous other physiologic functions. However, our understanding of how a single circulating signal coordinates diverse neuronal populations across multiple circuits is limited. To further elucidate how leptin reshapes molecula…",
+      "subject": "genomics",
+      "title": "Genome assembly and characterization of two Brazilian soybean cultivars contrasting for stink bug resistance",
+      "body": "Brazil's tropical soybean germplasm still has few genomic resources: only one assembly of a Brazilian cultivar is available at NCBI. Here we describe chromosome-level de novo assemblies of two contrasting cultivars: IAC-100, described as resistant to phytophagous stink bugs, and CD-215, susceptible. We sequenced high m…",
       "inst": [
-        "stanford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.11.04.764326",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.06.764844",
+      "date": "2026-11-09"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "The long noncoding RNA FOSIL shapes the dynamics of FOS induction",
-      "body": "Immediate-early genes require rapid, transient, and precisely tuned transcriptional activation in response to extracellular signals, yet how this kinetic precision is achieved remains poorly understood. We characterize FOSIL (LINC01220), an inducible lncRNA locus downstream of FOS. Depleting FOSIL RNA delays heregulin …",
+      "subject": "neuroscience",
+      "title": "The mouse midbrain periaqueductal gray is organized into target-specific output populations",
+      "body": "How brains select between behaviours and coordinate their execution is a central question in neuroscience. The vertebrate periaqueductal gray (PAG) controls a remarkable range of instinctive behaviours, from escape and freezing to hunting, vocalization, and micturition. Its columnar organization, the classical framewor…",
       "inst": [
-        "weizmann"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.04.764297",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.06.764863",
+      "date": "2026-11-09"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Host-Derived Lipids Sustain Membrane Biogenesis in an Obligate Endosymbiont",
-      "body": "Intracellular symbionts often undergo extreme genome reduction and lose pathways considered essential in free-living bacteria, including membrane phospholipid biosynthesis. Yet how such symbionts maintain their membranes remains poorly understood. The pea aphid Acyrthosiphon pisum harbors the obligate endosymbiont Buch…",
+      "subject": "immunology",
+      "title": "Circulating CD4 regulatory T cells are broadly preserved in Parkinson's disease despite altered HELIOS expression",
+      "body": "Background Regulatory T cells (Tregs) are an important component of adaptive immune regulation and have been implicated in Parkinson's disease (PD), with previous studies suggesting altered Treg proportions, phenotype and, in some cases, function. However, existing studies have been limited by variable phenotyping appr…",
       "inst": [
-        "riken"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.04.764378",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.11.06.764595",
+      "date": "2026-11-09"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Highly conserved talin isoforms encode distinct mechanical responses and ligand-binding capabilities",
-      "body": "Talin is a central mechanosensitive adaptor that links integrins to the actin cytoskeleton and converts mechanical force into biochemical signals. Vertebrates express two highly homologous talin isoforms, talin-1 and talin-2, yet the molecular basis for their nonredundant functions remains poorly understood. Here, we i…",
+      "subject": "bioengineering",
+      "title": "Open-source benchmarking of dairy and dairy-free products",
+      "body": "Dairy-free products offer opportunities to reduce the environmental impact of food. However, they must reproduce the diverse sensory and functional properties of conventional dairy, from foam stabilization in a latte to acid-gel structure in yogurt and melt--stretch behavior in mozzarella. Yet, large-scale, open-source…",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.05.764451",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Arrest-associated transcriptional programmes outweigh apoptosis-associated programmes in treatment-naive pancreatic ductal adenocarcinoma",
-      "body": "Background: Pancreatic ductal adenocarcinoma (PDAC) is driven by mutant KRAS, and RAS inhibitors now extend survival in previously treated metastatic disease. Whether treatment shrinks a tumour or only halts its growth depends partly on whether cancer cells die or stop dividing, yet how untreated PDAC cells are balance…",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.11.04.764269",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "Dopamine synthesis capacity and tau pathology differentially modulate rest-to-task functional network dynamics",
-      "body": "Optimal cognition relies on large-scale functional brain networks which balance segregation at rest with selective integration during task performance. In aging, these network dynamics are altered. We examined two prominent features of brain aging: dysregulated dopamine function and Alzheimer's disease (AD)-related pat…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.11.04.764247",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "microbiology",
-      "title": "Visual surfaceomics reveals the substrate-scavenging cell surface of Asgard archaea",
-      "body": "The emergence of eukaryotes from Asgard archaeal ancestors likely required a specialized cell envelope that enabled sustained physical and metabolic interactions with proto-mitochondrial symbionts. While the protrusion-rich cell architecture of Asgard archaea may enable such interactions, the molecular composition of t…",
-      "inst": [
-        "embl"
-      ],
-      "doi": "10.64898/2026.11.05.763656",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Optogenetic induction of TAD boundary pairing promotes gene activity",
-      "body": "The genome folds inside the nucleus into distinct structures across multiple levels of organization. Topologically associating domains (TADs) are a ubiquitous architectural feature of genomes delineated by boundaries enriched in the CTCF protein and the cohesin complex. TADs are dynamic structures as their boundaries u…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.11.04.764356",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "An expanded evolutionary landscape of H3 histones with variants that destabilize nucleosomes and promote chromatin accessibility",
-      "body": "Histones are among the most conserved proteins in eukaryotes, yet many animal lineages have evolved divergent histone variants with specialized functions. Some broadly conserved variants (e.g., H3.3) have been linked to the regulation of chromatin accessibility in stem cells, but whether highly divergent variants funct…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.11.04.764309",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "genomics",
-      "title": "Long-read DNA sequencing reveals global hypomethylation and focal hypermethylation in SDHx-deficient pheochromocytoma and paraganglioma",
-      "body": "Pheochromocytomas and paragangliomas (PPGL) are highly heritable neuroendocrine tumors of the autonomic ganglia. Genomic DNA in most cancer cells is hypomethylated. However, DNA in PPGLs secondary to mutations in succinate dehydrogenase complex (SDHx) genes is reportedly hypermethylated due to succinate-mediated inhibi…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.11.04.763174",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 17,
-      "cat": "science",
-      "subject": "biochemistry",
-      "title": "Global Data Fitting Enables Kinetic Dissection of Cullin-RING Ligase-Catalyzed Ubiquitylation: From Substrate Priming to Poly-ubiquitin Chain Formation",
-      "body": "The discovery and characterization of the ubiquitin system was founded on classical enzymology approaches that established fundamental principles of protein ubiquitylation. Cullin-RING ligases (CRLs) represent the largest class of human ubiquitin ligases, yet detailed enzymology of these multi-subunit assemblies has la…",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.11.04.764329",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 18,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "DisCell: Separating Spillover from Niche Response in Spatial Transcriptomics",
-      "body": "Spatial transcriptomics at single-cell resolution measures every cell in its place in the tissue, but diffusion and segmentation errors also add transcripts of neighboring cells to a cell's counts. This spillover makes a cell resemble its neighbors, and a response to the niche makes cells in the same niche resemble eac…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.11.04.764463",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 19,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "siRNA/mRNA payload of lipid nanoparticles quantified using fluorescence microscopy and correlation spectroscopy",
-      "body": "Lipid nanoparticles (LNPs) have emerged as the most promising vectors to deliver nucleic acids to mammalian cells. Advanced delivery strategies involving multiple nucleic acid species require a reliable determination of RNA payload and LNP size. Here, we use total internal reflection fluorescence (TIRF) microscopy and …",
-      "inst": [
-        "mpi_generic"
-      ],
-      "doi": "10.64898/2026.11.05.763588",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 20,
-      "cat": "science",
-      "subject": "pathology",
-      "title": "Systematic comparison of gliflozins identifies a selective anti-calcifying effect of canagliflozin beyond canonical SGLT2 inhibition",
-      "body": "Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2i) provide important cardiorenal benefits in chronic kidney disease (CKD), but their effects on vascular calcification remain conflicting. Whether potential anti-calcifying effects are shared across gliflozins or involve mechanisms beyond canonical SGLT2 inhib…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.11.05.764503",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 21,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "A Framework for SPICE MRSI Reconstruction Posterior Uncertainty Quantification",
-      "body": "Purpose: Low-rank reconstruction methods such as SPICE substantially improve Magnetic Resonance Spectroscopic Imaging (MRSI) reconstruction quality. However, SPICE does not provide an estimate of reconstruction uncertainty. A framework for posterior uncertainty estimation in SPICE reconstruction is proposed, hereafter …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.11.05.764591",
-      "date": "2026-11-06"
-    },
-    {
-      "id": 22,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "TGF-b/TIF1g signaling restrains CD8+ T cell expansion while preserving cytotoxic competence",
-      "body": "Transforming growth factor b exerts complex and often opposing effects on CD8+ T cell biology, yet the molecular mechanisms that distinguish these functions remain poorly understood. Here, we identify TIF1g (TRIM33) as a critical signal threshold regulator that couples TGF b signaling to CD8+ T cell activation and cyto…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.11.05.764687",
-      "date": "2026-11-06"
+      "doi": "10.64898/2026.08.14.744929",
+      "date": "2026-11-07"
     }
   ]
 }
