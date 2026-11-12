@@ -817,8 +817,10 @@
 1Department of Psychological and Brain Sciences, Washington University, St. Louis, MO, 63130, USA
 1Department of Psychology and Gonda Brain Research Center, Bar-Ilan University, Ramat Gan 5290002, Israel
 1Department of Psychology, National Taiwan University, No. 1, Section 4, Roosevelt Road, Taipei 10617, Taiwan, ROC
+1Department of Psychology, New York, NY 10003, USA
 1Department of Psychology, University of Otago, Dunedin, New Zealand
 1Department of Public Health Sciences, Henry Ford Health, Detroit, Michigan, USA
+1Department of Rheumatology and Immunology, Inselspital, Bern, Switzerland
 1Department of Statistics, University of Wisconsin–Madison, University Ave, 53706, WI, USA
 1Dept. of Biomedicine, Aarhus University, Aarhus, Denmark
 1Dept. of Pathology and Cell Biology, Vagelos College of Physicians and Surgeons, Columbia University, New York, NY 10032
@@ -1569,6 +1571,7 @@
 2Cell and Molecular Biology Program, College of Natural Science, Michigan State University, East Lansing, MI, USA
 2Center for Agricultural Synthetic Biology, Academy for Advanced Interdisciplinary Studies, Nanjing Agricultural University, Nanjing 210095, Jiangsu, China
 2Center for Computational Sciences University of Tsukuba, Tsukuba, 305-8577, Japan
+2Center for Neural Science New York University, New York, NY 10003, USA
 2Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Philipps-University Marburg, D-35043 Marburg, Germany
 2Centre for Ecological Sciences, Indian Institute of Science, Bengaluru 560012, India
 2Centre for Malaria Therapeutics and Antimicrobial Resistance, Columbia University Irving Medical Centre, New York, NY, USA
@@ -1584,6 +1587,7 @@
 2Crop Genomics Lab, Plant Genomics and Breeding Institute, Seoul National University, Seoul 08826, Republic of Korea
 2Crop Research Institute, Anhui Academy of Agricultural Sciences, Hefei, Anhui, 230001, China
 2Departamento de Biotecnología-Biología Vegetal, Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas, Universidad Politécnica de Madrid (UPM), Madrid 28040, Spain
+2Department for BioMedical Research (DBMR), University of Bern, Bern, Switzerland
 2Department of Aeronautics, Imperial College London Imperial South Kensington Campus, London, UK SW7 2AZ
 2Department of Anthropology, The University of Texas Austin, Austin, TX, USA
 2Department of Applied Physics, California Institute of Technology, 1200 E California Blvd., Pasadena, 91106, CA, USA.
@@ -2220,6 +2224,7 @@
 3LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France
 3Laboratório de Biologia Integrativa, Grupo de Pesquisa em Bioestatística e Epidemiologia Molecular, Departamento de Genética, Ecologia e Evolução, Universidade Federal de Minas Gerais, Brazil
 3Laboratório de Fisiologia Vegetal, Departamento de Botânica, Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais, Belo Horizonte, MG, Brazil
+3Lino Biotech AG (a Miltenyi Biotec company), Adliswil, Switzerland
 3Louisiana Animal Disease Diagnostic Laboratory, School of Veterinary Medicine, Louisiana State University; Baton Rouge, LA, USA
 3Manchester Cell-Matrix Centre, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, M13 9PT, UK
 3Martin Luther University Halle-Wittenberg, Precision Phenotyping
@@ -4213,6 +4218,7 @@ Department of Dermatology, University of Sao Paulo Medical School, Sao Paulo, Br
 Department of Developmental Biology and Genetics (DBG), Indian Institute of Science (IISc)
 Department of Developmental Biology, Washington University in St. Louis
 Department of Diagnostic Radiology and Nuclear Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA
+Department of Earth Sciences, Uppsala University, Sweden
 Department of Ecology and Evolution, University of Lausanne, Lausanne, Switzerland
 Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, USA 06269; Biodiversity and Conservation Genomics, Institute for Systems
 Department of Ecology and Evolutionary Biology, Yale University, PO Box 208106, New Haven, CT 06520, USA
@@ -4643,6 +4649,7 @@ European Molecular Biology Organization (EMBL)
 European Neuroscience Institute
 European Synchrotron Radiation Facility
 Evo-Eco-Paleo, University of Lille
+Evolutionary Systems Biophysics Group, Life Sciences Department, Barcelona Supercomputing Center, Barcelona, Spain
 Evotec SE
 Extreme Light Infrastructure
 Eye & ENT Hospital, Institutes of Biomedical Sciences, Fudan University, Shanghai,  China
@@ -5246,12 +5253,14 @@ Institute for Biodiversity and Ecosystem Dynamics, University of Amsterdam, Amst
 Institute for Bioengineering of Catalonia (IBEC)
 Institute for Biological Physics, University of Cologne, Zuelpicher Str. 77, 50937, Cologne, Germany
 Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago,
+Institute for Biomedical Research Sols-Morreale (IIBM), Spanish National Research Council (CSIC)-Universidad Autonoma de Madrid, Madrid, Spain
 Institute for Biophysical Chemistry, Hannover Medical School, Carl-Neuberg-Strasse 1, 30625 Hannover, Germany
 Institute for Cellular and Molecular Botany, University of Bonn
 Institute for Clinical Chemistry and Pathobiochemistry, Department for Diagnostic Laboratory Medicine, University Hospital Tuebingen, 72076 Tuebingen, Germany
 Institute for Clinical Immunology and Cell Therapeutics and Health Campus Immunology, Infectiology and Inflammation (GCI3) and Center for Health and Medical Pre
 Institute for Clinical Psychology and Behavioral Neuroscience, Technical University Dresden, Germany
 Institute for Clinical and Experimental Medicine
+Institute for Computational Neuroscience and Daegu National University of Education
 Institute for Diabetes and Organoid Technology, Helmholtz Diabetes Center
 Institute for Drug Development, Faculty of Medicine, University of Leipzig, Bruederstrasse 34, 04103 Leipzig, Germany
 Institute for Ecology and Evolution, University of Edinburgh, Edinburgh, UK
@@ -6001,6 +6010,8 @@ National Audubon Society, New York, New York, USA
 National Cancer Institute
 National Cancer Institute (NCI)
 National Center for Applied Mathematics, Chongqing Normal University
+National Center for Disease Prevention and Health Promotion, Italian National Institute of Health
+National Center for Protein Sciences (Beijing)
 National Centre for Biological Sciences
 National Centre for Biological Sciences (NCBS), Centre for Cellular and Molecular Platforms (C-CAMP), Bangalore - 560065
 National Centre for Biological Sciences (NCBS-TIFR), Bangalore, India
@@ -6476,6 +6487,7 @@ Sao Paulo State University - Unesp
 Sapiens Life Sciences, Evolution and Medicine Research Center, Kanazawa University
 Sapienza University
 Sapienza University of Rome
+Sartorius Stedim North America Inc.
 Saveetha School of Engineering
 School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, P. R. China.
 School of Agriculture, Food, and Ecosystem Sciences, Faculty of Science, The University of Melbourne, Victoria, Australia
@@ -7868,6 +7880,7 @@ Université libre de Bruxelles (ULB)
 Universty of Bristol
 Univerza v Ljubljani, Medicinska fakulteta
 Univerzita Karlova
+Uniwersity of Wroclaw
 Uniwersytet Gdanski
 Uniwersytet Jagiellonski w Krakowie Collegium Medicum
 Uniwersytet Wrocławski
@@ -8058,6 +8071,7 @@ aCNRS, Laboratoire Génome et Développement des Plantes (LGDP), UMR 5096, 66860
 aDepartment of Agriculture, Forestry and Bioresources and Research Institute of Agriculture and Life Sciences, Seoul National University, Seoul 08826, Republic of Korea
 aDepartment of Chemistry, Molecular Sciences Research Hub, Imperial College London, 80 Wood Lane W12 0BZ, London, UK
 aDept. of Mechanical Engineering, University of Washington, Seattle, WA, USA
+aFaculty of Mechanical Engineering, Technion Israel Institute of Technology, Haifa, 3200003, Israel
 aGraduate School of Informatics, Kyoto University, Kyoto, Kyoto 606-8501, Japan
 aGraduate School of Pharmaceutical Sciences, Kyoto University, Kyoto, 606-8501, Japan
 aHawkesbury Institute for the Environment, Western Sydney University, Locked Bag 1797, Penrith, NSW, 2751, Australia

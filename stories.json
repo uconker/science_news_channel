@@ -1,45 +1,35 @@
 {
-  "generated_at": "2026-11-11T13:55:34.177578+00:00",
+  "generated_at": "2026-11-12T14:56:35.170625+00:00",
   "institutions": {
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "broad": {
-      "name": "Broad Institute, Cambridge MA",
-      "lat": 42.36,
-      "lon": -71.1
-    },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
-    },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
     },
     "eth": {
       "name": "ETH Zurich",
       "lat": 47.38,
       "lon": 8.55
     },
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
+    },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     }
   },
   "stories": [
@@ -95,18 +85,6 @@
       "id": 4,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Testing and training geometrical knowledge in baboons through a conceptual categorization task",
-      "body": "Sensitivity to geometric regularity has been proposed as a signature of human cognitive singularity. Baboons can detect an intruder shape among quadrilaterals but, unlike humans, show no advantage for regular shapes such as squares and rectangles, suggesting they are not sensitive to geometric regularity. Here we asked…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.11.06.764828",
-      "date": "2026-11-09"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "neuroscience",
       "title": "The mouse midbrain periaqueductal gray is organized into target-specific output populations",
       "body": "How brains select between behaviours and coordinate their execution is a central question in neuroscience. The vertebrate periaqueductal gray (PAG) controls a remarkable range of instinctive behaviours, from escape and freezing to hunting, vocalization, and micturition. Its columnar organization, the classical framewor…",
       "inst": [
@@ -116,7 +94,7 @@
       "date": "2026-11-09"
     },
     {
-      "id": 6,
+      "id": 5,
       "cat": "science",
       "subject": "immunology",
       "title": "Circulating CD4 regulatory T cells are broadly preserved in Parkinson's disease despite altered HELIOS expression",
@@ -128,7 +106,7 @@
       "date": "2026-11-09"
     },
     {
-      "id": 7,
+      "id": 6,
       "cat": "science",
       "subject": "genomics",
       "title": "Uncertainty-Aware Personalised Gene Expression Prediction Improves Cell-Type-Specific Association Testing",
@@ -137,18 +115,6 @@
         "eth"
       ],
       "doi": "10.64898/2026.11.06.764604",
-      "date": "2026-11-09"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "scHiR learns joint cellular representations from paired single-cell transcriptome and 3D genome data",
-      "body": "Simultaneously sequenced scRNA-seq and scHi-C technologies provide matched measurements of gene expression and three-dimensional (3D) genome organization within individual cells, offering complementary insights into cellular state. However, integrative analysis remains challenging due to the heterogeneous structures an…",
-      "inst": [
-        "broad"
-      ],
-      "doi": "10.64898/2026.11.06.764816",
       "date": "2026-11-09"
     }
   ]
