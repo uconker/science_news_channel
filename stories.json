@@ -1,121 +1,135 @@
 {
-  "generated_at": "2026-11-12T14:56:35.170625+00:00",
+  "generated_at": "2026-11-13T14:21:29.756358+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Distinct mechanical signatures of dairy and plant-based cheeses",
-      "body": "Plant-based cheeses account for about 1% of U.S. retail cheese sales and often fail to match the texture and flavor of dairy cheese. Here we compare three commercial dairy and plant-based pairs, cheddar, feta, and mozzarella, with texture profile analysis (n = 60), tension, compression, and shear tests (n = 219), const…",
+      "subject": "neuroscience",
+      "title": "Accessing Mesoscale Functional Organization from Standard Functional MRI Leveraging AI-Based Super-Resolution",
+      "body": "Access to the fine-scale functional organization of the human brain is essential for understanding cognition and neurological disorders yet remains beyond the reach of conventional functional MRI (fMRI) because of its limited spatial resolution and contrast-to-noise ratio. To overcome this limitation, we developed f-LE…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.05.764742",
-      "date": "2026-11-09"
+      "doi": "10.64898/2026.11.07.765069",
+      "date": "2026-11-10"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Benchmarking foundation models for resting-state functional magnetic resonance imaging time series in cognitive aging research",
-      "body": "Foundation models trained on large neuroimaging datasets could help smaller studies investigate cognition from brain recordings. However, whether the foundation model-derived representations improve assessment of current cognition, prediction of follow-up cognition, or characterization of cognitive change remains uncle…",
+      "subject": "neuroscience",
+      "title": "SPOUT: An open-source hardware and software platform to study decision making while manipulating and recording from neural activity",
+      "body": "Recording and manipulating brain activity during behavior is critical to understanding the underlying mechanisms of decision-making. Linking neural activity to behavior requires behavioral hardware and software tightly integrated with recording and perturbation systems on a shared clock. We built SPOUT (State-machine P…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.05.764644",
-      "date": "2026-11-09"
+      "doi": "10.64898/2026.08.21.746318",
+      "date": "2026-11-10"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "scPolyA enables efficient, interactive and agent-guided alternative polyadenylation analysis in single-cell and spatial transcriptomes",
-      "body": "Alternative polyadenylation (APA) changes which regulatory sequences an RNA retains, creating a layer of cellular variation that gene-level expression profiles cannot resolve. Here we present scPolyA, a unified, AI-enabled framework that transforms conventional single-cell and spatial 3'-end transcriptomes into quantit…",
+      "subject": "neuroscience",
+      "title": "Using wearable EEG to examine age trends in sleep macro- and micro-architecture across adolescence",
+      "body": "Adolescence is a period of distinct maturational changes in sleep physiology. Age-related trends in sleep physiology have been captured using laboratory-based polysomnography, a method limited by logistical burden and high cost. We tested the ability of the Dreem3 sleep EEG headband to replicate established age effects…",
       "inst": [
-        "anu"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.05.764757",
-      "date": "2026-11-09"
+      "doi": "10.1101/2025.10.10.681690",
+      "date": "2026-11-10"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "physiology",
-      "title": "Trunk muscle activity across various trunk-limb coordination patterns in centipede locomotion",
-      "body": "Animals coordinate movements of their limbs and flexible bodies, yet how trunk muscle activity changes across locomotor patterns remains unclear. We simultaneously recorded electromyograms from trunk muscles (deep dorsal oblique muscles) and trunk-limb kinematics in two centipede species exhibiting retrograde and direc…",
+      "subject": "immunology",
+      "title": "BenchRep-T: A Systematic Evaluation of T-Cell Repertoire-Based Disease Diagnostics",
+      "body": "Adaptive immune receptor repertoire sequencing data has emerged as a promising potential modality for disease diagnosis, relying on computational methods to analyze T-cell receptor (TCR) sequences from an individual's blood sample. Published methods rely on different cohorts, data preprocessing pipelines, and evaluatio…",
       "inst": [
-        "tokyo"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.05.764723",
-      "date": "2026-11-09"
+      "doi": "10.64898/2026.06.09.727013",
+      "date": "2026-11-10"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The mouse midbrain periaqueductal gray is organized into target-specific output populations",
-      "body": "How brains select between behaviours and coordinate their execution is a central question in neuroscience. The vertebrate periaqueductal gray (PAG) controls a remarkable range of instinctive behaviours, from escape and freezing to hunting, vocalization, and micturition. Its columnar organization, the classical framewor…",
+      "subject": "microbiology",
+      "title": "Metabolism of bilirubin to urobilinogen by human gut bacteria occurs by a branched, multi-enzyme pathway",
+      "body": "Bilirubin, the predominant product of heme catabolism in mammals, enters the intestine via the hepatobiliary system and subsequently is metabolized by the gut microbiome into multiple downstream derivatives, such as urobilinogen and stercobilinogen. Variation in levels of bilirubin and its derivatives are associated wi…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.06.764863",
-      "date": "2026-11-09"
+      "doi": "10.64898/2026.06.10.731317",
+      "date": "2026-11-10"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Circulating CD4 regulatory T cells are broadly preserved in Parkinson's disease despite altered HELIOS expression",
-      "body": "Background Regulatory T cells (Tregs) are an important component of adaptive immune regulation and have been implicated in Parkinson's disease (PD), with previous studies suggesting altered Treg proportions, phenotype and, in some cases, function. However, existing studies have been limited by variable phenotyping appr…",
+      "subject": "cell biology",
+      "title": "A LOV-domain photoreceptor mediates phototaxis in brown algae",
+      "body": "Phototaxis enables motile cells to navigate light environments and plays a critical role in survival and reproduction across diverse eukaryotic lineages. This ability has evolved independently through distinct photoreceptor systems. Yet, the molecular mechanisms underlying phototaxis remain poorly understood in many ma…",
       "inst": [
-        "cambridge"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.06.764595",
-      "date": "2026-11-09"
+      "doi": "10.64898/2026.11.07.765074",
+      "date": "2026-11-10"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Uncertainty-Aware Personalised Gene Expression Prediction Improves Cell-Type-Specific Association Testing",
-      "body": "Linking genetic variation to disease requires accurate prediction of its effects on gene expression in relevant cell types. Sequence-to-function models offer a way to predict these effects and, with training on personal genomes, have begun to capture inter-individual expression differences. However, effect sign accurac…",
+      "subject": "evolutionary biology",
+      "title": "Protein sequence evolution underlies interspecies incompatibility of a cell fate determinant",
+      "body": "Novel and rapidly evolving genes can integrate into conserved gene networks and play critical roles in development. Understanding how sequence variation in the orthologs of such genes influences functional interactions with the molecular products of older, more conserved genes requires investigation at the level of pro…",
       "inst": [
-        "eth"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.06.764604",
-      "date": "2026-11-09"
+      "doi": "10.1101/2025.08.02.668269",
+      "date": "2026-11-10"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Measuring the strength of selection and pollen limitation on flower colour along an urban rural cline in Hesperis matronalis",
+      "body": "Closely located urban and rural environments can differ in temperature, water availability, species diversity, and more. As a result, organisms in urban environments may experience different selection than those in rural environments. We investigated whether differences in selection might explain a previously identifie…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.11.07.764899",
+      "date": "2026-11-10"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Multimodal Reorganization of Gut--Brain Physiology During the Cephalic Phase of Digestion",
+      "body": "The vagus nerve plays a central role in gut--brain communication, yet the physiological dynamics associated with cholinergic vagal signaling remain difficult to characterize non-invasively in humans. The cephalic phase response, which prepares the gastrointestinal system for food ingestion through anticipatory vagal pa…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.11.07.765106",
+      "date": "2026-11-10"
     }
   ]
 }
