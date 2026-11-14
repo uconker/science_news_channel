@@ -1,135 +1,295 @@
 {
-  "generated_at": "2026-11-13T14:21:29.756358+00:00",
+  "generated_at": "2026-11-14T13:18:03.303168+00:00",
   "institutions": {
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
       "lat": 48.14,
       "lon": 11.58
     },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
+    },
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Accessing Mesoscale Functional Organization from Standard Functional MRI Leveraging AI-Based Super-Resolution",
-      "body": "Access to the fine-scale functional organization of the human brain is essential for understanding cognition and neurological disorders yet remains beyond the reach of conventional functional MRI (fMRI) because of its limited spatial resolution and contrast-to-noise ratio. To overcome this limitation, we developed f-LE…",
+      "subject": "genomics",
+      "title": "Integrating Long-Read Structural Variant Analysis with single-nucleus RNA-seq to Elucidate Gene Expression Effects in Disease",
+      "body": "Structural variants (SVs) are a major source of genetic diversity, yet how they impact cell types in complex brain diseases remains largely unexplored, partially due to limitations of short-read sequencing. Here, we addressed this fundamental question in Parkinson's disease (PD). generating long-read whole-genome seque…",
       "inst": [
-        "harvard"
+        "broad"
       ],
-      "doi": "10.64898/2026.11.07.765069",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.03.20.713192",
+      "date": "2026-11-11"
     },
     {
       "id": 1,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "SPOUT: An open-source hardware and software platform to study decision making while manipulating and recording from neural activity",
-      "body": "Recording and manipulating brain activity during behavior is critical to understanding the underlying mechanisms of decision-making. Linking neural activity to behavior requires behavioral hardware and software tightly integrated with recording and perturbation systems on a shared clock. We built SPOUT (State-machine P…",
+      "title": "OpenDrive: An Open-Source Microdrive for Large-Scale Neurophysiology",
+      "body": "Neuropixels-NHP probes have ushered in a new era of high-density neurophysiology recording in large animal models. Here, we present OpenDrive, an open-source microdrive system designed specifically for acute insertion of Neuropixels-NHPs. OpenDrive combines a custom motorized microdrive, six-drive control console, and …",
       "inst": [
-        "harvard"
+        "mit"
       ],
-      "doi": "10.64898/2026.08.21.746318",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.09.764949",
+      "date": "2026-11-11"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Using wearable EEG to examine age trends in sleep macro- and micro-architecture across adolescence",
-      "body": "Adolescence is a period of distinct maturational changes in sleep physiology. Age-related trends in sleep physiology have been captured using laboratory-based polysomnography, a method limited by logistical burden and high cost. We tested the ability of the Dreem3 sleep EEG headband to replicate established age effects…",
+      "subject": "biochemistry",
+      "title": "Programmable amide bond formation using de novo ligases",
+      "body": "Amide bond formation is of central importance in the chemical industry, underpinning the synthesis of small bioactive molecules, macrocycles, peptides and their conjugates. Conventional methods of amide synthesis rely on stoichiometric coupling agents and costly protecting group manipulations. While biocatalysis can al…",
       "inst": [
-        "harvard"
+        "eth"
       ],
-      "doi": "10.1101/2025.10.10.681690",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.08.765178",
+      "date": "2026-11-11"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "immunology",
-      "title": "BenchRep-T: A Systematic Evaluation of T-Cell Repertoire-Based Disease Diagnostics",
-      "body": "Adaptive immune receptor repertoire sequencing data has emerged as a promising potential modality for disease diagnosis, relying on computational methods to analyze T-cell receptor (TCR) sequences from an individual's blood sample. Published methods rely on different cohorts, data preprocessing pipelines, and evaluatio…",
+      "subject": "neuroscience",
+      "title": "A high-throughput all-optical platform for mapping gene perturbations to electrophysiology",
+      "body": "Electrical phenotyping remains a bottleneck in linking genes to cellular function. We developed a high-throughput all-optical electrophysiology platform combining an engineered human induced pluripotent stem cell (hiPSC) line, wide-field voltage imaging, and automated analysis. The hiPSC line integrates inducible NGN2,…",
       "inst": [
-        "stanford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.06.09.727013",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.09.765233",
+      "date": "2026-11-11"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Metabolism of bilirubin to urobilinogen by human gut bacteria occurs by a branched, multi-enzyme pathway",
-      "body": "Bilirubin, the predominant product of heme catabolism in mammals, enters the intestine via the hepatobiliary system and subsequently is metabolized by the gut microbiome into multiple downstream derivatives, such as urobilinogen and stercobilinogen. Variation in levels of bilirubin and its derivatives are associated wi…",
+      "subject": "ecology",
+      "title": "Ecological opportunity and evolutionary relatedness predict parasite sharing differently across mammalian taxonomic scales",
+      "body": "As global change brings species into new contact, understanding the ecological and evolutionary drivers of parasite sharing is essential for anticipating and mitigating disease emergence. Yet, the relative importance of geographic proximity and evolutionary relatedness among host species in predicting parasite sharing …",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.06.10.731317",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.08.765232",
+      "date": "2026-11-11"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "A LOV-domain photoreceptor mediates phototaxis in brown algae",
-      "body": "Phototaxis enables motile cells to navigate light environments and plays a critical role in survival and reproduction across diverse eukaryotic lineages. This ability has evolved independently through distinct photoreceptor systems. Yet, the molecular mechanisms underlying phototaxis remain poorly understood in many ma…",
+      "subject": "biophysics",
+      "title": "An auditable harness for biomolecular dynamics simulations by AI agents",
+      "body": "AI agents now generate biological hypotheses faster than they can be tested. Hypotheses stated at the atomic level can be examined with molecular dynamics (MD) simulations. For new questions without a reference, trust in an agent-run simulation rests on a tool-written process record, not the agent's account. Existing M…",
       "inst": [
-        "mpi_generic"
+        "riken"
       ],
-      "doi": "10.64898/2026.11.07.765074",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.09.765490",
+      "date": "2026-11-11"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Protein sequence evolution underlies interspecies incompatibility of a cell fate determinant",
-      "body": "Novel and rapidly evolving genes can integrate into conserved gene networks and play critical roles in development. Understanding how sequence variation in the orthologs of such genes influences functional interactions with the molecular products of older, more conserved genes requires investigation at the level of pro…",
+      "subject": "neuroscience",
+      "title": "Geometric determinants of time series learning and attractor stability in closed-loop circuits",
+      "body": "Skilled volitional behaviours arise from recurrent circuits, which can sustain structured neural activity in the absence of external drive, through internal feedback. But how such autonomous activity is learned and stability maintained in distributed motor circuits is poorly understood. To investigate the relationship …",
       "inst": [
-        "harvard"
+        "ucl"
       ],
-      "doi": "10.1101/2025.08.02.668269",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.10.765266",
+      "date": "2026-11-11"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Measuring the strength of selection and pollen limitation on flower colour along an urban rural cline in Hesperis matronalis",
-      "body": "Closely located urban and rural environments can differ in temperature, water availability, species diversity, and more. As a result, organisms in urban environments may experience different selection than those in rural environments. We investigated whether differences in selection might explain a previously identifie…",
+      "subject": "immunology",
+      "title": "Structural and functional characterization of polyclonal antibody responses reveals shared and distinct antigenic features of RSV and hMPV fusion proteins",
+      "body": "Respiratory syncytial virus (RSV) and human metapneumovirus (hMPV), members of the Pneumoviridae family, circulate widely and are leading causes of hospitalization for acute respiratory infections in infants and older adults. The viral fusion (F) protein in its prefusion (preF) conformation is the primary target of neu…",
       "inst": [
-        "toronto"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.11.07.764899",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.10.765330",
+      "date": "2026-11-11"
     },
     {
       "id": 8,
       "cat": "science",
+      "subject": "immunology",
+      "title": "Tetravalent dengue mRNA vaccination orchestrates balanced four-serotype immunity with durable memory and protection in mice.",
+      "body": "An effective dengue vaccine must establish durable immunity across four dengue virus (DENV) serotypes, evade antibody-dependent enhancement (ADE), and overcome immune imprinting from prior exposure. Here, we developed TetprM-E mRNA-LNP, a tetravalent vaccine comprising LNP-formulated nucleoside-modified mRNAs encoding …",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.11.09.765416",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "Single-nucleus analysis reveals renal STAT1/CEBPB signaling as a modifiable relay of proinflammatory FGF23 effects in diabetic kidney disease",
+      "body": "Background Circulating fibroblast growth factor 23 (FGF23) rises dramatically in chronic kidney disease, particularly in diabetic kidney disease (DKD). At high concentrations, and with declining Klotho, FGF23 has been linked to renal inflammation. The cell types and transcriptional programs mediating these off-target a…",
+      "inst": [
+        "karolinska"
+      ],
+      "doi": "10.64898/2026.11.10.765607",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 10,
+      "cat": "science",
+      "subject": "physiology",
+      "title": "Body weight modifies the efficacy of lifespan-extending interventions in ad libitum-fed mice",
+      "body": "Geroprotective interventions are often assessed by extension of lifespan in ad libitum-fed mice. Increased lifespan could therefore reflect rescue of adverse phenotypes of unhealthy controls. We analysed body weight and survival for 33,780 mice in the Interventions Testing Program (ITP) to test whether treatment effect…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.11.10.765234",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 11,
+      "cat": "science",
       "subject": "neuroscience",
-      "title": "Multimodal Reorganization of Gut--Brain Physiology During the Cephalic Phase of Digestion",
-      "body": "The vagus nerve plays a central role in gut--brain communication, yet the physiological dynamics associated with cholinergic vagal signaling remain difficult to characterize non-invasively in humans. The cephalic phase response, which prepares the gastrointestinal system for food ingestion through anticipatory vagal pa…",
+      "title": "Synaptotagmin 7 differentially regulates synaptic vesicle trafficking at tonic and phasic synapses",
+      "body": "Synaptic vesicle (SV) release probability can differ across neuronal subtypes, but the molecular mechanisms establishing such differences remain incompletely understood. In the current study we demonstrate that Synaptotagmin 7 (SYT7), a calcium-sensor regulating SV trafficking, is enriched at Drosophila tonic Ib synaps…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.11.09.765402",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Aperiodic Exponent as an EEG Marker of Interoceptive Attention during Gastric Fullness",
+      "body": "Gastric interoceptive attention to internal, bodily signals such as hunger, satiety, and fullness are important for regulating feeding behaviors. However, abnormal processing or sensitivity to these can lead to disorders that result in overly restrictive or excessive consumption, highlighting the need for better unders…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.11.07.765106",
-      "date": "2026-11-10"
+      "doi": "10.64898/2026.11.09.765525",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "Zebrafish lack canonical necroptosis despite retaining functional RIPK3",
+      "body": "Organismal development, homeostasis and immunity are facilitated by distinct forms of regulated cell death (RCD). These include conserved apoptosis and necroptosis, a proposed backup antimicrobial defence that requires RIPK3-mediated activation of MLKL and is predicted to be absent in several species lacking MLKL. Zebr…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.11.10.765635",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Development of a core genome Multilocus Sequence Typing (cgMLST) and Life Identification Number (LIN) code schema for the Burkholderia cepacia complex",
+      "body": "Background The Burkholderia cepacia complex (Bcc) currently comprises over 20 closely related species; however, understanding Bcc population biology is complicated due to the continual advances in taxonomy and diversity driven by extensive horizontal gene transfer (HGT). Whilst there are conventional typing schemes for…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.10.765358",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Non-coding RNA controls long-range enhancer-promoter interactions",
+      "body": "Transcription regulation depends on interactions between enhancers and gene promoters, which often occur over large genomic distances. The molecular drivers of long-range enhancer-promoter interactions remain poorly understood. Enhancers themselves are known to be transcribed into non-coding RNAs, but the function of t…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.11.10.765568",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Structural relationships between the SLC12 cotransporter C-terminal domain, universal stress proteins and adenylating enzymes",
+      "body": "Several SLC12 cotransporters bind ATP in a cytoplasmic C-terminal domain (CTD). We analysed 16,192 CTD-containing SLC12 sequences and compared 42,845 representative structures to examine the relationship between this nucleotide site, universal stress proteins (USPs) and adenylating enzymes. In phosphorylated NKCC1, D89…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.11.09.765458",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Boosting Single-Cell Methods Significantly Enhances Cell-type Classification",
+      "body": "Single-cell sequencing drives biological discovery by revealing key cellular processes, cell types, and cell states. Recent technological advances have accelerated atlas-scale data generation across laboratories. With the increasing amount of single-cell RNA-seq (scRNA-seq) data, new challenges emerge, including effect…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.11.10.765730",
+      "date": "2026-11-11"
+    },
+    {
+      "id": 18,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Evolutionarily distinct dengue virus type 2 with a unique type-specific neutralization determinant",
+      "body": "Dengue viruses 1-4 (DENV1-4) mostly circulate in endemic cycles involving humans and Aedes mosquitoes. However, rare dengue outbreaks originate from non-human primates. These spillovers are caused by sylvatic virus genotypes that are closely related to endemic strains of the same serotype, but some are caused by strain…",
+      "inst": [
+        "nih"
+      ],
+      "doi": "10.64898/2026.11.10.765652",
+      "date": "2026-11-11"
     }
   ]
 }
