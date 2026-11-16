@@ -1,191 +1,263 @@
 {
-  "generated_at": "2026-11-15T13:45:48.695229+00:00",
+  "generated_at": "2026-11-16T15:22:45.420728+00:00",
   "institutions": {
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
     },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
-    },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
     },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
     "toronto": {
       "name": "University of Toronto",
       "lat": 43.66,
       "lon": -79.4
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Prevention of prion disease symptoms in mice with deep PrP lowering",
-      "body": "PrP lowering slows prion disease in animal models, but prevention of symptoms by a therapeutic has never been demonstrated. A highly potent PrP-lowering C16-conjugated siRNA delivered into the cerebrospinal fluid (CSF) of mice lowers PrP to 12% residual in whole brain hemispheres. Early chronic treatment keeps prion-in…",
+      "subject": "genomics",
+      "title": "MicroDUET: a dual-headed genomic foundation model for pathogen surveillance",
+      "body": "Pathogen genomic surveillance works from raw reads, assembled genomes and alignments, representations that are slow and costly to compare at scale. Compact embeddings from genomic language models offer an alternative, but surveillance requires resolving both evolutionary ancestry (phylogeny) and phenotypic capability (…",
       "inst": [
-        "mit"
+        "oxford"
       ],
-      "doi": "10.64898/2026.10.22.761034",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765853",
+      "date": "2026-11-13"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "immunology",
-      "title": "Ksp37 is a rapidly mobilized NK cell secretory protein that engages FGF2",
-      "body": "A key feature of natural killer (NK) cells is their preloaded arsenal of effector molecules, allowing them to rapidly respond upon activation. In this study, we characterized a previously unexplored secretory protein, termed killer-specific secretory protein of 37 kDa (Ksp37), which is highly abundant in differentiated…",
+      "subject": "bioengineering",
+      "title": "Spatiotemporal multiplexing on subretinal prosthesis increases selectivity of the network-mediated stimulation",
+      "body": "Subretinal photovoltaic implants (PRIMA) provide form vision in patients blinded by age-related macular degeneration. The success of this approach is attributed in part to the network-mediated stimulation, which preserves many features of the natural retinal signal encoding. For efficient stimulation of bipolar cells (…",
       "inst": [
-        "karolinska"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.10.765584",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.766021",
+      "date": "2026-11-13"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "REZCUE: Rescuing 3D spatial omics from archived FFPE tissue",
-      "body": "Archived formalin-fixed, paraffin-embedded (FFPE) tissue represents a vast clinical resource, yet three-dimensional imaging and omics-wide molecular profiling remain largely incompatible because current antigen retrieval and clearing can degrade nucleic acids. We developed REZCUE, a depth-invariant antigen retrieval ch…",
+      "subject": "neuroscience",
+      "title": "A cortically gated sensory reference to the basal ganglia guides vocal reinforcement learning in songbirds",
+      "body": "Songbirds learn to sing by copying a memorized tutor song. Reinforcement learning models of vocal imitation propose that a dopaminergic signal strengthens the cortico basal ganglia synapses whose activity coincides with similarity to the tutor like song. To do so, the circuit must access a representation of the tutor s…",
       "inst": [
-        "stanford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.06.757132",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765895",
+      "date": "2026-11-13"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Associative Learning and Memory Erasure in a Synthetic Multicellular System",
-      "body": "Learning is a basic form of adaptation that organisms display from neural systems to single cells. In associative learning, the pairing of two stimuli lets one of them evoke the response to the other. Engineering this behavior in a living cell is difficult, because coincidence detection, memory, and conditional readout…",
+      "subject": "developmental biology",
+      "title": "Whole embryo barcoding reveals convergent origins of mesodermal cells during mammalian gastrulation",
+      "body": "Classical fate-mapping and recent single-cell trajectory studies have suggested that mesoderm diversification during gastrulation proceeds through progressive fate bias and branching lineage segregation. Here, we combine inducible CRISPR-based lineage recording with single-cell RNA sequencing to reconstruct clonal rela…",
       "inst": [
-        "embl"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.09.765282",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765433",
+      "date": "2026-11-13"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "synthetic biology",
-      "title": "Self-organized criticality in a mammalian RNA-interference circuit",
-      "body": "Living systems have been argued to operate near critical points, but their relevance at the cellular level is poorly understood. Critical states allow for a high sensitivity to external inputs and maximal information transfer and display fluctuations at all scales. Critical points are very special, and require the fine…",
+      "subject": "neuroscience",
+      "title": "Local consequences of FMRP loss: cell type-specific mRNA and protein profiles of Fmr1-KO synapses",
+      "body": "Brain function relies on billions of neurons interconnected by synapses with unique molecular composition specialized for cell type, brain region, and their role in circuit dynamics. Pathological synaptic dysfunctions - so-called synaptopathies - underlie many neurodevelopmental disorders (NDDs), including Fragile X Sy…",
       "inst": [
-        "embl"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.09.765295",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765892",
+      "date": "2026-11-13"
     },
     {
       "id": 5,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Brain states recur during longitudinal viewing and relate to content across narratives and sensory formats",
-      "body": "Models of brain dynamics propose that brain activity revisits a repertoire of configurations, and that current input influences which configuration is expressed. How broadly this holds across a person's extended experience is unknown. We analyzed 38-57 hours of fMRI per participant in six adults watching the television…",
+      "title": "Oscillatory Entrainment Guides Temporal Prediction in Non-Deterministic Continuous Environments, Independent of Bayesian Sequential Learning",
+      "body": "Predicting future event timing is essential for human interaction with our environment, and has been established in stimulus streams containing deterministic regularities. However, real-world streams often lack such regularities, leaving it unclear whether and how temporal predictions operate. Here we show that oscilla…",
       "inst": [
-        "mit"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.05.31.729141",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765929",
+      "date": "2026-11-13"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Genetics and genomics of enteroarthroconidial development in Coccidioides",
-      "body": "Regulated cell death is a cornerstone of plant and animal development. Distant orthologs of some cell death genes are also found in microbes, with roles that remain incompletely understood. The human fungal pathogen Coccidioides causes the disease Valley fever when infectious spores called enteroarthroconidia are inhal…",
+      "subject": "ecology",
+      "title": "hilldiv3: a unified Hill-number framework for neutral, phylogenetic and functional diversity analysis in R",
+      "body": "1. Hill numbers provide a coherent family of diversity measures that can incorporate phylogenetic relatedness and functional trait dissimilarity, but applying them consistently across neutral, phylogenetic and functional diversity, and across measurement, partitioning and (dis)similarity, still requires combining sever…",
       "inst": [
-        "berkeley"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.10.27.762035",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.12.766119",
+      "date": "2026-11-13"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Aminoacyl-tRNA synthetase organization is crucial for mammalian brain development",
-      "body": "Central nervous system development relies on spatially regulated protein synthesis, which includes the aminoacylation of tRNAs. Developmental brain disorders, such as leukodystrophies, can be caused by the exclusion of Arginyl-tRNA synthetase (RARS1) from the multi-tRNA synthetase complex, which does not affect its enz…",
+      "subject": "bioengineering",
+      "title": "Identification and isolation of migratory subpopulations of cancer cells using microfluidics with fluid walls",
+      "body": "Microfluidic assays have great potential for investigating cancer cell migration, a key process underlying metastasis which remains a major clinical challenge. However, adoption by biologists is limited due to complex fabrication and operation methods combined with difficulty in retrieving cells of interest. We jet-pri…",
       "inst": [
-        "toronto"
+        "oxford"
       ],
-      "doi": "10.1101/2025.09.08.674979",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.11.765957",
+      "date": "2026-11-13"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Simple, static, spiking nonlinearities can account for seemingly complex interactions between visual, motor and cognitive variables in the visual cortex.",
-      "body": "Neural activity in the visual cortex is driven by the stimulus and modulated by multiple task-related variables, including spatial attention, eye movements, and perceptual decisions. These multiple influences are each typically described as nonlinear interactions such as gain or normalization, raising the question of h…",
+      "subject": "synthetic biology",
+      "title": "Antibody design across observed and forecasted antigenic evolution",
+      "body": "The therapeutic efficacy of antibodies is often limited by the evolution of their targets. Designing or eliciting antibodies that withstand such evolution is challenging as their binding interfaces must accommodate antigenic variation. Here, we introduce Germinal Multi, a computational framework for de novo antibody de…",
       "inst": [
-        "nih"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.01.763479",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.11.10.765734",
+      "date": "2026-11-13"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Multimodal Reorganization of Gut--Brain Physiology During the Cephalic Phase of Digestion",
-      "body": "The vagus nerve plays a central role in gut--brain communication, yet the physiological dynamics associated with cholinergic vagal signaling remain difficult to characterize non-invasively in humans. The cephalic phase response, which prepares the gastrointestinal system for food ingestion through anticipatory vagal pa…",
+      "subject": "microbiology",
+      "title": "Structures of LolB bound to LolA or lipoprotein provide insight into the final steps of bacterial lipoprotein trafficking",
+      "body": "In Gram-negative bacteria, lipoproteins are structural elements of the outer membrane and essential components of machineries responsible for its construction and maintenance. The Lol system, responsible for the trafficking of lipoproteins from the site of maturation on the inner membrane to the outer membrane, is ther…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.07.765106",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.09.01.748475",
+      "date": "2026-11-13"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Vermeer: Autoregressive generative modeling of microscopy predicts protein localization",
-      "body": "Fluorescent microscopy provides a rich view into how proteins localize within cells, but it remains experimentally infeasible to image human proteins across all of the different factors that can impact localization. We introduce Vermeer, a channel-adaptive autoregressive generative model for in silico generation of mic…",
+      "subject": "ecology",
+      "title": "Oxylipins and Other Natural Products Produced by UV-sterilization Impact Commercial Oyster Larvae Production in a New England Estuary",
+      "body": "Here, oyster larval abnormalities within a hatchery were linked to a common UV sterilization technique used in aquaculture. Because of the known link between phytoplankton oxylipins and zooplankton mortality, we hypothesized that UV-treatment of seawater results in the production of oxylipins that inhibit larval digest…",
       "inst": [
-        "harvard"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.06.01.729395",
-      "date": "2026-11-12"
+      "doi": "10.64898/2026.07.29.738347",
+      "date": "2026-11-13"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Coding region changes in the Hippo pathway component YAP1 contribute to body size differences among mammalian species",
-      "body": "Animal species differ dramatically in their overall size, yet the mechanisms underlying these differences are poorly understood. The Hippo pathway, first discovered in Drosophila, and widely conserved in mammals, regulates the nuclear levels of YAP1, a transcriptional co-activator that enhances the expression of growth…",
+      "subject": "genomics",
+      "title": "Identification of target genes and regulatory networks for bone mineral density GWAS loci through systematic targeting and inhibition",
+      "body": "Osteoporosis is characterized by low bone mineral density (BMD) and elevated fracture risk. Most BMD-associated GWAS variants lie in noncoding regions, complicating efforts to identify causal genes and mechanisms. To overcome this variant-to-function challenge, we previously developed STING-seq, a framework integrating…",
+      "inst": [
+        "toronto"
+      ],
+      "doi": "10.64898/2026.02.11.705362",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "A coronavirus protease activates sensory neurons via TRPA1 to drive sneeze, cough, and pain",
+      "body": "Sneezing, coughing, and pain are common symptoms of respiratory viral infection. These responses are initiated by airway-innervating nociceptors that detect noxious stimuli, but how SARS-CoV-2 activates these neurons remains unclear. Here, we show that the coronavirus papain-like protease (PLpro) directly activates air…",
       "inst": [
         "berkeley"
       ],
-      "doi": "10.64898/2026.10.29.762931",
-      "date": "2026-11-12"
+      "doi": "10.1101/2024.01.10.575114",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The adaptor protein DAB2 cell-autonomously links APOE with disease-associated microglia (DAM)/TREM2 state dysregulation associated with Alzheimer's disease",
+      "body": "The neuron-secreted Reelin (RELN) protein and its adaptor DAB1 modify Alzheimer's disease (AD) risk through genetic interaction with APOE4. While RELN and APOE4 exert antagonistic effects on amyloid and Tau pathology in mice, how risk is conferred in the human brain remains unclear. The related adaptor DAB2 endocytoses…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.11.12.766141",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
+      "body": "Protein language models (PLMs) such as ESM-2 encode protein sequences as embeddings for downstream tasks. PLMs are trained on a masked learning objective that leverages evolutionary constraints. While interpretability studies of ESM-2 have focused on folded proteins, their behavior on intrinsically disordered proteins …",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.09.10.750691",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Hierarchical cortical plasticity in congenital sight impairment",
+      "body": "A robust learning system balances adaptability to new experiences with stability of its foundational architecture. To investigate how the human brain implements this we combined structural imaging with population receptive field (pRF) and connective field (CF) modelling to study plasticity and stability across hierarch…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.1101/2024.07.04.602138",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "deepTools4: Faster, Scalable, and Modernized Genomic Data Analysis",
+      "body": "The deepTools suite is widely used for quality control, summarization, and visualization of high-throughput sequencing data. However, as genomic datasets grow in scale and depth, existing tools often become computational bottlenecks. We present deepTools4, a modernized framework designed for high performance, scalabili…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.11.11.765524",
+      "date": "2026-11-13"
+    },
+    {
+      "id": 17,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Dopamine reward prediction error signal encodes effort cost as negative reward value",
+      "body": "All life must balance the economic problem of allocating scarce energy resources to maximize reward. Economic theory proposes that rational (reward-maximizing) decision makers balance the possible benefits from rewards against the cost of efforts for obtaining the rewards. Here we measured how the reward prediction err…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.11.11.765978",
+      "date": "2026-11-13"
     }
   ]
 }
