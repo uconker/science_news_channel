@@ -1,45 +1,175 @@
 {
-  "generated_at": "2026-11-17T15:46:48.971026+00:00",
+  "generated_at": "2026-11-18T15:26:50.436157+00:00",
   "institutions": {
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
     },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
     "ucl": {
       "name": "University College London",
       "lat": 51.52,
       "lon": -0.13
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Partially shared representational space for vision and language across objects, scenes, and visual events",
+      "body": "Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately acr…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.11.13.762800",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Pleckstrin Homology-based proximity-labeling reveal lipid-associated interactomes",
+      "body": "Phosphoinositides (PIPs) organize membrane-associated signaling, but the proteins associated with specific PIPs and their regulation remain poorly characterized. Here, we establish a lipid-binding domain-based proximity-labeling approach to map PIP-associated proteomes in vivo, and applied it to plant cells. We identif…",
+      "inst": [
+        "copenhagen"
+      ],
+      "doi": "10.64898/2026.11.12.765328",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 2,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Forecasting viral antigenic evolution from phylogenetic trees",
+      "body": "Forecasting the evolution of viral proteins can help inform pandemic preparedness and guide the development of interventions. Phylogenetic trees provide historical records of pathogen evolution, which are key for retrospective analysis, but using them to predict future genotypic changes remains challenging. We introduc…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.08.27.741102",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 3,
+      "cat": "science",
+      "subject": "evolutionary biology",
+      "title": "Kin selection for cooperation in the honey bee microbiome",
+      "body": "Bacteria engage in many cooperative behaviours which provide benefits to other cells in the population. Lab experiments have suggested that these costly behaviours can be favoured by kin selection due to the benefits they provide to closely related cells. However, we know much less about the role of kin selection in na…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.12.766218",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 4,
+      "cat": "science",
+      "subject": "biochemistry",
+      "title": "Deep sequence-function mapping reveals computationally unpredictable epistatic trajectories that drive laboratory evolution",
+      "body": "The black-box nature of directed evolution has been constraining advances in enzyme engineering and the wider application of engineered biocatalysts. While conventional deep sequence-function mapping has delivered insights into sequence space architecture, it lacks the ability to analyse adaptive landscapes and fully g…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.11.11.766033",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 5,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "OrthoSimulator: Empirically trained simulations for ground-truth benchmarking of orthology inference",
+      "body": "Orthology inference is foundational for comparative genomics, enabling the reconstruction of phylogenetic relationships and transfer of biological knowledge between species. Methods often infer different orthogroups and orthologous relationships, making robust benchmarking essential for evaluating their accuracy. Exist…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.12.766176",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 6,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Embodied schooling behavior via hydrodynamic interactions",
+      "body": "Collective animal behavior is commonly explained by sensory-mediated interactions among individuals, yet physical interactions between moving bodies and their environment may also contribute to coordination. In fish schooling, passive hydrodynamic interactions have long been proposed to facilitate collective organizati…",
+      "inst": [
+        "mpi_generic"
+      ],
+      "doi": "10.64898/2026.11.12.766162",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 7,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "\"The self\" as shifting coalitions of brain systems in a continuous configuration space",
+      "body": "Philosophers and psychologists distinguish many forms of self, yet neuroimaging results often implicate a shared core in the cortical midline or insula. We propose self-related processing arises from shifting coalitions of distributed brain systems, without a core. In a meta-analysis of 912 neuroimaging publications, t…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.11.12.766263",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 8,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Generalized hippocampal replay exhibits memory recall-like dynamics",
+      "body": "Hippocampal replay has been intensely studied for theorized roles in memory consolidation, credit assignment in reinforcement learning, and online planning. Much work in the field assumes that replayed trajectories traverse states smoothly and sequentially, in either forward or reverse order of experience. In a synthet…",
+      "inst": [
+        "harvard"
+      ],
+      "doi": "10.64898/2026.11.12.766222",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 9,
+      "cat": "science",
+      "subject": "cell biology",
+      "title": "Co-transcriptional splicing of the Drosophila Y-loop A transcript is organized in chromatin hubs and shows variable delay which increases with spermatocyte maturation",
+      "body": "Splicing of the primary transcript is a major step to produce the mature mRNA. While the biochemistry of the splicing mechanism has been elucidated in detail, the dynamics and structural arrangements inside the nucleus are not clear. Biochemical and genomic studies of splicing and transcription most often lose the info…",
+      "inst": [
+        "cambridge"
+      ],
+      "doi": "10.64898/2026.11.11.766038",
+      "date": "2026-11-16"
+    },
+    {
+      "id": 10,
       "cat": "science",
       "subject": "ecology",
       "title": "A large but weakened soil carbon sink in resampled forests and grasslands",
@@ -51,7 +181,7 @@
       "date": "2026-11-15"
     },
     {
-      "id": 1,
+      "id": 11,
       "cat": "science",
       "subject": "biophysics",
       "title": "Functional Redundancy Permits Enzyme Specialisation Without Gene Duplication: A Minimal Model",
@@ -63,19 +193,7 @@
       "date": "2026-11-15"
     },
     {
-      "id": 2,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "Methane emissions from upland tree stems reflect a balance of microbial production and consumption",
-      "body": "Upland trees emit methane (CH4), but whether it is produced inside the wood or transported from soil remains debated. Methanogens occur in the heartwood of several species, yet their relation to co-occurring methanotrophs is poorly understood. We measured 1,200 stem and 288 soil fluxes, sampled internal stem gases incl…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2025.09.30.679632",
-      "date": "2026-11-15"
-    },
-    {
-      "id": 3,
+      "id": 12,
       "cat": "science",
       "subject": "bioinformatics",
       "title": "DeepCDS: Ab initio coding sequence prediction in prokaryotic metagenomic short reads",
@@ -87,76 +205,40 @@
       "date": "2026-11-15"
     },
     {
-      "id": 4,
+      "id": 13,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Acute FMR1 reduction alters cellular and circuit properties in human cortex",
-      "body": "Transcriptional silencing of FMR1 results in Fragile X syndrome (FXS), the leading inherited cause of intellectual disability (ID) and autism. Although the impact of FMR1 reduction on cortical function has been studied using the Fmr1-/y mouse model, mechanistic insights from the human brain are lacking. Here we show th…",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.64898/2026.03.11.711123",
-      "date": "2026-11-14"
-    },
-    {
-      "id": 5,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "A cross-species protocol for ultrasound-guided intrauterine injections across gestation",
-      "body": "This step-by-step protocol provides a cross-species, non-surgical approach that enables prenatal gene delivery to the developing nervous system in rats and marmosets. Under transabdominal ultrasound guidance, intracerebroventricular viral injection (FIVI) of recombinant adeno-associated virus vectors into the fetal bra…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.07.07.737050",
-      "date": "2026-11-14"
-    },
-    {
-      "id": 6,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons",
-      "body": "Charcot-Marie-Tooth disease type 2A (CMT2A) is a genetic disease characterized by autosomal dominant MFN2 mutations and dysregulated mitochondrial trafficking. While there is currently no FDA-approved CMT2A therapy, the recent development of iPSC motor neuron model systems, high-throughput imaging platforms, and CRISPR…",
+      "subject": "immunology",
+      "title": "BenchRep-T: A Systematic Evaluation of T-Cell Repertoire-Based Disease Diagnostics",
+      "body": "Adaptive immune receptor repertoire sequencing data has emerged as a promising potential modality for disease diagnosis, relying on computational methods to analyze T-cell receptor (TCR) sequences from an individual's blood sample. Published methods rely on different cohorts, data preprocessing pipelines, and evaluatio…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.03.16.712192",
-      "date": "2026-11-14"
+      "doi": "10.64898/2026.06.09.727013",
+      "date": "2026-11-15"
     },
     {
-      "id": 7,
+      "id": 14,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Pathological LSD1 mutations repress enhancer-mediated gene regulatory networks in early differentiation",
-      "body": "Lysine-specific demethylase 1 (LSD1/KDM1A) demethylates both histone and non-histone substrates, recruits repressive chromatin complexes, and is increased in cancers. De novo LSD1 mutations impairing protein function lead to a rare developmental disorder, but the molecular details of the pathology remains unclear. Usin…",
+      "subject": "cell biology",
+      "title": "Mural cell contractility regulates vessel diameter by controlling cell morphology and vessel coverage",
+      "body": "Mural cells regulate vascular architecture, but how their contractility and morphology together determine vessel diameter is unclear. Using high-resolution live imaging and single-cell morphometrics in zebrafish, we show that vSMCs and pericytes progressively retract actin-rich processes and decrease in size during dev…",
       "inst": [
-        "embl"
+        "riken"
       ],
-      "doi": "10.1101/2021.08.11.455900",
-      "date": "2026-11-14"
+      "doi": "10.64898/2026.06.07.730635",
+      "date": "2026-11-15"
     },
     {
-      "id": 8,
+      "id": 15,
       "cat": "science",
-      "subject": "genetics",
-      "title": "Pigmentation markers enable efficient co-CRISPR selection in the pantry moth Plodia interpunctella",
-      "body": "CRISPR co-targeting (co-CRISPR) of pigment genes facilitates the identification and recovery of genome-edited individuals in model organisms. Using Plodia interpunctella, an emerging lepidopteran model, we characterized mutant phenotypes of eight genes involved in the melanin and ommochrome biosynthesis pathways (black…",
+      "subject": "ecology",
+      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
+      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
       "inst": [
-        "nih"
+        "ucl"
       ],
-      "doi": "10.64898/2026.11.13.760159",
-      "date": "2026-11-14"
-    },
-    {
-      "id": 9,
-      "cat": "science",
-      "subject": "bioengineering",
-      "title": "A Three-Dimensional Bioprinted Skin Melanoma Model for High-Throughput Drug Screening",
-      "body": "Melanoma is the deadliest form of skin cancer, and despite major advances in immunotherapy and targeted therapies, most patients with advanced disease eventually develop treatment resistance. The lack of physiologically relevant, scalable preclinical models that recapitulate the tumor microenvironment (TME) remains a m…",
-      "inst": [
-        "nih"
-      ],
-      "doi": "10.64898/2026.11.06.764888",
-      "date": "2026-11-14"
+      "doi": "10.64898/2026.09.28.754864",
+      "date": "2026-11-15"
     }
   ]
 }
