@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-18T15:26:50.436157+00:00",
+  "generated_at": "2026-11-19T15:32:19.452092+00:00",
   "institutions": {
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
@@ -11,40 +21,25 @@
       "lat": 52.2,
       "lon": 0.12
     },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
-    },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "ucl": {
       "name": "University College London",
       "lat": 51.52,
       "lon": -0.13
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
     }
   },
   "stories": [
@@ -171,74 +166,38 @@
     {
       "id": 10,
       "cat": "science",
-      "subject": "ecology",
-      "title": "A large but weakened soil carbon sink in resampled forests and grasslands",
-      "body": "The land carbon sink is composed of vegetation and soil carbon change, but only vegetation change has been quantified by observations at global scale (1-6). Recent changes in soil organic carbon (SOC) remain highly uncertain, with process models disagreeing even on its direction (7, 8). Repeated soil sampling is the mo…",
+      "subject": "developmental biology",
+      "title": "Force regulates mitotic entry timing during Drosophila gastrulation",
+      "body": "Cell division and cell shape changes drive tissue morphogenesis. Cell division is tightly regulated by biochemical factors that influence the cell cycle. Past work in our lab showed how contractility of mesoderm cells influences cell division orientation during Drosophila gastrulation. Whether contractile forces that d…",
       "inst": [
         "mit"
       ],
-      "doi": "10.1101/2025.04.25.650716",
-      "date": "2026-11-15"
+      "doi": "10.64898/2026.11.12.766297",
+      "date": "2026-11-16"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Functional Redundancy Permits Enzyme Specialisation Without Gene Duplication: A Minimal Model",
-      "body": "Gene duplication is the standard explanation for how multifunctional enzymes specialise: a spare copy is freed from maintaining the ancestral functions, bypassing functional entrenchment. Yet proteins often share overlapping weak activities, so other contributors may already buffer the loss of one. We ask whether this …",
+      "subject": "neuroscience",
+      "title": "Automated behavioral profiling reveals baseline phenotypes in marmosets",
+      "body": "Recent advances in genetic engineering have accelerated the production of nonhuman primate models for brain disorders. To use these models for preclinical drug testing, behavioral screening methods will be necessary to determine how the model animals for each disorder deviate from controls, and whether treatments can r…",
       "inst": [
-        "ucl"
+        "mit"
       ],
-      "doi": "10.64898/2026.10.02.756335",
-      "date": "2026-11-15"
+      "doi": "10.1101/2024.08.30.610159",
+      "date": "2026-11-16"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "DeepCDS: Ab initio coding sequence prediction in prokaryotic metagenomic short reads",
-      "body": "Accurate coding sequence prediction in short prokaryotic metagenomic sequences, such as Illumina reads, remains challenging due to sequence fragmentation, unknown sequence origins, and sequencing errors. Here we introduce DeepCDS, a deep learning-based ab initio coding sequence predictor trained on short prokaryotic se…",
+      "subject": "cell biology",
+      "title": "KDM3B enforces a non-mutational ErbB signaling state that sustains cholangiocarcinoma",
+      "body": "More than 50% of cholangiocarcinoma (CCA) patients lack druggable mutations, showing broad non-mutational epigenetic perturbations, whose mechanistic insights and clinical benefit remain largely unexplored. Across multiple CCA patient cohorts, we identified prevalent significant upregulation of lysine demethylase (KDM)…",
       "inst": [
         "copenhagen"
       ],
-      "doi": "10.64898/2026.06.17.732633",
-      "date": "2026-11-15"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "BenchRep-T: A Systematic Evaluation of T-Cell Repertoire-Based Disease Diagnostics",
-      "body": "Adaptive immune receptor repertoire sequencing data has emerged as a promising potential modality for disease diagnosis, relying on computational methods to analyze T-cell receptor (TCR) sequences from an individual's blood sample. Published methods rely on different cohorts, data preprocessing pipelines, and evaluatio…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.06.09.727013",
-      "date": "2026-11-15"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "cell biology",
-      "title": "Mural cell contractility regulates vessel diameter by controlling cell morphology and vessel coverage",
-      "body": "Mural cells regulate vascular architecture, but how their contractility and morphology together determine vessel diameter is unclear. Using high-resolution live imaging and single-cell morphometrics in zebrafish, we show that vSMCs and pericytes progressively retract actin-rich processes and decrease in size during dev…",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.06.07.730635",
-      "date": "2026-11-15"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "ecology",
-      "title": "DAPHNE: A global database of pest herbivores and their natural enemies",
-      "body": "Anticipating and managing the impact of herbivorous pests requires evidence-based knowledge about the interactions between pests and their natural enemies. Knowledge of species' ecologies and biological interactions are typically disseminated in unstructured text across hundreds of thousands of scientific articles span…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.09.28.754864",
-      "date": "2026-11-15"
+      "doi": "10.64898/2026.11.12.766134",
+      "date": "2026-11-16"
     }
   ]
 }
