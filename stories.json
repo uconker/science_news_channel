@@ -1,25 +1,20 @@
 {
-  "generated_at": "2026-11-19T15:32:19.452092+00:00",
+  "generated_at": "2026-11-20T15:11:18.052400+00:00",
   "institutions": {
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
     },
     "mpi_generic": {
       "name": "Max Planck Institute",
@@ -36,168 +31,178 @@
       "lat": 51.75,
       "lon": -1.25
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Partially shared representational space for vision and language across objects, scenes, and visual events",
-      "body": "Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately acr…",
+      "subject": "systems biology",
+      "title": "Scalable biophysical constraints link steady-state and kinetic metabolic modeling",
+      "body": "Rational metabolic engineering relies on models that connect molecular mechanisms to cellular behavior. Constraint-based metabolic models integrate stoichiometric, thermodynamic, and omics-derived information, but they do not generally constrain whether flux magnitudes are compatible with the corresponding metabolite p…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.11.13.762800",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.07.03.736321",
+      "date": "2026-11-17"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Pleckstrin Homology-based proximity-labeling reveal lipid-associated interactomes",
-      "body": "Phosphoinositides (PIPs) organize membrane-associated signaling, but the proteins associated with specific PIPs and their regulation remain poorly characterized. Here, we establish a lipid-binding domain-based proximity-labeling approach to map PIP-associated proteomes in vivo, and applied it to plant cells. We identif…",
+      "subject": "biochemistry",
+      "title": "Biosynthesis of serotonergic Kanna alkaloids",
+      "body": "Plants have repeatedly evolved to synthesize natural products that exploit serotonin signaling in animals. Although serotonin and most of its neuroactive analogs derive from tryptophan, the medicinal Kanna plant (Mesembryanthemum tortuosum) instead uses tyrosine and phenylalanine to construct a serotonin-like scaffold …",
       "inst": [
-        "copenhagen"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.12.765328",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.13.766392",
+      "date": "2026-11-17"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Forecasting viral antigenic evolution from phylogenetic trees",
-      "body": "Forecasting the evolution of viral proteins can help inform pandemic preparedness and guide the development of interventions. Phylogenetic trees provide historical records of pathogen evolution, which are key for retrospective analysis, but using them to predict future genotypic changes remains challenging. We introduc…",
+      "subject": "scientific communication and education",
+      "title": "Benchmarking honorific academic recognitions against citation metrics",
+      "body": "We examined how diverse metrics track individuals receiving major honorific recognitions and whether higher, more prestigious recognitions are associated with higher coverage among a database of top-cited scientists. We assessed with Scopus data the newly inducted (in 2026) 2,038 members of 14 major academies and honor…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.08.27.741102",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.11.766046",
+      "date": "2026-11-17"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Kin selection for cooperation in the honey bee microbiome",
-      "body": "Bacteria engage in many cooperative behaviours which provide benefits to other cells in the population. Lab experiments have suggested that these costly behaviours can be favoured by kin selection due to the benefits they provide to closely related cells. However, we know much less about the role of kin selection in na…",
+      "subject": "ecology",
+      "title": "Modeling Coupled Ecohydrological and Structural Responses to Forest Thinning",
+      "body": "Forest thinning is a silvicultural practice widely used to reduce competition among trees and enhance forest resilience. However, its long-term coupled effects on forest water balance and canopy structure remain uncertain due to competing hydrological processes, disturbances, and climatic variability. This study develo…",
       "inst": [
-        "oxford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.11.12.766218",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.13.766569",
+      "date": "2026-11-17"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Deep sequence-function mapping reveals computationally unpredictable epistatic trajectories that drive laboratory evolution",
-      "body": "The black-box nature of directed evolution has been constraining advances in enzyme engineering and the wider application of engineered biocatalysts. While conventional deep sequence-function mapping has delivered insights into sequence space architecture, it lacks the ability to analyse adaptive landscapes and fully g…",
+      "subject": "microbiology",
+      "title": "Periodic spatial patterning of gene expression via a natural quorum-synchronized oscillator",
+      "body": "In many biological systems, genetic oscillators that function in growing tissues can establish spatially repetitive patterns of gene expression. However, few mechanisms for generating such patterns are known in bacteria. Here, we describe an oscillator within the quorum sensing circuit of Streptomyces coelicolor. Throu…",
       "inst": [
-        "cambridge"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.11.11.766033",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.13.766566",
+      "date": "2026-11-17"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "OrthoSimulator: Empirically trained simulations for ground-truth benchmarking of orthology inference",
-      "body": "Orthology inference is foundational for comparative genomics, enabling the reconstruction of phylogenetic relationships and transfer of biological knowledge between species. Methods often infer different orthogroups and orthologous relationships, making robust benchmarking essential for evaluating their accuracy. Exist…",
+      "subject": "evolutionary biology",
+      "title": "Emergent frequency-dependent selection predicts mutation outcomes in complex ecological communities",
+      "body": "Ecological interactions can dramatically alter evolutionary outcomes in complex communities. Yet, most population genetics models neglect how interactions within complex communities shape evolutionary dynamics. Here, we bridge this gap by using dynamical mean-field theory to integrate community ecology into classical p…",
       "inst": [
-        "oxford"
+        "mit"
       ],
-      "doi": "10.64898/2026.11.12.766176",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.04.13.718251",
+      "date": "2026-11-17"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Embodied schooling behavior via hydrodynamic interactions",
-      "body": "Collective animal behavior is commonly explained by sensory-mediated interactions among individuals, yet physical interactions between moving bodies and their environment may also contribute to coordination. In fish schooling, passive hydrodynamic interactions have long been proposed to facilitate collective organizati…",
+      "subject": "animal behavior and cognition",
+      "title": "Acoustic phenotyping reveals sublethal pesticide effects in bees using BEEhaviourLab",
+      "body": "Behavioural changes can provide early indicators of physiological stress, yet remain difficult to quantify at scale. Acoustic behaviours such as buzzing are widespread in insects but are rarely incorporated into automated ecotoxicological assays. We developed BEEhaviourLab, a multimodal platform combining tag-free vide…",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.12.766162",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.03.03.709383",
+      "date": "2026-11-17"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "\"The self\" as shifting coalitions of brain systems in a continuous configuration space",
-      "body": "Philosophers and psychologists distinguish many forms of self, yet neuroimaging results often implicate a shared core in the cortical midline or insula. We propose self-related processing arises from shifting coalitions of distributed brain systems, without a core. In a meta-analysis of 912 neuroimaging publications, t…",
+      "subject": "bioinformatics",
+      "title": "ModkitOpt: Accurate RNA modification site calling from nanopore sequencing",
+      "body": "ModkitOpt is a pipeline for the systematic optimisation of modkit filtering thresholds and stoichiometry cutoffs using orthogonally validated modification sites. It substantially improves site-calling accuracy across modification types, even when the nanopore sample and validation sites are from different biological co…",
       "inst": [
-        "ucl"
+        "anu"
       ],
-      "doi": "10.64898/2026.11.12.766263",
-      "date": "2026-11-16"
+      "doi": "10.64898/2025.12.19.695383",
+      "date": "2026-11-17"
     },
     {
       "id": 8,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Generalized hippocampal replay exhibits memory recall-like dynamics",
-      "body": "Hippocampal replay has been intensely studied for theorized roles in memory consolidation, credit assignment in reinforcement learning, and online planning. Much work in the field assumes that replayed trajectories traverse states smoothly and sequentially, in either forward or reverse order of experience. In a synthet…",
+      "title": "Correlated but distinct: VIP and NDNF interneurons implement dissociable inhibitory motifs for state-dependent gain control in visual cortex",
+      "body": "VIP and NDNF positive interneurons are both found in layers 1 and 2/3 of the cortex, but have distinct patterns of gene expression, morphology, and connectivity. Despite this, their functional roles in the sensory cortices seem remarkably similar; their activity correlates with behavioral state, and they gate behaviora…",
       "inst": [
-        "harvard"
+        "mit"
       ],
-      "doi": "10.64898/2026.11.12.766222",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.13.766584",
+      "date": "2026-11-17"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Co-transcriptional splicing of the Drosophila Y-loop A transcript is organized in chromatin hubs and shows variable delay which increases with spermatocyte maturation",
-      "body": "Splicing of the primary transcript is a major step to produce the mature mRNA. While the biochemistry of the splicing mechanism has been elucidated in detail, the dynamics and structural arrangements inside the nucleus are not clear. Biochemical and genomic studies of splicing and transcription most often lose the info…",
+      "subject": "neuroscience",
+      "title": "Characterising semantic prioritisation in visual working memory",
+      "body": "Visual working memory preserves multiple features of recently encountered information, but these features are not necessarily equally available to guide upcoming behaviour. In particular, categorical semantic content can be prioritised over perceptual content when objects are retrieved from memory. Here, we asked what …",
       "inst": [
-        "cambridge"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.11.766038",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.02.20.706943",
+      "date": "2026-11-17"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Force regulates mitotic entry timing during Drosophila gastrulation",
-      "body": "Cell division and cell shape changes drive tissue morphogenesis. Cell division is tightly regulated by biochemical factors that influence the cell cycle. Past work in our lab showed how contractility of mesoderm cells influences cell division orientation during Drosophila gastrulation. Whether contractile forces that d…",
+      "subject": "biophysics",
+      "title": "Super-resolved mass photometry reveals the dissociation pathways of individual protein complexes",
+      "body": "Mass photometry (MP) measures the mass of single unlabelled molecules as they adsorb to a glass surface, but conventional analysis captures each molecule only momentarily, as it binds, and neglects its subsequent fate. Here we correct for coverslip drift and use mass-dependent localisation precision to link successive …",
       "inst": [
-        "mit"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.12.766297",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.14.766467",
+      "date": "2026-11-17"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Automated behavioral profiling reveals baseline phenotypes in marmosets",
-      "body": "Recent advances in genetic engineering have accelerated the production of nonhuman primate models for brain disorders. To use these models for preclinical drug testing, behavioral screening methods will be necessary to determine how the model animals for each disorder deviate from controls, and whether treatments can r…",
+      "subject": "bioinformatics",
+      "title": "Harmonized sample metadata and processed cortical and hippocampal transcriptomes from wild-type and Alzheimer's disease model mice",
+      "body": "Public mouse brain single-cell and single-nucleus RNA sequencing (sc/snRNA-seq) datasets are difficult to reuse across studies because sample annotations are heterogeneous and incomplete. We harmonized sample-level metadata for 2,005 cortex and hippocampus samples from 389 studies, covering wild-type (WT) controls and …",
       "inst": [
-        "mit"
+        "riken"
       ],
-      "doi": "10.1101/2024.08.30.610159",
-      "date": "2026-11-16"
+      "doi": "10.64898/2026.11.13.766595",
+      "date": "2026-11-17"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "KDM3B enforces a non-mutational ErbB signaling state that sustains cholangiocarcinoma",
-      "body": "More than 50% of cholangiocarcinoma (CCA) patients lack druggable mutations, showing broad non-mutational epigenetic perturbations, whose mechanistic insights and clinical benefit remain largely unexplored. Across multiple CCA patient cohorts, we identified prevalent significant upregulation of lysine demethylase (KDM)…",
+      "subject": "immunology",
+      "title": "Clonal and developmental relationships between Tph and Tfh cells in patients with SLE and in murine lupus",
+      "body": "Pathologic T cell-B cell interactions drive disease in systemic lupus erythematosus (SLE). The T cells that activate B cell responses include T peripheral helper (Tph) and T follicular helper (Tfh) cells, yet the developmental and clonal relationships between these B cell-helper T cell populations are unclear. Here we …",
       "inst": [
-        "copenhagen"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.12.766134",
-      "date": "2026-11-16"
+      "doi": "10.1101/2025.01.27.635189",
+      "date": "2026-11-17"
     }
   ]
 }
