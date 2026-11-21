@@ -1,208 +1,184 @@
 {
-  "generated_at": "2026-11-20T15:11:18.052400+00:00",
+  "generated_at": "2026-11-21T14:29:00.165057+00:00",
   "institutions": {
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
-    },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
-    },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "weizmann": {
+      "name": "Weizmann Institute of Science",
+      "lat": 31.91,
+      "lon": 34.81
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Scalable biophysical constraints link steady-state and kinetic metabolic modeling",
-      "body": "Rational metabolic engineering relies on models that connect molecular mechanisms to cellular behavior. Constraint-based metabolic models integrate stoichiometric, thermodynamic, and omics-derived information, but they do not generally constrain whether flux magnitudes are compatible with the corresponding metabolite p…",
+      "subject": "neuroscience",
+      "title": "Long-lasting chromatin and transcriptional states shape the maintenance of memory ensembles",
+      "body": "Memories of recent events are stored within minutes in neuronal ensembles in the hippocampus. Over days to weeks, these memories undergo consolidation, and later retrieval depends on reactivation of a subset of neurons within the ensemble. However, how transient experiences produce lasting molecular and cellular change…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.07.03.736321",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.767121",
+      "date": "2026-11-18"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Biosynthesis of serotonergic Kanna alkaloids",
-      "body": "Plants have repeatedly evolved to synthesize natural products that exploit serotonin signaling in animals. Although serotonin and most of its neuroactive analogs derive from tryptophan, the medicinal Kanna plant (Mesembryanthemum tortuosum) instead uses tyrosine and phenylalanine to construct a serotonin-like scaffold …",
+      "subject": "molecular biology",
+      "title": "In the non-canonical NF-κB pathway, binding of the initiating kinase NIK to the pathway's target, p100, serves a nonenzymatic \"licensing\" role",
+      "body": "The non-canonical NF-{kappa}B pathway plays pivotal roles in adaptive immunity. It is initiated by NIK-mediated phosphorylation of IKK1, which phosphorylates p100 and promotes processing of newly synthesized p100. However, IKK1 can also be activated by other kinases to mediate distinct functions. Why IKK1-induced p100 …",
       "inst": [
-        "harvard"
+        "weizmann"
       ],
-      "doi": "10.64898/2026.11.13.766392",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.766979",
+      "date": "2026-11-18"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "scientific communication and education",
-      "title": "Benchmarking honorific academic recognitions against citation metrics",
-      "body": "We examined how diverse metrics track individuals receiving major honorific recognitions and whether higher, more prestigious recognitions are associated with higher coverage among a database of top-cited scientists. We assessed with Scopus data the newly inducted (in 2026) 2,038 members of 14 major academies and honor…",
+      "subject": "cancer biology",
+      "title": "Multiomic analysis of a pleural mesothelioma organoid biobank defines gene dependencies and therapeutic vulnerabilities",
+      "body": "Pleural mesothelioma (PM) remains an incurable cancer with few effective therapeutic options and limited understanding of its targetable dependencies, owing in part to a scarcity of clinically relevant, scalable models. Here, we describe establishment of an annotated biobank of 26 patient-derived PM organoids that fait…",
       "inst": [
-        "stanford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.11.766046",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.766984",
+      "date": "2026-11-18"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "ecology",
-      "title": "Modeling Coupled Ecohydrological and Structural Responses to Forest Thinning",
-      "body": "Forest thinning is a silvicultural practice widely used to reduce competition among trees and enhance forest resilience. However, its long-term coupled effects on forest water balance and canopy structure remain uncertain due to competing hydrological processes, disturbances, and climatic variability. This study develo…",
+      "subject": "cancer biology",
+      "title": "Common early-life exposure of the colorectal epithelium to the microbiome-derived mutagen colibactin",
+      "body": "Colibactin is a mutagen produced by bacterial strains in the colorectal microbiomes of some healthy people. It generates somatic mutations characterised by the mutational signatures SBS88 and ID18 in normal human colorectal epithelial cells in vivo. Increasing prevalence of colibactin mutagenesis during the 20th centur…",
       "inst": [
-        "berkeley"
+        "sanger"
       ],
-      "doi": "10.64898/2026.11.13.766569",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.766949",
+      "date": "2026-11-18"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Periodic spatial patterning of gene expression via a natural quorum-synchronized oscillator",
-      "body": "In many biological systems, genetic oscillators that function in growing tissues can establish spatially repetitive patterns of gene expression. However, few mechanisms for generating such patterns are known in bacteria. Here, we describe an oscillator within the quorum sensing circuit of Streptomyces coelicolor. Throu…",
+      "subject": "neuroscience",
+      "title": "Within-Subject Precision Measurement: Theory and Utility of Assessing Change Scores and Their Variance",
+      "body": "Within-subject studies gain statistical power by removing stable between-subject differences from the comparison. However, the metrics commonly used to select measurement instruments and anticipate their within-subject performance are often based on between-subject correlations of raw scores from test-retest designs. M…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.13.766566",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.767165",
+      "date": "2026-11-18"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "evolutionary biology",
-      "title": "Emergent frequency-dependent selection predicts mutation outcomes in complex ecological communities",
-      "body": "Ecological interactions can dramatically alter evolutionary outcomes in complex communities. Yet, most population genetics models neglect how interactions within complex communities shape evolutionary dynamics. Here, we bridge this gap by using dynamical mean-field theory to integrate community ecology into classical p…",
+      "subject": "microbiology",
+      "title": "Defining host factors required for dengue virus NS1-induced endothelial hyperpermeability and endothelial glycocalyx layer disruption",
+      "body": "Dengue virus (DENV) is a mosquito-borne positive-sense RNA virus belonging to the Flaviviridae family that poses a significant threat to global health. Clinical manifestations of DENV infection range from febrile to severe disease characterized by vascular leakage. The secreted DENV nonstructural protein 1 (NS1) contri…",
       "inst": [
-        "mit"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.04.13.718251",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.766930",
+      "date": "2026-11-18"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Acoustic phenotyping reveals sublethal pesticide effects in bees using BEEhaviourLab",
-      "body": "Behavioural changes can provide early indicators of physiological stress, yet remain difficult to quantify at scale. Acoustic behaviours such as buzzing are widespread in insects but are rarely incorporated into automated ecotoxicological assays. We developed BEEhaviourLab, a multimodal platform combining tag-free vide…",
+      "subject": "biochemistry",
+      "title": "Workflow for Assessing Mass Spectrometer Performance in Shotgun Lipidomics",
+      "body": "Reproducible and testable analytical performance of mass spectrometers is critical for inter-laboratory concordance of quantitative lipidomics analyses. However, common instrument readout or analyses of arbitrarily chosen lipid mixtures do not lend themselves to direct comparison between instruments independently confi…",
       "inst": [
-        "oxford"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.03.03.709383",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.766365",
+      "date": "2026-11-18"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "ModkitOpt: Accurate RNA modification site calling from nanopore sequencing",
-      "body": "ModkitOpt is a pipeline for the systematic optimisation of modkit filtering thresholds and stoichiometry cutoffs using orthogonally validated modification sites. It substantially improves site-calling accuracy across modification types, even when the nanopore sample and validation sites are from different biological co…",
+      "subject": "neuroscience",
+      "title": "The Cost to Scroll: Short-form Video Use and Episodic Memory",
+      "body": "Short-form video platforms expose users to rapid streams of novel content; these features are posited to place heavy demands on cognitive processes. In a preregistered online study, we used device-reported screen time (TikTok and total Instagram app use) to examine whether short-form video use is associated with sustai…",
       "inst": [
-        "anu"
+        "stanford"
       ],
-      "doi": "10.64898/2025.12.19.695383",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.10.07.757368",
+      "date": "2026-11-18"
     },
     {
       "id": 8,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Correlated but distinct: VIP and NDNF interneurons implement dissociable inhibitory motifs for state-dependent gain control in visual cortex",
-      "body": "VIP and NDNF positive interneurons are both found in layers 1 and 2/3 of the cortex, but have distinct patterns of gene expression, morphology, and connectivity. Despite this, their functional roles in the sensory cortices seem remarkably similar; their activity correlates with behavioral state, and they gate behaviora…",
+      "title": "Structure learning and context inference emerge from next-state prediction in a cerebellar-medial temporal lobe circuit",
+      "body": "Humans learn many context-dependent behaviors; yet the contexts driving these behavior are rarely explicit and must instead be inferred. Further, we are rarely exposed to the same context multiple times, so we must learn how to generalize to new contexts from our experiences in prior ones. Motor learning relies on both…",
       "inst": [
-        "mit"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.13.766584",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.14.765964",
+      "date": "2026-11-18"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Characterising semantic prioritisation in visual working memory",
-      "body": "Visual working memory preserves multiple features of recently encountered information, but these features are not necessarily equally available to guide upcoming behaviour. In particular, categorical semantic content can be prioritised over perceptual content when objects are retrieved from memory. Here, we asked what …",
+      "subject": "genomics",
+      "title": "Dynamics of somatic L1 retrotransposition in the human brain",
+      "body": "The sole source of genomic diversity in the human brain caused by autonomous retrotransposition is facilitated by the long interspersed nuclear element-1 (L1). However, assessing the rate, timing and source elements of this event has been challenging due to the lack of technologies that capture of L1s at sufficient sca…",
       "inst": [
-        "mpi_generic"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.02.20.706943",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.16.767114",
+      "date": "2026-11-18"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Super-resolved mass photometry reveals the dissociation pathways of individual protein complexes",
-      "body": "Mass photometry (MP) measures the mass of single unlabelled molecules as they adsorb to a glass surface, but conventional analysis captures each molecule only momentarily, as it binds, and neglects its subsequent fate. Here we correct for coverslip drift and use mass-dependent localisation precision to link successive …",
+      "subject": "neuroscience",
+      "title": "Biological Embedding of Social Experience Over Genomic and Neural Time Scales",
+      "body": "The \"Neurons for Today, Genes for Tomorrow model\" (NTGT) predicts how the brain's neural and molecular control systems interact to regulate biological embedding, whereby social experience alters the brain to shape future behavior. We report here on the first test of this model, using honey bee queen retinue pheromone (…",
       "inst": [
-        "oxford"
+        "ucl"
       ],
-      "doi": "10.64898/2026.11.14.766467",
-      "date": "2026-11-17"
-    },
-    {
-      "id": 11,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Harmonized sample metadata and processed cortical and hippocampal transcriptomes from wild-type and Alzheimer's disease model mice",
-      "body": "Public mouse brain single-cell and single-nucleus RNA sequencing (sc/snRNA-seq) datasets are difficult to reuse across studies because sample annotations are heterogeneous and incomplete. We harmonized sample-level metadata for 2,005 cortex and hippocampus samples from 389 studies, covering wild-type (WT) controls and …",
-      "inst": [
-        "riken"
-      ],
-      "doi": "10.64898/2026.11.13.766595",
-      "date": "2026-11-17"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "immunology",
-      "title": "Clonal and developmental relationships between Tph and Tfh cells in patients with SLE and in murine lupus",
-      "body": "Pathologic T cell-B cell interactions drive disease in systemic lupus erythematosus (SLE). The T cells that activate B cell responses include T peripheral helper (Tph) and T follicular helper (Tfh) cells, yet the developmental and clonal relationships between these B cell-helper T cell populations are unclear. Here we …",
-      "inst": [
-        "harvard"
-      ],
-      "doi": "10.1101/2025.01.27.635189",
-      "date": "2026-11-17"
+      "doi": "10.64898/2026.11.17.767304",
+      "date": "2026-11-18"
     }
   ]
 }
