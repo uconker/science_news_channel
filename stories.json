@@ -1,184 +1,191 @@
 {
-  "generated_at": "2026-11-21T14:29:00.165057+00:00",
+  "generated_at": "2026-11-22T14:24:12.440614+00:00",
   "institutions": {
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "riken": {
+      "name": "RIKEN, Tokyo/Wako",
+      "lat": 35.78,
+      "lon": 139.6
     },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
     },
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
     "weizmann": {
       "name": "Weizmann Institute of Science",
       "lat": 31.91,
       "lon": 34.81
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
-    },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Long-lasting chromatin and transcriptional states shape the maintenance of memory ensembles",
-      "body": "Memories of recent events are stored within minutes in neuronal ensembles in the hippocampus. Over days to weeks, these memories undergo consolidation, and later retrieval depends on reactivation of a subset of neurons within the ensemble. However, how transient experiences produce lasting molecular and cellular change…",
+      "subject": "bioinformatics",
+      "title": "nf-core/pairgenomealign: a scalable pipeline for pairwise whole-genome alignment",
+      "body": "Genome assemblies are accumulating rapidly across the Tree of Life, creating a growing need for reproducible and scalable methods for whole-genome comparison. We developed nf-core/pairgenomealign, a Nextflow workflow that automates pairwise genome alignment using the LAST software suite and produces standard alignment,…",
       "inst": [
-        "harvard"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.11.16.767121",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.18.767494",
+      "date": "2026-11-19"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "In the non-canonical NF-κB pathway, binding of the initiating kinase NIK to the pathway's target, p100, serves a nonenzymatic \"licensing\" role",
-      "body": "The non-canonical NF-{kappa}B pathway plays pivotal roles in adaptive immunity. It is initiated by NIK-mediated phosphorylation of IKK1, which phosphorylates p100 and promotes processing of newly synthesized p100. However, IKK1 can also be activated by other kinases to mediate distinct functions. Why IKK1-induced p100 …",
+      "subject": "microbiology",
+      "title": "Persistence of Non-industrial Gut Microbiota Discriminates Health and Disease States in Industrial Populations",
+      "body": "Industrialization has sharply reduced gut microbial diversity, possibly affecting human health. To isolate the effects of industrialization, we assembled 18,075 human metagenomes spanning hunter-gatherer, agro-pastoral, and industrial lifestyles. We confirmed individual-level diversity reductions in industrial populati…",
       "inst": [
-        "weizmann"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.16.766979",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.17.767315",
+      "date": "2026-11-19"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Multiomic analysis of a pleural mesothelioma organoid biobank defines gene dependencies and therapeutic vulnerabilities",
-      "body": "Pleural mesothelioma (PM) remains an incurable cancer with few effective therapeutic options and limited understanding of its targetable dependencies, owing in part to a scarcity of clinically relevant, scalable models. Here, we describe establishment of an annotated biobank of 26 patient-derived PM organoids that fait…",
+      "subject": "cell biology",
+      "title": "Activity-based fluorescence screening uncovers host enzymatic responses to SARS-CoV-2 infection",
+      "body": "Transcriptomic and proteomic studies have characterized host responses to SARS-CoV-2 infection, yet changes in endogenous enzymatic activities remain poorly understood. Here, we screened 89 enzyme-activatable fluorescence probes in living SARS-CoV-2-infected Calu-3 cells and identified 18 probes showing enhanced fluore…",
       "inst": [
-        "cambridge"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.11.16.766984",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.17.766338",
+      "date": "2026-11-19"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Common early-life exposure of the colorectal epithelium to the microbiome-derived mutagen colibactin",
-      "body": "Colibactin is a mutagen produced by bacterial strains in the colorectal microbiomes of some healthy people. It generates somatic mutations characterised by the mutational signatures SBS88 and ID18 in normal human colorectal epithelial cells in vivo. Increasing prevalence of colibactin mutagenesis during the 20th centur…",
+      "subject": "developmental biology",
+      "title": "Ex utero development of mouse embryos from fertilization to mid-gestation",
+      "body": "Early mammalian development has largely been studied as two periods divided by implantation: a pre implantation period, when the embryo transits freely through the maternal reproductive tract, and a post implantation period, when it develops within the uterine tissues. Although robust culture methods for mammalian pre-…",
       "inst": [
-        "sanger"
+        "weizmann"
       ],
-      "doi": "10.64898/2026.11.16.766949",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.17.767265",
+      "date": "2026-11-19"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Within-Subject Precision Measurement: Theory and Utility of Assessing Change Scores and Their Variance",
-      "body": "Within-subject studies gain statistical power by removing stable between-subject differences from the comparison. However, the metrics commonly used to select measurement instruments and anticipate their within-subject performance are often based on between-subject correlations of raw scores from test-retest designs. M…",
+      "subject": "biochemistry",
+      "title": "MolMap resolves functional chromatin responses to small-molecule perturbation",
+      "body": "Small molecules can alter chromatin through protein-, DNA- and physicochemical interactions, yet current approaches do not directly resolve where these perturbations produce an immediate functional chromatin response in native nuclear environments. Here we present MolMap (chromatin-small Molecule Mapping), a sequencing…",
       "inst": [
-        "harvard"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.11.16.767165",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.16.766766",
+      "date": "2026-11-19"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Defining host factors required for dengue virus NS1-induced endothelial hyperpermeability and endothelial glycocalyx layer disruption",
-      "body": "Dengue virus (DENV) is a mosquito-borne positive-sense RNA virus belonging to the Flaviviridae family that poses a significant threat to global health. Clinical manifestations of DENV infection range from febrile to severe disease characterized by vascular leakage. The secreted DENV nonstructural protein 1 (NS1) contri…",
+      "subject": "neuroscience",
+      "title": "Children and adults use distinct neurocognitive mechanisms to support successful memory-based inference",
+      "body": "Reasoning depends on connecting information across distinct experiences to derive knowledge that was never directly observed. Behavioral work indicates this capacity improves into emerging adulthood. However, it remains unclear whether these developmental gains reflect the quantitative strengthening of a single inferen…",
       "inst": [
-        "berkeley"
+        "toronto"
       ],
-      "doi": "10.64898/2026.11.16.766930",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.04.21.719709",
+      "date": "2026-11-19"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Workflow for Assessing Mass Spectrometer Performance in Shotgun Lipidomics",
-      "body": "Reproducible and testable analytical performance of mass spectrometers is critical for inter-laboratory concordance of quantitative lipidomics analyses. However, common instrument readout or analyses of arbitrarily chosen lipid mixtures do not lend themselves to direct comparison between instruments independently confi…",
+      "subject": "bioinformatics",
+      "title": "Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction",
+      "body": "Antibody-antigen structure prediction commonly relies on sampling a single co-folding predictor deeply and selecting its highest-confidence output using model-specific confidence scores. We introduce AbPoolRank, a predictor-agnostic structural selector that ranks mixed pools using cross-pose agreement, within-source re…",
       "inst": [
-        "mpi_generic"
+        "mit"
       ],
-      "doi": "10.64898/2026.11.16.766365",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.17.767212",
+      "date": "2026-11-19"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "The Cost to Scroll: Short-form Video Use and Episodic Memory",
-      "body": "Short-form video platforms expose users to rapid streams of novel content; these features are posited to place heavy demands on cognitive processes. In a preregistered online study, we used device-reported screen time (TikTok and total Instagram app use) to examine whether short-form video use is associated with sustai…",
+      "subject": "cell biology",
+      "title": "Multi-omic guided iPSC dopaminergic differentiation leads to selective enrichment of PD-vulnerable SOX6+ midbrain neurons with motor recovery of PD models after transplantation",
+      "body": "Background Parkinson's disease (PD) is characterized by the progressive loss of midbrain dopaminergic (mDA) neurons, leading to severe debilitating motor impairment. Recent single-cell analyses have revealed that specific mDA subpopulations, such as SOX6 AGTR1 neurons, are most vulnerable to degeneration. Current human…",
       "inst": [
-        "stanford"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.10.07.757368",
-      "date": "2026-11-18"
+      "doi": "10.1101/2025.06.18.660098",
+      "date": "2026-11-19"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Structure learning and context inference emerge from next-state prediction in a cerebellar-medial temporal lobe circuit",
-      "body": "Humans learn many context-dependent behaviors; yet the contexts driving these behavior are rarely explicit and must instead be inferred. Further, we are rarely exposed to the same context multiple times, so we must learn how to generalize to new contexts from our experiences in prior ones. Motor learning relies on both…",
+      "subject": "bioengineering",
+      "title": "Engineering developmental transitions during human neurulation through modular integration of multimodal spatial cues",
+      "body": "Reconstituting developmental transitions in vitro requires reproducing complex spatial cues that guide cellular self-organization. Here, we developed MoSAIC (Modular Spatial Assembly and Integration of Cues), a modular platform that reconstructs multimodal mechano-chemical spatial cues by decomposing complex culture op…",
       "inst": [
-        "harvard"
+        "riken"
       ],
-      "doi": "10.64898/2026.11.14.765964",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.10.07.757222",
+      "date": "2026-11-19"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Dynamics of somatic L1 retrotransposition in the human brain",
-      "body": "The sole source of genomic diversity in the human brain caused by autonomous retrotransposition is facilitated by the long interspersed nuclear element-1 (L1). However, assessing the rate, timing and source elements of this event has been challenging due to the lack of technologies that capture of L1s at sufficient sca…",
+      "subject": "neuroscience",
+      "title": "Tonic dopamine regulates cell-type-specific PKA activity and motivated behavior",
+      "body": "Dopamine in the striatum fluctuates on fast \"phasic\" and slow \"tonic\" timescales. Although disruptions in tonic dopamine have been implicated in the pathophysiology of neuropsychiatric disease, the effect of slow, minutes-long fluctuations in dopamine on neuronal activity and behavior remain unknown. Here we use two-co…",
       "inst": [
-        "karolinska"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.16.767114",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.18.767692",
+      "date": "2026-11-19"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Biological Embedding of Social Experience Over Genomic and Neural Time Scales",
-      "body": "The \"Neurons for Today, Genes for Tomorrow model\" (NTGT) predicts how the brain's neural and molecular control systems interact to regulate biological embedding, whereby social experience alters the brain to shape future behavior. We report here on the first test of this model, using honey bee queen retinue pheromone (…",
+      "subject": "animal behavior and cognition",
+      "title": "Social compensation changes predicted effects of individual loss in animal societies",
+      "body": "Animal populations globally are suffering significant declines; many species are social, and individuals are likely to adjust their social behaviour as they lose associates. Therefore, social networks may respond to population decline as individuals adjust their social connections in response to changing social environ…",
       "inst": [
-        "ucl"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.17.767304",
-      "date": "2026-11-18"
+      "doi": "10.64898/2026.11.18.767549",
+      "date": "2026-11-19"
+    },
+    {
+      "id": 11,
+      "cat": "science",
+      "subject": "bioengineering",
+      "title": "Dual photoresponsive hydrogel surfaces enabling integrated single-cell analysis of morphology and gene expression",
+      "body": "Integrated single-cell analysis linking time-resolved cellular phenotypic dynamics with gene expression is essential for understanding cellular heterogeneity but remains technically challenging. Here, we report a dual photoresponsive hydrogel that combines a photoactivatable cell-trapping material with a photodegradabl…",
+      "inst": [
+        "tokyo"
+      ],
+      "doi": "10.64898/2026.11.18.767535",
+      "date": "2026-11-19"
     }
   ]
 }
