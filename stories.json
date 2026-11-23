@@ -1,15 +1,35 @@
 {
-  "generated_at": "2026-11-22T14:24:12.440614+00:00",
+  "generated_at": "2026-11-23T17:48:42.999563+00:00",
   "institutions": {
+    "eth": {
+      "name": "ETH Zurich",
+      "lat": 47.38,
+      "lon": 8.55
+    },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
     "riken": {
       "name": "RIKEN, Tokyo/Wako",
       "lat": 35.78,
       "lon": 139.6
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
     "harvard": {
       "name": "Harvard University",
@@ -21,171 +41,195 @@
       "lat": 43.66,
       "lon": -79.4
     },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
     "karolinska": {
       "name": "Karolinska Institute, Stockholm",
       "lat": 59.35,
       "lon": 18.03
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "mpi_eva": {
+      "name": "MPI Evolutionary Anthropology, Leipzig",
+      "lat": 51.34,
+      "lon": 12.38
     },
-    "weizmann": {
-      "name": "Weizmann Institute of Science",
-      "lat": 31.91,
-      "lon": 34.81
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    "anu": {
+      "name": "Australian National University, Canberra",
+      "lat": -35.28,
+      "lon": 149.13
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "nf-core/pairgenomealign: a scalable pipeline for pairwise whole-genome alignment",
-      "body": "Genome assemblies are accumulating rapidly across the Tree of Life, creating a growing need for reproducible and scalable methods for whole-genome comparison. We developed nf-core/pairgenomealign, a Nextflow workflow that automates pairwise genome alignment using the LAST software suite and produces standard alignment,…",
+      "subject": "microbiology",
+      "title": "Microbes use transporters to regulate the release of metabolites based on value",
+      "body": "Microbial interactions are shaped by the exchange of metabolites, ranging from intermediates in central carbon metabolism to amino acids, vitamins and fermentation by-products. While specific metabolic processes such as overflow metabolism are well documented, a general principle explaining the chemical diversity of me…",
       "inst": [
-        "tokyo"
+        "eth"
       ],
-      "doi": "10.64898/2026.11.18.767494",
-      "date": "2026-11-19"
+      "doi": "10.1101/2025.08.19.671024",
+      "date": "2026-11-20"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Persistence of Non-industrial Gut Microbiota Discriminates Health and Disease States in Industrial Populations",
-      "body": "Industrialization has sharply reduced gut microbial diversity, possibly affecting human health. To isolate the effects of industrialization, we assembled 18,075 human metagenomes spanning hunter-gatherer, agro-pastoral, and industrial lifestyles. We confirmed individual-level diversity reductions in industrial populati…",
+      "subject": "molecular biology",
+      "title": "Beta-cell-derived urocortin-3 contributes to glucose-regulated somatostatin and glucagon secretion in the mouse pancreas",
+      "body": "Aims/Hypothesis. Glucagon secretion is impaired in both type 1 and type 2 diabetes. The mechanisms behind this dysregulation are incompletely understood. Urocortin-3 (UCN-3), a beta-cell-derived peptide, stimulates somatostatin (SST) secretion and may thereby regulate glucagon secretion. We investigated the mechanisms …",
       "inst": [
-        "harvard"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.17.767315",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.18.767593",
+      "date": "2026-11-20"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Activity-based fluorescence screening uncovers host enzymatic responses to SARS-CoV-2 infection",
-      "body": "Transcriptomic and proteomic studies have characterized host responses to SARS-CoV-2 infection, yet changes in endogenous enzymatic activities remain poorly understood. Here, we screened 89 enzyme-activatable fluorescence probes in living SARS-CoV-2-infected Calu-3 cells and identified 18 probes showing enhanced fluore…",
+      "subject": "genetics",
+      "title": "The genetic architecture of lipoprotein(a): simplicity, complexity, and mutability",
+      "body": "High levels of lipoprotein(a) (Lp(a)) increase risk of cardiovascular diseases. Lp(a) concentration is primarily determined (>80%) by genetic variation at LPA, particularly by its large, size-polymorphic kringle IV-2 (KIV-2) repeat. However, because variation of the KIV-2 repeat is difficult to measure, the precise way…",
       "inst": [
-        "tokyo"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.17.766338",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.16.767202",
+      "date": "2026-11-20"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "developmental biology",
-      "title": "Ex utero development of mouse embryos from fertilization to mid-gestation",
-      "body": "Early mammalian development has largely been studied as two periods divided by implantation: a pre implantation period, when the embryo transits freely through the maternal reproductive tract, and a post implantation period, when it develops within the uterine tissues. Although robust culture methods for mammalian pre-…",
+      "subject": "neuroscience",
+      "title": "Diet-Induced Obesity is Associated with Sex-Dependent Cerebral Microvascular Changes and Cognitive Decline in Mice",
+      "body": "Metabolic diseases, including obesity and diabetes, are major risk factors for cognitive impairment and dementia, yet the underlying causal mechanisms remain unclear. Here we investigate whether this link is mediated by dysfunctional changes in cerebral microvessels. Using a multimodal longitudinal approach combining 3…",
       "inst": [
-        "weizmann"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.17.767265",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767808",
+      "date": "2026-11-20"
     },
     {
       "id": 4,
       "cat": "science",
       "subject": "biochemistry",
-      "title": "MolMap resolves functional chromatin responses to small-molecule perturbation",
-      "body": "Small molecules can alter chromatin through protein-, DNA- and physicochemical interactions, yet current approaches do not directly resolve where these perturbations produce an immediate functional chromatin response in native nuclear environments. Here we present MolMap (chromatin-small Molecule Mapping), a sequencing…",
+      "title": "Functional Reconstitution of Human OATP1B1 and OATP1B3 in Proteoliposomes: Effect of Bicarbonate Gradients and Substrate-specific Stimulation on Transport",
+      "body": "The hepatic organic anion transporting polypeptides OATP1B1 and OATP1B3 are critical for the clearance of widely prescribed drugs, hepatotoxins, and endogenous metabolites. However, the thermodynamic driving force governing their transport has remained a subject of debate due to the complexity of cellular models. Here,…",
       "inst": [
-        "karolinska"
+        "eth"
       ],
-      "doi": "10.64898/2026.11.16.766766",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.10.29.762842",
+      "date": "2026-11-20"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Children and adults use distinct neurocognitive mechanisms to support successful memory-based inference",
-      "body": "Reasoning depends on connecting information across distinct experiences to derive knowledge that was never directly observed. Behavioral work indicates this capacity improves into emerging adulthood. However, it remains unclear whether these developmental gains reflect the quantitative strengthening of a single inferen…",
+      "subject": "bioengineering",
+      "title": "Profiling host-pathogen dynamic in a 3D human epidermal infection model and real-time sensing of IL-1α as a tissue-damage biomarker",
+      "body": "Skin infections begin with superficial colonization and progress to host tissue damage, yet the models used to study this process and the sensors intended to monitor it are rarely developed together. Here we combine a standardized three-dimensional human epidermal equivalent (HEE) infection model with an electrochemica…",
       "inst": [
-        "toronto"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.04.21.719709",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767804",
+      "date": "2026-11-20"
     },
     {
       "id": 6,
       "cat": "science",
       "subject": "bioinformatics",
-      "title": "Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction",
-      "body": "Antibody-antigen structure prediction commonly relies on sampling a single co-folding predictor deeply and selecting its highest-confidence output using model-specific confidence scores. We introduce AbPoolRank, a predictor-agnostic structural selector that ranks mixed pools using cross-pose agreement, within-source re…",
+      "title": "Systematic inference of biological relatedness across the global ancient DNA record",
+      "body": "The rapidly expanding scale of ancient DNA data creates an increasing need for high-performance software methods. One area for such improvement is the inference of pairwise biological relatedness, a prominent aspect of many ancient DNA studies. We present fastpmr, a fast and memory-efficient method for biological relat…",
       "inst": [
-        "mit"
+        "mpi_eva"
       ],
-      "doi": "10.64898/2026.11.17.767212",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767913",
+      "date": "2026-11-20"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Multi-omic guided iPSC dopaminergic differentiation leads to selective enrichment of PD-vulnerable SOX6+ midbrain neurons with motor recovery of PD models after transplantation",
-      "body": "Background Parkinson's disease (PD) is characterized by the progressive loss of midbrain dopaminergic (mDA) neurons, leading to severe debilitating motor impairment. Recent single-cell analyses have revealed that specific mDA subpopulations, such as SOX6 AGTR1 neurons, are most vulnerable to degeneration. Current human…",
+      "subject": "biophysics",
+      "title": "Behavioral Plasticity and Dispersal of Free Swimming Coral Larvae via Vertical Tracking Microscopy",
+      "body": "Coral larvae disperse and seek suitable sites for settlement while undergoing rapid development, making this period central to reef connectivity, recruitment, and recovery. Yet how the accompanying changes in larval morphology, ciliary activity, and swimming behavior shape dispersal remains poorly understood. Here, usi…",
       "inst": [
-        "karolinska"
+        "stanford"
       ],
-      "doi": "10.1101/2025.06.18.660098",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767947",
+      "date": "2026-11-20"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Engineering developmental transitions during human neurulation through modular integration of multimodal spatial cues",
-      "body": "Reconstituting developmental transitions in vitro requires reproducing complex spatial cues that guide cellular self-organization. Here, we developed MoSAIC (Modular Spatial Assembly and Integration of Cues), a modular platform that reconstructs multimodal mechano-chemical spatial cues by decomposing complex culture op…",
+      "subject": "neuroscience",
+      "title": "Early Life Shift in Fear Extinction is Driven by Prefrontal-Amygdala Engagement",
+      "body": "The medial prefrontal cortex (mPFC) displays a delayed maturation long hypothesized to guide developmental changes in threat processing. Nevertheless, the mechanism by which ontogenetic changes in mPFC function guide the developmental emergence of behavior is unclear. Early life marks a shift between a permanent extinc…",
       "inst": [
-        "riken"
+        "toronto"
       ],
-      "doi": "10.64898/2026.10.07.757222",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767882",
+      "date": "2026-11-20"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Tonic dopamine regulates cell-type-specific PKA activity and motivated behavior",
-      "body": "Dopamine in the striatum fluctuates on fast \"phasic\" and slow \"tonic\" timescales. Although disruptions in tonic dopamine have been implicated in the pathophysiology of neuropsychiatric disease, the effect of slow, minutes-long fluctuations in dopamine on neuronal activity and behavior remain unknown. Here we use two-co…",
+      "subject": "biophysics",
+      "title": "Phosphate selectivity in XPR1 is driven by direct multi-ion competition",
+      "body": "Inorganic phosphate (Pi) is essential for numerous cellular processes, and its intracellular concentration must be tightly regulated. In mammals, phosphate efflux is mediated by the Xenotropic and Polytropic Retrovirus Receptor 1 (XPR1/SLC53A1), the only known mammalian Pi exporter. We and others have recently proposed…",
       "inst": [
-        "harvard"
+        "anu"
       ],
-      "doi": "10.64898/2026.11.18.767692",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.11.19.767951",
+      "date": "2026-11-20"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Social compensation changes predicted effects of individual loss in animal societies",
-      "body": "Animal populations globally are suffering significant declines; many species are social, and individuals are likely to adjust their social behaviour as they lose associates. Therefore, social networks may respond to population decline as individuals adjust their social connections in response to changing social environ…",
+      "subject": "biochemistry",
+      "title": "Biochemical characterisation of fungal bioluminescence enzymes reveals substrate inhibition and secondary turnover of 3-hydroxyhispidin by H3H",
+      "body": "The fungal bioluminescence pathway has emerged as a versatile platform for bioimaging and synthetic biology. However, biochemical characterisation of its core enzymes remains limited. Here, we establish recombinant purification and quantitative in vitro characterisation of fungal luciferase (Luz) and hispidin-3-hydroxy…",
       "inst": [
         "oxford"
       ],
-      "doi": "10.64898/2026.11.18.767549",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.09.09.750069",
+      "date": "2026-11-20"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Dual photoresponsive hydrogel surfaces enabling integrated single-cell analysis of morphology and gene expression",
-      "body": "Integrated single-cell analysis linking time-resolved cellular phenotypic dynamics with gene expression is essential for understanding cellular heterogeneity but remains technically challenging. Here, we report a dual photoresponsive hydrogel that combines a photoactivatable cell-trapping material with a photodegradabl…",
+      "subject": "neuroscience",
+      "title": "Cortical Stimulation Strength and sgACC Connectivity Shape Neuro-Cardiac Responses to Prefrontal TMS",
+      "body": "Autonomic dysregulation is associated with major depressive disorder, yet how cortical stimulation strength and network connectivity shape autonomic responses to prefrontal transcranial magnetic stimulation (TMS) remains unclear. We combined resting-state functional MRI, individualized electric-field simulations, and e…",
       "inst": [
-        "tokyo"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.11.18.767535",
-      "date": "2026-11-19"
+      "doi": "10.64898/2026.05.10.724073",
+      "date": "2026-11-20"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "molecular biology",
+      "title": "Global inflammatory response in in vitro organ cultured testes using single-cell RNA-sequencing",
+      "body": "In vitro functional sperm production is important for understanding spermatogenesis and for the treatment of male infertility. Here, we describe similarities and differences between testis tissues in vivo and in vitro and clarify abnormalities in the early stage of in vitro spermatogenesis at single-cell resolution. Wh…",
+      "inst": [
+        "riken"
+      ],
+      "doi": "10.1101/2021.12.01.470873",
+      "date": "2026-11-20"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "What's in a Story? Studying Neural Narrative Engagement with Auditory Passages Using EEG Inter-Subject Correlation",
+      "body": "Narrative engagement - a state implicating attention as well as emotional and sequential processing - is crucial in contexts ranging from social interaction to education. Yet we still lack an understanding of how narrative contents and listener perceptions relate to the neural responses they elicit. In this study, we i…",
+      "inst": [
+        "stanford"
+      ],
+      "doi": "10.64898/2026.11.19.767982",
+      "date": "2026-11-20"
     }
   ]
 }
