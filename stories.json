@@ -1,235 +1,234 @@
 {
-  "generated_at": "2026-11-23T17:48:42.999563+00:00",
+  "generated_at": "2026-11-24T17:20:37.144650+00:00",
   "institutions": {
-    "eth": {
-      "name": "ETH Zurich",
-      "lat": 47.38,
-      "lon": 8.55
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
-    },
-    "copenhagen": {
-      "name": "University of Copenhagen",
-      "lat": 55.68,
-      "lon": 12.57
-    },
-    "riken": {
-      "name": "RIKEN, Tokyo/Wako",
-      "lat": 35.78,
-      "lon": 139.6
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
     "stanford": {
       "name": "Stanford University",
       "lat": 37.43,
       "lon": -122.17
     },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "harvard": {
-      "name": "Harvard University",
-      "lat": 42.37,
-      "lon": -71.12
-    },
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
-    },
-    "mpi_eva": {
-      "name": "MPI Evolutionary Anthropology, Leipzig",
-      "lat": 51.34,
-      "lon": 12.38
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "anu": {
-      "name": "Australian National University, Canberra",
-      "lat": -35.28,
-      "lon": 149.13
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
+    },
+    "karolinska": {
+      "name": "Karolinska Institute, Stockholm",
+      "lat": 59.35,
+      "lon": 18.03
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "Microbes use transporters to regulate the release of metabolites based on value",
-      "body": "Microbial interactions are shaped by the exchange of metabolites, ranging from intermediates in central carbon metabolism to amino acids, vitamins and fermentation by-products. While specific metabolic processes such as overflow metabolism are well documented, a general principle explaining the chemical diversity of me…",
+      "subject": "biochemistry",
+      "title": "A cytochrome P450 is essential for cardenolide biosynthesis in Chrysolina beetles",
+      "body": "Cardenolides are naturally occurring steroidal derivatives that function as chemical defense compounds. These natural products are also widely used in medicine, as exemplified by the use of digitoxin in treating cardiac disease. Although cardenolides are most widely known as plant-derived natural products, these compou…",
       "inst": [
-        "eth"
+        "mpi_generic"
       ],
-      "doi": "10.1101/2025.08.19.671024",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.19.767920",
+      "date": "2026-11-23"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Beta-cell-derived urocortin-3 contributes to glucose-regulated somatostatin and glucagon secretion in the mouse pancreas",
-      "body": "Aims/Hypothesis. Glucagon secretion is impaired in both type 1 and type 2 diabetes. The mechanisms behind this dysregulation are incompletely understood. Urocortin-3 (UCN-3), a beta-cell-derived peptide, stimulates somatostatin (SST) secretion and may thereby regulate glucagon secretion. We investigated the mechanisms …",
+      "subject": "biochemistry",
+      "title": "Paint-Lac: A photoactivatable integrator for L-lactate",
+      "body": "Genetically encoded integrators, which convert transient signals into persistent optical signals, can provide unique insights into cell signaling, but the range of target species remains very limited. This work introduces the first photoactivatable integrator for L-lactate, Paint-Lac1, which operates through a ligand-m…",
       "inst": [
-        "copenhagen"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.11.18.767593",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.19.767912",
+      "date": "2026-11-23"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "genetics",
-      "title": "The genetic architecture of lipoprotein(a): simplicity, complexity, and mutability",
-      "body": "High levels of lipoprotein(a) (Lp(a)) increase risk of cardiovascular diseases. Lp(a) concentration is primarily determined (>80%) by genetic variation at LPA, particularly by its large, size-polymorphic kringle IV-2 (KIV-2) repeat. However, because variation of the KIV-2 repeat is difficult to measure, the precise way…",
+      "subject": "biophysics",
+      "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth",
+      "body": "During development of many simple multicellular organisms there is a complex interplay between cell growth and generation of an extracellular matrix that confers structure. We study this problem quantitatively using Gonium pectorale, a 16-cell alga that transforms from a flat to a buckled shape during growth without ce…",
       "inst": [
-        "harvard"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.16.767202",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.20.767507",
+      "date": "2026-11-23"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Diet-Induced Obesity is Associated with Sex-Dependent Cerebral Microvascular Changes and Cognitive Decline in Mice",
-      "body": "Metabolic diseases, including obesity and diabetes, are major risk factors for cognitive impairment and dementia, yet the underlying causal mechanisms remain unclear. Here we investigate whether this link is mediated by dysfunctional changes in cerebral microvessels. Using a multimodal longitudinal approach combining 3…",
+      "subject": "plant biology",
+      "title": "Auxin regulates the proportions, but not the initiation, of Hibiscus trionum bullseyes",
+      "body": "Colourful motifs on the surface of flower petals fulfill important ecological functions, mediating pollination and providing protection against environmental stressors. These patterns form when epidermis cells in different subdomains of the petal acquire contrasting chemical and structural features. While some of the e…",
       "inst": [
         "cambridge"
       ],
-      "doi": "10.64898/2026.11.19.767808",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.19.767829",
+      "date": "2026-11-23"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Functional Reconstitution of Human OATP1B1 and OATP1B3 in Proteoliposomes: Effect of Bicarbonate Gradients and Substrate-specific Stimulation on Transport",
-      "body": "The hepatic organic anion transporting polypeptides OATP1B1 and OATP1B3 are critical for the clearance of widely prescribed drugs, hepatotoxins, and endogenous metabolites. However, the thermodynamic driving force governing their transport has remained a subject of debate due to the complexity of cellular models. Here,…",
+      "subject": "neuroscience",
+      "title": "Investigating Motor Skill Acquisition in Mice and Humans: Towards A Cross-Species Paradigm",
+      "body": "Relating non-invasive observations of human brain plasticity to cellular processes identified in animal models remains a major challenge in neuroscience. We address this challenge by introducing a paradigm for studying motor skill acquisition across species. We designed a human chopstick grasping task modeled after the…",
       "inst": [
-        "eth"
+        "mpi_generic"
       ],
-      "doi": "10.64898/2026.10.29.762842",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.20.768070",
+      "date": "2026-11-23"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "bioengineering",
-      "title": "Profiling host-pathogen dynamic in a 3D human epidermal infection model and real-time sensing of IL-1α as a tissue-damage biomarker",
-      "body": "Skin infections begin with superficial colonization and progress to host tissue damage, yet the models used to study this process and the sensors intended to monitor it are rarely developed together. Here we combine a standardized three-dimensional human epidermal equivalent (HEE) infection model with an electrochemica…",
+      "subject": "genomics",
+      "title": "Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses",
+      "body": "Combinatorial perturbations are widely used to study genetic interactions and to develop drug combinations, but the number of possible combinations grows quadratically with the number of perturbations, and only a small fraction can be measured in a screen experiment. Despite their growing sophistication, deep-learning …",
       "inst": [
-        "karolinska"
+        "mit"
       ],
-      "doi": "10.64898/2026.11.19.767804",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.20.768136",
+      "date": "2026-11-23"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Systematic inference of biological relatedness across the global ancient DNA record",
-      "body": "The rapidly expanding scale of ancient DNA data creates an increasing need for high-performance software methods. One area for such improvement is the inference of pairwise biological relatedness, a prominent aspect of many ancient DNA studies. We present fastpmr, a fast and memory-efficient method for biological relat…",
+      "subject": "cancer biology",
+      "title": "Bryostatin-1 exploits a developmental signaling vulnerability in MEF2D-rearranged B-cell precursor acute lymphoblastic leukemia",
+      "body": "MEF2D-rearranged (MEF2D-r) B-cell precursor acute lymphoblastic leukemia (BCP-ALL) is a rare molecular subtype associated with high-risk clinical features and frequent relapse and characterized by a distinctive pre-B-cell developmental state and dependence on pre-B-cell receptor (pre-BCR) signaling. Despite these disti…",
       "inst": [
-        "mpi_eva"
+        "karolinska"
       ],
-      "doi": "10.64898/2026.11.19.767913",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.12.766137",
+      "date": "2026-11-22"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Behavioral Plasticity and Dispersal of Free Swimming Coral Larvae via Vertical Tracking Microscopy",
-      "body": "Coral larvae disperse and seek suitable sites for settlement while undergoing rapid development, making this period central to reef connectivity, recruitment, and recovery. Yet how the accompanying changes in larval morphology, ciliary activity, and swimming behavior shape dispersal remains poorly understood. Here, usi…",
+      "subject": "cancer biology",
+      "title": "YAP activity sustains mitochondrial adaptation to NAMPT inhibition in triple-negative breast cancer",
+      "body": "Nicotinamide adenine dinucleotide (NAD+) is an essential metabolic cofactor, and maintenance of NAD+ homeostasis is critical for cancer cell survival. Pharmacological inhibition of nicotinamide phosphoribosyltransferase (NAMPT), the rate-limiting enzyme of the NAD+ salvage pathway, induces NAD+ depletion and energetic …",
       "inst": [
-        "stanford"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.19.767947",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.18.766653",
+      "date": "2026-11-22"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Early Life Shift in Fear Extinction is Driven by Prefrontal-Amygdala Engagement",
-      "body": "The medial prefrontal cortex (mPFC) displays a delayed maturation long hypothesized to guide developmental changes in threat processing. Nevertheless, the mechanism by which ontogenetic changes in mPFC function guide the developmental emergence of behavior is unclear. Early life marks a shift between a permanent extinc…",
+      "subject": "cell biology",
+      "title": "Single-molecule in situ detection and quantification of mitochondrial DNA heteroplasmy",
+      "body": "The mitochondrial DNA (mtDNA) is a multi-copy genome present in most eukaryotic cells and essential for life. The presence of different mtDNA variants within a cell, or heteroplasmy, may cause pathology when the level of deleterious variants exceeds a critical threshold. However, the mechanisms that control heteroplasm…",
       "inst": [
-        "toronto"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.19.767882",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.18.767531",
+      "date": "2026-11-22"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Phosphate selectivity in XPR1 is driven by direct multi-ion competition",
-      "body": "Inorganic phosphate (Pi) is essential for numerous cellular processes, and its intracellular concentration must be tightly regulated. In mammals, phosphate efflux is mediated by the Xenotropic and Polytropic Retrovirus Receptor 1 (XPR1/SLC53A1), the only known mammalian Pi exporter. We and others have recently proposed…",
+      "subject": "genomics",
+      "title": "Spatial genomics of the cardiac sarcomere",
+      "body": "Structure-function mapping of proteins has improved our understanding of disease mechanisms and protein domains while human population genetics has provided a window into variational tolerance that can be modeled at a structural level. Here, to reveal novel insight into the cardiac sarcomere, the motor unit of the hear…",
       "inst": [
-        "anu"
+        "stanford"
       ],
-      "doi": "10.64898/2026.11.19.767951",
-      "date": "2026-11-20"
+      "doi": "10.1101/2025.10.07.680947",
+      "date": "2026-11-22"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Biochemical characterisation of fungal bioluminescence enzymes reveals substrate inhibition and secondary turnover of 3-hydroxyhispidin by H3H",
-      "body": "The fungal bioluminescence pathway has emerged as a versatile platform for bioimaging and synthetic biology. However, biochemical characterisation of its core enzymes remains limited. Here, we establish recombinant purification and quantitative in vitro characterisation of fungal luciferase (Luz) and hispidin-3-hydroxy…",
+      "subject": "cancer biology",
+      "title": "Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations",
+      "body": "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian tube. However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general popul…",
       "inst": [
-        "oxford"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.09.09.750069",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.08.26.746998",
+      "date": "2026-11-22"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Cortical Stimulation Strength and sgACC Connectivity Shape Neuro-Cardiac Responses to Prefrontal TMS",
-      "body": "Autonomic dysregulation is associated with major depressive disorder, yet how cortical stimulation strength and network connectivity shape autonomic responses to prefrontal transcranial magnetic stimulation (TMS) remains unclear. We combined resting-state functional MRI, individualized electric-field simulations, and e…",
+      "subject": "systems biology",
+      "title": "Microbiome complexity shapes host transcriptional networks across the ileum-liver axis",
+      "body": "The microbiome plays an increasingly recognised role in development, metabolism and immunity across all segments of the small and large intestine, as well as more distant organs such as the liver. In the terminal ileum - a key site of nutrient absorption - the presence of microbes dictates the development of secondary …",
       "inst": [
-        "mpi_generic"
+        "oxford"
       ],
-      "doi": "10.64898/2026.05.10.724073",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.11.16.767119",
+      "date": "2026-11-22"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "molecular biology",
-      "title": "Global inflammatory response in in vitro organ cultured testes using single-cell RNA-sequencing",
-      "body": "In vitro functional sperm production is important for understanding spermatogenesis and for the treatment of male infertility. Here, we describe similarities and differences between testis tissues in vivo and in vitro and clarify abnormalities in the early stage of in vitro spermatogenesis at single-cell resolution. Wh…",
+      "subject": "neuroscience",
+      "title": "An atlas of the aging glycoproteome reveals how glycosylation modulates autoantibody binding in the brain",
+      "body": "Protein N-glycosylation generates substantial molecular diversity, yet how glycan composition varies throughout aging remains poorly understood. We mapped the N-glycoproteome of brain, liver, spleen, kidney, and plasma across nine ages spanning the mouse lifespan, identifying 79,517 unique N-glycopeptides at 9,217 glyc…",
       "inst": [
-        "riken"
+        "stanford"
       ],
-      "doi": "10.1101/2021.12.01.470873",
-      "date": "2026-11-20"
+      "doi": "10.64898/2026.10.28.762617",
+      "date": "2026-11-22"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "What's in a Story? Studying Neural Narrative Engagement with Auditory Passages Using EEG Inter-Subject Correlation",
-      "body": "Narrative engagement - a state implicating attention as well as emotional and sequential processing - is crucial in contexts ranging from social interaction to education. Yet we still lack an understanding of how narrative contents and listener perceptions relate to the neural responses they elicit. In this study, we i…",
+      "subject": "biophysics",
+      "title": "Super-resolved mass photometry reveals the dissociation pathways of individual protein complexes",
+      "body": "Mass photometry (MP) measures the mass of single unlabelled molecules as they adsorb to a glass surface, but conventional analysis captures each molecule only momentarily, as it binds, and neglects its subsequent fate. Here we correct for coverslip drift and use mass-dependent localisation precision to link successive …",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.14.766467",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "immunology",
+      "title": "IL-15 superagonist induces robust STAT5 phosphorylation to support the differentiation and survival of tumor-relevant memory precursor effector-like CD8 T cells, enhancing long-term antitumor protection",
+      "body": "The tumor-draining lymph node (tdLN) serves as a critical reservoir of tumor-reactive T cells, yet its contribution to preventing metastatic recurrence remains poorly understood. In this study, we investigate CD8 T cell clonal dynamics and memory responses induced by neoadjuvant anti PD-1 therapy. We demonstrate that P…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.11.19.767982",
-      "date": "2026-11-20"
+      "doi": "10.1101/2025.08.12.669959",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "systems biology",
+      "title": "Macrophage signaling history constrains subsequent transcriptional responses to cytokine stimulation",
+      "body": "Macrophages perform a wide array of distinct and crucial functions, and therefore tightly regulate their responses to external stimuli. These cells must integrate sequential signals over time to mount an appropriate response to their immunological niche. How prior cytokine stimulation shares macrophage responses to a s…",
+      "inst": [
+        "mit"
+      ],
+      "doi": "10.64898/2026.11.14.765729",
+      "date": "2026-11-21"
     }
   ]
 }
