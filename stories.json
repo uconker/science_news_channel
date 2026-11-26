@@ -1,45 +1,85 @@
 {
-  "generated_at": "2026-11-25T17:01:01.854259+00:00",
+  "generated_at": "2026-11-26T16:41:42.440733+00:00",
   "institutions": {
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "mpi_generic": {
+      "name": "Max Planck Institute",
+      "lat": 48.14,
+      "lon": 11.58
     },
     "tokyo": {
       "name": "University of Tokyo",
       "lat": 35.71,
       "lon": 139.76
     },
-    "karolinska": {
-      "name": "Karolinska Institute, Stockholm",
-      "lat": 59.35,
-      "lon": 18.03
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
     },
     "mit": {
       "name": "MIT",
       "lat": 42.36,
       "lon": -71.09
     },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "berkeley": {
+      "name": "UC Berkeley",
+      "lat": 37.87,
+      "lon": -122.26
+    },
+    "ucl": {
+      "name": "University College London",
+      "lat": 51.52,
+      "lon": -0.13
+    },
+    "sanger": {
+      "name": "Wellcome Sanger Institute, Hinxton",
+      "lat": 52.08,
+      "lon": 0.19
+    },
+    "embl": {
+      "name": "EMBL Heidelberg",
+      "lat": 49.42,
+      "lon": 8.62
     }
   },
   "stories": [
     {
       "id": 0,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Non-invasive detection of tissue clonal mosaicism in chronic disease",
+      "body": "Liquid biopsy has transformed our ability to non-invasively interrogate the somatic genome, but its reach has been largely confined to fetal genetics in prenatal testing and tumor genetics in cancer. Clonal mosaicism (CM) pervades non-malignant solid tissues, where somatic driver mutations expand under specific selecti…",
+      "inst": [
+        "sanger",
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.20.767624",
+      "date": "2026-11-23"
+    },
+    {
+      "id": 1,
+      "cat": "science",
+      "subject": "genomics",
+      "title": "Genomics of the diversification of Heliconius cydno (Lepidoptera: Nymphalidae) in northern South America: geographic and phenotypic patterns",
+      "body": "The interplay between natural selection, gene flow, and geography is a key driver of population differentiation. This study investigates their influence on the recent adaptive radiation of Heliconius cydno, a mimetic and aposematic butterfly with striking variation in wing color pattern across its distribution in Centr…",
+      "inst": [
+        "sanger"
+      ],
+      "doi": "10.64898/2026.11.20.768178",
+      "date": "2026-11-23"
+    },
+    {
+      "id": 2,
       "cat": "science",
       "subject": "biochemistry",
       "title": "A cytochrome P450 is essential for cardenolide biosynthesis in Chrysolina beetles",
@@ -51,7 +91,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 1,
+      "id": 3,
       "cat": "science",
       "subject": "biochemistry",
       "title": "Paint-Lac: A photoactivatable integrator for L-lactate",
@@ -63,7 +103,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 2,
+      "id": 4,
       "cat": "science",
       "subject": "biophysics",
       "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth",
@@ -75,7 +115,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 3,
+      "id": 5,
       "cat": "science",
       "subject": "plant biology",
       "title": "Auxin regulates the proportions, but not the initiation, of Hibiscus trionum bullseyes",
@@ -87,7 +127,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 4,
+      "id": 6,
       "cat": "science",
       "subject": "neuroscience",
       "title": "Investigating Motor Skill Acquisition in Mice and Humans: Towards A Cross-Species Paradigm",
@@ -99,7 +139,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 5,
+      "id": 7,
       "cat": "science",
       "subject": "genomics",
       "title": "Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses",
@@ -111,7 +151,7 @@
       "date": "2026-11-23"
     },
     {
-      "id": 6,
+      "id": 8,
       "cat": "science",
       "subject": "microbiology",
       "title": "The identification of 110 novel Mycobacterium species within 57,974 UK Health Security Agency clinical samples",
@@ -123,88 +163,100 @@
       "date": "2026-11-23"
     },
     {
-      "id": 7,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "Bryostatin-1 exploits a developmental signaling vulnerability in MEF2D-rearranged B-cell precursor acute lymphoblastic leukemia",
-      "body": "MEF2D-rearranged (MEF2D-r) B-cell precursor acute lymphoblastic leukemia (BCP-ALL) is a rare molecular subtype associated with high-risk clinical features and frequent relapse and characterized by a distinctive pre-B-cell developmental state and dependence on pre-B-cell receptor (pre-BCR) signaling. Despite these disti…",
-      "inst": [
-        "karolinska"
-      ],
-      "doi": "10.64898/2026.11.12.766137",
-      "date": "2026-11-22"
-    },
-    {
-      "id": 8,
-      "cat": "science",
-      "subject": "cancer biology",
-      "title": "YAP activity sustains mitochondrial adaptation to NAMPT inhibition in triple-negative breast cancer",
-      "body": "Nicotinamide adenine dinucleotide (NAD+) is an essential metabolic cofactor, and maintenance of NAD+ homeostasis is critical for cancer cell survival. Pharmacological inhibition of nicotinamide phosphoribosyltransferase (NAMPT), the rate-limiting enzyme of the NAD+ salvage pathway, induces NAD+ depletion and energetic …",
-      "inst": [
-        "oxford"
-      ],
-      "doi": "10.64898/2026.11.18.766653",
-      "date": "2026-11-22"
-    },
-    {
       "id": 9,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "Single-molecule in situ detection and quantification of mitochondrial DNA heteroplasmy",
-      "body": "The mitochondrial DNA (mtDNA) is a multi-copy genome present in most eukaryotic cells and essential for life. The presence of different mtDNA variants within a cell, or heteroplasmy, may cause pathology when the level of deleterious variants exceeds a critical threshold. However, the mechanisms that control heteroplasm…",
+      "subject": "neuroscience",
+      "title": "Tensor decomposition for data-driven analysis of OP-MEG: a feasibility study",
+      "body": "Optically Pumped Magnetometer magnetoencephalography (OP-MEG) enables flexible, close-to-scalp recordings unlocking access to new patient cohorts and naturalistic paradigms. The data collected during OP-MEG sessions is naturally multi-dimensional, often containing information across patients, trials, conditions, space,…",
       "inst": [
-        "cambridge"
+        "ucl"
       ],
-      "doi": "10.64898/2026.11.18.767531",
-      "date": "2026-11-22"
+      "doi": "10.64898/2026.11.20.766579",
+      "date": "2026-11-23"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Spatial genomics of the cardiac sarcomere",
-      "body": "Structure-function mapping of proteins has improved our understanding of disease mechanisms and protein domains while human population genetics has provided a window into variational tolerance that can be modeled at a structural level. Here, to reveal novel insight into the cardiac sarcomere, the motor unit of the hear…",
+      "subject": "bioinformatics",
+      "title": "The IGVF Catalog Knowledge Graph",
+      "body": "The Impact of Genomic Variation on Function (IGVF) consortium is systematically characterizing how genomic variation influences regulatory elements, gene expression, and human phenotypes through thousands of experimental mapping and perturbation datasets alongside predictive models. To synthesize these diverse results …",
       "inst": [
         "stanford"
       ],
-      "doi": "10.1101/2025.10.07.680947",
-      "date": "2026-11-22"
+      "doi": "10.64898/2026.11.20.768224",
+      "date": "2026-11-23"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "cancer biology",
-      "title": "Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations",
-      "body": "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian tube. However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general popul…",
+      "subject": "bioinformatics",
+      "title": "The IGVF Data Portal: a repository for insights into genome function",
+      "body": "The Impact of Genomic Variation on Function (IGVF) Consortium has utilized a wide variety of assays and computational methods to study how genomic variation impacts function. To support the collaborative efforts of labs within IGVF, and to share the results of these efforts, the IGVF Data Administration and Coordinatio…",
       "inst": [
-        "cambridge"
+        "stanford"
       ],
-      "doi": "10.64898/2026.08.26.746998",
-      "date": "2026-11-22"
+      "doi": "10.64898/2026.11.18.767169",
+      "date": "2026-11-23"
     },
     {
       "id": 12,
       "cat": "science",
-      "subject": "systems biology",
-      "title": "Microbiome complexity shapes host transcriptional networks across the ileum-liver axis",
-      "body": "The microbiome plays an increasingly recognised role in development, metabolism and immunity across all segments of the small and large intestine, as well as more distant organs such as the liver. In the terminal ileum - a key site of nutrient absorption - the presence of microbes dictates the development of secondary …",
+      "subject": "physiology",
+      "title": "Neuritin-1 is an adipokine that sustains insulin sensitivity through adipocyte FGFR1-PPAR-gamma signaling",
+      "body": "Obesity remodels the adipose secretome, yet the adipocyte-derived signals that preserve insulin sensitivity remain incompletely defined. Here we identify neuritin (NRN1), a GPI-anchored protein, as an obesity-suppressed adipokine that protects against insulin resistance. In white adipose tissue, Nrn1 expression increas…",
       "inst": [
-        "oxford"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.11.16.767119",
-      "date": "2026-11-22"
+      "doi": "10.64898/2026.11.20.768237",
+      "date": "2026-11-23"
     },
     {
       "id": 13,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "An atlas of the aging glycoproteome reveals how glycosylation modulates autoantibody binding in the brain",
-      "body": "Protein N-glycosylation generates substantial molecular diversity, yet how glycan composition varies throughout aging remains poorly understood. We mapped the N-glycoproteome of brain, liver, spleen, kidney, and plasma across nine ages spanning the mouse lifespan, identifying 79,517 unique N-glycopeptides at 9,217 glyc…",
+      "subject": "molecular biology",
+      "title": "Needle in a haystack: Fluorescence-guided 3D targeting for FIB milling in high-pressure-frozen samples",
+      "body": "Rare subcellular structures are difficult to retain during lamella preparation for cryo-electron tomography, particularly in high-pressure-frozen specimens. Here we introduce two complementary workflows for three-dimensional fluorescence-guided milling on a commercial cryo-focused ion beam-scanning electron microscope …",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.11.20.768024",
+      "date": "2026-11-23"
+    },
+    {
+      "id": 14,
+      "cat": "science",
+      "subject": "biophysics",
+      "title": "Intrinsically disordered regions within transcription factors impact DNA binding through both autoinhibition and independent DNA binding",
+      "body": "Transcription factors (TFs) recognize DNA through structured DNA-binding domains (DBDs), but the contributions of their flanking intrinsically disordered regions (IDRs) to DNA binding remain poorly understood. Here, we dissected how IDRs impact DNA binding in vitro by investigating three paralogous Saccharomyces cerevi…",
       "inst": [
         "stanford"
       ],
-      "doi": "10.64898/2026.10.28.762617",
-      "date": "2026-11-22"
+      "doi": "10.64898/2026.11.20.768217",
+      "date": "2026-11-23"
+    },
+    {
+      "id": 15,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "The adaptor protein DAB2 cell-autonomously links APOE with disease-associated microglia (DAM)/TREM2 state dysregulation associated with Alzheimer's disease",
+      "body": "The neuron-secreted Reelin (RELN) protein and its adaptor DAB1 modify Alzheimer's disease (AD) risk through genetic interaction with APOE4. While RELN and APOE4 exert antagonistic effects on amyloid and Tau pathology in mice, how risk is conferred in the human brain remains unclear. The related adaptor DAB2 endocytoses…",
+      "inst": [
+        "ucl"
+      ],
+      "doi": "10.64898/2026.11.12.766141",
+      "date": "2026-11-23"
+    },
+    {
+      "id": 16,
+      "cat": "science",
+      "subject": "bioinformatics",
+      "title": "Identification of eukaryotes as a bycatch in global microbiome data",
+      "body": "Eukaryotes shape microbiomes as macroscopic hosts, microscopic community members, and food sources, yet the diversity and ecological significance of microbial eukaryotes remain poorly resolved. Here, we present metaEukaryome, an organelle genome-centered framework for detection of eukaryotes in metagenomic data that le…",
+      "inst": [
+        "embl"
+      ],
+      "doi": "10.64898/2026.11.21.765608",
+      "date": "2026-11-23"
     }
   ]
 }
