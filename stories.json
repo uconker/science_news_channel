@@ -1,262 +1,186 @@
 {
-  "generated_at": "2026-11-26T16:41:42.440733+00:00",
+  "generated_at": "2026-11-27T16:26:39.992561+00:00",
   "institutions": {
-    "cambridge": {
-      "name": "University of Cambridge",
-      "lat": 52.2,
-      "lon": 0.12
-    },
-    "mpi_generic": {
-      "name": "Max Planck Institute",
-      "lat": 48.14,
-      "lon": 11.58
-    },
-    "tokyo": {
-      "name": "University of Tokyo",
-      "lat": 35.71,
-      "lon": 139.76
-    },
-    "stanford": {
-      "name": "Stanford University",
-      "lat": 37.43,
-      "lon": -122.17
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
     "oxford": {
       "name": "University of Oxford",
       "lat": 51.75,
       "lon": -1.25
     },
-    "mit": {
-      "name": "MIT",
-      "lat": 42.36,
-      "lon": -71.09
+    "copenhagen": {
+      "name": "University of Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "nih": {
+      "name": "NIH, Bethesda",
+      "lat": 39.0,
+      "lon": -77.1
     },
     "berkeley": {
       "name": "UC Berkeley",
       "lat": 37.87,
       "lon": -122.26
     },
-    "ucl": {
-      "name": "University College London",
-      "lat": 51.52,
-      "lon": -0.13
+    "cambridge": {
+      "name": "University of Cambridge",
+      "lat": 52.2,
+      "lon": 0.12
     },
-    "sanger": {
-      "name": "Wellcome Sanger Institute, Hinxton",
-      "lat": 52.08,
-      "lon": 0.19
-    },
-    "embl": {
-      "name": "EMBL Heidelberg",
-      "lat": 49.42,
-      "lon": 8.62
+    "harvard": {
+      "name": "Harvard University",
+      "lat": 42.37,
+      "lon": -71.12
     }
   },
   "stories": [
     {
       "id": 0,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Non-invasive detection of tissue clonal mosaicism in chronic disease",
-      "body": "Liquid biopsy has transformed our ability to non-invasively interrogate the somatic genome, but its reach has been largely confined to fetal genetics in prenatal testing and tumor genetics in cancer. Clonal mosaicism (CM) pervades non-malignant solid tissues, where somatic driver mutations expand under specific selecti…",
+      "subject": "neuroscience",
+      "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
+      "body": "Subcortical structures contribute to neocortical activity through extensive circuits supporting cognition and behaviour. Although these anatomical connections are well established, how subcortical structure relates to neocortical oscillations remains poorly understood. Previous studies have linked subcortical volume as…",
       "inst": [
-        "sanger",
         "oxford"
       ],
-      "doi": "10.64898/2026.11.20.767624",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.07.13.738145",
+      "date": "2026-11-24"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Genomics of the diversification of Heliconius cydno (Lepidoptera: Nymphalidae) in northern South America: geographic and phenotypic patterns",
-      "body": "The interplay between natural selection, gene flow, and geography is a key driver of population differentiation. This study investigates their influence on the recent adaptive radiation of Heliconius cydno, a mimetic and aposematic butterfly with striking variation in wing color pattern across its distribution in Centr…",
+      "subject": "biochemistry",
+      "title": "MicroRNA spatial profiling for assessing drug efficacy in BRCA1-related triple-negative breast tumors",
+      "body": "BRCA1/2-mutated breast cancers exhibit homologous recombination deficiency (HRD) and are initially sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors, but 40-70% of patients develop resistance, creating a need for predictive biomarkers that capture treatment-associated spatial heterogeneity. Using the K14-Cre B…",
       "inst": [
-        "sanger"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.20.768178",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.01.12.698824",
+      "date": "2026-11-24"
     },
     {
       "id": 2,
       "cat": "science",
       "subject": "biochemistry",
-      "title": "A cytochrome P450 is essential for cardenolide biosynthesis in Chrysolina beetles",
-      "body": "Cardenolides are naturally occurring steroidal derivatives that function as chemical defense compounds. These natural products are also widely used in medicine, as exemplified by the use of digitoxin in treating cardiac disease. Although cardenolides are most widely known as plant-derived natural products, these compou…",
+      "title": "MicroRNA spatial profiling for assessing drug efficacy in BRCA1-related triple-negative breast tumors",
+      "body": "BRCA1/2-mutated breast cancers exhibit homologous recombination deficiency (HRD) and are initially sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors, but 40-70% of patients develop resistance, creating a need for predictive biomarkers that capture treatment-associated spatial heterogeneity. Using the K14-Cre B…",
       "inst": [
-        "mpi_generic"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.19.767920",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.01.12.698824",
+      "date": "2026-11-24"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "Paint-Lac: A photoactivatable integrator for L-lactate",
-      "body": "Genetically encoded integrators, which convert transient signals into persistent optical signals, can provide unique insights into cell signaling, but the range of target species remains very limited. This work introduces the first photoactivatable integrator for L-lactate, Paint-Lac1, which operates through a ligand-m…",
+      "subject": "bioinformatics",
+      "title": "Structural clustering of paired αβ T-cell receptor repertoires recovers antigen-specific convergence beyond sequence similarity",
+      "body": "T-cell receptor (TCR) antigen recognition depends on the three-dimensional geometry of the paired {beta} complementarity-determining regions (CDRs), which primary sequence does not fully capture. Most repertoire-clustering methods group receptors by CDR3 motifs, sequence distance or V-J gene usage, and may miss recepto…",
       "inst": [
-        "tokyo"
+        "oxford"
       ],
-      "doi": "10.64898/2026.11.19.767912",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.22.768390",
+      "date": "2026-11-24"
     },
     {
       "id": 4,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth",
-      "body": "During development of many simple multicellular organisms there is a complex interplay between cell growth and generation of an extracellular matrix that confers structure. We study this problem quantitatively using Gonium pectorale, a 16-cell alga that transforms from a flat to a buckled shape during growth without ce…",
+      "subject": "bioinformatics",
+      "title": "Measuring Cell Type Resolved Aging Through Long-Read Sequencing",
+      "body": "Epigenetic clocks based on bulk blood DNA methylation are powerful tools for quantifying biological aging, but bulk measurements conflate cell-autonomous epigenetic changes with age-related shifts in blood cell composition. Here, we develop LongReadClock, a set of cell-type-resolved epigenetic aging clocks constructed …",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.20.767507",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.22.768438",
+      "date": "2026-11-24"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "Auxin regulates the proportions, but not the initiation, of Hibiscus trionum bullseyes",
-      "body": "Colourful motifs on the surface of flower petals fulfill important ecological functions, mediating pollination and providing protection against environmental stressors. These patterns form when epidermis cells in different subdomains of the petal acquire contrasting chemical and structural features. While some of the e…",
+      "subject": "biophysics",
+      "title": "Determination of both global and local protein stability in complex environments with X-ray hydroxyl radical footprinting",
+      "body": "Protein thermodynamic stability is a major determinant of cellular function, yet traditional methods for determining protein stability require large quantities of pure protein under idealized conditions. Here, we overcome this challenge by combining X-ray hydroxyl radical footprinting monitored by mass spectrometry (XF…",
       "inst": [
-        "cambridge"
+        "berkeley"
       ],
-      "doi": "10.64898/2026.11.19.767829",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.21.768341",
+      "date": "2026-11-24"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Investigating Motor Skill Acquisition in Mice and Humans: Towards A Cross-Species Paradigm",
-      "body": "Relating non-invasive observations of human brain plasticity to cellular processes identified in animal models remains a major challenge in neuroscience. We address this challenge by introducing a paradigm for studying motor skill acquisition across species. We designed a human chopstick grasping task modeled after the…",
+      "subject": "plant biology",
+      "title": "The NAC38-NAC58-FUSCA3 module regulates outer integument differentiation in the seed coat of Arabidopsis thaliana",
+      "body": "The seed coat protects the embryo from environmental stresses while controlling important agricultural traits, such as seed dormancy, germination, and longevity. The Arabidopsis seed coat epidermal layer secretes a pectin-rich cell wall, the mucilage, which regulates seed hydration and germination. In the subepidermal …",
       "inst": [
-        "mpi_generic"
+        "toronto"
       ],
-      "doi": "10.64898/2026.11.20.768070",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.23.762040",
+      "date": "2026-11-24"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses",
-      "body": "Combinatorial perturbations are widely used to study genetic interactions and to develop drug combinations, but the number of possible combinations grows quadratically with the number of perturbations, and only a small fraction can be measured in a screen experiment. Despite their growing sophistication, deep-learning …",
+      "subject": "neuroscience",
+      "title": "An information theoretic approach to evaluating social behaviour in mice using automated home-cage monitoring",
+      "body": "Background: Social behaviour in mice is commonly assessed using standardized assays such as the three-chambered task, which provide controlled measures of sociability but often capture behaviour over short timeframes that may not capture the complex behavioural repertoire exhibited in the home environment. Although aut…",
       "inst": [
-        "mit"
+        "toronto"
       ],
-      "doi": "10.64898/2026.11.20.768136",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.23.767392",
+      "date": "2026-11-24"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "microbiology",
-      "title": "The identification of 110 novel Mycobacterium species within 57,974 UK Health Security Agency clinical samples",
-      "body": "Non-tuberculous mycobacteria (NTMs) are a large diverse group of opportunistic pathogens. The accurate identification of species within this genus is vital as pathogenicity, epidemiology, and treatment differ substantially between taxa. Whole-genome sequencing has improved taxonomic resolution, however current referenc…",
+      "subject": "genomics",
+      "title": "Full-length transcript architecture reveals RNA fate and regulatory state",
+      "body": "Pervasive transcription generates diverse RNAs, including promoter-upstream transcripts (PROMPTs), coding and non-coding transcripts from protein-coding loci, and enhancer RNAs. How their full-length architectures relate to RNA fate remains poorly understood. Using ultra-deep sequencing of polyadenylated and non-polyad…",
       "inst": [
-        "oxford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.19.767610",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.22.768006",
+      "date": "2026-11-24"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "Tensor decomposition for data-driven analysis of OP-MEG: a feasibility study",
-      "body": "Optically Pumped Magnetometer magnetoencephalography (OP-MEG) enables flexible, close-to-scalp recordings unlocking access to new patient cohorts and naturalistic paradigms. The data collected during OP-MEG sessions is naturally multi-dimensional, often containing information across patients, trials, conditions, space,…",
+      "subject": "animal behavior and cognition",
+      "title": "Relying on a declarative as opposed to a procedural learning strategy predisposes to the development of instrumental habits in female but not in male rats",
+      "body": "Across species, individuals differ in their reliance on declarative versus procedural long-term memory systems for exploring and controlling the environment, mapping respectively onto allocentric place versus egocentric response learning strategies in a spatial navigation task. Several factors motivate the widely held …",
       "inst": [
-        "ucl"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.20.766579",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.23.768427",
+      "date": "2026-11-24"
     },
     {
       "id": 10,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "The IGVF Catalog Knowledge Graph",
-      "body": "The Impact of Genomic Variation on Function (IGVF) consortium is systematically characterizing how genomic variation influences regulatory elements, gene expression, and human phenotypes through thousands of experimental mapping and perturbation datasets alongside predictive models. To synthesize these diverse results …",
+      "subject": "biophysics",
+      "title": "Integrating hydrogen-exchange experiments with conformational ensembles",
+      "body": "Protein conformational dynamics are central to biological function but remain difficult to characterise at scale. Amide hydrogen exchange (HX), measured by NMR or mass spectrometry, probes these dynamics but requires computational models for integration with structural ensembles. We benchmark models for calculating HX …",
       "inst": [
-        "stanford"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.11.20.768224",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.11.23.768707",
+      "date": "2026-11-24"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "The IGVF Data Portal: a repository for insights into genome function",
-      "body": "The Impact of Genomic Variation on Function (IGVF) Consortium has utilized a wide variety of assays and computational methods to study how genomic variation impacts function. To support the collaborative efforts of labs within IGVF, and to share the results of these efforts, the IGVF Data Administration and Coordinatio…",
+      "subject": "cell biology",
+      "title": "WITHDRAWN: Metabolic Intervention with Dimethyl Malonate Impairs Phagocytic Clearance but Fails to Protect Neurons",
+      "body": "The authors have withdrawn this manuscript because exposure to 4{degrees}C, similar to dimethyl malonate treatment, inhibits microglial phagocytosis, resulting in the persistence of retinal ganglion cell (RGC) somas after injury challenging the proposed interpretation of RGC soma persistence as evidence of neuroprotect…",
       "inst": [
-        "stanford"
+        "nih"
       ],
-      "doi": "10.64898/2026.11.18.767169",
-      "date": "2026-11-23"
-    },
-    {
-      "id": 12,
-      "cat": "science",
-      "subject": "physiology",
-      "title": "Neuritin-1 is an adipokine that sustains insulin sensitivity through adipocyte FGFR1-PPAR-gamma signaling",
-      "body": "Obesity remodels the adipose secretome, yet the adipocyte-derived signals that preserve insulin sensitivity remain incompletely defined. Here we identify neuritin (NRN1), a GPI-anchored protein, as an obesity-suppressed adipokine that protects against insulin resistance. In white adipose tissue, Nrn1 expression increas…",
-      "inst": [
-        "berkeley"
-      ],
-      "doi": "10.64898/2026.11.20.768237",
-      "date": "2026-11-23"
-    },
-    {
-      "id": 13,
-      "cat": "science",
-      "subject": "molecular biology",
-      "title": "Needle in a haystack: Fluorescence-guided 3D targeting for FIB milling in high-pressure-frozen samples",
-      "body": "Rare subcellular structures are difficult to retain during lamella preparation for cryo-electron tomography, particularly in high-pressure-frozen specimens. Here we introduce two complementary workflows for three-dimensional fluorescence-guided milling on a commercial cryo-focused ion beam-scanning electron microscope …",
-      "inst": [
-        "embl"
-      ],
-      "doi": "10.64898/2026.11.20.768024",
-      "date": "2026-11-23"
-    },
-    {
-      "id": 14,
-      "cat": "science",
-      "subject": "biophysics",
-      "title": "Intrinsically disordered regions within transcription factors impact DNA binding through both autoinhibition and independent DNA binding",
-      "body": "Transcription factors (TFs) recognize DNA through structured DNA-binding domains (DBDs), but the contributions of their flanking intrinsically disordered regions (IDRs) to DNA binding remain poorly understood. Here, we dissected how IDRs impact DNA binding in vitro by investigating three paralogous Saccharomyces cerevi…",
-      "inst": [
-        "stanford"
-      ],
-      "doi": "10.64898/2026.11.20.768217",
-      "date": "2026-11-23"
-    },
-    {
-      "id": 15,
-      "cat": "science",
-      "subject": "neuroscience",
-      "title": "The adaptor protein DAB2 cell-autonomously links APOE with disease-associated microglia (DAM)/TREM2 state dysregulation associated with Alzheimer's disease",
-      "body": "The neuron-secreted Reelin (RELN) protein and its adaptor DAB1 modify Alzheimer's disease (AD) risk through genetic interaction with APOE4. While RELN and APOE4 exert antagonistic effects on amyloid and Tau pathology in mice, how risk is conferred in the human brain remains unclear. The related adaptor DAB2 endocytoses…",
-      "inst": [
-        "ucl"
-      ],
-      "doi": "10.64898/2026.11.12.766141",
-      "date": "2026-11-23"
-    },
-    {
-      "id": 16,
-      "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Identification of eukaryotes as a bycatch in global microbiome data",
-      "body": "Eukaryotes shape microbiomes as macroscopic hosts, microscopic community members, and food sources, yet the diversity and ecological significance of microbial eukaryotes remain poorly resolved. Here, we present metaEukaryome, an organelle genome-centered framework for detection of eukaryotes in metagenomic data that le…",
-      "inst": [
-        "embl"
-      ],
-      "doi": "10.64898/2026.11.21.765608",
-      "date": "2026-11-23"
+      "doi": "10.64898/2026.05.29.724314",
+      "date": "2026-11-24"
     }
   ]
 }
