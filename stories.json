@@ -1,40 +1,50 @@
 {
-  "generated_at": "2026-11-27T16:26:39.992561+00:00",
+  "generated_at": "2026-11-28T15:19:40.791827+00:00",
   "institutions": {
-    "toronto": {
-      "name": "University of Toronto",
-      "lat": 43.66,
-      "lon": -79.4
-    },
-    "oxford": {
-      "name": "University of Oxford",
-      "lat": 51.75,
-      "lon": -1.25
+    "mit": {
+      "name": "MIT",
+      "lat": 42.36,
+      "lon": -71.09
     },
     "copenhagen": {
       "name": "University of Copenhagen",
       "lat": 55.68,
       "lon": 12.57
     },
-    "nih": {
-      "name": "NIH, Bethesda",
-      "lat": 39.0,
-      "lon": -77.1
+    "toronto": {
+      "name": "University of Toronto",
+      "lat": 43.66,
+      "lon": -79.4
     },
-    "berkeley": {
-      "name": "UC Berkeley",
-      "lat": 37.87,
-      "lon": -122.26
+    "tokyo": {
+      "name": "University of Tokyo",
+      "lat": 35.71,
+      "lon": 139.76
     },
     "cambridge": {
       "name": "University of Cambridge",
       "lat": 52.2,
       "lon": 0.12
     },
+    "oxford": {
+      "name": "University of Oxford",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "lat": 37.43,
+      "lon": -122.17
+    },
     "harvard": {
       "name": "Harvard University",
       "lat": 42.37,
       "lon": -71.12
+    },
+    "broad": {
+      "name": "Broad Institute, Cambridge MA",
+      "lat": 42.36,
+      "lon": -71.1
     }
   },
   "stories": [
@@ -42,145 +52,169 @@
       "id": 0,
       "cat": "science",
       "subject": "neuroscience",
-      "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
-      "body": "Subcortical structures contribute to neocortical activity through extensive circuits supporting cognition and behaviour. Although these anatomical connections are well established, how subcortical structure relates to neocortical oscillations remains poorly understood. Previous studies have linked subcortical volume as…",
+      "title": "Excitation/Inhibition Balance in People at Clinical High Risk for Psychosis: A Functional MRI Study",
+      "body": "Excitation/inhibition (E/I) imbalance is implicated in the pathophysiology of psychosis, but the extent to which this is evident before the onset of illness is unclear. Here, we investigated E/I-related brain dynamics using the Hurst exponent (HE) derived from resting-state MRI in two longitudinal cohorts of individual…",
       "inst": [
         "oxford"
       ],
-      "doi": "10.64898/2026.07.13.738145",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768831",
+      "date": "2026-11-25"
     },
     {
       "id": 1,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "MicroRNA spatial profiling for assessing drug efficacy in BRCA1-related triple-negative breast tumors",
-      "body": "BRCA1/2-mutated breast cancers exhibit homologous recombination deficiency (HRD) and are initially sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors, but 40-70% of patients develop resistance, creating a need for predictive biomarkers that capture treatment-associated spatial heterogeneity. Using the K14-Cre B…",
+      "subject": "neuroscience",
+      "title": "Jump: Making Large-Scale Connectomics Accessible",
+      "body": "Large-scale connectomic resources generated from volumetric electron microscopy (EM) have transformed neuroscience by enabling detailed 3D reconstructions of cellular and subcellular morphology and connectivity across hundreds of thousands of cells in diverse tissues and organisms. Recent advances in machine learning-b…",
       "inst": [
-        "harvard"
+        "copenhagen"
       ],
-      "doi": "10.64898/2026.01.12.698824",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.12.765999",
+      "date": "2026-11-25"
     },
     {
       "id": 2,
       "cat": "science",
-      "subject": "biochemistry",
-      "title": "MicroRNA spatial profiling for assessing drug efficacy in BRCA1-related triple-negative breast tumors",
-      "body": "BRCA1/2-mutated breast cancers exhibit homologous recombination deficiency (HRD) and are initially sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors, but 40-70% of patients develop resistance, creating a need for predictive biomarkers that capture treatment-associated spatial heterogeneity. Using the K14-Cre B…",
+      "subject": "microbiology",
+      "title": "PAannotate: Software for Exploring Pseudomonas aeruginosa Gene-Expression Associations from Transcriptomic Data",
+      "body": "With the proliferation of transcriptomic data for Pseudomonas aeruginosa there is a need for software programs able to efficiently analyze both individual transcriptomes as well as large, publicly available compendiums of arrays. PAannotate is an R package and native macOS application capable of analyzing the Whiteley …",
       "inst": [
-        "harvard"
+        "stanford"
       ],
-      "doi": "10.64898/2026.01.12.698824",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768722",
+      "date": "2026-11-25"
     },
     {
       "id": 3,
       "cat": "science",
-      "subject": "bioinformatics",
-      "title": "Structural clustering of paired αβ T-cell receptor repertoires recovers antigen-specific convergence beyond sequence similarity",
-      "body": "T-cell receptor (TCR) antigen recognition depends on the three-dimensional geometry of the paired {beta} complementarity-determining regions (CDRs), which primary sequence does not fully capture. Most repertoire-clustering methods group receptors by CDR3 motifs, sequence distance or V-J gene usage, and may miss recepto…",
+      "subject": "genomics",
+      "title": "scOnion: Cross-Modal Concordance-Aware Joint Analysis of Cells and Features in Single-Cell Multiomic Data",
+      "body": "Single-cell multiomic assays jointly profile gene expression and chromatin accessibility in the same cells, enabling direct analysis of cross-layer coordination. However, agreement between modalities varies across cells, and existing integration methods often emphasize shared structure, potentially averaging away cell-…",
       "inst": [
-        "oxford"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.22.768390",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.769043",
+      "date": "2026-11-25"
     },
     {
       "id": 4,
       "cat": "science",
       "subject": "bioinformatics",
-      "title": "Measuring Cell Type Resolved Aging Through Long-Read Sequencing",
-      "body": "Epigenetic clocks based on bulk blood DNA methylation are powerful tools for quantifying biological aging, but bulk measurements conflate cell-autonomous epigenetic changes with age-related shifts in blood cell composition. Here, we develop LongReadClock, a set of cell-type-resolved epigenetic aging clocks constructed …",
+      "title": "MEAM-OWL for browser-based analysis of motif enrichment and associations with gene expression",
+      "body": "Motivation: Identifying functional regulatory motifs (such as cis-regulatory elements) remains challenging because conventional motif enrichment relies on binary comparisons between target and background sequences, overlooking quantitative relationships between motif copy number and gene expression or other quantitativ…",
       "inst": [
-        "harvard"
+        "tokyo"
       ],
-      "doi": "10.64898/2026.11.22.768438",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.17.767221",
+      "date": "2026-11-25"
     },
     {
       "id": 5,
       "cat": "science",
-      "subject": "biophysics",
-      "title": "Determination of both global and local protein stability in complex environments with X-ray hydroxyl radical footprinting",
-      "body": "Protein thermodynamic stability is a major determinant of cellular function, yet traditional methods for determining protein stability require large quantities of pure protein under idealized conditions. Here, we overcome this challenge by combining X-ray hydroxyl radical footprinting monitored by mass spectrometry (XF…",
+      "subject": "bioinformatics",
+      "title": "Phirefly: hierarchical quantum haplotype phasing at the chromosome scale",
+      "body": "Motivation: Read-based phasing links alleles on the same homologous haplotype. It plays a critical role in long-read variant calling and variant analysis. Many phasing algorithms have been developed. This includes QHap, the only quantum-inspired algorithm for read-based phasing. QHap does not run on quantum hardware du…",
       "inst": [
-        "berkeley"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.21.768341",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768929",
+      "date": "2026-11-25"
     },
     {
       "id": 6,
       "cat": "science",
-      "subject": "plant biology",
-      "title": "The NAC38-NAC58-FUSCA3 module regulates outer integument differentiation in the seed coat of Arabidopsis thaliana",
-      "body": "The seed coat protects the embryo from environmental stresses while controlling important agricultural traits, such as seed dormancy, germination, and longevity. The Arabidopsis seed coat epidermal layer secretes a pectin-rich cell wall, the mucilage, which regulates seed hydration and germination. In the subepidermal …",
+      "subject": "bioinformatics",
+      "title": "A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data",
+      "body": "Mapping regulatory elements to their target genes in the cell types relevant to disease is essential for interpreting non-coding variants identified by genome-wide association studies. Single-cell multiome data, which simultaneously measure accessible chromatin and gene expression per cell, allow such peak-gene links t…",
       "inst": [
-        "toronto"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.23.762040",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768923",
+      "date": "2026-11-25"
     },
     {
       "id": 7,
       "cat": "science",
-      "subject": "neuroscience",
-      "title": "An information theoretic approach to evaluating social behaviour in mice using automated home-cage monitoring",
-      "body": "Background: Social behaviour in mice is commonly assessed using standardized assays such as the three-chambered task, which provide controlled measures of sociability but often capture behaviour over short timeframes that may not capture the complex behavioural repertoire exhibited in the home environment. Although aut…",
+      "subject": "bioinformatics",
+      "title": "ChronoClone links temporal clonal behavior to lineage output and mutation responses",
+      "body": "Distinct stem cell clones can yield similar lineage outputs via different developmental trajectories or dynamics and respond differently to perturbation. Here, we introduce ChronoClone, an unsupervised method that groups single-cell clones by time-resolved cell-state composition into metaclones. Benchmarked against sim…",
       "inst": [
-        "toronto"
+        "cambridge"
       ],
-      "doi": "10.64898/2026.11.23.767392",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768931",
+      "date": "2026-11-25"
     },
     {
       "id": 8,
       "cat": "science",
-      "subject": "genomics",
-      "title": "Full-length transcript architecture reveals RNA fate and regulatory state",
-      "body": "Pervasive transcription generates diverse RNAs, including promoter-upstream transcripts (PROMPTs), coding and non-coding transcripts from protein-coding loci, and enhancer RNAs. How their full-length architectures relate to RNA fate remains poorly understood. Using ultra-deep sequencing of polyadenylated and non-polyad…",
+      "subject": "bioinformatics",
+      "title": "SPECTRE: A versatile data framework for integrating spectral, environmental, and ecophysiological trait data",
+      "body": "With the increasing availability of large datasets and the growing importance of artificial intelligence (AI), robust and sustainable data management systems have become essential for plant and ecosystem research. In particular, the integration of heterogeneous spectral data with plant functional traits and environment…",
       "inst": [
-        "copenhagen"
+        "toronto"
       ],
-      "doi": "10.64898/2026.11.22.768006",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.22.760282",
+      "date": "2026-11-25"
     },
     {
       "id": 9,
       "cat": "science",
-      "subject": "animal behavior and cognition",
-      "title": "Relying on a declarative as opposed to a procedural learning strategy predisposes to the development of instrumental habits in female but not in male rats",
-      "body": "Across species, individuals differ in their reliance on declarative versus procedural long-term memory systems for exploring and controlling the environment, mapping respectively onto allocentric place versus egocentric response learning strategies in a spatial navigation task. Several factors motivate the widely held …",
+      "subject": "bioinformatics",
+      "title": "RNAhub2: prefiltering and compression enable scalable structure-based RNA discovery",
+      "body": "RNAhub is an established web server for structure-agnostic RNA homology search that builds multiple sequence alignments with nhmmer and performs downstream structural covariation analysis with R-scape and CaCoFold. RNAhub is efficiently applied to smaller genomes, including viruses, bacteria, and fungi. However, search…",
       "inst": [
-        "cambridge"
+        "harvard"
       ],
-      "doi": "10.64898/2026.11.23.768427",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768864",
+      "date": "2026-11-25"
     },
     {
       "id": 10,
       "cat": "science",
       "subject": "biophysics",
-      "title": "Integrating hydrogen-exchange experiments with conformational ensembles",
-      "body": "Protein conformational dynamics are central to biological function but remain difficult to characterise at scale. Amide hydrogen exchange (HX), measured by NMR or mass spectrometry, probes these dynamics but requires computational models for integration with structural ensembles. We benchmark models for calculating HX …",
+      "title": "Transcriptional activation forms insulation boundaries through cohesin-independent decompaction and cohesin-dependent barrier formation",
+      "body": "How 3D genome structure regulates transcription has been intensely studied, but how transcription regulates 3D genome structure remains poorly understood. To elucidate this relationship, we integrate Region Capture Micro-C and simultaneous live-cell imaging of CTCF chromatin looping and inducible nascent transcription …",
       "inst": [
-        "copenhagen"
+        "mit"
       ],
-      "doi": "10.64898/2026.11.23.768707",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.24.768880",
+      "date": "2026-11-25"
     },
     {
       "id": 11,
       "cat": "science",
-      "subject": "cell biology",
-      "title": "WITHDRAWN: Metabolic Intervention with Dimethyl Malonate Impairs Phagocytic Clearance but Fails to Protect Neurons",
-      "body": "The authors have withdrawn this manuscript because exposure to 4{degrees}C, similar to dimethyl malonate treatment, inhibits microglial phagocytosis, resulting in the persistence of retinal ganglion cell (RGC) somas after injury challenging the proposed interpretation of RGC soma persistence as evidence of neuroprotect…",
+      "subject": "bioengineering",
+      "title": "BMP-2 Release from Biomaterial Carriers: Reporting Heterogeneity and the Limits of Cross-Study Prediction",
+      "body": "Published release profiles offer a potential basis for predicting bone morphogenetic protein-2 (BMP-2) delivery from biomaterial carriers, but heterogeneous reporting and study-specific effects complicate their reuse in machine learning (ML) models. As a preliminary exploration, we compiled 79 release experiments and 4…",
       "inst": [
-        "nih"
+        "stanford"
       ],
-      "doi": "10.64898/2026.05.29.724314",
-      "date": "2026-11-24"
+      "doi": "10.64898/2026.11.13.766607",
+      "date": "2026-11-25"
+    },
+    {
+      "id": 12,
+      "cat": "science",
+      "subject": "neuroscience",
+      "title": "Active exploration generates observer-specific image cues for material identity",
+      "body": "When observers interact with an object, each observer generates a different sequence of images. However, which image statistics underlie their perceptual judgments, and whether this self-generated visual input explains what they perceive, remain unclear. We analyzed the first-person recordings of a virtual-reality expe…",
+      "inst": [
+        "oxford"
+      ],
+      "doi": "10.64898/2026.11.13.766475",
+      "date": "2026-11-25"
+    },
+    {
+      "id": 13,
+      "cat": "science",
+      "subject": "microbiology",
+      "title": "Genome-Wide Association Study Identifies Novel Genetic Variants Linked to Meropenem Resistance in Klebsiella pneumoniae",
+      "body": "Carbapenem-resistant Enterobacteriaceae have emerged as an urgent public health threat in recent years. Infections caused by carbapenem-resistant Klebsiella pneumoniae in particular are associated with high rates of mortality, especially in immunocompromised patients. Substantial carbapenem resistance remains unexplain…",
+      "inst": [
+        "broad"
+      ],
+      "doi": "10.64898/2026.11.24.768875",
+      "date": "2026-11-25"
     }
   ]
 }
